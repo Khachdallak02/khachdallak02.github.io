@@ -1,0 +1,6 @@
+<svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
+  <!-- Armenian flag: Red, Blue, Orange -->
+  <rect width="24" height="5.33" fill="#D90012"/> <!-- Red stripe -->
+  <rect y="5.33" width="24" height="5.34" fill="#0033A0"/> <!-- Blue stripe -->
+  <rect y="10.67" width="24" height="5.33" fill="#F2A800"/> <!-- Orange stripe -->
+</svg> 
