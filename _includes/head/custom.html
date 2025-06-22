@@ -26,7 +26,27 @@
     font-family: "Space Grotesk", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
   }
   
-  /* Armenian flag solution using SVG image - flag after name */
+  /* Armenian flag solution using SVG image - flag after name
+  .masthead__menu-item.masthead__menu-item--lg.persist::after {
+    content: "";
+    background-image: url('{{ base_path }}/images/armenia-flag.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 1.2em;
+    height: 0.8em;
+    margin-left: 0.3em;
+    vertical-align: middle;
+  }
+   */
+  /* Show the name text clearly */
+  .author__name {
+    position: relative;
+    color: inherit !important; /* Force the name to be visible */
+  }
+  
+  /* Add flag after author name */
   .author__name::after {
     content: "";
     background-image: url('{{ base_path }}/images/armenia-flag.svg');
@@ -38,19 +58,6 @@
     height: 0.8em;
     margin-left: 0.3em;
     vertical-align: middle;
-    font-size: 0; /* Ensure no text content */
-    line-height: 0; /* Ensure no text content */
-  }
-  
-  /* Show the name text clearly */
-  .author__name {
-    position: relative;
-    color: inherit !important; /* Force the name to be visible */
-  }
-  
-  /* Remove the old ::before content since we're using the flag now */
-  .author__name::before {
-    content: none;
   }
   
   /* Header layout - position CV and theme toggle on the right */
@@ -78,6 +85,20 @@
   
   .visible-links .masthead__menu-item {
     margin-right: 1rem;
+  }
+  
+  /* Armenian flag after site title */
+  .masthead__menu-item--lg.persist a::after {
+    content: "";
+    background-image: url('{{ base_path }}/images/armenia-flag.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    width: 1.2em;
+    height: 0.8em;
+    margin-left: 0.3em;
+    vertical-align: middle;
   }
 </style>
 
