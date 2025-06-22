@@ -2,6 +2,50 @@
 
 <!-- start custom head snippets -->
 
+<!-- Space Grotesk and Space Mono fonts from Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<!-- Custom CSS for emoji support and font optimization -->
+<style>
+  /* Force emoji display for flag */
+  .author__name, h1, h2, h3, .site__title {
+    font-family: "Space Grotesk", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+  }
+  
+  /* Disable ligatures to prevent flag from becoming "AM" */
+  .author__name, h1, h2, h3, .site__title {
+    -webkit-font-feature-settings: "liga" 0, "kern" 1;
+    font-feature-settings: "liga" 0, "kern" 1;
+  }
+  
+  /* Force emoji rendering */
+  .author__name, h1, h2, h3, .site__title {
+    font-variant-emoji: emoji;
+    -webkit-font-variant-emoji: emoji;
+  }
+  
+  /* Additional emoji support */
+  .author__name, h1, h2, h3, .site__title {
+    text-rendering: optimizeLegibility;
+  }
+</style>
+
+<!-- JavaScript to ensure emoji display -->
+<script>
+  // Force emoji rendering for Armenian flag
+  document.addEventListener('DOMContentLoaded', function() {
+    // Replace any "AM" text with the actual flag emoji
+    const elements = document.querySelectorAll('.author__name, h1, h2, h3, .site__title');
+    elements.forEach(function(element) {
+      if (element.textContent.includes('AM Khachatur')) {
+        element.textContent = element.textContent.replace('AM Khachatur', '🇦🇲 Khachatur');
+      }
+    });
+  });
+</script>
+
 <!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
