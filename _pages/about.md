@@ -23,8 +23,16 @@ In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and
 <sup>†</sup> denotes equal contribution <br>
 </div>
 
-### [Prediction of Cellular Morphology Change Under Perturbations with Transcriptome-Guided Diffusion Model](https://www.nature.com/articles/s41467-024-55707-8)
-
-**Authors:** Xuesong Wang<sup>†</sup>, Yimin Fan<sup>†</sup>, Yucheng Guo, Chenghao Fu, Kinhei Lee, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Yaxuan Li, Qijin Yin, Yu Li, and Le Song
-
-**Journal:** Nature Communications
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
+  <div style="flex: 1;">
+    <h3 style="margin-top: 0;"><a href="https://www.nature.com/articles/s41467-024-55707-8">Prediction of Cellular Morphology Change Under Perturbations with Transcriptome-Guided Diffusion Model</a></h3>
+    
+    <p><strong>Authors:</strong> Xuesong Wang<sup>†</sup>, Yimin Fan<sup>†</sup>, Yucheng Guo, Chenghao Fu, Kinhei Lee, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Yaxuan Li, Qijin Yin, Yu Li, and Le Song</p>
+    
+    <p><strong>Journal:</strong> Nature Communications</p>
+  </div>
+  
+  <div style="flex: 0 0 380px;">
+    <img src="/images/1paper.png" alt="Inference Modes - Cellular Morphology Prediction Model" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  </div>
+</div>
