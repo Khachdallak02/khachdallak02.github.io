@@ -67,9 +67,15 @@ In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and
 }
 </style>
 
+## Preprints
+
+<div style="margin-bottom: 1em; font-size: 0.9em; color: #666;">
+<sup>†</sup> denotes equal contribution <br>
+</div>
+
 <div class="publication-container">
   <div class="publication-text">
-    <h3><a href="https://www.nature.com/articles/s41467-024-55707-8">Prediction of Cellular Morphology Change Under Perturbations with Transcriptome-Guided Diffusion Model</a></h3>
+    <h3>Prediction of Cellular Morphology Change Under Perturbations with Transcriptome-Guided Diffusion Model</h3>
     
     <p><strong>Authors:</strong> Xuesong Wang<sup>†</sup>, Yimin Fan<sup>†</sup>, Yucheng Guo, Chenghao Fu, Kinhei Lee, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Yaxuan Li, Qijin Yin, Yu Li, and Le Song</p>
     
@@ -78,5 +84,19 @@ In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and
   
   <div class="publication-image">
     <img src="/images/1paper.png" alt="Inference Modes - Cellular Morphology Prediction Model">
+  </div>
+</div>
+
+<div class="publication-container">
+  <div class="publication-text">
+    <h3>SCMBench: Benchmarking Domain-specific and Foundation Models for Single-cell Multi-omics Data Integration</h3>
+    
+    <p><strong>Authors:</strong> Yixuan Wang<sup>†</sup>, Yimin Fan<sup>†</sup>, Xuesong Wang<sup>†</sup>, Tingyang Yu<sup>†</sup>, Yongshuo Zong<sup>†</sup>, Xinyuan Liu, Meitong Liu, Qing Li, Kin hei Lee, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Junjie Huang, Gengjie Jia, Jiao Yuan, Ting-Fung Chan, Xin Gao, Irwin King, Yu Li</p>
+    
+    <p><strong>Journal:</strong> Nature Communications</p>
+  </div>
+  
+  <div class="publication-image">
+    <img src="/images/2paper.png" alt="SCMBench - Single-cell Multi-omics Benchmark">
   </div>
 </div>
