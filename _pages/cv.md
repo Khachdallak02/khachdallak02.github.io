@@ -9,13 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-**[Download CV as PDF]({{ base_path }}/files/CV.pdf)** 
+**[Download CV as PDF]({{ base_path }}/files/CV0.2.pdf)** 
 
 ---
 
 <div style="width: 100%; height: 800px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
   <iframe 
-    src="{{ base_path }}/files/CV.pdf" 
+    src="{{ base_path }}/files/CV0.2.pdf" 
     width="100%" 
     height="100%" 
     style="border: none;"
