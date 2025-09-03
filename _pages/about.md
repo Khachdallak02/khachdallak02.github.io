@@ -75,7 +75,7 @@ In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and
 
 <div class="publication-container">
   <div class="publication-text">
-    <h3><a href="https://www.biorxiv.org/content/10.1101/2025.07.16.665106v1" target="_blank">Prediction of Cellular Morphology Change Under Perturbations with Transcriptome-Guided Diffusion Model</a></h3>
+    <h3><a href="https://www.nature.com/articles/s41467-025-63478-z" target="_blank">Prediction of Cellular Morphology Change Under Perturbations with Transcriptome-Guided Diffusion Model</a></h3>
     
     <p><strong>Authors:</strong> Xuesong Wang<sup>†</sup>, Yimin Fan<sup>†</sup>, Yucheng Guo, Chenghao Fu, Kinhei Lee, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Yaxuan Li, Qijin Yin, Yu Li, and Le Song</p>
     
