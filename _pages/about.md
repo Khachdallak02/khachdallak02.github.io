@@ -23,6 +23,20 @@ In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and
 <sup>†</sup> denotes equal contribution <br>
 </div>
 
+<div class="publication-container">
+  <div class="publication-text">
+    <h3><a href="https://www.nature.com/articles/s41467-025-63478-z" target="_blank">Prediction of Cellular Morphology Change Under Perturbations with Transcriptome-Guided Diffusion Model</a></h3>
+    
+    <p><strong>Authors:</strong> Xuesong Wang<sup>†</sup>, Yimin Fan<sup>†</sup>, Yucheng Guo, Chenghao Fu, Kinhei Lee, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Yaxuan Li, Qijin Yin, Yu Li, and Le Song</p>
+    
+    <p><strong>Journal:</strong> Nature Communications</p>
+  </div>
+  
+  <div class="publication-image">
+    <img src="/images/1paper.png" alt="Inference Modes - Cellular Morphology Prediction Model">
+  </div>
+</div>
+
 <style>
 .publication-container {
   display: flex;
@@ -73,19 +87,7 @@ In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and
 <sup>†</sup> denotes equal contribution <br>
 </div>
 
-<div class="publication-container">
-  <div class="publication-text">
-    <h3><a href="https://www.nature.com/articles/s41467-025-63478-z" target="_blank">Prediction of Cellular Morphology Change Under Perturbations with Transcriptome-Guided Diffusion Model</a></h3>
-    
-    <p><strong>Authors:</strong> Xuesong Wang<sup>†</sup>, Yimin Fan<sup>†</sup>, Yucheng Guo, Chenghao Fu, Kinhei Lee, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Yaxuan Li, Qijin Yin, Yu Li, and Le Song</p>
-    
-    <p><strong>Journal:</strong> Nature Communications</p>
-  </div>
-  
-  <div class="publication-image">
-    <img src="/images/1paper.png" alt="Inference Modes - Cellular Morphology Prediction Model">
-  </div>
-</div>
+
 
 <div class="publication-container">
   <div class="publication-text">
