@@ -102,3 +102,18 @@ In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and
     <img src="/images/2paper.png" alt="SCMBench - Single-cell Multi-omics Benchmark">
   </div>
 </div>
+
+
+<div class="publication-container">
+  <div class="publication-text">
+    <h3>Systematic Benchmarking of Single-cell Transcriptomics Search Engines</h3>
+    
+    <p><strong>Authors:</strong> Yimin Fan<sup>†</sup>, Kin hei Lee<sup>†</sup>, <span style="color: #E6B800;">Khachatur Dallakyan</span><sup>†</sup>, Yu Li</p>
+    
+    <p><strong>Journal:</strong> Nature Communications</p>
+  </div>
+  
+  <div class="publication-image">
+    <img src="/images/3paper.png" alt="Cell Retrieval Benchmarks">
+  </div>
+</div>
