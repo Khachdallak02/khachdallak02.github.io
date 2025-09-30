@@ -104,7 +104,7 @@ In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and
 </div>
 
 
-<div class="publication-container">
+<!-- <div class="publication-container">
   <div class="publication-text">
     <h3>Systematic Benchmarking of Single-cell Transcriptomics Search Engines</h3>
     
@@ -116,4 +116,4 @@ In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and
   <div class="publication-image">
     <img src="/images/3paper.png" alt="Cell Retrieval Benchmarks">
   </div>
-</div>
+</div> -->
