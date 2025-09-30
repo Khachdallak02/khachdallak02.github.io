@@ -7,36 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
-
-I am currently a **2nd year Master's student** majoring in **Health Informatics** in a joint programme between *Karolinska Institutet (KI)* and *Stockholm University*. My research interests lie in **Foundation Models for Science** (especially Biology and Healthcare) and **Explainable Artificial Intelligence (XAI)**.
-
-Previously I have conducted research in affiliation with the [Centre for Perceptual and Interactive Intelligence (CPII)](https://cpii.hk/), the [Department of Computer Science and Engineering (CSE)](https://www.cse.cuhk.edu.hk/) at the Chinese University of Hong Kong (CUHK), and I am currently affiliated with the [Marklund Lab](https://www.marklundlab.org/) at KI.
-Through my research experiences, I had opportunity to closely collaborate with [Yu Li](https://liyu95.com/) (CSE Department, CUHK), [Yimin Fan](https://fanyimin-cuhk.github.io/), [Ulrika Marklund](https://ki.se/personer/ulrika-marklund) (MBB Department, KI), and [Ziwei Liu](https://ki.se/en/people/ziwei-liu). 
-
-In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and Technologies** at the *CUHK*, where my final year project focused on *Single Cell Foundation Models*.
-
-
-## Journal Publications
-
-<div style="margin-bottom: 1em; font-size: 0.9em; color: #666;">
-<sup>†</sup> denotes equal contribution <br>
-</div>
-
-<div class="publication-container">
-  <div class="publication-text">
-    <h3><a href="https://www.nature.com/articles/s41467-025-63478-z" target="_blank">Prediction of Cellular Morphology Change Under Perturbations with Transcriptome-Guided Diffusion Model</a></h3>
-    
-    <p><strong>Authors:</strong> Xuesong Wang<sup>†</sup>, Yimin Fan<sup>†</sup>, Yucheng Guo, Chenghao Fu, Kinhei Lee, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Yaxuan Li, Qijin Yin, Yu Li, and Le Song</p>
-    
-    <p><strong>Journal:</strong> Nature Communications</p>
-  </div>
-  
-  <div class="publication-image">
-    <img src="/images/1paper.png" alt="Inference Modes - Cellular Morphology Prediction Model">
-  </div>
-</div>
-
 <style>
 .publication-container {
   display: flex;
@@ -81,12 +51,41 @@ In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and
 }
 </style>
 
-## Preprints
+## About Me
+
+I am currently a **2nd year Master's student** majoring in **Health Informatics** in a joint programme between *Karolinska Institutet (KI)* and *Stockholm University*. My research interests lie in **Foundation Models for Science** (especially Biology and Healthcare) and **Explainable Artificial Intelligence (XAI)**.
+
+Previously I have conducted research in affiliation with the [Centre for Perceptual and Interactive Intelligence (CPII)](https://cpii.hk/), the [Department of Computer Science and Engineering (CSE)](https://www.cse.cuhk.edu.hk/) at the Chinese University of Hong Kong (CUHK), and I am currently affiliated with the [Marklund Lab](https://www.marklundlab.org/) at KI.
+Through my research experiences, I had opportunity to closely collaborate with [Yu Li](https://liyu95.com/) (CSE Department, CUHK), [Yimin Fan](https://fanyimin-cuhk.github.io/), [Ulrika Marklund](https://ki.se/personer/ulrika-marklund) (MBB Department, KI), and [Ziwei Liu](https://ki.se/en/people/ziwei-liu). 
+
+In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and Technologies** at the *CUHK*, where my final year project focused on *Single Cell Foundation Models*.
+
+
+## Journal Publications
 
 <div style="margin-bottom: 1em; font-size: 0.9em; color: #666;">
 <sup>†</sup> denotes equal contribution <br>
 </div>
 
+<div class="publication-container">
+  <div class="publication-text">
+    <h3><a href="https://www.nature.com/articles/s41467-025-63478-z" target="_blank">Prediction of Cellular Morphology Change Under Perturbations with Transcriptome-Guided Diffusion Model</a></h3>
+    
+    <p><strong>Authors:</strong> Xuesong Wang<sup>†</sup>, Yimin Fan<sup>†</sup>, Yucheng Guo, Chenghao Fu, Kinhei Lee, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Yaxuan Li, Qijin Yin, Yu Li, and Le Song</p>
+    
+    <p><strong>Journal:</strong> Nature Communications</p>
+  </div>
+  
+  <div class="publication-image">
+    <img src="/images/1paper.png" alt="Inference Modes - Cellular Morphology Prediction Model">
+  </div>
+</div>
+
+## Preprints
+
+<div style="margin-bottom: 1em; font-size: 0.9em; color: #666;">
+<sup>†</sup> denotes equal contribution <br>
+</div>
 
 
 <div class="publication-container">
