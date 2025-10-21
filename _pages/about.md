@@ -102,6 +102,32 @@ In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and
   </div>
 </div>
 
+## Current Major Projects
+
+<div class="publication-container">
+  <div class="publication-text">
+    <h3>Systematic Benchmarking of Single-cell Transcriptomics Search Engines</h3>
+    
+    <p>The aim is to systematically evaluate single-cell transcriptomics search engines across diverse, large-scale datasets to understand their capabilities and limitations. Through this project, I gained experience comparing traditional approaches with foundation models across different platforms, species, and technologies, understanding their performance in real-world applications.</p>
+  </div>
+  
+  <div class="publication-image">
+    <img src="/images/3paper.png" alt="Single-cell Search Engine Benchmarks">
+  </div>
+</div>
+
+<div class="publication-container">
+  <div class="publication-text">
+    <h3>Enteric Nervous System Development Analysis</h3>
+    
+    <p>The aim is to investigate spatio-temporal differences in Enteric Nervous System (ENS) cell populations, specifically focusing on progenitors, neuroblasts, and schwann cell precursors (SCPs) across different regions and developmental timepoints. Through this project, I gained experience working with conventional fate prediction tools and fine-tuning foundation models with custom learning objectives. I also learned to use attention-based architectures to analyze gene relationships within different cell clusters, aiming to reveal ENS development mechanisms.</p>
+  </div>
+  
+  <div class="publication-image">
+    <img src="/images/4paper.png" alt="ENS Development Analysis">
+  </div>
+</div>
+
 
 <!-- <div class="publication-container">
   <div class="publication-text">
