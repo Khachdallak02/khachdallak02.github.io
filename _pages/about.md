@@ -94,7 +94,7 @@ In 2024, I earned my Bachelor's degree in **Artificial Intelligence: Systems and
     
     <p><strong>Authors:</strong> Yixuan Wang<sup>†</sup>, Yimin Fan<sup>†</sup>, Xuesong Wang<sup>†</sup>, Tingyang Yu<sup>†</sup>, Yongshuo Zong<sup>†</sup>, Xinyuan Liu, Meitong Liu, Qing Li, Kin hei Lee, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Junjie Huang, Gengjie Jia, Jiao Yuan, Ting-Fung Chan, Xin Gao, Irwin King, Yu Li</p>
     
-    <p><strong>Journal:</strong> Nature Communications</p>
+    <p><strong>Journal:</strong>Nature Communications</p>
   </div>
   
   <div class="publication-image">
