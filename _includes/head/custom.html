@@ -60,31 +60,47 @@
     vertical-align: middle;
   }
   
-  /* Header layout - position CV and theme toggle on the right */
+  /* Header layout - CV on left, other items in center, theme toggle on right */
   .greedy-nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 1rem;
   }
   
-  .masthead__menu-right {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
+  /* CV positioned on the far left */
+  .masthead__menu-item--cv {
+    text-decoration: none;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-right: auto;
+    flex-shrink: 0;
   }
   
-  .masthead__menu-right .masthead__menu-item {
-    margin-left: 1rem;
+  .masthead__menu-item--cv:hover {
+    text-decoration: underline;
   }
   
-  /* Ensure the navigation items are properly spaced */
+  /* Visible links container - takes remaining space and centers content */
   .visible-links {
     display: flex;
     align-items: center;
+    flex: 1;
+    justify-content: center;
   }
   
   .visible-links .masthead__menu-item {
     margin-right: 1rem;
+  }
+  
+  /* Theme toggle on the right */
+  .masthead__menu-right {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .masthead__menu-right .masthead__menu-item {
+    margin-left: 1rem;
   }
   
   /* Armenian flag after site title */
