@@ -8,12 +8,12 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "CV"
-    url: /cv/
-    icon: fa-file-alt
   - title: "Research"
     url: /research/
     icon: fa-flask
+  - title: "CV"
+    url: /cv/
+    icon: fa-file-alt
   - title: "Gallery"
     url: /gallery/
     icon: fa-images
