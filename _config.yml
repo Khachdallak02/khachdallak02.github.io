@@ -227,6 +227,8 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  resources:
+    output: false
 
 
 # These settings control how pages and collections are included in the site
@@ -282,6 +284,14 @@ defaults:
       type: talks
     values:
       layout: talk
+      author_profile: true
+      share: true
+  # _resources
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: single
       author_profile: true
       share: true
 
