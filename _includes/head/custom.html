@@ -60,11 +60,33 @@
     vertical-align: middle;
   }
   
-  /* Header layout - position CV and theme toggle on the right */
+  /* Header layout - position CV on the left, theme toggle on the right */
   .greedy-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  
+  .masthead__menu-left {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+  }
+  
+  .masthead__menu-left .masthead__menu-item {
+    margin-right: 1rem;
+    display: inline-block;
+  }
+  
+  .masthead__menu-item--cv {
+    font-weight: 500;
+  }
+  
+  .masthead__menu-item--cv a {
+    text-decoration: none;
   }
   
   .masthead__menu-right {
@@ -81,6 +103,8 @@
   .visible-links {
     display: flex;
     align-items: center;
+    flex: 1;
+    justify-content: center;
   }
   
   .visible-links .masthead__menu-item {
