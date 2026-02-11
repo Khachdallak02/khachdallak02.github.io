@@ -10,11 +10,16 @@
 main:
   - title: "CV"
     url: /cv/
+    icon: fa-file-alt
   - title: "Research"
     url: /research/
+    icon: fa-flask
   - title: "Gallery"
     url: /gallery/
+    icon: fa-images
   - title: "Opinions"
     url: /opinions/
+    icon: fa-comments
   - title: "Resources"
     url: /resources/
+    icon: fa-toolbox
