@@ -1,7 +1,7 @@
 ---
 title: "Obsidian"
 collection: resources
-excerpt: "Note taking"
+excerpt: "Note taking app"
 date: 2025-02-11
 header:
   teaser: /images/resources/obsidian.png
