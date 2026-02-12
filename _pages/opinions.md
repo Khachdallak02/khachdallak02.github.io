@@ -11,6 +11,20 @@ author_profile: true
 .page__title {
   text-align: center !important;
 }
+
+#opinions-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  #opinions-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
 </style>
 
 {% if site.opinions %}
@@ -21,7 +35,7 @@ author_profile: true
 {% assign total_opinions = opinions | size %}
 {% assign per_page = 10 %}
 
-<div id="opinions-container" style="margin-top: 20px;">
+<div id="opinions-container">
   {% for post in opinions %}
     <div class="opinion-item" data-page="{{ forloop.index0 | divided_by: per_page | plus: 1 }}" style="display: none;">
       {% include archive-single-opinion.html %}

@@ -11,6 +11,20 @@ author_profile: true
 .page__title {
   text-align: center !important;
 }
+
+#gallery-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  #gallery-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
 </style>
 
 {% if site.gallery %}
@@ -21,7 +35,7 @@ author_profile: true
 {% assign total_gallery = gallery | size %}
 {% assign per_page = 10 %}
 
-<div id="gallery-container" style="margin-top: 20px;">
+<div id="gallery-container">
   {% for post in gallery %}
     <div class="gallery-item" data-page="{{ forloop.index0 | divided_by: per_page | plus: 1 }}" style="display: none;">
       {% include archive-single-gallery.html %}

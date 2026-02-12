@@ -12,7 +12,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item" style="margin-bottom: 60px;">
+<div class="{{ include.type | default: "list" }}__item" style="margin-bottom: 0;">
   <article class="archive__item resource-card" itemscope itemtype="http://schema.org/CreativeWork">
     {% if teaser %}
       <div class="resource-image-container">
@@ -56,8 +56,8 @@
 <style>
 .resource-image-container {
   position: relative;
-  max-width: 800px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.08);
@@ -104,13 +104,13 @@
 
 .resource-text-overlay {
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   width: 100%;
 }
 
 .resource-text-overlay h2 {
   margin: 0 0 12px 0;
-  font-size: 2.2em;
+  font-size: 1.6em;
   font-weight: 600;
   color: white;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
@@ -124,7 +124,7 @@
 
 .resource-excerpt {
   display: block;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: 300;
   font-style: italic;
   color: rgba(255, 255, 255, 0.95);
@@ -170,6 +170,10 @@
   
   .resource-text-overlay h2 {
     font-size: 1.5em;
+  }
+  
+  .resource-excerpt {
+    font-size: 1.1em;
   }
 }
 </style>

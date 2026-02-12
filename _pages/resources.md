@@ -11,6 +11,20 @@ author_profile: true
 .page__title {
   text-align: center !important;
 }
+
+#resources-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  #resources-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
 </style>
 
 <div style="text-align: center; margin-bottom: 40px;">
