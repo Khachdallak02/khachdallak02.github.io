@@ -26,9 +26,7 @@
             alt="{{ title }}" class="opinion-image">
           <div class="opinion-overlay">
             <div class="opinion-text-overlay">
-              <h2 class="archive__item-title" itemprop="headline">
-                <span class="opinion-title">{{ title }}</span>
-              </h2>
+              <p class="opinion-title">{{ title }}</p>
             </div>
           </div>
         </a>
@@ -101,22 +99,38 @@
   width: 100%;
 }
 
-.opinion-text-overlay h2 {
-  margin: 0;
+.opinion-title {
+  display: block;
   font-size: 2em;
   font-weight: 400;
   color: white;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  margin: 0;
   letter-spacing: 0.5px;
   line-height: 1.4;
-  text-decoration: none;
-  border: none;
+  text-decoration: none !important;
+  border: none !important;
+  border-bottom: none !important;
 }
 
-.opinion-title {
-  display: block;
-  text-decoration: none;
-  border: none;
+.opinion-image-link,
+.opinion-image-link:hover,
+.opinion-image-link:focus,
+.opinion-image-link:active {
+  text-decoration: none !important;
+}
+
+.opinion-image-link h2,
+.opinion-image-link h2:hover,
+.opinion-image-link h2:focus,
+.opinion-image-link h2:active,
+.opinion-image-link .opinion-title,
+.opinion-image-link .opinion-title:hover,
+.opinion-image-link .opinion-title:focus,
+.opinion-image-link .opinion-title:active {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  border: none !important;
 }
 
 .opinion-image-container:hover {
@@ -154,7 +168,7 @@
     border-width: 2px;
   }
   
-  .opinion-text-overlay h2 {
+  .opinion-title {
     font-size: 1.5em;
   }
 }
