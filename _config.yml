@@ -231,6 +231,9 @@ collections:
     output: false
   gallery:
     output: false
+  opinions:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -304,6 +307,15 @@ defaults:
       layout: single
       author_profile: true
       share: true
+  # _opinions
+  - scope:
+      path: ""
+      type: opinions
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 
 # Sass/SCSS

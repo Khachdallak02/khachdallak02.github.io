@@ -21,7 +21,7 @@ author_profile: true
 {% assign total_gallery = gallery | size %}
 {% assign per_page = 10 %}
 
-<div id="gallery-container">
+<div id="gallery-container" style="margin-top: 20px;">
   {% for post in gallery %}
     <div class="gallery-item" data-page="{{ forloop.index0 | divided_by: per_page | plus: 1 }}" style="display: none;">
       {% include archive-single-gallery.html %}
