@@ -1,7 +1,7 @@
 ---
-title: "Everyone embracing the spirit of medieval week"
+title: "Embracing the spirit of medieval week"
 collection: gallery
-excerpt: "Everyone embracing the spirit of medieval week"
+excerpt: "Embracing the spirit of medieval week"
 date: 2025-08-08
 country: "Sweden"
 header:
