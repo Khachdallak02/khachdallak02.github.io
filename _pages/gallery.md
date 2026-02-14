@@ -99,11 +99,20 @@ author_profile: true
   function applyFilters() {
     const items = document.querySelectorAll('.gallery-item');
     
-    items.forEach(item => {
+    // First, filter by country and calculate which items should be visible
+    const visibleItems = Array.from(items).filter(item => {
       const country = item.getAttribute('data-country') || '';
-      const itemPage = parseInt(item.getAttribute('data-page'));
-      
-      if (activeCountries.has(country) && itemPage === currentPage) {
+      return activeCountries.has(country);
+    });
+    
+    // Then paginate the filtered items
+    const startIndex = (currentPage - 1) * perPage;
+    const endIndex = startIndex + perPage;
+    const itemsForCurrentPage = visibleItems.slice(startIndex, endIndex);
+    
+    // Show/hide items based on filtering and pagination
+    items.forEach(item => {
+      if (itemsForCurrentPage.includes(item)) {
         item.style.display = 'block';
       } else {
         item.style.display = 'none';
@@ -111,11 +120,7 @@ author_profile: true
     });
     
     // Recalculate pagination based on filtered items
-    const filteredItems = Array.from(items).filter(item => {
-      const country = item.getAttribute('data-country') || '';
-      return activeCountries.has(country);
-    });
-    const filteredTotalPages = Math.ceil(filteredItems.length / perPage);
+    const filteredTotalPages = Math.ceil(visibleItems.length / perPage);
     updatePagination(currentPage, filteredTotalPages);
   }
   
