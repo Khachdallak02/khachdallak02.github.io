@@ -19,6 +19,20 @@ author_profile: true
   margin-top: 20px;
 }
 
+.country-filter-btn {
+  transition: all 0.3s ease;
+}
+
+.country-filter-btn:not(.active) {
+  filter: grayscale(100%) brightness(0.7);
+  opacity: 0.4;
+}
+
+.country-filter-btn.active {
+  filter: none;
+  opacity: 1;
+}
+
 @media (max-width: 768px) {
   #gallery-container {
     grid-template-columns: 1fr;
@@ -36,11 +50,21 @@ author_profile: true
 {% assign per_page = 10 %}
 
 <div id="country-filters" style="text-align: center; margin-bottom: 30px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-  <button class="country-filter-btn active" data-country="Armenia" title="Armenia" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; background: linear-gradient(to bottom, #d90012 0%, #d90012 33%, #0033a0 33%, #0033a0 66%, #f2a800 66%, #f2a800 100%); transition: all 0.3s ease; opacity: 1;"></button>
-  <button class="country-filter-btn active" data-country="Sweden" title="Sweden" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; background: linear-gradient(to bottom, #006aa7 0%, #006aa7 50%, #fecc00 50%, #fecc00 100%); transition: all 0.3s ease; opacity: 1;"></button>
-  <button class="country-filter-btn active" data-country="Hong Kong" title="Hong Kong" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; background: #de2910; transition: all 0.3s ease; opacity: 1;"></button>
-  <button class="country-filter-btn active" data-country="China" title="China" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; background: #de2910; transition: all 0.3s ease; opacity: 1;"></button>
-  <button class="country-filter-btn active" data-country="Poland" title="Poland" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #dc143c 50%, #dc143c 100%); transition: all 0.3s ease; opacity: 1;"></button>
+  <button class="country-filter-btn active" data-country="Armenia" title="Armenia" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/flags/Armenia.png" alt="Armenia" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="country-filter-btn active" data-country="Sweden" title="Sweden" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/flags/Sweden.svg" alt="Sweden" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="country-filter-btn active" data-country="Hong Kong" title="Hong Kong" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/flags/Hong Kong.png" alt="Hong Kong" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="country-filter-btn active" data-country="China" title="China" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/flags/China.png" alt="China" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="country-filter-btn active" data-country="Poland" title="Poland" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/flags/Poland.svg" alt="Poland" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
 </div>
 
 <div id="gallery-container">
@@ -85,11 +109,9 @@ author_profile: true
         if (activeCountries.has(country)) {
           activeCountries.delete(country);
           this.classList.remove('active');
-          this.style.opacity = '0.4';
         } else {
           activeCountries.add(country);
           this.classList.add('active');
-          this.style.opacity = '1';
         }
         applyFilters();
       });
