@@ -45,7 +45,7 @@ author_profile: true
 
 <div id="gallery-container">
   {% for post in gallery %}
-    <div class="gallery-item" data-page="{{ forloop.index0 | divided_by: per_page | plus: 1 }}" style="display: none;">
+    <div class="gallery-item" data-country="{{ post.country | default: '' }}" style="display: none;">
       {% include archive-single-gallery.html %}
     </div>
   {% endfor %}
@@ -99,28 +99,34 @@ author_profile: true
   function applyFilters() {
     const items = document.querySelectorAll('.gallery-item');
     
-    // First, filter by country and calculate which items should be visible
+    // First, filter by country
     const visibleItems = Array.from(items).filter(item => {
       const country = item.getAttribute('data-country') || '';
       return activeCountries.has(country);
     });
     
-    // Then paginate the filtered items
+    // Hide all items first
+    items.forEach(item => {
+      item.style.display = 'none';
+    });
+    
+    // Then paginate the filtered items and show only those on current page
     const startIndex = (currentPage - 1) * perPage;
     const endIndex = startIndex + perPage;
     const itemsForCurrentPage = visibleItems.slice(startIndex, endIndex);
     
-    // Show/hide items based on filtering and pagination
-    items.forEach(item => {
-      if (itemsForCurrentPage.includes(item)) {
-        item.style.display = 'block';
-      } else {
-        item.style.display = 'none';
-      }
+    // Show items for current page
+    itemsForCurrentPage.forEach(item => {
+      item.style.display = 'block';
     });
     
     // Recalculate pagination based on filtered items
     const filteredTotalPages = Math.ceil(visibleItems.length / perPage);
+    if (currentPage > filteredTotalPages && filteredTotalPages > 0) {
+      currentPage = filteredTotalPages;
+      applyFilters(); // Recursive call to show correct page
+      return;
+    }
     updatePagination(currentPage, filteredTotalPages);
   }
   
