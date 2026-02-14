@@ -35,6 +35,14 @@ author_profile: true
 {% assign total_gallery = gallery | size %}
 {% assign per_page = 10 %}
 
+<div id="country-filters" style="text-align: center; margin-bottom: 30px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+  <button class="country-filter-btn active" data-country="Armenia" title="Armenia" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; background: linear-gradient(to bottom, #d90012 0%, #d90012 33%, #0033a0 33%, #0033a0 66%, #f2a800 66%, #f2a800 100%); transition: all 0.3s ease; opacity: 1;"></button>
+  <button class="country-filter-btn active" data-country="Sweden" title="Sweden" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; background: linear-gradient(to bottom, #006aa7 0%, #006aa7 50%, #fecc00 50%, #fecc00 100%); transition: all 0.3s ease; opacity: 1;"></button>
+  <button class="country-filter-btn active" data-country="Hong Kong" title="Hong Kong" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; background: #de2910; transition: all 0.3s ease; opacity: 1;"></button>
+  <button class="country-filter-btn active" data-country="China" title="China" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; background: #de2910; transition: all 0.3s ease; opacity: 1;"></button>
+  <button class="country-filter-btn active" data-country="Poland" title="Poland" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; background: linear-gradient(to bottom, #ffffff 0%, #ffffff 50%, #dc143c 50%, #dc143c 100%); transition: all 0.3s ease; opacity: 1;"></button>
+</div>
+
 <div id="gallery-container">
   {% for post in gallery %}
     <div class="gallery-item" data-page="{{ forloop.index0 | divided_by: per_page | plus: 1 }}" style="display: none;">
@@ -57,6 +65,7 @@ author_profile: true
   const totalGallery = {{ total_gallery }};
   const totalPages = Math.ceil(totalGallery / perPage);
   let currentPage = 1;
+  let activeCountries = new Set(['Armenia', 'Sweden', 'Hong Kong', 'China', 'Poland']);
   
   // Get page from URL or default to 1
   const urlParams = new URLSearchParams(window.location.search);
@@ -67,17 +76,52 @@ author_profile: true
     if (currentPage > totalPages) currentPage = totalPages;
   }
   
-  function showPage(page) {
+  // Country filter functionality
+  function initializeCountryFilters() {
+    const filterButtons = document.querySelectorAll('.country-filter-btn');
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const country = this.getAttribute('data-country');
+        if (activeCountries.has(country)) {
+          activeCountries.delete(country);
+          this.classList.remove('active');
+          this.style.opacity = '0.4';
+        } else {
+          activeCountries.add(country);
+          this.classList.add('active');
+          this.style.opacity = '1';
+        }
+        applyFilters();
+      });
+    });
+  }
+  
+  function applyFilters() {
     const items = document.querySelectorAll('.gallery-item');
+    
     items.forEach(item => {
+      const country = item.getAttribute('data-country') || '';
       const itemPage = parseInt(item.getAttribute('data-page'));
-      if (itemPage === page) {
+      
+      if (activeCountries.has(country) && itemPage === currentPage) {
         item.style.display = 'block';
       } else {
         item.style.display = 'none';
       }
     });
-    updatePagination(page);
+    
+    // Recalculate pagination based on filtered items
+    const filteredItems = Array.from(items).filter(item => {
+      const country = item.getAttribute('data-country') || '';
+      return activeCountries.has(country);
+    });
+    const filteredTotalPages = Math.ceil(filteredItems.length / perPage);
+    updatePagination(currentPage, filteredTotalPages);
+  }
+  
+  function showPage(page) {
+    currentPage = page;
+    applyFilters();
     // Update URL without reload
     const newUrl = page === 1 
       ? '{{ base_path }}/gallery/'
@@ -85,7 +129,7 @@ author_profile: true
     window.history.pushState({page: page}, '', newUrl);
   }
   
-  function updatePagination(page) {
+  function updatePagination(page, totalPagesToShow) {
     const paginationList = document.getElementById('pagination-list');
     if (!paginationList) {
       console.error('Pagination list not found');
@@ -94,8 +138,10 @@ author_profile: true
     
     paginationList.innerHTML = '';
     
+    const pages = totalPagesToShow || totalPages;
+    
     // If only one page, still show it
-    if (totalPages <= 1 && totalGallery > 0) {
+    if (pages <= 1 && totalGallery > 0) {
       const li = document.createElement('li');
       li.innerHTML = '<a href="#" class="disabled current">1</a>';
       paginationList.appendChild(li);
@@ -103,7 +149,7 @@ author_profile: true
     }
     
     // Don't show pagination if no gallery items
-    if (totalPages <= 0) {
+    if (pages <= 0) {
       return;
     }
     
@@ -128,7 +174,7 @@ author_profile: true
     
     // Page numbers
     let startPage = Math.max(1, page - 2);
-    let endPage = Math.min(totalPages, page + 2);
+    let endPage = Math.min(pages, page + 2);
     
     if (startPage > 1) {
       const firstLi = document.createElement('li');
@@ -165,23 +211,23 @@ author_profile: true
       paginationList.appendChild(li);
     }
     
-    if (endPage < totalPages) {
-      if (endPage < totalPages - 1) {
+    if (endPage < pages) {
+      if (endPage < pages - 1) {
         const ellipsis = document.createElement('li');
         ellipsis.innerHTML = '<a href="#" class="disabled">&hellip;</a>';
         paginationList.appendChild(ellipsis);
       }
       const lastLi = document.createElement('li');
-      lastLi.innerHTML = '<a href="{{ base_path }}/gallery/?page=' + totalPages + '">' + totalPages + '</a>';
+      lastLi.innerHTML = '<a href="{{ base_path }}/gallery/?page=' + pages + '">' + pages + '</a>';
       lastLi.querySelector('a').addEventListener('click', function(e) {
         e.preventDefault();
-        showPage(totalPages);
+        showPage(pages);
       });
       paginationList.appendChild(lastLi);
     }
     
     // Next button
-    if (page < totalPages) {
+    if (page < pages) {
       const nextLi = document.createElement('li');
       nextLi.innerHTML = '<a href="{{ base_path }}/gallery/?page=' + (page + 1) + '">Next</a>';
       nextLi.querySelector('a').addEventListener('click', function(e) {
@@ -196,12 +242,15 @@ author_profile: true
     }
   }
   
+  // Initialize country filters
+  initializeCountryFilters();
+  
   // Initialize page display (this will also initialize pagination)
   showPage(currentPage);
   
   // Ensure pagination is visible even if only one page
   if (totalGallery > 0 && totalPages <= 1) {
-    updatePagination(1);
+    updatePagination(1, totalPages);
   }
   
   // Handle browser back/forward
