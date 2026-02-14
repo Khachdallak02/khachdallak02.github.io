@@ -49,7 +49,7 @@ author_profile: true
 {% assign total_gallery = gallery | size %}
 {% assign per_page = 10 %}
 
-<div id="country-filters" style="text-align: center; margin-bottom: 30px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+<div id="country-filters" style="text-align: left; margin-top: 40px; margin-bottom: 30px; display: flex; justify-content: flex-start; gap: 15px; flex-wrap: wrap;">
   <button class="country-filter-btn active" data-country="Armenia" title="Armenia" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/flags/Armenia.png" alt="Armenia" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
