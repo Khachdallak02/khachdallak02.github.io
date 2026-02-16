@@ -19,6 +19,20 @@ author_profile: true
   margin-top: 20px;
 }
 
+.category-filter-btn {
+  transition: all 0.3s ease;
+}
+
+.category-filter-btn:not(.active) {
+  filter: grayscale(100%) brightness(0.7);
+  opacity: 0.4;
+}
+
+.category-filter-btn.active {
+  filter: none;
+  opacity: 1;
+}
+
 @media (max-width: 768px) {
   #resources-container {
     grid-template-columns: 1fr;
@@ -28,16 +42,34 @@ author_profile: true
 </style>
 
 <div style="text-align: center; margin-bottom: 40px;">
-  <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-bottom: 0;">Some tools that deserve free advertisement</p>
+  <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-bottom: 0;">Tools that deserve free advertisement</p>
 </div>
 
 {% assign resources = site.resources | sort: 'date' | reverse %}
 {% assign total_resources = resources | size %}
 {% assign per_page = 10 %}
 
+<div id="category-filters" style="text-align: left; margin-top: 40px; margin-bottom: 30px; display: flex; justify-content: flex-start; gap: 15px; flex-wrap: wrap;">
+  <button class="category-filter-btn active" data-category="Piracy" title="Piracy" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/icons/1.png" alt="Piracy" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="category-filter-btn active" data-category="AI" title="AI" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/icons/2.svg" alt="AI" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="category-filter-btn active" data-category="Windows" title="Windows" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/icons/3.png" alt="Windows" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="category-filter-btn active" data-category="Android" title="Android" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/icons/4.png" alt="Android" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="category-filter-btn active" data-category="Gaming" title="Gaming" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/icons/5.webp" alt="Gaming" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+</div>
+
 <div id="resources-container">
   {% for post in resources %}
-    <div class="resource-item" data-page="{{ forloop.index0 | divided_by: per_page | plus: 1 }}" style="display: none;">
+    <div class="resource-item" data-category="{{ post.category | default: '' }}" style="display: none;">
       {% include archive-single-resource.html %}
     </div>
   {% endfor %}
@@ -54,8 +86,8 @@ author_profile: true
 <script>
 (function() {
   const perPage = {{ per_page }};
-  const totalResources = {{ total_resources }};
-  const totalPages = Math.ceil(totalResources / perPage);
+  const allResourceItems = Array.from(document.querySelectorAll('.resource-item'));
+  let activeCategories = new Set(['Piracy', 'AI', 'Windows', 'Android', 'Gaming']);
   let currentPage = 1;
   
   // Get page from URL or default to 1
@@ -64,28 +96,68 @@ author_profile: true
   if (pageParam) {
     currentPage = parseInt(pageParam) || 1;
     if (currentPage < 1) currentPage = 1;
-    if (currentPage > totalPages) currentPage = totalPages;
+  }
+  
+  // Category filter functionality
+  function initializeCategoryFilters() {
+    const filterButtons = document.querySelectorAll('.category-filter-btn');
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const category = this.getAttribute('data-category');
+        if (activeCategories.has(category)) {
+          activeCategories.delete(category);
+          this.classList.remove('active');
+        } else {
+          activeCategories.add(category);
+          this.classList.add('active');
+        }
+        currentPage = 1; // Reset to first page on filter change
+        applyFilters();
+      });
+    });
+  }
+  
+  function applyFilters() {
+    // First, filter by category
+    const filteredItems = allResourceItems.filter(item => {
+      const category = item.getAttribute('data-category') || '';
+      return activeCategories.has(category);
+    });
+    
+    // Recalculate pagination based on filtered items
+    const filteredTotalPages = Math.ceil(filteredItems.length / perPage);
+    
+    // Adjust currentPage if it's out of bounds after filtering
+    if (currentPage > filteredTotalPages && filteredTotalPages > 0) {
+      currentPage = filteredTotalPages;
+    } else if (filteredTotalPages === 0) {
+      currentPage = 1; // If no items, show page 1 (empty)
+    }
+    
+    // Hide all items first
+    allResourceItems.forEach(item => item.style.display = 'none');
+    
+    // Show items for the current page from the filtered set
+    const startIndex = (currentPage - 1) * perPage;
+    const endIndex = startIndex + perPage;
+    for (let i = startIndex; i < endIndex && i < filteredItems.length; i++) {
+      filteredItems[i].style.display = 'block';
+    }
+    
+    updatePagination(currentPage, filteredTotalPages);
+    // Update URL without reload
+    const newUrl = currentPage === 1
+      ? '{{ base_path }}/resources/'
+      : '{{ base_path }}/resources/?page=' + currentPage;
+    window.history.pushState({page: currentPage}, '', newUrl);
   }
   
   function showPage(page) {
-    const items = document.querySelectorAll('.resource-item');
-    items.forEach(item => {
-      const itemPage = parseInt(item.getAttribute('data-page'));
-      if (itemPage === page) {
-        item.style.display = 'block';
-      } else {
-        item.style.display = 'none';
-      }
-    });
-    updatePagination(page);
-    // Update URL without reload
-    const newUrl = page === 1 
-      ? '{{ base_path }}/resources/'
-      : '{{ base_path }}/resources/?page=' + page;
-    window.history.pushState({page: page}, '', newUrl);
+    currentPage = page;
+    applyFilters();
   }
   
-  function updatePagination(page) {
+  function updatePagination(page, totalPagesToShow) {
     const paginationList = document.getElementById('pagination-list');
     if (!paginationList) {
       console.error('Pagination list not found');
@@ -94,16 +166,18 @@ author_profile: true
     
     paginationList.innerHTML = '';
     
-    // If only one page, still show it
-    if (totalPages <= 1 && totalResources > 0) {
+    const pages = totalPagesToShow;
+    
+    // If only one page, still show it if there are items
+    if (pages <= 1 && allResourceItems.length > 0) {
       const li = document.createElement('li');
       li.innerHTML = '<a href="#" class="disabled current">1</a>';
       paginationList.appendChild(li);
       return;
     }
     
-    // Don't show pagination if no resources
-    if (totalPages <= 0) {
+    // Don't show pagination if no resource items
+    if (pages <= 0) {
       return;
     }
     
@@ -128,7 +202,7 @@ author_profile: true
     
     // Page numbers
     let startPage = Math.max(1, page - 2);
-    let endPage = Math.min(totalPages, page + 2);
+    let endPage = Math.min(pages, page + 2);
     
     if (startPage > 1) {
       const firstLi = document.createElement('li');
@@ -165,23 +239,23 @@ author_profile: true
       paginationList.appendChild(li);
     }
     
-    if (endPage < totalPages) {
-      if (endPage < totalPages - 1) {
+    if (endPage < pages) {
+      if (endPage < pages - 1) {
         const ellipsis = document.createElement('li');
         ellipsis.innerHTML = '<a href="#" class="disabled">&hellip;</a>';
         paginationList.appendChild(ellipsis);
       }
       const lastLi = document.createElement('li');
-      lastLi.innerHTML = '<a href="{{ base_path }}/resources/?page=' + totalPages + '">' + totalPages + '</a>';
+      lastLi.innerHTML = '<a href="{{ base_path }}/resources/?page=' + pages + '">' + pages + '</a>';
       lastLi.querySelector('a').addEventListener('click', function(e) {
         e.preventDefault();
-        showPage(totalPages);
+        showPage(pages);
       });
       paginationList.appendChild(lastLi);
     }
     
     // Next button
-    if (page < totalPages) {
+    if (page < pages) {
       const nextLi = document.createElement('li');
       nextLi.innerHTML = '<a href="{{ base_path }}/resources/?page=' + (page + 1) + '">Next</a>';
       nextLi.querySelector('a').addEventListener('click', function(e) {
@@ -196,20 +270,18 @@ author_profile: true
     }
   }
   
-  // Initialize page display (this will also initialize pagination)
-  showPage(currentPage);
+  // Initialize category filters
+  initializeCategoryFilters();
   
-  // Ensure pagination is visible even if only one page
-  if (totalResources > 0 && totalPages <= 1) {
-    updatePagination(1);
-  }
+  // Initialize page display (this will also initialize pagination)
+  applyFilters(); // Call applyFilters directly to show initial items
   
   // Handle browser back/forward
   window.addEventListener('popstate', function(e) {
     const urlParams = new URLSearchParams(window.location.search);
     const pageParam = urlParams.get('page');
     currentPage = pageParam ? parseInt(pageParam) || 1 : 1;
-    showPage(currentPage);
+    applyFilters(); // Re-apply filters on popstate
   });
 })();
 </script>

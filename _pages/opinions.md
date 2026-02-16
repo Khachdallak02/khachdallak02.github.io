@@ -27,6 +27,10 @@ author_profile: true
 }
 </style>
 
+<div style="text-align: center; margin-bottom: 40px;">
+  <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-bottom: 0;">Thoughts on artificial neurons, battlefield tactics, and everything in between</p>
+</div>
+
 {% if site.opinions %}
   {% assign opinions = site.opinions | sort: 'date' | reverse %}
 {% else %}

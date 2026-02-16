@@ -41,6 +41,10 @@ author_profile: true
 }
 </style>
 
+<div style="text-align: center; margin-bottom: 40px;">
+  <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-bottom: 0;">Frozen photon interactions</p>
+</div>
+
 {% if site.gallery %}
   {% assign gallery = site.gallery | sort: 'date' | reverse %}
 {% else %}
