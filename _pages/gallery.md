@@ -17,6 +17,49 @@ author_profile: true
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+#gallery-container.layout-2 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+#gallery-container.layout-4 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.layout-toggle-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: -30px;
+  gap: 10px;
+}
+
+.layout-toggle-btn {
+  padding: 8px 16px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  transition: all 0.3s ease;
+}
+
+.layout-toggle-btn:hover {
+  background: #f5f5f5;
+  border-color: #999;
+}
+
+.layout-toggle-btn.active {
+  background: #2e7d32;
+  color: white;
+  border-color: #2e7d32;
 }
 
 .country-filter-btn {
@@ -38,11 +81,26 @@ author_profile: true
     grid-template-columns: 1fr;
     gap: 20px;
   }
+  
+  #gallery-container.layout-2,
+  #gallery-container.layout-4 {
+    grid-template-columns: 1fr;
+  }
+  
+  .layout-toggle-container {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
 }
 </style>
 
 <div style="text-align: center; margin-bottom: 40px;">
   <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-bottom: 0;">Frozen photon interactions</p>
+</div>
+
+<div class="layout-toggle-container">
+  <button class="layout-toggle-btn active" data-layout="2" title="2 pictures per row">2</button>
+  <button class="layout-toggle-btn" data-layout="4" title="4 pictures per row">4</button>
 </div>
 
 {% if site.gallery %}
@@ -100,6 +158,40 @@ author_profile: true
   const totalPages = Math.ceil(totalGallery / perPage);
   let currentPage = 1;
   let activeCountries = new Set(['Armenia', 'Georgia', 'Sweden', 'Belgium', 'Poland', 'Hong Kong', 'China']);
+  let currentLayout = localStorage.getItem('galleryLayout') || '2';
+  const galleryContainer = document.getElementById('gallery-container');
+  
+  // Initialize layout
+  function setLayout(layout) {
+    if (!galleryContainer) return;
+    currentLayout = layout;
+    galleryContainer.classList.remove('layout-2', 'layout-4');
+    galleryContainer.classList.add('layout-' + layout);
+    localStorage.setItem('galleryLayout', layout);
+    
+    // Update button states
+    document.querySelectorAll('.layout-toggle-btn').forEach(btn => {
+      if (btn.getAttribute('data-layout') === layout) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+  }
+  
+  // Initialize layout buttons
+  function initializeLayoutButtons() {
+    const layoutButtons = document.querySelectorAll('.layout-toggle-btn');
+    if (layoutButtons.length === 0) return;
+    layoutButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        const layout = this.getAttribute('data-layout');
+        setLayout(layout);
+      });
+    });
+    // Set initial layout
+    setLayout(currentLayout);
+  }
   
   // Get page from URL or default to 1
   const urlParams = new URLSearchParams(window.location.search);
@@ -287,6 +379,9 @@ author_profile: true
   
   // Initialize country filters
   initializeCountryFilters();
+  
+  // Initialize layout buttons
+  initializeLayoutButtons();
   
   // Initialize page display (this will also initialize pagination)
   showPage(currentPage);
