@@ -89,9 +89,14 @@ author_profile: true
     gap: 20px;
   }
   
-  #gallery-container.layout-2,
-  #gallery-container.layout-4 {
+  #gallery-container.layout-2 {
     grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  #gallery-container.layout-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
   }
   
   .layout-toggle-container {
