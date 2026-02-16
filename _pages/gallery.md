@@ -57,17 +57,23 @@ author_profile: true
   <button class="country-filter-btn active" data-country="Armenia" title="Armenia" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/flags/Armenia.png" alt="Armenia" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
+  <button class="country-filter-btn active" data-country="Georgia" title="Georgia" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/flags/Georgia.png" alt="Georgia" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
   <button class="country-filter-btn active" data-country="Sweden" title="Sweden" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/flags/Sweden.svg" alt="Sweden" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="country-filter-btn active" data-country="Belgium" title="Belgium" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/flags/Belgium.webp" alt="Belgium" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="country-filter-btn active" data-country="Poland" title="Poland" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/flags/Poland.svg" alt="Poland" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="country-filter-btn active" data-country="Hong Kong" title="Hong Kong" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/flags/Hong Kong.png" alt="Hong Kong" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="country-filter-btn active" data-country="China" title="China" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/flags/China.png" alt="China" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-  </button>
-  <button class="country-filter-btn active" data-country="Poland" title="Poland" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
-    <img src="{{ base_path }}/images/flags/Poland.svg" alt="Poland" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
 </div>
 
@@ -93,7 +99,7 @@ author_profile: true
   const totalGallery = {{ total_gallery }};
   const totalPages = Math.ceil(totalGallery / perPage);
   let currentPage = 1;
-  let activeCountries = new Set(['Armenia', 'Sweden', 'Hong Kong', 'China', 'Poland']);
+  let activeCountries = new Set(['Armenia', 'Georgia', 'Sweden', 'Belgium', 'Poland', 'Hong Kong', 'China']);
   
   // Get page from URL or default to 1
   const urlParams = new URLSearchParams(window.location.search);
