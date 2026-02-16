@@ -40,15 +40,22 @@ author_profile: true
 }
 
 .layout-toggle-btn {
-  padding: 8px 16px;
+  width: 45px;
+  height: 45px;
   border: 2px solid #ddd;
-  border-radius: 6px;
+  border-radius: 8px;
   background: white;
   cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #666;
   transition: all 0.3s ease;
+  padding: 0;
+}
+
+.layout-toggle-btn i {
+  font-size: 18px;
 }
 
 .layout-toggle-btn:hover {
@@ -99,8 +106,8 @@ author_profile: true
 </div>
 
 <div class="layout-toggle-container">
-  <button class="layout-toggle-btn active" data-layout="2" title="2 pictures per row">2</button>
-  <button class="layout-toggle-btn" data-layout="4" title="4 pictures per row">4</button>
+  <button class="layout-toggle-btn active" data-layout="2" title="2 pictures per row"><i class="fas fa-th-large" aria-hidden="true"></i></button>
+  <button class="layout-toggle-btn" data-layout="4" title="4 pictures per row"><i class="fas fa-th" aria-hidden="true"></i></button>
 </div>
 
 {% if site.gallery %}
@@ -109,7 +116,7 @@ author_profile: true
   {% assign gallery = '' | split: ',' %}
 {% endif %}
 {% assign total_gallery = gallery | size %}
-{% assign per_page = 10 %}
+{% assign per_page = 8 %}
 
 <div id="country-filters" style="text-align: left; margin-top: 40px; margin-bottom: 30px; display: flex; justify-content: flex-start; gap: 15px; flex-wrap: wrap;">
   <button class="country-filter-btn active" data-country="Armenia" title="Armenia" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">

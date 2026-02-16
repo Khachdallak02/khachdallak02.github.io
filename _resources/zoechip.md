@@ -1,7 +1,7 @@
 ---
 title: "Zoechip"
 collection: resources
-excerpt: "All movies in one website, NO 80bln subscriptions"
+excerpt: "All movies in one website, reject modernity embrace tradition"
 date: 2026-02-13
 category: "Piracy"
 header:
