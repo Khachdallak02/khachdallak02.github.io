@@ -1,7 +1,7 @@
 ---
-title: "Looking out from the bunker during the Warsaw Uprising"
+title: "Looking out from a bunker during the Warsaw Uprising"
 collection: gallery
-excerpt: "Looking out from the bunker during the Warsaw Uprising"
+excerpt: "Looking out from a bunker during the Warsaw Uprising"
 date: 2025-12-11
 country: "Poland"
 header:
