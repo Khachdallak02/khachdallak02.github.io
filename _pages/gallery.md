@@ -172,7 +172,7 @@ author_profile: true
   const totalGallery = {{ total_gallery }};
   const totalPages = Math.ceil(totalGallery / perPage);
   let currentPage = 1;
-  let activeCountries = new Set(['Armenia', 'Georgia', 'Sweden', 'Belgium', 'Poland', 'Hong Kong', 'China']);
+  let activeCountries = new Set(['Armenia', 'Georgia', 'Sweden', 'Belgium', 'Poland', 'Hong Kong', 'China', 'UAE']);
   let currentLayout = localStorage.getItem('galleryLayout') || '2';
   const galleryContainer = document.getElementById('gallery-container');
   
