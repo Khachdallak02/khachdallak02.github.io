@@ -148,6 +148,9 @@ author_profile: true
   <button class="country-filter-btn active" data-country="UAE" title="UAE" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/flags/UAE.webp" alt="UAE" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
+  <button class="country-filter-btn active" data-country="Russia" title="Russia" style="width: 50px; height: 35px; border: 2px solid #ddd; border-radius: 6px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/flags/Russia.webp" alt="Russia" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
 </div>
 
 <div id="gallery-container">
@@ -172,7 +175,7 @@ author_profile: true
   const totalGallery = {{ total_gallery }};
   const totalPages = Math.ceil(totalGallery / perPage);
   let currentPage = 1;
-  let activeCountries = new Set(['Armenia', 'Georgia', 'Sweden', 'Belgium', 'Poland', 'Hong Kong', 'China', 'UAE']);
+  let activeCountries = new Set(['Armenia', 'Georgia', 'Sweden', 'Belgium', 'Poland', 'Hong Kong', 'China', 'UAE', 'Russia']);
   let currentLayout = localStorage.getItem('galleryLayout') || '2';
   const galleryContainer = document.getElementById('gallery-container');
   
