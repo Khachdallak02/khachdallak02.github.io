@@ -108,4 +108,9 @@ html[data-theme="dark"] {
   .sidebar .author__urls a:hover {
     color: #{$link};
   }
+  .pagination li a.current {
+    color: #000 !important;
+    background: #fff;
+    border-color: #fff;
+  }
 }
