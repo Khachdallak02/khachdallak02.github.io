@@ -85,6 +85,28 @@ layout: default
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+
+        {% if page.collection == 'opinions' and site.data.cardano_opinions %}
+          {% assign slug = page.name | remove: ".md" %}
+          {% assign proof = site.data.cardano_opinions[slug] %}
+          {% if proof.tx_id %}
+          <div class="cardano-proof" style="margin-top: 2em; padding: 1.25em; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef;">
+            <h3 style="margin-top: 0; font-size: 1.1em;">Proof of authorship (Cardano)</h3>
+            <p style="margin-bottom: 0.5em;">This article is timestamped on the Cardano blockchain. You can verify the transaction and content hash below.</p>
+            <p style="margin-bottom: 0.75em;">
+              <a href="{{ site.cardano_explorer | default: 'https://preprod.cardanoscan.io' }}/transaction/{{ proof.tx_id }}" target="_blank" rel="noopener noreferrer" class="btn btn--small">
+                <i class="fas fa-external-link-alt" aria-hidden="true"></i> View transaction on CardanoScan
+              </a>
+            </p>
+            {% if proof.content_hash %}
+            <p style="margin: 0; font-size: 0.9em; color: #555;">
+              <strong>Content hash (SHA-256):</strong><br>
+              <code style="word-break: break-all; font-size: 0.85em;">{{ proof.content_hash }}</code>
+            </p>
+            {% endif %}
+          </div>
+          {% endif %}
+        {% endif %}
       </section>
 
       <footer class="page__meta">
