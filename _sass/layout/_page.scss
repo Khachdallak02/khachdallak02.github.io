@@ -399,3 +399,41 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+
+/*
+   Cardano proof block (theme-aware for dark mode)
+   ========================================================================== */
+
+.cardano-proof {
+  margin-top: 2em;
+  padding: 1.25em;
+  background: var(--global-code-background-color, #f8f9fa);
+  border-radius: 8px;
+  border: 1px solid var(--global-border-color, #e9ecef);
+}
+
+.cardano-proof__title {
+  margin-top: 0;
+  font-size: 1.1em;
+  color: var(--global-text-color);
+}
+
+.cardano-proof__text {
+  margin-bottom: 0.5em;
+  color: var(--global-text-color);
+}
+
+.cardano-proof__actions {
+  margin-bottom: 0.75em;
+}
+
+.cardano-proof__hash {
+  margin: 0;
+  font-size: 0.9em;
+  color: var(--global-text-color-light);
+  code {
+    word-break: break-all;
+    font-size: 0.85em;
+  }
+}

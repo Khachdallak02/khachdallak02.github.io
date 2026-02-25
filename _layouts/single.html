@@ -46,8 +46,8 @@ layout: default
           {% assign proof = site.data.cardano_opinions[slug] %}
           {% if proof.tx_id %}
           <p class="page__meta" style="margin-top: 0.5em;">
-            <a href="{{ site.cardano_explorer | default: 'https://preprod.cardanoscan.io' }}/transaction/{{ proof.tx_id }}" target="_blank" rel="noopener noreferrer" class="btn btn--small" title="Proof of authorship on Cardano">
-              <i class="fas fa-link" aria-hidden="true"></i> Proof of authorship on Cardano
+            <a href="{{ site.cardano_explorer | default: 'https://preprod.cardanoscan.io' }}/transaction/{{ proof.tx_id }}" target="_blank" rel="noopener noreferrer" class="btn btn--small" title="Digital signature on Cardano">
+              <i class="fas fa-signature" aria-hidden="true"></i> Digital signature
             </a>
           </p>
           {% endif %}
@@ -90,18 +90,18 @@ layout: default
           {% assign slug = page.slug | default: page.name | remove: ".md" %}
           {% assign proof = site.data.cardano_opinions[slug] %}
           {% if proof.tx_id %}
-          <div class="cardano-proof" style="margin-top: 2em; padding: 1.25em; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef;">
-            <h3 style="margin-top: 0; font-size: 1.1em;">Proof of authorship (Cardano)</h3>
-            <p style="margin-bottom: 0.5em;">This article is timestamped on the Cardano blockchain. You can verify the transaction and content hash below.</p>
-            <p style="margin-bottom: 0.75em;">
+          <div class="cardano-proof">
+            <h3 class="cardano-proof__title">Digital signature (Cardano)</h3>
+            <p class="cardano-proof__text">A unique fingerprint (hash) of this article was recorded on the Cardano blockchain from my address, meaning the transaction was signed with my private key. Because the network is decentralized and its records cannot be changed, that serves as permanent proof that this exact version of the text existed at a specific point in time. Analogically, it can be thought of as a <a href="https://en.wikipedia.org/wiki/Digital_signature" target="_blank" rel="noopener noreferrer">digital signature</a> for the article. The concept is known as <a href="https://en.wikipedia.org/wiki/Trusted_timestamping" target="_blank" rel="noopener noreferrer">trusted timestamping</a> (<a href="https://en.wikipedia.org/wiki/Trusted_timestamping" target="_blank" rel="noopener noreferrer">read more on Wikipedia</a>).</p>
+            <p class="cardano-proof__actions">
               <a href="{{ site.cardano_explorer | default: 'https://preprod.cardanoscan.io' }}/transaction/{{ proof.tx_id }}" target="_blank" rel="noopener noreferrer" class="btn btn--small">
                 <i class="fas fa-external-link-alt" aria-hidden="true"></i> View transaction on CardanoScan
               </a>
             </p>
             {% if proof.content_hash %}
-            <p style="margin: 0; font-size: 0.9em; color: #555;">
+            <p class="cardano-proof__hash">
               <strong>Content hash (SHA-256):</strong><br>
-              <code style="word-break: break-all; font-size: 0.85em;">{{ proof.content_hash }}</code>
+              <code>{{ proof.content_hash }}</code>
             </p>
             {% endif %}
           </div>

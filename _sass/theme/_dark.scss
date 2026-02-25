@@ -52,3 +52,39 @@ html[data-theme="dark"] {
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
 }
+
+/* Dark mode: Cardano proof block and sidebar contrast */
+html[data-theme="dark"] {
+  .cardano-proof {
+    background: var(--global-code-background-color);
+    border-color: var(--global-border-color);
+  }
+  .cardano-proof__title,
+  .cardano-proof__text {
+    color: #{$text};
+  }
+  .cardano-proof__hash {
+    color: #{$light-gray};
+  }
+  .cardano-proof .btn {
+    color: #{$background};
+    background: #{$link};
+    border-color: #{$link};
+  }
+  .cardano-proof .btn:hover {
+    color: #{$link};
+    background: transparent;
+    border-color: #{$link};
+  }
+  .sidebar,
+  .sidebar .author__name,
+  .sidebar .author__bio,
+  .sidebar .author__pronouns,
+  .sidebar .author__urls a,
+  .sidebar .author__desktop {
+    color: #{$text};
+  }
+  .sidebar .author__urls a:hover {
+    color: #{$link};
+  }
+}
