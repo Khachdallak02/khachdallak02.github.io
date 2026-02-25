@@ -115,6 +115,7 @@ img {
   /* Smoother look when scaled down (high-quality resampling, less pixelated) */
   image-rendering: auto;
   image-rendering: smooth; /* smoother scaling where supported (Chrome, Firefox, etc.) */
+}
 
 /* Prevent max-width from affecting Google Maps */
 
