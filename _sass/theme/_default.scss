@@ -32,8 +32,8 @@ $sidebar-screen-min-width   : 1024px;
     --global-bg-color                   : #fff;
     --global-footer-bg-color            : #f2f3f3;
     --global-border-color               : #{$lighter-gray};
-    --global-border-color-strong        : #374151;
-    --global-dark-border-color          : #374151;
+    --global-border-color-strong        : #1f2937;
+    --global-dark-border-color          : #1f2937;
     --global-code-background-color      : #fafafa;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
@@ -50,10 +50,10 @@ $sidebar-screen-min-width   : 1024px;
 /* Light mode: stronger separator lines and pagination contrast */
 html:not([data-theme="dark"]) {
   .archive__subtitle {
-    border-bottom: 2px solid var(--global-border-color-strong);
+    border-bottom: 3px solid var(--global-border-color-strong);
   }
   .nav__sub-title {
-    border-bottom: 2px solid var(--global-border-color-strong);
+    border-bottom: 3px solid var(--global-border-color-strong);
   }
   .page__share,
   .page__comments-title {
@@ -76,9 +76,9 @@ html:not([data-theme="dark"]) {
         color: var(--global-link-color-hover);
       }
       &.current {
-        color: #fff;
-        background: #1f2937;
-        border-color: #1f2937;
+        color: #fff !important;
+        background: #000;
+        border-color: #000;
       }
       &.disabled {
         color: var(--global-text-color-light);
