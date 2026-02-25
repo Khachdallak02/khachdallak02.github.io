@@ -15,3 +15,9 @@ package-lock.json
 # Ignore the vendor file and bundle for alternative installation
 vendor/
 .bundle/
+
+# Cardano: do not commit your Blockfrost API key or signing keys
+.env
+cardano_sk.txt
+cardano_*.txt
+scripts/*

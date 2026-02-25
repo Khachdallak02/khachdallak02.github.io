@@ -1,0 +1,6 @@
+# Cardano proof-of-authorship for opinions (scripts/cardano_timestamp_opinions.py)
+# Install: pip install -r requirements-cardano.txt
+# For Lace/mnemonic support use pycardano >= 0.11 (or 0.12+ if 0.11 fails)
+PyYAML>=6.0
+pycardano>=0.11.0
+python-dotenv>=1.0.0
