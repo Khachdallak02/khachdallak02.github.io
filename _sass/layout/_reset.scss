@@ -112,9 +112,9 @@ img {
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
-  /* Smoother look when scaled down (high-quality resampling, less pixelated) */
+  /* Smooth scaling when displayed smaller (high-quality resampling, no blur) */
   image-rendering: auto;
-  image-rendering: smooth; /* smoother scaling where supported (Chrome, Firefox, etc.) */
+  image-rendering: smooth;
 }
 
 /* Prevent max-width from affecting Google Maps */
