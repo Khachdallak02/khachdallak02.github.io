@@ -174,4 +174,8 @@ html:not([data-theme="dark"]) {
       background-color: var(--global-link-color-hover);
     }
   }
+  .cardano-proof .btn:hover {
+    background-color: var(--global-link-color-hover) !important;
+    color: #fff !important;
+  }
 }

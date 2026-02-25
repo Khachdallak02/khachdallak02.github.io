@@ -82,6 +82,21 @@ html[data-theme="dark"] {
     background: transparent;
     border-color: #{$link};
   }
+  .btn--cardano {
+    color: #{$background} !important;
+    background: #{$link} !important;
+    border-color: #{$link} !important;
+    &:hover {
+      color: #{$link} !important;
+      background: transparent !important;
+      border-color: #{$link} !important;
+    }
+  }
+  .cardano-proof__tx-id,
+  .cardano-proof__hash code {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--global-border-color);
+  }
   .sidebar,
   .sidebar .author__name,
   .sidebar .author__bio,
