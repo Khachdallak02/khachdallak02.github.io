@@ -42,7 +42,7 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         {% if page.collection == 'opinions' and site.data.cardano_opinions %}
-          {% assign slug = page.name | remove: ".md" %}
+          {% assign slug = page.slug | default: page.name | remove: ".md" %}
           {% assign proof = site.data.cardano_opinions[slug] %}
           {% if proof.tx_id %}
           <p class="page__meta" style="margin-top: 0.5em;">
@@ -87,7 +87,7 @@ layout: default
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
 
         {% if page.collection == 'opinions' and site.data.cardano_opinions %}
-          {% assign slug = page.name | remove: ".md" %}
+          {% assign slug = page.slug | default: page.name | remove: ".md" %}
           {% assign proof = site.data.cardano_opinions[slug] %}
           {% if proof.tx_id %}
           <div class="cardano-proof" style="margin-top: 2em; padding: 1.25em; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef;">
