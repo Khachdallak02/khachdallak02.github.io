@@ -32,8 +32,8 @@ $sidebar-screen-min-width   : 1024px;
     --global-bg-color                   : #fff;
     --global-footer-bg-color            : #f2f3f3;
     --global-border-color               : #{$lighter-gray};
-    --global-border-color-strong        : #6b7280;
-    --global-dark-border-color          : #6b7280;
+    --global-border-color-strong        : #374151;
+    --global-dark-border-color          : #374151;
     --global-code-background-color      : #fafafa;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
@@ -77,8 +77,8 @@ html:not([data-theme="dark"]) {
       }
       &.current {
         color: #fff;
-        background: var(--global-link-color);
-        border-color: var(--global-link-color);
+        background: #1f2937;
+        border-color: #1f2937;
       }
       &.disabled {
         color: var(--global-text-color-light);

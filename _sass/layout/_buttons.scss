@@ -151,6 +151,10 @@
   &--small {
     font-size: $type-size-7;
   }
+
+  &--cardano {
+    font-size: $type-size-6;
+  }
 }
 
 /* Light mode: clearer, more visible buttons on pages */
