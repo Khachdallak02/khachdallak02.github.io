@@ -408,20 +408,44 @@
 .cardano-proof {
   margin-top: 2em;
   padding: 1.25em;
+  font-size: 0.875rem;
   background: var(--global-code-background-color, #f8f9fa);
   border-radius: 8px;
   border: 1px solid var(--global-border-color, #e9ecef);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 .cardano-proof__title {
   margin-top: 0;
-  font-size: 1.1em;
+  font-size: 1.05em;
   color: var(--global-text-color);
 }
 
 .cardano-proof__text {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.75em;
   color: var(--global-text-color);
+  line-height: 1.45;
+}
+
+.cardano-proof__wiki-link {
+  white-space: nowrap;
+  .fab {
+    margin-right: 0.2em;
+    opacity: 0.85;
+  }
+}
+
+.cardano-proof__tx {
+  margin: 0 0 0.75em;
+  font-size: 0.95em;
+  color: var(--global-text-color-light);
+}
+
+.cardano-proof__tx-id {
+  display: block;
+  margin-top: 0.25em;
+  word-break: break-all;
+  font-size: 0.9em;
 }
 
 .cardano-proof__actions {

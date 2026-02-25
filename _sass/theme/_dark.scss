@@ -66,6 +66,12 @@ html[data-theme="dark"] {
   .cardano-proof__hash {
     color: #{$light-gray};
   }
+  .cardano-proof__tx {
+    color: #{$light-gray};
+  }
+  .cardano-proof__wiki-link {
+    color: #{$link};
+  }
   .cardano-proof .btn {
     color: #{$background};
     background: #{$link};

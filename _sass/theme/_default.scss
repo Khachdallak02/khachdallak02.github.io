@@ -32,6 +32,7 @@ $sidebar-screen-min-width   : 1024px;
     --global-bg-color                   : #fff;
     --global-footer-bg-color            : #f2f3f3;
     --global-border-color               : #{$lighter-gray};
+    --global-border-color-strong        : #bdc1c4;
     --global-dark-border-color          : #bdc1c4;
     --global-code-background-color      : #fafafa;
     --global-code-text-color            : #{$darker-gray};
@@ -44,4 +45,49 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
+}
+
+/* Light mode: stronger separator lines and pagination contrast */
+html:not([data-theme="dark"]) {
+  .archive__subtitle {
+    border-bottom-color: var(--global-border-color-strong);
+  }
+  .nav__sub-title {
+    border-bottom-color: var(--global-border-color-strong);
+  }
+  .page__share,
+  .page__comments-title {
+    border-top-color: var(--global-border-color-strong);
+  }
+  .feature__wrapper {
+    border-bottom-color: var(--global-border-color-strong);
+  }
+  .page__content + .pagination,
+  .page__meta + .pagination,
+  .page__share + .pagination,
+  .page__comments + .pagination {
+    border-top-color: var(--global-border-color-strong);
+  }
+  .pagination {
+    li a {
+      color: var(--global-text-color);
+      border-color: var(--global-border-color-strong);
+      &:hover {
+        color: var(--global-link-color-hover);
+      }
+      &.disabled {
+        color: var(--global-text-color-light);
+      }
+    }
+    .pagination--pager {
+      color: var(--global-text-color);
+      border-color: var(--global-border-color-strong);
+      &:hover {
+        color: var(--global-link-color-hover);
+      }
+      &.disabled {
+        color: var(--global-text-color-light);
+      }
+    }
+  }
 }
