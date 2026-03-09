@@ -414,12 +414,28 @@
   border: 1px solid var(--global-border-color, #e9ecef);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
   scroll-margin-top: 2em;
-  transition: box-shadow 0.3s ease, background-color 0.3s ease;
 
-  &:target,
   &--highlight {
+    animation: cardano-proof-pulse 1.8s ease-out;
+  }
+}
+
+@keyframes cardano-proof-pulse {
+  0% {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    background: var(--global-code-background-color, #f8f9fa);
+  }
+  15% {
     box-shadow: 0 0 0 4px var(--global-theme-color, #0f4c81);
+    background: rgba(15, 76, 129, 0.12);
+  }
+  50% {
+    box-shadow: 0 0 0 6px var(--global-theme-color, #0f4c81);
     background: rgba(15, 76, 129, 0.08);
+  }
+  100% {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    background: var(--global-code-background-color, #f8f9fa);
   }
 }
 

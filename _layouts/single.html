@@ -149,7 +149,7 @@ layout: default
   function highlight() {
     el.classList.add('cardano-proof--highlight');
     window.clearTimeout(el._highlightTimeout);
-    el._highlightTimeout = window.setTimeout(function() { el.classList.remove('cardano-proof--highlight'); }, 4000);
+    el._highlightTimeout = window.setTimeout(function() { el.classList.remove('cardano-proof--highlight'); }, 2000);
   }
   document.addEventListener('click', function(e) {
     if (e.target.closest('a[href="#cardano-proof"]')) highlight();

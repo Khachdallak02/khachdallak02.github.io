@@ -8,155 +8,190 @@ header:
 share: false
 ---
 
-*Здравствуйте товарищи!* — Greetings comrades! I always loved war history. I have grown up fantasizing about Viking invasions, Charlemagne conquests, 100 years' war, Napoleonic wars, Second World War. But I never liked the school way of teaching history. Giving no actual explanation of how warfare, politics, and economy were organized during the time period, textbooks usually emphasize facts, names and dates, killing any possible love towards history that students might have had. Fortunately for me I was exposed to a lot of historical strategy games; using one of which I want to tell the great story of the victory in the Second World War—a story somewhat alternative to the regular textbook style.
+*Здравствуйте товарищи!* — Greetings comrades! I always loved war history. I have grown up fantasizing about Viking invasions, Charlemagne conquests, 100 years' war, Napoleonic wars, Second World War. But I never liked the school way of teaching history: giving no actual explanation of how warfare, politics, and economy were organized during the time period, textbooks usually emphasize facts, names and dates, killing any possible love towards history that students might have had. Fortunately I was exposed to a lot of historical strategy games. Using one of them—Hearts of Iron IV—I want to tell the great story of the victory in the Second World War, and show **how the game depicts that history** compared to how it really was.
 
-The Great Patriotic War was part of the 2nd World War, and it constituted the largest military confrontation in history between the Soviet Union and Axis powers on the European side. We will look at the situation from the Soviet Union's perspective, starting from the political situation.
+**Historically**, the Great Patriotic War was part of the 2nd World War and constituted the largest military confrontation in history between the Soviet Union and Axis powers on the European side. Below we look at the situation from the Soviet perspective: what actually happened, and **how Hearts of Iron IV represents it**.
+
+![Intro](/images/opinions/great-patriotic-war/image1.jpeg)
 
 ## Political life (Great Purge and Stalin's paranoia)
 
-In the 30s and 40s social-political life, to say the least, was super unstable. After having secured power, Stalin was (at least officially) quite worried about potential saboteurs, wreckers, counter-revolutionaries, spies, and so on. Being "worried" about potential activities against him, Stalin gave the green light to a period of extremely harsh political repression among civilians, the military and even among the Communist party: a period which later would be called **"The Great Purge"**.
+**In history**, in the 30s and 40s social-political life was, to say the least, super unstable. After having secured power, Stalin was (at least officially) quite worried about potential saboteurs, wreckers, counter-revolutionaries, spies, and so on. Being "worried" about potential activities against him, he gave the green light to a period of extremely harsh political repression among civilians, the military and even the Communist party: a period later called **"The Great Purge"**.
 
-In the game the Great Purge is represented with a Paranoia system. If Stalin's Paranoia reaches a certain level, he will start killing random generals, commanders, political figures—but you can spend resources to lower the level of Paranoia. For example, you can forge a satisfactory production report for Stalin. He will be happy, but on the other hand you will lose economic power and potential.
-
-It's an interesting system, as you want to minimize the number of innocent people killed by Stalin, with a minimum amount of resources spent. On the right side you can see people Stalin ended up killing in "my universe".
+**In Hearts of Iron IV**, the Great Purge is represented by a Paranoia system. If Stalin's Paranoia reaches a certain level, he will start killing random generals, commanders, and political figures—but you can spend resources to lower Paranoia. For example, you can forge a satisfactory production report for Stalin; he will be happy, but you lose economic power and potential. It's an interesting system where you want to minimize the number of innocent people killed by Stalin with a minimum amount of resources spent. On the right you can see people Stalin ended up killing in "my universe" in the game.
 
 ![Stalin's purges in the game](/images/opinions/great-patriotic-war/image2.png)
 
-Soviets even went as far as sending their operatives to kill Stalin's main political rival Trotsky, who escaped to Mexico. To stop the purge in the game, you have to do similar assassination-attempting operations. Stalin only calmed down after killing, arresting, deporting thousands of people, including a lot of innocent civilians and generals, weakening the Soviet Union before the upcoming war.
+![Purge list](/images/opinions/great-patriotic-war/image3.png)
 
-After a lot of old generals got purged, they got replaced by a new, less experienced generation. As a result, before the war started most of Soviet generals were in there 30s-40s. In comparison Germany knew neither the civil war which could divide the society, nor emigrations of the officers, nor repressions. In the Wehrmacht (armed forces of Germany between 1935-45), there were many commanders with many-year experience of leading troops. Most famous example was **Hoth**, tank army general who was 56 years old, when USSR invasion began. Because of his age soldiers called him "Father Hoth". Other generals were not exception either: In 1941, Guderian was 53 years old, Hoepner was 55 and Kleist was 60. German generals were also chosen based on their skill, rather than party belonging (although the once not in the party were blamed later for losing the war :D ).
+**Historically**, the Soviets even went as far as sending operatives to kill Stalin's main political rival Trotsky, who had escaped to Mexico. **In the game**, to stop the purge you have to run similar assassination operations. Stalin only calmed down after killing, arresting, and deporting thousands of people, including many innocent civilians and generals, weakening the Soviet Union before the upcoming war.
+
+After a lot of old generals were purged, they were replaced by a new, less experienced generation. **In history**, before the war started most Soviet generals were in their 30s–40s. Germany, by comparison, had neither a civil war dividing society, nor mass emigrations of officers, nor such repressions. In the Wehrmacht (1935–45) there were many commanders with many years of experience. The most famous example was **Hoth**, the tank army general who was 56 when the USSR invasion began—soldiers called him "Father Hoth". Others were similar: in 1941, Guderian was 53, Hoepner 55, Kleist 60. German generals were chosen more by skill than by party belonging (although those not in the party were later blamed for losing the war :D ).
+
+![Father Hoth](/images/opinions/great-patriotic-war/image4.png)
 
 ![Father Hoth](/images/opinions/great-patriotic-war/image5.jpeg)
 
-Talking about Soviet's agency, it's important to mention, that it was one of the most powerful agencies in the world (probably second after British) and it had very significant role in supporting partisans in occupied territories and stealing German plans, during the war time. Below you can see my spy network in the Germany, before the war has started.
+**In the game** you don't get that same depth of character for every general, but the age and experience gap between Soviet and German high command is part of the setup. The Soviet intelligence agency, **in history**, was one of the most powerful in the world (probably second after the British) and had a major role supporting partisans in occupied territory and stealing German plans. **In Hearts of Iron IV** you manage your spy network and can mirror that effort. Below is my spy network in Germany before the war started.
 
 ![Spy network in Germany](/images/opinions/great-patriotic-war/image6.png)
 
 ## Economy
 
-Before 20th century, in terms of industrialization Russian empire was always behind other Western countries, such as Britain, France, Germany or US. For example, officially slavery in Russia ended only in 1861, way after in other European countries at the time.
+**Historically**, before the 20th century the Russian Empire was always behind other Western countries in industrialization—slavery in Russia ended only in 1861, for example. After the Empire collapsed, civil war worsened the economy. In the 1920s the Soviet economy was in ruins. The response was heavy industrialization through **five-year plans**: goals set for five-year periods. The USSR concluded agreements with foreign companies, mainly American (Ford, General Electric...) and German (Krupp, Borsig...) to carry out industrialization. Later in Soviet history these goals were often set low so that "overfulfilling" them became propaganda; after the Second World War, five-year plans became a symbol of Soviet corruption. But at the time they were a real step forward.
 
-After Russian empire collapsed civil war started, which even worsened economy. In 1920s Soviet Economy was in ruins. And the way they decided to overcome this was by heavy industrialization with five-year plans. Five-year plans, mostly focusing industrial sector, were basically a goals set for five years period to be completed. USSR concluded agreements with foreign companies, mainly American (Ford, General Electric...) and German (Krupp, Borsig...) to carry out industrialization.
+![Economy](/images/opinions/great-patriotic-war/image7.png)
 
-Later in Soviet history these goals for five years plans will be set low and then for propaganda reasons media will be talking about completing these goals and even overdoing five years plans. But in reality, the goals were set so low, then even overdoing them, wasn't a big deal or anything to be proud of. So, after the second World War five-year plans will become one of the most central symbols of Soviet corruption, but so far they were a good step forward for organizing Soviet industrialization.
+![Industry](/images/opinions/great-patriotic-war/image8.png)
 
-Another important part of the industry is research. The Russian Academy of Sciences, founded in the 1700s, became the highest scientific institution in the Soviet Union after the revolution. National academies appeared throughout the 20th century in the Union republics, and in the game, you can decide to build them, gaining additional research speed and more possibilities for innovations.
+**In the game**, you manage factories, research, and production. Another important part **in history** was research: the Russian Academy of Sciences, founded in the 1700s, became the USSR's highest scientific institution. National academies appeared in the Union republics. **Hearts of Iron IV** lets you build them for extra research speed and more innovations.
 
-Before the war Soviets had huge variety of tanks and planes, with their unique spare parts. This unorganized production, created difficulties, as it was harder to find specific pars and some parts were even made in very few factories only. Loosing these factories meant that hundreds to thousand tanks will stay without repair parts. To fix this problem, Soviets decided to merge some military factories together, to simplify production. In the game you can make similar decisions merging some factories and simplifying production.
+![Research](/images/opinions/great-patriotic-war/image9.png)
+
+**Historically**, before the war the Soviets had a huge variety of tanks and planes with unique spare parts. This unorganized production made it harder to find specific parts; some were made in very few factories. Losing those factories meant hundreds or thousands of tanks could not be repaired. The Soviets merged military factories to simplify production. **In the game** you can take similar decisions: merge factories and simplify production.
+
+![Production](/images/opinions/great-patriotic-war/image10.png)
+
+![Factories](/images/opinions/great-patriotic-war/image11.png)
+
+![Industry map](/images/opinions/great-patriotic-war/image12.png)
+
+![Production screen](/images/opinions/great-patriotic-war/image13.png)
 
 ## Aviation
 
-During the 1930s, the Soviet government funded missions to break numerous world aviation records. Aviation achievements and records became demonstrations of the USSR's technological progress and Soviet media continuously exalted record-breaking pilots.
+**In history**, during the 1930s the Soviet government funded missions to break world aviation records. Achievements became demonstrations of technological progress and the media exalted record-breaking pilots. In reality, Soviet aviation was far from as good as that suggested: it was plagued by mismanagement, inefficiency, deficient equipment, and very inexperienced pilots—in early 1941, apparently 2–3 planes on average were lost daily due to accidents. Men not in the Communist party, or women, were not allowed to become pilots. Before the war, 15% of pilots had flown a plane only **once**. This contributed to catastrophe: the Soviet air force lost over 1100 planes in one day (over 25% of what they had). In the first year of the war the Soviets effectively lost the war in the air. Later, through increased production, better training, opening the air force to more people, and allied help, they won the battle in the air.
 
-However, Soviet aviation was far from being in as good a shape as the Soviet media seemed to indicate. In fact, it was plagued by mismanagement, inefficiency and technologically deficient equipment, and very inexperienced pilots leading to a staggeringly high accident rate (in early 1941, prior to the war, apparently 2-3 planes on average were lost daily due to accidents). Men not in communist party, or women overall were not allowed to become pilots. And existing pilots were so inexperienced that before start of the war 15% of the pilots flew a plane only once. ONCE! ONCE!
-
-This resulted in a catastrophic failure just after one day into the war: Soviet air force lost over 1100 planes in one day, which was over 25% of the planes they had. During the first year of the war Soviets completely lost war in the air. But later by increased production, more reasonable training of the pilots, by allowing everyone to be able to become a pilot and by a serious allied help, soviet won battle in the air.
-
-In game you have certain decisions, which given you have enough time and willingness to provide resources for, will result in certain historical and non-historical improvements in the air force. One of them which I enacted was to allow women to air force. In the game this gives you ability to recruit famous scarry women pilots (see the pictures below), famously called Night witches - Ночные ведьмы. Btw Sabaton has a pretty good song about Night witches, highly recommended (https://youtu.be/jcemHIqmkYI)
+**In Hearts of Iron IV** you have decisions that, with enough time and resources, give historical and non-historical improvements. One I enacted was to allow women into the air force. The game then lets you recruit the famous women pilots known as **Night witches** (*Ночные ведьмы*). Sabaton has a great song about them: [Night Witches](https://youtu.be/jcemHIqmkYI).
 
 ![Night Witches](/images/opinions/great-patriotic-war/image14.jpeg)
 
-## Symbols of victory: T-34s, Katyusha rocket systems, Cossack cavalry and Zhukov
+![Night Witches in game](/images/opinions/great-patriotic-war/image15.png)
 
-I am sure some of you might be familiar with the legendary T-34, most famous and most heavily produced tank of the entire human history. These were the tanks, which defended Moscow, completed Stalingrad encirclement, took Berlin and after the war they became one of symbols of victory.
+![Aviation](/images/opinions/great-patriotic-war/image16.jpeg)
 
-In the game you are given a tank designer, which you can use to create your desired tank from available parts. Above you can see the tank I have designed. Historically T-34s were also given a shovel to be able to be dug themselves during the defense.
+![Pilots](/images/opinions/great-patriotic-war/image17.png)
 
-Famous tactic used by Soviets throughout war was to dig and hide tanks alongside the roads. When the German tanks start crossing the road first and the last tank of the column were shot (As shown in the picture below). In case of first and last tank being successfully destroyed the rest of the tanks in the middle were blocked, and then Soviets can shoot them one by one.
+## Symbols of victory: T-34s, Katyusha, Cossack cavalry, and Zhukov
 
-![T-34 tank design in game](/images/opinions/great-patriotic-war/image15.png)
+**Historically**, the **T-34** is the most famous and most heavily produced tank in history. These tanks defended Moscow, completed the Stalingrad encirclement, took Berlin, and became a symbol of victory. **In the game** you get a tank designer to build your desired tank from available parts. Below is the tank I designed. Historically, T-34s were also given a shovel so they could dig in during defense. A famous Soviet tactic was to hide tanks alongside roads and shoot the first and last tank of a German column—blocking the rest so they could be shot one by one.
 
-![Tank ambush tactic](/images/opinions/great-patriotic-war/image17.png)
+![T-34 design in game](/images/opinions/great-patriotic-war/image18.jpeg)
 
-Another symbol of victory rocket launcher Katyusha. This delivered huge amount of explosives to targeted area, especially having huge physiological effect on the enemy. Katyusha-s were also super mobile, they can easily fire on enemy positions, then reallocate before being located by enemy counter artillery units.
+![Tank ambush tactic](/images/opinions/great-patriotic-war/image19.jpeg)
 
-Germans tried to copy idea, creating rocket launcher on their own (Panzerwerfer 42 picture on the left). But it ended up suffering from reliability issues: never being as successful as Soviet version.
+![T-34](/images/opinions/great-patriotic-war/image20.jpeg)
 
-There is also a song called Katyusha, that I think everyone from post-Soviet countries have heard: https://youtu.be/MLg83QMmlGs
-The game also has another variation of this song, specifically written for the game: https://youtu.be/xSjnN39Qhmc
-And there is even Rammstein version for the song Katyusha in German: https://youtu.be/khgJftnrNw0
+Another symbol of victory was the **Katyusha** rocket launcher: huge explosives on target, with a huge psychological effect, and very mobile. **In history**, the Germans tried to copy the idea (e.g. Panzerwerfer 42) but had reliability issues. There is a song *Katyusha* that many from post-Soviet countries know: [original](https://youtu.be/MLg83QMmlGs). The game has its own version: [HoI4 Katyusha](https://youtu.be/xSjnN39Qhmc). And there is even a Rammstein version in German: [Rammstein Katyusha](https://youtu.be/khgJftnrNw0).
 
-![Katyusha](/images/opinions/great-patriotic-war/image18.jpeg)
+![Katyusha](/images/opinions/great-patriotic-war/image21.png)
 
-Cossack cavalry units probably are third most famous cavalry unit throughout history after Mongolian cav and Winged Hussars (Polish cav). And surprisingly they were still used during second world war. But cavalry charges were not effective during this time period units were mostly using horses to move faster, but they were still fighting on foot. But bravery of this units was one of the most astonishing during the war.
+![Rocket artillery](/images/opinions/great-patriotic-war/image22.jpeg)
 
-That is why I decided to restore Cossack units in my universe, as Soviets did historically.
+**Cossack cavalry** is among the most famous cavalry in history (with Mongolian cavalry and Winged Hussars). They were still used in the Second World War—mostly for mobility; they fought on foot. **In the game** I restored Cossack units as the Soviets did historically.
 
-![Cossack cavalry](/images/opinions/great-patriotic-war/image22.jpeg)
+![Cossack cavalry](/images/opinions/great-patriotic-war/image23.png)
 
-According to Ethan Arsht's WAR scores (picture below) Georgy Zhukov (above) is 9th best military general in all of history (of course Napoleon is the 1st - Forever an idol ❤️) and he is the only WW2 general in this list. What was special about Zhukov was that he was everywhere: in 1941 he was the one who successfully repelled German attack on Moscow, in 1942 he participated in organizing 3 most important Soviet offensives (offensive in Rzhev, Stalingrad offensive, operation to break the siege of Leningrad) and personally led the Stalingrad offensive the most successful one out of the three. Victory in Stalingrad led to encirclement of the Germany's 6th army, and completely tides of the war. Nazi Germany was unable to continue war of exhaustion, having less oil, less natural resources, less economical power and less manpower it was keen to lose, if soviets just continued their dedicated defense. Zhukov eventually led operation to capture Berlin (btw biggest operation in human history: 3.5 million people involved)
+![Cavalry](/images/opinions/great-patriotic-war/image24.jpeg)
+
+According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best military general in history (Napoleon is 1st—forever an idol ❤️) and the only WW2 general on that list. **In history** he was everywhere: in 1941 he helped repel the German attack on Moscow; in 1942 he had a hand in the three most important Soviet offensives (Rzhev, Stalingrad, breaking the siege of Leningrad) and personally led the Stalingrad offensive. Victory at Stalingrad led to the encirclement of Germany's 6th Army and turned the tides. Zhukov eventually led the operation to capture Berlin—the biggest operation in history, with some 3.5 million people involved.
+
+![Zhukov](/images/opinions/great-patriotic-war/image25.jpeg)
+
+![WAR scores](/images/opinions/great-patriotic-war/image26.png)
 
 ## Massive assault and early failures
 
-During second world war era, every army in the world followed one of the four doctrines to build their army. They were similarities between these doctrines, but they significantly differed from one another in few major factors. All doctrines had basically everything air force, artillery, tanks, special forces, but what differentiated them, was on which aspect was the main focus. "Mobile warfare" doctrine which Germany follow emphasized breaking the enemy lines with tank formations and then encircling them, after which moving forward aggressively (so called Blitzkrieg).
+**In history**, every major army followed one of four doctrines. Germany's **Mobile warfare** emphasized breaking enemy lines with tanks and encircling them (Blitzkrieg). The USA and Britain focused on coordination of special forces, artillery, and air force; France on entrenchment and planning. The Soviet Union followed **Mass assault**: it did not value individual lives. Advancement came through human-wave offensives and guerrilla warfare. In Stalingrad, some troops were given one rifle and three bullets—as if they were meant to die before firing them. This doctrine is one reason the Soviet Union and China had the highest casualties: about 24 and 20 million respectively. Germany lost about 8.8 million. (Source: [National WWII Museum – Worldwide Deaths](https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-worldwide-deaths-world-war).) **In Hearts of Iron IV** you choose a doctrine; I chose one based on coordination between air force, artillery and special forces rather than mass assault.
 
-Another two doctrines paid main focus on 1) special forces, artillery, air force and coordination between these forces [USA and Britain followed], and 2) mostly heavy entrenchment and planning [France followed].
+![Doctrine in game](/images/opinions/great-patriotic-war/image27.png)
 
-4th one: Mass assault which Soviet Union followed, mostly didn't value lives of individual people. Keyway to advance was through Human wave offensives and Guerrilla Warfare. In Stalingrad for example some Soviet troops were only given one rifle and 3 bullets, as if they were meant to die before firing those 3 bullets. I have personal bias against this doctrine, some people in military might argue, that having immense manpower and other resources, this was viable doctrine for Soviet Union and China, but anyway this doctrine never valued people. Doctrine is one of the reasons Soviet Union and China ended up, with the highest number of casualties in the war: 24 and 20 million respectively. Germany lost 8.8 million (3rd place).
+**Historically**, because of doctrine, incompetence, and indecisiveness, retreat was often forbidden, which led to massive encirclements in the first months: 3.5 million POWs in total. At Kiev alone, Soviet sources say 532 thousand were encircled (German sources: 667 thousand)—the biggest encirclement in history. At Vyazma, another 517 thousand (663 thousand by German count). All top five encirclements were of Soviet forces, all in 1941. In the Kiev pocket the Germans captured only 50 tanks; at Stalingrad the Soviets captured 60 thousand Germans and more than 1200 tanks.
 
-Numbers provided are source dependent, my source: https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-worldwide-deaths-world-war
+After retreating about 1200 km, something had to be done. **Order 227** ("No step back") was Stalin's order to stop retreats: last stand. Civilians and factory workers were conscripted. In Stalingrad there were cases of tanks firing from the factory windows where they had been produced. **In history**, those who retreated could be sent to **Penal battalions** and used in the riskiest sectors—sometimes as a "human shield". **In the game** you don't play that in detail, but the pressure to hold the line is there. Before the war most Soviet industry was in the European part; when that was overrun, the USSR moved factories east. They recovered about 85% of capacity and could continue producing and eventually counterattack.
 
-Obviously, doctrine is not the only factor deciding number of casualties. High casualties for Soviet Union and China, were also result of harsh occupation by Germany and Japan and many Civilians loses. Many other aspects affected loses, but the point I want to make here, is that even though from militaristic point of view this doctrine might be well suited to Soviet Union I would have avoided it if I was commander, because I think there are better alternatives. In the game I decided to go for the doctrine based on Coordination between air force, artillery and special forces.
+![Order 227](/images/opinions/great-patriotic-war/image29.png)
 
-Mostly because of chosen doctrine, incompetence, lack of experience and indecisiveness of Soviet high command, in a lot of sectors retreat was not allowed, which resulted a lot of troops getting encircled in first few months of the war. The numbers of troops encircled were catastrophically high: 3.5 million prisoners of war in total. Only in Kiev according to Soviet sources 532 thousand people got encircled (667 thousand according to German sources). That is biggest encirclement in human history. Second place is Vyazma another 517 thousand people encircled (663 thousand according to German sources). Guess who got encircled in Vyazma again? Correct, Soviets!!! In fact, all top 5 places are hold by Soviet Union (all 5 happened in 1941). Apart from that, Soviet troops lost so many tanks in the first few days of the war, that in the Kiev pocket Germans only captured 50 tanks. This is extremely low: In comparison in Stalingrad Soviets captured 60 thousand Germans and more than 1200 tanks. 60 thousand troops had 1200 tanks, while under Kieve more than half a million had only 50 :(
+![Factory evacuation](/images/opinions/great-patriotic-war/image30.jpeg)
 
-After retreating 1200 km something has to be done to stop the enemy. Order 227 was the special order by Stalin, famously known as "No step back". Order was meant to stop constantly retreating Soviet army for last stand: last effort to stop conquerors. No more unnecessary retreating was allowed. Civilians, factory workers were conscripted for defense of the motherland. In Stalingrad there were even cases of tanks firing right from the factory windows, where they have been produced.
+![Industry relocation](/images/opinions/great-patriotic-war/image31.jpeg)
 
-![Order 227](/images/opinions/great-patriotic-war/image26.png)
+## Partisans, propaganda, and supply issues for the enemy
 
-Not everyone followed the rules, but Soviet operative were there to punish. Whoever was caught retreating, was recruited in so called "Penal battalions" and sent to most risky locations in the frontline. Sometimes they even were used as "human shield wall". But I guess similar measures are justified when you are fighting for survival.
+**In history**, after occupying the eastern Soviet Union, the Nazis portrayed themselves as liberators. The photo below was taken in Minsk during a forced pro-German demonstration—the text says "Hitler liberator" (with a possible spelling/grammar quirk :D ). When you then kill people and send them to forced labor by nationality, trust vanishes. Many took guns and ammunition and went to the forests; new settlements appeared there. Partisan activity in occupied Ukraine and Belarus was very high. **In Hearts of Iron IV** you can organize and support partisans; they can sabotage supplies, provide intel, and help trigger uprisings.
 
-Before the war most of Soviet Union's industry was in European side. But as European side was partly conquered, Soviets needed to shift their economy eastwards. Just after Germany attacked, they undertook huge factory reallocation program, moving tools, machines from factories in Ukraine and Belarus and rebuilding them on the Eastern side. At the end even though they lost a large section of the country with a lot of factories during the first year of the war, they recovered 85% of factories. This is what allowed to continue production of equipment and later allowed counterattacks.
+![Minsk propaganda](/images/opinions/great-patriotic-war/image28.png)
 
-## Partisans, propaganda, and supply issues for enemy
+![Partisans](/images/opinions/great-patriotic-war/image33.png)
 
-After occupation of Eastern part of Soviet Union, Nazi propaganda started portraying themselves as liberators. Picture below is taken in the Minsk, during a forced pro-German demonstration. Words on the picture say: "Hitler liberator" (btw it's written асвабадитель not освободитель, so it's either Belarusian [idk can't confirm] or Germans were making grammatical mistakes on their propaganda posters :DDD)
+**Historically**, propaganda was central for the Soviet Union—through media, books, films, theatre. **In the game** you can enact decisions to run campaigns with specific bonuses. Soviet propaganda remains a fascinating subject (especially if you know Russian).
 
-![Propaganda in Minsk](/images/opinions/great-patriotic-war/image28.png)
+![Soviet propaganda](/images/opinions/great-patriotic-war/image34.png)
 
-But apparently when you portray yourself as liberator, but then start killing people, sending them to forced labor based on their national identity they don't particularly trust you. A lot of people found guns, ammunition and run to forests together with their families. There were even new settlements created in the forests. Partisan activity in occupied Soviet territory (especially Ukraine and Belarus) was impressively high and played a role perhaps not very decisive but definitely important to the overall war effort. In the game you can organize partisan activity, support them and they will blow up enemy supplies, give you more intel and even organize an uprising helping to liberate Soviet Union.
+![British propaganda poster](/images/opinions/great-patriotic-war/image35.jpeg)
 
-As you probably know, propaganda was a very important tool that the Soviet Union used extensively through media, books, films, theatre, etc. The use of propaganda was far from being Soviet-specific but, truth be told, Soviet propaganda was very characteristic.
+![Propaganda poster](/images/opinions/great-patriotic-war/image32.png)
 
-In the game you can enact certain decisions to activate campaigns with specific bonuses. Pretty interesting system. Overall Soviet propaganda is something really fascinating, that I think everyone interested can spend hours looking at. (Especially if u happen to know Russian hahaha)
+![Propaganda in game](/images/opinions/great-patriotic-war/image36.png)
 
-![British propaganda poster](/images/opinions/great-patriotic-war/image32.png)
+Supply is easy to overlook, but food and ammunition don't grow on the battlefield. **In history**, a **scorched-earth policy** was used by both sides: before retreating, the Soviets destroyed railways, roads, radio stations, supply depots. Partisans sabotaged infrastructure in the enemy rear. Weather also created supply issues: mud and snow blocked roads. Defenders were more used to the cold and mud; invaders struggled—e.g. from October to December 1941—and that was one reason the Moscow offensive failed. **In the game** supply, railways, and weather all affect your ability to fight.
 
-When you think about fighting and war, you never first think of supply. The fact that food and ammunition doesn't grow in the battlefield means, that it should be transported from core land. But sometimes transportation task might be as hard as fighting in the field. A scorched-earth policy (very common policy by both sides) is a military strategy that aims to destroy anything that might be useful to the enemy. Before retreating from provinces Soviets destroy railway stations, roads radio station, supply depos and everything that will slow enemy down. In fact, when retreating from Occupied land in 1943-44 Germans used same Scorched the Earth tactic (they were even burning down villages) In fact, one of the main functions of partisans, was to sabotage infrastructure in the enemy backlines, in order to create supply issues for them.
+![Supply and terrain](/images/opinions/great-patriotic-war/image37.png)
 
-Another factor creating supply issues will be weather. Heavy rains create mud, while heavy snow will block roads. People defending their homeland are more accustomed to cold winter, or mudy fall, but for invaders that created huge supply issues. They struggled to properly supply their troops form 1941 October to December. And that will be one of the reasons while despite initial success Moscow offensive failed.
+![Supply issues](/images/opinions/great-patriotic-war/image38.png)
 
-This picture probably is one of my favorite photos of the war: showing not only warfare but also "non-military" side of the war.
+![War photo](/images/opinions/great-patriotic-war/image39.jpeg)
 
 ## Operation Bagration in my universe
 
-As Guderian (German general) once said, after loosing battle against Soviet army: "They are learning" Super deep World War 2 quotes, 1942 [colorized]
+As Guderian said after losing to the Soviet army: **"They are learning."** **In history**, after early failures the Soviets improved: battle-hardened soldiers and generals, better tactics. Operation Bagration was one of the most successful operations in history, ending German occupation of Soviet territory. There is another game about it—*Steel Division 2* (more tactical). Here I focus on **how I carried out a similar encirclement in Hearts of Iron IV**.
 
-After early failures, Soviets improved drastically: battle hardened soldiers and generals, improved tactics. So called "Lessons of war" teached them how to fight and win. Operation Bagration was one of the most successful operations in human war history, ending German occupation of Soviet territory and resulting in enemy's retreat to prewar borders.
+**In the game**, the Germans tried to encircle my divisions around Zhytomyr. The idea is not to push the whole front at once but to find weak spots, break through, and join two salients to encircle the frontline. The Germans also cut the railway from Kiev. In the war, most supply went by rail; cutting it meant attrition. To resupply, we had to build a new railway from Minsk to Zhytomyr. We did, got supplied, and could counterattack. If you stabilize the front, you can counter-attack and encircle the enemy yourself. As planned, the operation succeeded and the German army was encircled. In real life, controlling troops is much harder, but the principle is the same: cut the enemy off from supply without being cut off yourself.
 
-There is another interesting game based on events during operation Bagration - Steel division 2 (This game concentrates more in micro strategizing in the battlefield). Here we won't go into details of Operation Bagration, but rather we will look, how I was able to carry out similar operation in an imaginary world to encircle German troops.
+![Encirclement plan](/images/opinions/great-patriotic-war/image40.png)
 
-During the game Germans tried to encircle Soviet divisions around Zhytomyr. And this is a constant strategy throughout the war. It's not about pushing entire front forward all at once, because that's not very efficient. To push, enemy tries to find weak spots to prob for those weak spots and when they break through, they try to join two salients together and encircle entire frontline. (Shown with red arrows on the picture below)
+![Railway and attrition](/images/opinions/great-patriotic-war/image41.png)
 
-In this potential encirclement German land forces also cut railway line from Kiev. (Shown with red X-sign on the picture below) During 2nd world war most of soldiers were supplied with railway, that was the most efficient way to supply armies in a long distance. Aircrafts (transport planes) were faster, but could transfer less supplies and were more expensive, while trucks or horses couldn't transfer long distances as trains could. Cutting railway road sometimes meant, that divisions not receiving supply would attrition, form lack of food and ammunition. In the picture below attrition is shown by the red color. In order to be able to resupply troops in a full scale, we need to construct new railway road connecting Minsk to Zhytomyr (shown with black arrow on the image below). With the help of our heroic workers, we were able to rebuild railway road, get supplied, and now we could think about counterattacking.
+![Counterattack and encirclement](/images/opinions/great-patriotic-war/image42.png)
 
-One thing to know about salients is that if initially it's not successful to surround you, and you stabilize the front, you can counter-attack and surround enemy on your own. It's kind of double game, where they can surround you, but also you can cut them off. (Counterattack plan shown with the pink line on the picture)
+![Encirclement success](/images/opinions/great-patriotic-war/image43.png)
 
-As planned operation was successful and German army got encircled.
+![Meme](/images/opinions/great-patriotic-war/image44.png)
 
-Obviously controlling troops in real life is much more complicated, than in the game, but generally problem in any modern war is similar: try to cut off your enemy from its supply lines, without letting them cut you off from yours. I hope with this example I was able to present and explain macro strategizing during major wars.
+Here's a quote about encirclements in war:
 
-![Encirclement success](/images/opinions/great-patriotic-war/image42.png)
+> "A peculiarity of any encirclement battle… is that on the front line an enormous breach is created, which either requires a large number of reserves to be put into battle to plug the gap or requires a consolidating front to be extended on both sides of the void that has formed. The encirclement… of the 6th Army… led to precisely this situation."  
+> — Alexei Isaev, *The Battle of Kharkov*
 
-Here's an interesting quote about encirclements in war: "A peculiarity of any encirclement battle… is that a on the front line an enormous breach is created, which either requires a large number of reserves to be put into battle to plug the gap or requires a consolidating front to be extended on both sides of the void that has formed. The encirclement… of the 6th Army… led to precisely this situation." Alexei Isaev, "The battle of Kharkov"
+After the encirclement and surrender of the German 6th Army at Stalingrad (the first such surrender in German military history since 1800), Germany lost the initiative. Stalingrad was fought for every street and every floor—"rat warfare"—where the smarter, braver, trickier soldier won.
 
-After the encirclement and surrender of the German 6th Army in Stalingrad (btw first encirclement and surrender in whole German militaristic history since 1800), Germany lost the initiative in the war. I mentioned Stalingrad multiply times because I want to emphasize, how important was that victory and how hard was that to achieve. Fighting for every street, every floor of the buildings. There were multiple cases for "cake fighting": when 1st and 3rd floors were under German control, while Soviets continued resistance on the 2nd floor. Warfare in Stalingrad, Germans were calling "rat warfare". Here technological superiority won't matter, the winner will always be the soldier who is smarter, braver, trickier, more ingenious (Is this how heaven looks like?)
+![Stalingrad](/images/opinions/great-patriotic-war/image45.png)
 
-Anyways, after this glorious victory Soviet Union continued fighting desperately for another 3 years to raise flag over Berlin. But this war was never fought with honor from German side. When Soviet troops entered Nazi concentration camps in Poland world saw crimes they never expected (they knew that innocent people were being killed based on their national identity, but no one expected everything to be so extreme). Thousands of fresh killed human bodies were found rotting Auschwitz concentration camp (biggest concentration camp in human history) no one to bury them. Millions of people including children, pregnant women, elderly were used as forced labor. During occupation of Ukraine, population of Ukraine dropped 4 times, due to the killing of civilian population and deportation to work in Germany. Killed were not only Jews but also Poles, Russians, Ukrainians, Belarussians, Serbs, etc. We all should be grateful to those, who gave their lives to stops crimes against humanity.
+![Aftermath](/images/opinions/great-patriotic-war/image46.jpeg)
+
+## Afterword
+
+After that victory the Soviet Union fought for another three years until the flag was raised over Berlin. This war was not fought with honor by the German side. When Soviet troops entered Nazi concentration camps in Poland, the world saw crimes it had not fully expected. At Auschwitz, thousands of bodies lay unburied. Millions, including children, were used as forced labor. During occupation of Ukraine, the population dropped sharply. Those killed were not only Jews but also Poles, Russians, Ukrainians, Belarussians, Serbs, etc. We should be grateful to those who gave their lives to stop these crimes.
 
 Hearts of Iron IV does not actually depict these atrocities—the Holocaust, concentration camps, mass killings of civilians, or the full horror of occupation. That is a deliberate and controversial choice: if such things were included in the game, players would be able to commit atrocities themselves, which would be unacceptable. Nevertheless, it is very important that we remember and know what happened. Games like HoI IV can teach us a lot about strategy, industry, and the shape of the war; they cannot and should not turn the worst of human cruelty into gameplay. Remembering the victims and understanding the scale of the crimes is part of honoring history and ensuring we do not repeat it.
 
-I was planning to finish this "class-report thingy" by Christmas, but since gameplay took longer, and later I was lazy to write everything down, I ended up doing most of the writing yesterday. Yet I want to finish this "class-report thingy" with the same Christmas celebration quotes by the Franklin Roosevelt, since I find the quote is very epic and heroic.
+![Memorial](/images/opinions/great-patriotic-war/image47.png)
 
-"I cannot say "Merry Christmas" – for I think constantly of those thousands of soldiers and sailors who are in actual combat throughout the world – but I can express to you my thought that this is a happier Christmas than last year in the sense that the forces of darkness stand against us with less confidence in the success of their evil ways."
-Franklin Roosevelt, December 1942
+I was planning to finish this "class-report thingy" by Christmas, but since gameplay took longer and later I was lazy to write everything down, I ended up doing most of the writing in one go. Yet I want to finish with the same Christmas quote by Franklin Roosevelt, since I find it very epic and heroic:
+
+![Roosevelt](/images/opinions/great-patriotic-war/image48.jpeg)
+
+> "I cannot say 'Merry Christmas' – for I think constantly of those thousands of soldiers and sailors who are in actual combat throughout the world – but I can express to you my thought that this is a happier Christmas than last year in the sense that the forces of darkness stand against us with less confidence in the success of their evil ways."  
+> — Franklin Roosevelt, December 1942
+
+![Honorable mention](/images/opinions/great-patriotic-war/image49.jpeg)
+
+![Before/after](/images/opinions/great-patriotic-war/image280.png)
+
+![Before/after](/images/opinions/great-patriotic-war/image300.png)
+
+![Before/after](/images/opinions/great-patriotic-war/image310.png)
+
+![Before/after](/images/opinions/great-patriotic-war/image320.png)
+
+![Before/after](/images/opinions/great-patriotic-war/image330.png)
