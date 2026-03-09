@@ -69,7 +69,7 @@ author_profile: true
 <div id="resources-container">
   {% for post in resources %}
     {% if post.categories and post.categories.size > 0 %}
-      {% assign item_cats = post.categories | join: " " %}
+      {% assign item_cats = post.categories | join: "|" %}
     {% else %}
       {% assign item_cats = post.category | default: "" %}
     {% endif %}
@@ -123,9 +123,10 @@ author_profile: true
   
   function applyFilters() {
     // Filter by category: show item if ANY of its categories are in activeCategories
+    // Categories are pipe-separated so multi-word names like "High seas" stay intact
     const filteredItems = allResourceItems.filter(item => {
       const catsStr = item.getAttribute('data-categories') || '';
-      const itemCats = catsStr.trim().split(/\s+/).filter(Boolean);
+      const itemCats = catsStr.split('|').map(s => s.trim()).filter(Boolean);
       return itemCats.some(c => activeCategories.has(c));
     });
     
