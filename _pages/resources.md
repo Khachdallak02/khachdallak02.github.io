@@ -49,8 +49,8 @@ author_profile: true
 {% assign per_page = 10 %}
 
 <div id="category-filters" style="text-align: left; margin-top: 40px; margin-bottom: 30px; display: flex; justify-content: flex-start; gap: 15px; flex-wrap: wrap;">
-  <button class="category-filter-btn active" data-category="Piracy" title="Piracy" style="width: 55px; height: 55px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
-    <img src="{{ base_path }}/images/icons/11.png" alt="Piracy" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  <button class="category-filter-btn active" data-category="High seas" title="High seas" style="width: 55px; height: 55px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/icons/11.png" alt="High seas" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="category-filter-btn active" data-category="AI" title="AI" style="width: 55px; height: 55px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/2.svg" alt="AI" style="width: 100%; height: 100%; object-fit: cover; display: block;">
@@ -91,7 +91,7 @@ author_profile: true
 (function() {
   const perPage = {{ per_page }};
   const allResourceItems = Array.from(document.querySelectorAll('.resource-item'));
-  let activeCategories = new Set(['Piracy', 'AI', 'Windows', 'Android', 'Gaming']);
+  let activeCategories = new Set(['High seas', 'AI', 'Windows', 'Android', 'Gaming']);
   let currentPage = 1;
   
   // Get page from URL or default to 1
