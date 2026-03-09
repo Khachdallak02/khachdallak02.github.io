@@ -146,10 +146,15 @@ layout: default
 (function() {
   var el = document.getElementById('cardano-proof');
   if (!el) return;
+  var animationClass = 'animate__pulse'; // Animate.css: gentle scale pulse (runs once in v4)
   function highlight() {
-    el.classList.add('cardano-proof--highlight');
+    el.classList.remove('cardano-proof--highlight', 'animate__animated', animationClass);
+    el.offsetHeight;
+    el.classList.add('cardano-proof--highlight', 'animate__animated', animationClass);
     window.clearTimeout(el._highlightTimeout);
-    el._highlightTimeout = window.setTimeout(function() { el.classList.remove('cardano-proof--highlight'); }, 2000);
+    el._highlightTimeout = window.setTimeout(function() {
+      el.classList.remove('cardano-proof--highlight', 'animate__animated', animationClass);
+    }, 1100);
   }
   document.addEventListener('click', function(e) {
     if (e.target.closest('a[href="#cardano-proof"]')) highlight();
