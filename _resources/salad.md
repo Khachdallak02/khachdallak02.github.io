@@ -1,9 +1,9 @@
 ---
 title: "Salad"
 collection: resources
-excerpt: "Setup your PC as an AI compute cluster and earn income (more profitable than mining)"
+excerpt: "Turn your PC into an AI compute cluster and earn income—often more profitable than crypto mining. Get paid for sharing spare GPU power."
 date: 2025-02-13
-category: "AI"
+categories: ["AI"]
 header:
   teaser: /images/resources/5.jpg
 link: https://salad.com/download

@@ -14,8 +14,8 @@ author_profile: true
 
 #resources-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  grid-template-columns: 1fr;
+  gap: 24px;
   margin-top: 20px;
 }
 
@@ -35,7 +35,6 @@ author_profile: true
 
 @media (max-width: 768px) {
   #resources-container {
-    grid-template-columns: 1fr;
     gap: 20px;
   }
 }
@@ -69,7 +68,12 @@ author_profile: true
 
 <div id="resources-container">
   {% for post in resources %}
-    <div class="resource-item" data-category="{{ post.category | default: '' }}" style="display: none;">
+    {% if post.categories and post.categories.size > 0 %}
+      {% assign item_cats = post.categories | join: " " %}
+    {% else %}
+      {% assign item_cats = post.category | default: "" %}
+    {% endif %}
+    <div class="resource-item" data-categories="{{ item_cats | strip }}" style="display: none;">
       {% include archive-single-resource.html %}
     </div>
   {% endfor %}
@@ -118,10 +122,11 @@ author_profile: true
   }
   
   function applyFilters() {
-    // First, filter by category
+    // Filter by category: show item if ANY of its categories are in activeCategories
     const filteredItems = allResourceItems.filter(item => {
-      const category = item.getAttribute('data-category') || '';
-      return activeCategories.has(category);
+      const catsStr = item.getAttribute('data-categories') || '';
+      const itemCats = catsStr.trim().split(/\s+/).filter(Boolean);
+      return itemCats.some(c => activeCategories.has(c));
     });
     
     // Recalculate pagination based on filtered items

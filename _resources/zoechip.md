@@ -1,9 +1,9 @@
 ---
 title: "Zoechip"
 collection: resources
-excerpt: "All movies in one website, reject modernity embrace tradition"
+excerpt: "Stream or find movies and shows in one place. All-in-one movie site—reject modernity, embrace tradition."
 date: 2026-02-13
-category: "Piracy"
+categories: ["Piracy"]
 header:
   teaser: /images/resources/6.png
 link: https://zoechip.cc/home
