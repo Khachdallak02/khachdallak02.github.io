@@ -8,6 +8,8 @@ header:
 share: false
 ---
 
+**WRITING OF THIS ARTICLE IS STILL IN PROGRESS. PARAGRAPHS AND FORMATTING ARE NOT FINAL**
+
 *Здравствуйте товарищи!* — Greetings comrades! I always loved war history. I have grown up fantasizing about Viking invasions, Charlemagne conquests, 100 years' war, Napoleonic wars, Second World War. But I never liked the school way of teaching history: giving no actual explanation of how warfare, politics, and economy were organized during the time period, textbooks usually emphasize facts, names and dates, killing any possible love towards history that students might have had. Fortunately I was exposed to a lot of historical strategy games. Using one of them—Hearts of Iron IV—I want to tell the great story of the victory in the Second World War, and show **how the game depicts that history** compared to how it really was.
 
 **Historically**, the Great Patriotic War was part of the 2nd World War and constituted the largest military confrontation in history between the Soviet Union and Axis powers on the European side. Below we look at the situation from the Soviet perspective: what actually happened, and **how Hearts of Iron IV represents it**.
