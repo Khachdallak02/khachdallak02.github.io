@@ -121,8 +121,8 @@ I was planning to finish this "class-report thingy" by Christmas, but since game
 
 > "I cannot say 'Merry Christmas' – for I think constantly of those thousands of soldiers and sailors who are in actual combat throughout the world – but I can express to you my thought that this is a happier Christmas than last year in the sense that the forces of darkness stand against us with less confidence in the success of their evil ways."  
 > — Franklin Roosevelt, December 1942
-
 ### Honorable mentions
 
 *German kids and Königstiger (Tiger II): infinite love inside a single photo.*  
 *Kronach, Germany 1945... And now. Always wanted to find a place to take a similar photo. But I want to find it alone, so that the place isn't popular. There was one place in St. Petersburg (Peterhof) that was destroyed by Nazis during occupation, and I have been there, but the photo comparing before and now is actually pretty famous (it is even provided in the museum). So, this isn't something I came up with myself originally. I hope the next "class-report thingy" will start with my own image.*
+

@@ -141,3 +141,20 @@ layout: default
     </div>
   {% endif %}
 </div>
+
+<script>
+(function() {
+  var el = document.getElementById('cardano-proof');
+  if (!el) return;
+  function highlight() {
+    el.classList.add('cardano-proof--highlight');
+    window.clearTimeout(el._highlightTimeout);
+    el._highlightTimeout = window.setTimeout(function() { el.classList.remove('cardano-proof--highlight'); }, 4000);
+  }
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('a[href="#cardano-proof"]')) highlight();
+  });
+  if (window.location.hash === '#cardano-proof') highlight();
+  window.addEventListener('hashchange', function() { if (window.location.hash === '#cardano-proof') highlight(); });
+})();
+</script>

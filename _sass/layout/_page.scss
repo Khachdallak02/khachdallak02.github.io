@@ -414,18 +414,12 @@
   border: 1px solid var(--global-border-color, #e9ecef);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
   scroll-margin-top: 2em;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
 
-  &:target {
-    animation: cardano-proof-highlight 1.5s ease-out;
-  }
-}
-
-@keyframes cardano-proof-highlight {
-  0% {
-    box-shadow: 0 0 0 3px var(--global-theme-color, #0f4c81);
-  }
-  100% {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  &:target,
+  &--highlight {
+    box-shadow: 0 0 0 4px var(--global-theme-color, #0f4c81);
+    background: rgba(15, 76, 129, 0.08);
   }
 }
 
