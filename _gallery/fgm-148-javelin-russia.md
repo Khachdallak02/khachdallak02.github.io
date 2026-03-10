@@ -1,7 +1,7 @@
 ---
-title: "Anti-tank missile system FGM-148 Javelin, Russia"
+title: "Anti-tank missile system FGM-148 Javelin"
 collection: gallery
-excerpt: "Anti-tank missile system FGM-148 Javelin, Russia"
+excerpt: "Anti-tank missile system FGM-148 Javelin"
 date: 2024-07-25
 country: "Russia"
 header:
