@@ -45,10 +45,7 @@ author_profile: true
 </div>
 
 {% assign sorted = site.resources | sort: 'date' | reverse %}
-{% assign high_seas_resources = sorted | where_exp: "item", "item.categories contains 'High seas'" %}
-{% assign other_resources = sorted | where_exp: "item", "item.categories contains 'High seas' == false" %}
-{% assign resources = other_resources | concat: high_seas_resources %}
-{% assign total_resources = resources | size %}
+{% assign total_resources = site.resources | size %}
 {% assign per_page = 10 %}
 
 <div id="category-filters" style="text-align: left; margin-top: 40px; margin-bottom: 30px; display: flex; justify-content: flex-start; gap: 12px; flex-wrap: wrap;">
@@ -88,15 +85,29 @@ author_profile: true
 </div>
 
 <div id="resources-container">
-  {% for post in resources %}
-    {% if post.categories and post.categories.size > 0 %}
-      {% assign item_cats = post.categories | join: "|" %}
-    {% else %}
-      {% assign item_cats = post.category | default: "" %}
+  {% for post in sorted %}
+    {% unless post.categories contains 'High seas' %}
+      {% if post.categories and post.categories.size > 0 %}
+        {% assign item_cats = post.categories | join: "|" %}
+      {% else %}
+        {% assign item_cats = post.category | default: "" %}
+      {% endif %}
+      <div class="resource-item" data-categories="{{ item_cats | strip }}" style="display: none;">
+        {% include archive-single-resource.html %}
+      </div>
+    {% endunless %}
+  {% endfor %}
+  {% for post in sorted %}
+    {% if post.categories contains 'High seas' %}
+      {% if post.categories and post.categories.size > 0 %}
+        {% assign item_cats = post.categories | join: "|" %}
+      {% else %}
+        {% assign item_cats = post.category | default: "" %}
+      {% endif %}
+      <div class="resource-item" data-categories="{{ item_cats | strip }}" style="display: none;">
+        {% include archive-single-resource.html %}
+      </div>
     {% endif %}
-    <div class="resource-item" data-categories="{{ item_cats | strip }}" style="display: none;">
-      {% include archive-single-resource.html %}
-    </div>
   {% endfor %}
 </div>
 
