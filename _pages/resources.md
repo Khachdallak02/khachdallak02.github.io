@@ -44,42 +44,45 @@ author_profile: true
   <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-bottom: 0;">Tools that deserve free advertisement</p>
 </div>
 
-{% assign resources = site.resources | sort: 'date' | reverse %}
+{% assign sorted = site.resources | sort: 'date' | reverse %}
+{% assign high_seas_resources = sorted | where_exp: "item", "item.categories contains 'High seas'" %}
+{% assign other_resources = sorted | where_exp: "item", "item.categories contains 'High seas' == false" %}
+{% assign resources = other_resources | concat: high_seas_resources %}
 {% assign total_resources = resources | size %}
 {% assign per_page = 10 %}
 
 <div id="category-filters" style="text-align: left; margin-top: 40px; margin-bottom: 30px; display: flex; justify-content: flex-start; gap: 12px; flex-wrap: wrap;">
-  <button class="category-filter-btn active" data-category="High seas" title="High seas" style="width: 48px; height: 48px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+  <button class="category-filter-btn active" data-category="High seas" title="High seas" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/11.png" alt="High seas" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
-  <button class="category-filter-btn active" data-category="AI" title="AI" style="width: 48px; height: 48px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+  <button class="category-filter-btn active" data-category="AI" title="AI" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/2.svg" alt="AI" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
-  <button class="category-filter-btn active" data-category="Windows" title="Windows" style="width: 48px; height: 48px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+  <button class="category-filter-btn active" data-category="Windows" title="Windows" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/33.png" alt="Windows" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
-  <button class="category-filter-btn active" data-category="Browser" title="Browser" style="width: 48px; height: 48px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+  <button class="category-filter-btn active" data-category="Browser" title="Browser" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/browser.png" alt="Browser" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
-  <button class="category-filter-btn active" data-category="Android" title="Android" style="width: 48px; height: 48px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+  <button class="category-filter-btn active" data-category="Android" title="Android" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/4.png" alt="Android" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
-  <button class="category-filter-btn active" data-category="Gaming" title="Gaming" style="width: 48px; height: 48px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+  <button class="category-filter-btn active" data-category="Gaming" title="Gaming" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/5.webp" alt="Gaming" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
-  <button class="category-filter-btn active" data-category="Cryptocurrency" title="Cryptocurrency" style="width: 48px; height: 48px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+  <button class="category-filter-btn active" data-category="Cryptocurrency" title="Cryptocurrency" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/bitcoin.png" alt="Cryptocurrency" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
-  <button class="category-filter-btn active" data-category="Bioinformatics" title="Bioinformatics" style="width: 48px; height: 48px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+  <button class="category-filter-btn active" data-category="Bioinformatics" title="Bioinformatics" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/bioinformatics.png" alt="Bioinformatics" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
-  <button class="category-filter-btn active" data-category="Military history" title="Military history" style="width: 48px; height: 48px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+  <button class="category-filter-btn active" data-category="Military history" title="Military history" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/military-history.png" alt="Military history" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
-  <button class="category-filter-btn active" data-category="Python package" title="Python package" style="width: 48px; height: 48px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+  <button class="category-filter-btn active" data-category="Python package" title="Python package" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/python-package.png" alt="Python package" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
-  <button class="category-filter-btn active" data-category="YouTube channel" title="YouTube channel" style="width: 48px; height: 48px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+  <button class="category-filter-btn active" data-category="YouTube channel" title="YouTube channel" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/youtube.png" alt="YouTube channel" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
 </div>
