@@ -71,18 +71,16 @@ author_profile: true
 ## Preprints
 
 <div style="margin-bottom: 1em; font-size: 0.9em; color: #666;">
-<sup>*</sup> equal first authors &nbsp;&nbsp; <sup>†</sup> corresponding authors <br>
+<sup>†</sup> denotes equal contribution <br>
 </div>
 
 <div class="publication-container">
   <div class="publication-text">
     <h3>Systematic Benchmarking of Single-cell Transcriptomics Search Engines</h3>
     
-    <p><strong>Authors:</strong> Yimin Fan<sup>*</sup>, Kin Hei Lee<sup>*</sup>, Xinyuan Liu<sup>*</sup>, <span style="color: #E6B800;">Khachatur Dallakyan</span><sup>*</sup>, Seyoung Jin<sup>*</sup>, Baekgyu Choi, Xuesong Wang, Yixuan Wang, Licheng Zong, Yue Li<sup>†</sup>, Inkyung Jung<sup>†</sup>, Yu Li</p>
+    <p><strong>Authors:</strong> Yimin Fan<sup>†</sup>, Kin Hei Lee<sup>†</sup>, Xinyuan Liu<sup>†</sup>, <span style="color: #E6B800;">Khachatur Dallakyan</span><sup>†</sup>, Seyoung Jin<sup>†</sup>, Baekgyu Choi, Xuesong Wang, Yixuan Wang, Licheng Zong, Yue Li, Inkyung Jung, Yu Li</p>
     
     <p><strong>Journal:</strong> Nature Methods</p>
-    
-    <p>The aim is to evaluate single-cell transcriptomics models across diverse, large-scale datasets to understand their capabilities and limitations for cell similarity search. Through this project, I gained experience comparing traditional approaches with foundation models across different platforms, species, and technologies, and learned how to design benchmarks for challenging scenarios where ground truth is ambiguous.</p>
   </div>
   
   <div class="publication-image">
