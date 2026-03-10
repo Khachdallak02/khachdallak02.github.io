@@ -58,11 +58,29 @@ author_profile: true
   <button class="category-filter-btn active" data-category="Windows" title="Windows" style="width: 55px; height: 55px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/33.png" alt="Windows" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
+  <button class="category-filter-btn active" data-category="Browser" title="Browser" style="width: 55px; height: 55px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/icons/browser.png" alt="Browser" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
   <button class="category-filter-btn active" data-category="Android" title="Android" style="width: 55px; height: 55px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/4.png" alt="Android" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="category-filter-btn active" data-category="Gaming" title="Gaming" style="width: 55px; height: 55px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/5.webp" alt="Gaming" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="category-filter-btn active" data-category="Cryptocurrency" title="Cryptocurrency" style="width: 55px; height: 55px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/icons/bitcoin.png" alt="Cryptocurrency" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="category-filter-btn active" data-category="Bioinformatics" title="Bioinformatics" style="width: 55px; height: 55px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/icons/bioinformatics.png" alt="Bioinformatics" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="category-filter-btn active" data-category="Military history" title="Military history" style="width: 55px; height: 55px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/icons/military-history.png" alt="Military history" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="category-filter-btn active" data-category="Python package" title="Python package" style="width: 55px; height: 55px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/icons/python-package.png" alt="Python package" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </button>
+  <button class="category-filter-btn active" data-category="YouTube channel" title="YouTube channel" style="width: 55px; height: 55px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
+    <img src="{{ base_path }}/images/icons/youtube.png" alt="YouTube channel" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
 </div>
 
@@ -91,7 +109,7 @@ author_profile: true
 (function() {
   const perPage = {{ per_page }};
   const allResourceItems = Array.from(document.querySelectorAll('.resource-item'));
-  let activeCategories = new Set(['High seas', 'AI', 'Windows', 'Android', 'Gaming']);
+  let activeCategories = new Set(['High seas', 'AI', 'Windows', 'Browser', 'Android', 'Gaming', 'Cryptocurrency', 'Bioinformatics', 'Military history', 'Python package', 'YouTube channel']);
   let currentPage = 1;
   
   // Get page from URL or default to 1
