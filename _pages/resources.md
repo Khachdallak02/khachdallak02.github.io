@@ -39,13 +39,12 @@ author_profile: true
   padding: 0;
   border: 2px solid #e2e2e2;
   border-radius: 8px;
-  background: #fff;
+  background: transparent;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 .category-toggle-all-btn i {
@@ -59,9 +58,7 @@ author_profile: true
 }
 
 .category-toggle-all-btn:hover {
-  background: #f8f9fa;
   border-color: #ccc;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 .category-toggle-all-btn:hover i {

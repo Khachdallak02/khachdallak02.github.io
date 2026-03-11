@@ -76,9 +76,8 @@ author_profile: true
   height: 45px;
   border: 2px solid #e2e2e2;
   border-radius: 8px;
-  background: #fff;
+  background: transparent;
   color: #9e9e9e;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
   transition: all 0.2s ease;
 }
 
@@ -93,10 +92,8 @@ author_profile: true
 }
 
 .flags-toggle-all-btn:hover {
-  background: #f8f9fa;
   border-color: #ccc;
   color: #757575;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 .flags-toggle-all-btn:hover .fa-check-square {
