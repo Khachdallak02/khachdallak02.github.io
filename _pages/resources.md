@@ -33,18 +33,19 @@ author_profile: true
   opacity: 1;
 }
 
+/* Select-all: ghost icon button (no border), checkbox icon shows state */
 .category-toggle-all-btn {
   width: 50px;
   height: 50px;
   padding: 0;
-  border: 2px solid #e2e2e2;
+  border: none;
   border-radius: 8px;
   background: transparent;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.2s ease;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 .category-toggle-all-btn i {
@@ -58,15 +59,20 @@ author_profile: true
 }
 
 .category-toggle-all-btn:hover {
-  border-color: #ccc;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .category-toggle-all-btn:hover i {
-  color: #757575;
+  color: #616161;
 }
 
 .category-toggle-all-btn:hover .fa-check-square {
   color: #1b5e20;
+}
+
+.category-toggle-all-btn:focus-visible {
+  outline: 2px solid #2e7d32;
+  outline-offset: 2px;
 }
 
 @media (max-width: 768px) {

@@ -70,15 +70,20 @@ author_profile: true
   border-color: #2e7d32;
 }
 
-/* Select-all checkbox: same visual style as Resources, sized to match layout buttons */
+/* Select-all: ghost icon button (no border), same style as Resources */
 .flags-toggle-all-btn {
   width: 45px;
   height: 45px;
-  border: 2px solid #e2e2e2;
+  padding: 0;
+  border: none;
   border-radius: 8px;
   background: transparent;
   color: #9e9e9e;
-  transition: all 0.2s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 .flags-toggle-all-btn i {
@@ -92,12 +97,17 @@ author_profile: true
 }
 
 .flags-toggle-all-btn:hover {
-  border-color: #ccc;
-  color: #757575;
+  background: rgba(0, 0, 0, 0.05);
+  color: #616161;
 }
 
 .flags-toggle-all-btn:hover .fa-check-square {
   color: #1b5e20;
+}
+
+.flags-toggle-all-btn:focus-visible {
+  outline: 2px solid #2e7d32;
+  outline-offset: 2px;
 }
 
 .country-filter-btn {
