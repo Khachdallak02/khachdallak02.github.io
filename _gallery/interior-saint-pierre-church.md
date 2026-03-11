@@ -1,7 +1,7 @@
 ---
 title: "Interior of the Saint-Pierre Church"
 collection: gallery
-excerpt: "Interior of the Saint-Pierre Church; Belgium, Jan 2nd 2025"
+excerpt: "Interior of the Saint-Pierre Church"
 date: 2025-01-02
 country: "Belgium"
 header:

@@ -1,7 +1,7 @@
 ---
 title: "Jagdpanzer 38(t) tank destroyer"
 collection: gallery
-excerpt: "Jagdpanzer 38(t) tank destroyer; Belgium, Jan 2nd 2025"
+excerpt: "Jagdpanzer 38(t) tank destroyer"
 date: 2025-01-02
 country: "Belgium"
 header:

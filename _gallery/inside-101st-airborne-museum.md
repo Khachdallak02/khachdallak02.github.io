@@ -1,7 +1,7 @@
 ---
 title: "Inside 101st Airborne's museum"
 collection: gallery
-excerpt: "Inside 101st Airborne's museum; Belgium, Jan 5th 2025"
+excerpt: "Inside 101st Airborne's museum"
 date: 2025-01-05
 country: "Belgium"
 header:
