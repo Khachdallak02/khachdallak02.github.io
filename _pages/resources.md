@@ -35,15 +35,18 @@ author_profile: true
 
 .category-toggle-all-btn {
   height: 50px;
-  padding: 0 16px;
+  width: 50px;
+  padding: 0;
   border: 2px solid #ddd;
   border-radius: 8px;
   background: white;
   cursor: pointer;
-  font-size: 0.85em;
-  font-weight: 600;
+  font-size: 1.1em;
   color: #666;
   transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .category-toggle-all-btn:hover {
@@ -67,7 +70,6 @@ author_profile: true
 {% assign per_page = 10 %}
 
 <div id="category-filters" style="text-align: left; margin-top: 40px; margin-bottom: 30px; display: flex; justify-content: flex-start; gap: 12px; flex-wrap: wrap; align-items: center;">
-  <button type="button" id="resources-toggle-all-btn" class="category-toggle-all-btn" title="Deselect or select all categories">Deselect all</button>
   <button class="category-filter-btn active" data-category="High seas" title="High seas" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/11.png" alt="High seas" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
@@ -101,6 +103,7 @@ author_profile: true
   <button class="category-filter-btn active" data-category="YouTube channel" title="YouTube channel" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/youtube.png" alt="YouTube channel" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
+  <button type="button" id="resources-toggle-all-btn" class="category-toggle-all-btn" title="Deselect all categories" aria-label="Deselect or select all categories"><i class="fas fa-check-double" aria-hidden="true"></i></button>
 </div>
 
 <div id="resources-container">
@@ -163,7 +166,8 @@ author_profile: true
     if (!toggleBtn) return;
     const allCats = getAllCategories();
     const allActive = allCats.length > 0 && allCats.every(c => activeCategories.has(c));
-    toggleBtn.textContent = allActive ? 'Deselect all' : 'Select all';
+    toggleBtn.title = allActive ? 'Deselect all categories' : 'Select all categories';
+    toggleBtn.setAttribute('aria-label', allActive ? 'Deselect all categories' : 'Select all categories');
   }
   
   function initializeCategoryFilters() {

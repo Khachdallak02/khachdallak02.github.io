@@ -70,11 +70,7 @@ author_profile: true
 }
 
 .flags-toggle-all-btn {
-  width: auto;
-  min-width: 45px;
-  padding: 0 12px;
-  font-size: 0.8em;
-  font-weight: 600;
+  width: 45px;
 }
 
 .country-filter-btn {
@@ -121,7 +117,7 @@ author_profile: true
 <div class="layout-toggle-container">
   <button class="layout-toggle-btn active" data-layout="2" title="2 pictures per row"><i class="fas fa-th-large" aria-hidden="true"></i></button>
   <button class="layout-toggle-btn" data-layout="4" title="4 pictures per row"><i class="fas fa-th" aria-hidden="true"></i></button>
-  <button type="button" id="gallery-flags-toggle-all-btn" class="layout-toggle-btn flags-toggle-all-btn" title="Deselect or select all country filters">Deselect all</button>
+  <button type="button" id="gallery-flags-toggle-all-btn" class="layout-toggle-btn flags-toggle-all-btn" title="Deselect all country filters" aria-label="Deselect or select all country filters"><i class="fas fa-check-double" aria-hidden="true"></i></button>
 </div>
 
 {% if site.gallery %}
@@ -197,7 +193,8 @@ author_profile: true
     if (!toggleBtn) return;
     const allCountries = getAllCountries();
     const allActive = allCountries.length > 0 && allCountries.every(c => activeCountries.has(c));
-    toggleBtn.textContent = allActive ? 'Deselect all' : 'Select all';
+    toggleBtn.title = allActive ? 'Deselect all country filters' : 'Select all country filters';
+    toggleBtn.setAttribute('aria-label', allActive ? 'Deselect all country filters' : 'Select all country filters');
   }
   
   // Initialize layout
