@@ -33,6 +33,24 @@ author_profile: true
   opacity: 1;
 }
 
+.category-toggle-all-btn {
+  height: 50px;
+  padding: 0 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #666;
+  transition: all 0.3s ease;
+}
+
+.category-toggle-all-btn:hover {
+  background: #f5f5f5;
+  border-color: #999;
+}
+
 @media (max-width: 768px) {
   #resources-container {
     gap: 20px;
@@ -48,7 +66,8 @@ author_profile: true
 {% assign total_resources = site.resources | size %}
 {% assign per_page = 10 %}
 
-<div id="category-filters" style="text-align: left; margin-top: 40px; margin-bottom: 30px; display: flex; justify-content: flex-start; gap: 12px; flex-wrap: wrap;">
+<div id="category-filters" style="text-align: left; margin-top: 40px; margin-bottom: 30px; display: flex; justify-content: flex-start; gap: 12px; flex-wrap: wrap; align-items: center;">
+  <button type="button" id="resources-toggle-all-btn" class="category-toggle-all-btn" title="Deselect or select all categories">Deselect all</button>
   <button class="category-filter-btn active" data-category="High seas" title="High seas" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/11.png" alt="High seas" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
@@ -135,6 +154,18 @@ author_profile: true
   }
   
   // Category filter functionality
+  function getAllCategories() {
+    return Array.from(document.querySelectorAll('.category-filter-btn')).map(btn => btn.getAttribute('data-category')).filter(Boolean);
+  }
+  
+  function updateToggleAllButton() {
+    const toggleBtn = document.getElementById('resources-toggle-all-btn');
+    if (!toggleBtn) return;
+    const allCats = getAllCategories();
+    const allActive = allCats.length > 0 && allCats.every(c => activeCategories.has(c));
+    toggleBtn.textContent = allActive ? 'Deselect all' : 'Select all';
+  }
+  
   function initializeCategoryFilters() {
     const filterButtons = document.querySelectorAll('.category-filter-btn');
     filterButtons.forEach(btn => {
@@ -149,8 +180,32 @@ author_profile: true
         }
         currentPage = 1; // Reset to first page on filter change
         applyFilters();
+        updateToggleAllButton();
       });
     });
+    
+    // Toggle all (deselect all / select all) button
+    const toggleAllBtn = document.getElementById('resources-toggle-all-btn');
+    if (toggleAllBtn) {
+      toggleAllBtn.addEventListener('click', function() {
+        const allCats = getAllCategories();
+        const allActive = allCats.length > 0 && allCats.every(c => activeCategories.has(c));
+        if (allActive) {
+          activeCategories.clear();
+          filterButtons.forEach(btn => {
+            btn.classList.remove('active');
+          });
+        } else {
+          allCats.forEach(c => activeCategories.add(c));
+          filterButtons.forEach(btn => {
+            btn.classList.add('active');
+          });
+        }
+        currentPage = 1;
+        applyFilters();
+        updateToggleAllButton();
+      });
+    }
   }
   
   function applyFilters() {
@@ -310,6 +365,9 @@ author_profile: true
   
   // Initialize category filters
   initializeCategoryFilters();
+  
+  // Set initial toggle-all button label
+  updateToggleAllButton();
   
   // Initialize page display (this will also initialize pagination)
   applyFilters(); // Call applyFilters directly to show initial items

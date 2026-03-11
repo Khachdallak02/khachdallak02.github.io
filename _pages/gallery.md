@@ -69,6 +69,14 @@ author_profile: true
   border-color: #2e7d32;
 }
 
+.flags-toggle-all-btn {
+  width: auto;
+  min-width: 45px;
+  padding: 0 12px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
 .country-filter-btn {
   transition: all 0.3s ease;
 }
@@ -113,6 +121,7 @@ author_profile: true
 <div class="layout-toggle-container">
   <button class="layout-toggle-btn active" data-layout="2" title="2 pictures per row"><i class="fas fa-th-large" aria-hidden="true"></i></button>
   <button class="layout-toggle-btn" data-layout="4" title="4 pictures per row"><i class="fas fa-th" aria-hidden="true"></i></button>
+  <button type="button" id="gallery-flags-toggle-all-btn" class="layout-toggle-btn flags-toggle-all-btn" title="Deselect or select all country filters">Deselect all</button>
 </div>
 
 {% if site.gallery %}
@@ -179,6 +188,18 @@ author_profile: true
   let currentLayout = localStorage.getItem('galleryLayout') || '2';
   const galleryContainer = document.getElementById('gallery-container');
   
+  function getAllCountries() {
+    return Array.from(document.querySelectorAll('.country-filter-btn')).map(btn => btn.getAttribute('data-country')).filter(Boolean);
+  }
+  
+  function updateFlagsToggleAllButton() {
+    const toggleBtn = document.getElementById('gallery-flags-toggle-all-btn');
+    if (!toggleBtn) return;
+    const allCountries = getAllCountries();
+    const allActive = allCountries.length > 0 && allCountries.every(c => activeCountries.has(c));
+    toggleBtn.textContent = allActive ? 'Deselect all' : 'Select all';
+  }
+  
   // Initialize layout
   function setLayout(layout) {
     if (!galleryContainer) return;
@@ -234,8 +255,31 @@ author_profile: true
           this.classList.add('active');
         }
         applyFilters();
+        updateFlagsToggleAllButton();
       });
     });
+    
+    // Toggle all flags (deselect all / select all) button
+    const flagsToggleAllBtn = document.getElementById('gallery-flags-toggle-all-btn');
+    if (flagsToggleAllBtn) {
+      flagsToggleAllBtn.addEventListener('click', function() {
+        const allCountries = getAllCountries();
+        const allActive = allCountries.length > 0 && allCountries.every(c => activeCountries.has(c));
+        if (allActive) {
+          activeCountries.clear();
+          filterButtons.forEach(btn => {
+            btn.classList.remove('active');
+          });
+        } else {
+          allCountries.forEach(c => activeCountries.add(c));
+          filterButtons.forEach(btn => {
+            btn.classList.add('active');
+          });
+        }
+        applyFilters();
+        updateFlagsToggleAllButton();
+      });
+    }
   }
   
   function applyFilters() {
@@ -397,6 +441,9 @@ author_profile: true
   
   // Initialize country filters
   initializeCountryFilters();
+  
+  // Set initial flags toggle-all button label
+  updateFlagsToggleAllButton();
   
   // Initialize layout buttons
   initializeLayoutButtons();
