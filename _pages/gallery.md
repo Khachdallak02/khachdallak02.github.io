@@ -63,7 +63,8 @@ author_profile: true
   border-color: #999;
 }
 
-.layout-toggle-btn.active {
+/* Only layout (2/4) buttons get green active state; flags toggle uses checkbox style */
+.layout-toggle-btn[data-layout].active {
   background: #2e7d32;
   color: white;
   border-color: #2e7d32;
@@ -71,6 +72,16 @@ author_profile: true
 
 .flags-toggle-all-btn {
   width: 45px;
+  /* Checkbox-style: neutral look, no green active state */
+  color: #555;
+}
+
+.flags-toggle-all-btn:hover {
+  color: #333;
+}
+
+.flags-toggle-all-btn .fa-check-square {
+  color: #2e7d32;
 }
 
 .country-filter-btn {
@@ -117,7 +128,7 @@ author_profile: true
 <div class="layout-toggle-container">
   <button class="layout-toggle-btn active" data-layout="2" title="2 pictures per row"><i class="fas fa-th-large" aria-hidden="true"></i></button>
   <button class="layout-toggle-btn" data-layout="4" title="4 pictures per row"><i class="fas fa-th" aria-hidden="true"></i></button>
-  <button type="button" id="gallery-flags-toggle-all-btn" class="layout-toggle-btn flags-toggle-all-btn" title="Deselect all country filters" aria-label="Deselect or select all country filters"><i class="fas fa-check-double" aria-hidden="true"></i></button>
+  <button type="button" id="gallery-flags-toggle-all-btn" class="layout-toggle-btn flags-toggle-all-btn" title="Deselect all country filters" aria-label="Deselect or select all country filters"><i class="fas fa-check-square" aria-hidden="true"></i></button>
 </div>
 
 {% if site.gallery %}
@@ -193,6 +204,11 @@ author_profile: true
     if (!toggleBtn) return;
     const allCountries = getAllCountries();
     const allActive = allCountries.length > 0 && allCountries.every(c => activeCountries.has(c));
+    const icon = toggleBtn.querySelector('i');
+    if (icon) {
+      icon.className = allActive ? 'fas fa-check-square' : 'fas fa-square';
+      icon.setAttribute('aria-hidden', 'true');
+    }
     toggleBtn.title = allActive ? 'Deselect all country filters' : 'Select all country filters';
     toggleBtn.setAttribute('aria-label', allActive ? 'Deselect all country filters' : 'Select all country filters');
   }
@@ -205,8 +221,8 @@ author_profile: true
     galleryContainer.classList.add('layout-' + layout);
     localStorage.setItem('galleryLayout', layout);
     
-    // Update button states
-    document.querySelectorAll('.layout-toggle-btn').forEach(btn => {
+    // Update button states (only layout 2/4 buttons get active; flags toggle is separate)
+    document.querySelectorAll('.layout-toggle-btn[data-layout]').forEach(btn => {
       if (btn.getAttribute('data-layout') === layout) {
         btn.classList.add('active');
       } else {
@@ -215,9 +231,9 @@ author_profile: true
     });
   }
   
-  // Initialize layout buttons
+  // Initialize layout buttons (only 2/4 layout buttons, not the flags toggle)
   function initializeLayoutButtons() {
-    const layoutButtons = document.querySelectorAll('.layout-toggle-btn');
+    const layoutButtons = document.querySelectorAll('.layout-toggle-btn[data-layout]');
     if (layoutButtons.length === 0) return;
     layoutButtons.forEach(btn => {
       btn.addEventListener('click', function() {
