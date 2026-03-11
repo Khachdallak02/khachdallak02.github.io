@@ -34,24 +34,42 @@ author_profile: true
 }
 
 .category-toggle-all-btn {
-  height: 50px;
   width: 50px;
+  height: 50px;
   padding: 0;
-  border: 2px solid #ddd;
+  border: 2px solid #e2e2e2;
   border-radius: 8px;
-  background: white;
+  background: #fff;
   cursor: pointer;
-  font-size: 1.1em;
-  color: #666;
-  transition: all 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.category-toggle-all-btn i {
+  font-size: 1.35rem;
+  color: #9e9e9e;
+  transition: color 0.2s ease;
+}
+
+.category-toggle-all-btn .fa-check-square {
+  color: #2e7d32;
 }
 
 .category-toggle-all-btn:hover {
-  background: #f5f5f5;
-  border-color: #999;
+  background: #f8f9fa;
+  border-color: #ccc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.category-toggle-all-btn:hover i {
+  color: #757575;
+}
+
+.category-toggle-all-btn:hover .fa-check-square {
+  color: #1b5e20;
 }
 
 @media (max-width: 768px) {
@@ -103,7 +121,7 @@ author_profile: true
   <button class="category-filter-btn active" data-category="YouTube channel" title="YouTube channel" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/youtube.png" alt="YouTube channel" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
-  <button type="button" id="resources-toggle-all-btn" class="category-toggle-all-btn" title="Deselect all categories" aria-label="Deselect or select all categories"><i class="fas fa-check-double" aria-hidden="true"></i></button>
+  <button type="button" id="resources-toggle-all-btn" class="category-toggle-all-btn" title="Deselect all categories" aria-label="Deselect or select all categories"><i class="fas fa-check-square" aria-hidden="true"></i></button>
 </div>
 
 <div id="resources-container">
@@ -166,6 +184,11 @@ author_profile: true
     if (!toggleBtn) return;
     const allCats = getAllCategories();
     const allActive = allCats.length > 0 && allCats.every(c => activeCategories.has(c));
+    const icon = toggleBtn.querySelector('i');
+    if (icon) {
+      icon.className = allActive ? 'fas fa-check-square' : 'fas fa-square';
+      icon.setAttribute('aria-hidden', 'true');
+    }
     toggleBtn.title = allActive ? 'Deselect all categories' : 'Select all categories';
     toggleBtn.setAttribute('aria-label', allActive ? 'Deselect all categories' : 'Select all categories');
   }

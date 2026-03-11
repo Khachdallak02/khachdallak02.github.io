@@ -70,18 +70,37 @@ author_profile: true
   border-color: #2e7d32;
 }
 
+/* Select-all checkbox: same visual style as Resources, sized to match layout buttons */
 .flags-toggle-all-btn {
   width: 45px;
-  /* Checkbox-style: neutral look, no green active state */
-  color: #555;
+  height: 45px;
+  border: 2px solid #e2e2e2;
+  border-radius: 8px;
+  background: #fff;
+  color: #9e9e9e;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease;
 }
 
-.flags-toggle-all-btn:hover {
-  color: #333;
+.flags-toggle-all-btn i {
+  font-size: 1.2rem;
+  color: inherit;
+  transition: color 0.2s ease;
 }
 
 .flags-toggle-all-btn .fa-check-square {
   color: #2e7d32;
+}
+
+.flags-toggle-all-btn:hover {
+  background: #f8f9fa;
+  border-color: #ccc;
+  color: #757575;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.flags-toggle-all-btn:hover .fa-check-square {
+  color: #1b5e20;
 }
 
 .country-filter-btn {
