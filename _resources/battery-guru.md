@@ -5,6 +5,6 @@ excerpt: "Monitor battery health, temperature, and charging in real time. Alarms
 date: 2025-02-17
 categories: ["Android"]
 header:
-  teaser: /images/resources/118.webp
+  teaser: /images/resources/118.jpg
 link: https://play.google.com/store/apps/details?id=com.paget96.batteryguru
 ---
