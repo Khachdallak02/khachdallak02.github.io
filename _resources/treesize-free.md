@@ -5,6 +5,6 @@ excerpt: "See what’s using your disk space. Visualize folder sizes, find large
 date: 2025-02-17
 categories: ["Windows"]
 header:
-  teaser: /images/resources/treesize.png
+  teaser: /images/resources/101.png
 link: https://apps.microsoft.com/detail/xp9m26rsclnt88?hl=en-US&gl=SE
 ---

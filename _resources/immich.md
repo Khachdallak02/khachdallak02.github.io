@@ -5,6 +5,6 @@ excerpt: "Self-hosted photo and video backup. Google Photos alternative with fac
 date: 2025-02-17
 categories: ["Windows"]
 header:
-  teaser: /images/resources/immich.png
+  teaser: /images/resources/110.webp
 link: https://immich.app/
 ---

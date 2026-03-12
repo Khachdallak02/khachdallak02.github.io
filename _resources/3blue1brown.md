@@ -5,6 +5,6 @@ excerpt: "Math explained with animated visuals. Linear algebra, calculus, neural
 date: 2025-02-17
 categories: ["YouTube channel"]
 header:
-  teaser: /images/resources/3blue1brown.png
+  teaser: /images/resources/120.jpg
 link: https://www.youtube.com/@3blue1brown
 ---

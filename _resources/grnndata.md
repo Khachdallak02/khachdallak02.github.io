@@ -5,6 +5,6 @@ excerpt: "Standardized AnnData-based storage for gene regulatory networks. Store
 date: 2025-02-17
 categories: ["Bioinformatics", "Python package"]
 header:
-  teaser: /images/resources/grnndata.png
+  teaser: /images/resources/111.png
 link: https://github.com/cantinilab/grnndata
 ---

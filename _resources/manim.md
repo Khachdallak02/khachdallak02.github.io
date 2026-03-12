@@ -5,6 +5,6 @@ excerpt: "Animation engine for programmatic math and science videos. Used by 3Bl
 date: 2025-02-17
 categories: ["Python package"]
 header:
-  teaser: /images/resources/manim.png
+  teaser: /images/resources/107.jpg
 link: https://github.com/3b1b/manim
 ---

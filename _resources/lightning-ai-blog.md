@@ -5,6 +5,6 @@ excerpt: "Official Lightning AI blog: PyTorch Lightning, LitGPT, and ML engineer
 date: 2025-02-17
 categories: ["AI"]
 header:
-  teaser: /images/resources/lightning-ai.png
+  teaser: /images/resources/109.png
 link: https://lightning.ai/blog
 ---

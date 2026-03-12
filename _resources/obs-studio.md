@@ -5,6 +5,6 @@ excerpt: "Free, open-source streaming and recording. Capture screen, webcam, and
 date: 2025-02-17
 categories: ["Windows", "Gaming"]
 header:
-  teaser: /images/resources/obs.png
+  teaser: /images/resources/106.png
 link: https://obsproject.com/
 ---

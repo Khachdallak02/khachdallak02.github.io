@@ -5,6 +5,6 @@ excerpt: "Device specs at a glance. Hardware, display, battery, camera, and syst
 date: 2025-02-17
 categories: ["Android"]
 header:
-  teaser: /images/resources/inware.png
+  teaser: /images/resources/110.png
 link: https://play.google.com/store/apps/details?id=com.evo.inware&hl=en
 ---

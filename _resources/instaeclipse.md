@@ -5,6 +5,6 @@ excerpt: "LSPosed module for Instagram: ghost mode, no ads, distraction-free fee
 date: 2025-02-17
 categories: ["High seas", "Android"]
 header:
-  teaser: /images/resources/instaeclipse.png
+  teaser: /images/resources/127.png
 link: https://github.com/ReSo7200/InstaEclipse
 ---

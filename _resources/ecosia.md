@@ -5,6 +5,6 @@ excerpt: "Search engine that uses profits to plant trees. Privacy-friendly, carb
 date: 2025-02-17
 categories: ["Browser",  "Android"]
 header:
-  teaser: /images/resources/ecosia.png
+  teaser: /images/resources/116.jpg
 link: https://www.ecosia.org/
 ---

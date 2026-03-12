@@ -5,6 +5,6 @@ excerpt: "Browser extension that automatically handles cookie and consent popups
 date: 2025-02-17
 categories: ["Browser", "High seas"]
 header:
-  teaser: /images/resources/consent-o-matic.png
+  teaser: /images/resources/128.webp
 link: https://github.com/cavi-au/Consent-O-Matic
 ---

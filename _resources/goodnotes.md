@@ -5,6 +5,6 @@ excerpt: "Digital handwriting, typing, and collaboration in one app. Take notes 
 date: 2025-02-17
 categories: ["Windows", "Android"]
 header:
-  teaser: /images/resources/goodnotes.png
+  teaser: /images/resources/113.webp
 link: https://www.goodnotes.com/
 ---

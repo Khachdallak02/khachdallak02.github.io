@@ -5,6 +5,6 @@ excerpt: "Patch YouTube and other apps for ad-free viewing, background play, and
 date: 2025-02-17
 categories: ["Android", "High seas"]
 header:
-  teaser: /images/resources/revanced.png
+  teaser: /images/resources/113.jpg
 link: https://revanced.app/
 ---

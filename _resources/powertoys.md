@@ -5,6 +5,6 @@ excerpt: "Utilities to supercharge Windows: FancyZones, PowerToys Run, Text Extr
 date: 2025-02-17
 categories: ["Windows"]
 header:
-  teaser: /images/resources/powertoys.png
+  teaser: /images/resources/104.webp
 link: https://github.com/microsoft/PowerToys
 ---

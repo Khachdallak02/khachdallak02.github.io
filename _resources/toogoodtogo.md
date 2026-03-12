@@ -5,6 +5,6 @@ excerpt: "Rescue surplus food from cafes and stores at a discount. Fight food wa
 date: 2025-02-17
 categories: ["Android", "Windows"]
 header:
-  teaser: /images/resources/toogoodtogo.png
+  teaser: /images/resources/102.avif
 link: https://www.toogoodtogo.com/en-us
 ---

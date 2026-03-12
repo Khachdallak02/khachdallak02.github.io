@@ -5,6 +5,6 @@ excerpt: "Stay focused and grow trees. Put down your phone during focus sessions
 date: 2025-02-17
 categories: ["Android", "Windows"]
 header:
-  teaser: /images/resources/forest.png
+  teaser: /images/resources/115.jpg
 link: https://www.forestapp.cc/
 ---

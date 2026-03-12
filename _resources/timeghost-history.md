@@ -5,6 +5,6 @@ excerpt: "Documentary series on WWI, WWII, and 20th-century history. Week-by-wee
 date: 2025-02-17
 categories: ["YouTube channel", "Military history"]
 header:
-  teaser: /images/resources/timeghost.png
+  teaser: /images/resources/103.jpg
 link: https://www.youtube.com/channel/UCLfMmOriSyPbd5JhHpnj4Ng
 ---

@@ -5,6 +5,6 @@ excerpt: "Cardano API and developer platform. Build and submit transactions, que
 date: 2025-02-17
 categories: ["Cryptocurrency"]
 header:
-  teaser: /images/resources/blockfrost.png
+  teaser: /images/resources/117.webp
 link: https://blockfrost.io/
 ---

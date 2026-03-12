@@ -5,6 +5,6 @@ excerpt: "EFF’s learning tracker blocker. Automatically blocks invisible track
 date: 2025-02-17
 categories: ["Browser", "High seas"]
 header:
-  teaser: /images/resources/privacy-badger.png
+  teaser: /images/resources/124.png
 link: https://privacybadger.org/
 ---

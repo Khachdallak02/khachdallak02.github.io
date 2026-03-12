@@ -5,6 +5,6 @@ excerpt: "Biology and life-science explainers with cartoons and humor. Genetics,
 date: 2025-02-17
 categories: ["Bioinformatics", "YouTube channel"]
 header:
-  teaser: /images/resources/amoeba-sisters.png
+  teaser: /images/resources/119.png
 link: https://www.youtube.com/@AmoebaSisters/videos
 ---

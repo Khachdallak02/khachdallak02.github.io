@@ -5,6 +5,6 @@ excerpt: "Network-wide ad and tracker blocking via DNS. Install on a Raspberry P
 date: 2025-02-17
 categories: ["High seas"]
 header:
-  teaser: /images/resources/pihole.png
+  teaser: /images/resources/126.webp
 link: https://pi-hole.net/
 ---

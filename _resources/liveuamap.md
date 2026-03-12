@@ -5,6 +5,6 @@ excerpt: "Live map of conflict and security news. Ukraine, Middle East, and othe
 date: 2025-02-17
 categories: ["Military history"]
 header:
-  teaser: /images/resources/liveuamap.png
+  teaser: /images/resources/108.jpg
 link: https://liveuamap.com/
 ---
