@@ -36,6 +36,13 @@ jobs:
         bundle install
         bundle exec jekyll build
 
+    - name: Verify build output
+      run: |
+        echo "Contents of _site:"
+        ls -la _site/
+        echo "---"
+        test -f _site/index.html && echo "OK: index.html exists" || echo "MISSING: index.html"
+
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
