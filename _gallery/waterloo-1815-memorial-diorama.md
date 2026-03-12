@@ -1,7 +1,7 @@
 ---
 title: "Diorama inside Waterloo 1815 Memorial museum"
 collection: gallery
-excerpt: "Diorama inside Waterloo 1815 Memorial museum; Belgium Jan 7th 2025"
+excerpt: "Diorama inside Waterloo 1815 Memorial museum"
 date: 2025-01-07
 country: "Belgium"
 header:
