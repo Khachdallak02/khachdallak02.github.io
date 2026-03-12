@@ -1,7 +1,7 @@
 ---
-title: "Skravelberget mindre 13 in night"
+title: "Skravelberget mindre 13 at night"
 collection: gallery
-excerpt: "Skravelberget mindre 13 in night"
+excerpt: "Skravelberget mindre 13 at night"
 date: 2024-11-21
 country: "Sweden"
 header:
