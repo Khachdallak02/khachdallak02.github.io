@@ -83,7 +83,7 @@ author_profile: true
 </style>
 
 <div style="text-align: center; margin-bottom: 40px;">
-  <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-bottom: 0;">Tools that deserve free advertisement</p>
+  <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-bottom: 0;">This is a running list of tools which I've used and think deserve free advertisement</p>
 </div>
 
 {% assign sorted = site.resources | sort: 'date' | reverse %}
