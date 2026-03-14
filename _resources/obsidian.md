@@ -1,7 +1,7 @@
 ---
 title: "Obsidian"
 collection: resources
-excerpt: "Note-taking app with linked notes, graph view, and Markdown. Your notes stay in local folders as plain files—no lock-in."
+excerpt: "You should try Obsidian for note-taking. Enables tabs, note organization, formatting, graph view, canvas for brainstorming, but still is lightweight and fast."
 date: 2025-02-11
 categories: ["Windows"]
 header:

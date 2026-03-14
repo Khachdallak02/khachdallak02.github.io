@@ -1,7 +1,7 @@
 ---
 title: "Inware"
 collection: resources
-excerpt: "Device specs at a glance. Hardware, display, battery, camera, and system info in a clean Material Design interface—no ads, data from your device only."
+excerpt: "Android app that displays device and system information in one place."
 date: 2025-02-17
 categories: ["Android"]
 header:

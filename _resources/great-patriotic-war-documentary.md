@@ -1,7 +1,7 @@
 ---
 title: "WW2 in the Eastern Front"
 collection: resources
-excerpt: "Documentary on the Eastern Front (1941–1945). Covers the Soviet–German war from Operation Barbarossa to the fall of Berlin."
+excerpt: "More dramatized, but still pretty factual and informative documentary on the Eastern Front (1941–1945). Makes me very proud having two great-grandfathers who fought the Germans in the war."
 date: 2025-02-17
 categories: ["YouTube channel", "Military history"]
 header:

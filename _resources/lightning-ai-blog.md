@@ -1,7 +1,7 @@
 ---
 title: "Lightning AI Blog"
 collection: resources
-excerpt: "Official Lightning AI blog: PyTorch Lightning, LitGPT, and ML engineering. Tutorials, releases, and best practices for training and deploying models."
+excerpt: "Pretty good blog for ML. I definitely read a few useful articles from here."
 date: 2025-02-17
 categories: ["AI"]
 header:

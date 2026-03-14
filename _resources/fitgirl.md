@@ -1,7 +1,7 @@
 ---
 title: "FitGirl"
 collection: resources
-excerpt: "Highly compressed PC game repacks. Safe, verified downloads with smaller file sizes—repacks only, no cracks. The official site is the only legitimate source; avoid fake sites using the name."
+excerpt: "Highly compressed PC game repacks. Safe, verified downloads with smaller file sizes—repacks only, no cracks."
 date: 2025-02-14
 categories: ["High seas", "Gaming"]
 header:

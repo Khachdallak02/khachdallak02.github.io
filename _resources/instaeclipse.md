@@ -1,7 +1,7 @@
 ---
 title: "InstaEclipse"
 collection: resources
-excerpt: "LSPosed module for Instagram: ghost mode, no ads, distraction-free feed, and optional developer tools. Works with Beta/Alpha Instagram; root or LSPatch."
+excerpt: "The favorite for those who use socials a lot. Module for Instagram that gets rid of ads, adds ghost mode and follow indicator, plus allows much more customization—for example you can disable reels."
 date: 2025-02-17
 categories: ["High seas", "Android"]
 header:

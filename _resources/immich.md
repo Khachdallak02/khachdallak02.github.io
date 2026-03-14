@@ -1,9 +1,9 @@
 ---
 title: "Immich"
 collection: resources
-excerpt: "Self-hosted photo and video backup. Google Photos alternative with face recognition, timeline, and albums—your data stays on your server."
+excerpt: "Google Photos alternative (highly similar) if you want to avoid paying Google for storage (and not give them your data) and host your library on your own server."
 date: 2025-02-17
-categories: ["Windows"]
+categories: ["Windows", "Android"]
 header:
   teaser: /images/resources/110.webp
 link: https://immich.app/

@@ -1,7 +1,7 @@
 ---
 title: "SponsorBlock"
 collection: resources
-excerpt: "Skip sponsor segments, intros, outros, and subscribe reminders on YouTube. Crowdsourced timestamps; extensions for browsers and mobile."
+excerpt: "Automatically skips sponsor segments, intros, outros, and subscribe reminders on YouTube. It's crowdsourced so you can contribute and save other people time as well."
 date: 2025-02-17
 categories: ["Browser", "High seas"]
 header:

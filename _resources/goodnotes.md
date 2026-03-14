@@ -1,7 +1,7 @@
 ---
 title: "Goodnotes"
 collection: resources
-excerpt: "Digital handwriting, typing, and collaboration in one app. Take notes on PDFs and slides, create flashcards, plan with templates, and sync across devices."
+excerpt: "Best notetaking app for a Windows touch screen device that I was able to find. Includes 3 free notebooks."
 date: 2025-02-17
 categories: ["Windows", "Android"]
 header:

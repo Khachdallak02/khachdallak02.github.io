@@ -1,7 +1,7 @@
 ---
 title: "Manim"
 collection: resources
-excerpt: "Animation engine for programmatic math and science videos. Used by 3Blue1Brown; create precise explanatory animations with Python (pip install manimgl). OpenGL, LaTeX, FFmpeg."
+excerpt: "Python package to create visualizations similar to the ones in the 3Blue1Brown videos."
 date: 2025-02-17
 categories: ["Python package"]
 header:

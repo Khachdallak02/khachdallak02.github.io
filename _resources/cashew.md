@@ -1,7 +1,7 @@
 ---
 title: "Cashew"
 collection: resources
-excerpt: "Expense tracker and budgeting app. Track spending, set budgets, and manage your money in one place."
+excerpt: "Very comfortable expense tracker and budgeting app. Pretty much has all the features I wanted, plus a nice UI."
 date: 2025-02-12
 categories: ["Android"]
 header:

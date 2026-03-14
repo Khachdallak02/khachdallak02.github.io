@@ -1,7 +1,7 @@
 ---
 title: "Consent-O-Matic"
 collection: resources
-excerpt: "Browser extension that automatically handles cookie and consent popups. Set your preferences once; it applies them on hundreds of sites (CMPs)."
+excerpt: "Browser extension that automatically handles cookie and consent popups. Set your preferences once; it applies them on hundreds of sites, reducing the annoyances."
 date: 2025-02-17
 categories: ["Browser", "High seas"]
 header:

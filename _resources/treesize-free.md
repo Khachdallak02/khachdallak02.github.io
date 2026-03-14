@@ -1,7 +1,7 @@
 ---
 title: "TreeSize Free"
 collection: resources
-excerpt: "See what’s using your disk space. Visualize folder sizes, find large files, and clean up your PC. Free edition in the Microsoft Store."
+excerpt: "Literally the best software to break down disk space usage I was able to find. Helps a lot if you want to free up space and built-in settings are not helping."
 date: 2025-02-17
 categories: ["Windows"]
 header:

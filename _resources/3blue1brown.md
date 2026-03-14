@@ -1,7 +1,7 @@
 ---
 title: "3Blue1Brown"
 collection: resources
-excerpt: "Math explained with animated visuals. Linear algebra, calculus, neural networks, and more—clear intuition over rote formulas. YouTube channel by Grant Sanderson."
+excerpt: "Casually Explained but for math. 16-year-old Khachatur was very happy discovering the neural network videos of this channel 8 years ago."
 date: 2025-02-17
 categories: ["YouTube channel"]
 header:

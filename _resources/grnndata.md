@@ -1,7 +1,7 @@
 ---
 title: "GRnnData"
 collection: resources
-excerpt: "Standardized AnnData-based storage for gene regulatory networks. Store and work with GRNs in .varp/.varm; helpers for connectivities, centrality, and benchmarking (scPRINT, BenGRN)."
+excerpt: "Format to store GRN data; contains multiple helper functions for calculating connectivities, centrality, and benchmarking."
 date: 2025-02-17
 categories: ["Bioinformatics", "Python package"]
 header:

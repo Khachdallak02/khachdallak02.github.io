@@ -1,7 +1,7 @@
 ---
 title: "Zoechip"
 collection: resources
-excerpt: "Stream or find movies and shows in one place. All-in-one movie site—reject modernity, embrace tradition."
+excerpt: "If you don't want to be subscribed to 10 different streaming services, embrace tradition. This ship is as reliable as HMS Victory."
 date: 2026-02-13
 categories: ["High seas"]
 header:

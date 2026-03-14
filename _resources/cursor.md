@@ -1,7 +1,7 @@
 ---
 title: "Cursor"
 collection: resources
-excerpt: "AI-powered code editor. Tab completion, agents, and in-editor chat to write and refactor code faster. Supports multiple models and codebase indexing."
+excerpt: "VS Code clone with LLM integration. Makes the work a lot faster. You can even use it for non-programming projects that involve working with multiple files—will still save a lot of time."
 date: 2025-02-17
 categories: ["AI", "Windows"]
 header:

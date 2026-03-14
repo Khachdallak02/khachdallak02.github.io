@@ -1,7 +1,7 @@
 ---
 title: "Forest"
 collection: resources
-excerpt: "Stay focused and grow trees. Put down your phone during focus sessions; earn virtual coins and plant real trees with partners like Trees for the Future."
+excerpt: "Productivity app where once you complete many focus sessions you earn enough points to plant actual trees, 5 at max per user. Forest partners with Trees for the Future to make this possible."
 date: 2025-02-17
 categories: ["Android", "Windows"]
 header:

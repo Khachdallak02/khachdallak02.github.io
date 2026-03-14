@@ -1,7 +1,7 @@
 ---
 title: "Windows Terminal"
 collection: resources
-excerpt: "Modern terminal for Windows. Tabs, split panes, Unicode and font rendering, and support for PowerShell, Command Prompt, and WSL."
+excerpt: "Modern terminal for Windows. Now it supports tabs, Unicode, PowerShell, Command Prompt, WSL, as well as a lot more customization."
 date: 2025-02-17
 categories: ["Windows"]
 header:

@@ -1,7 +1,7 @@
 ---
 title: "r/Piracy Megathread"
 collection: resources
-excerpt: "Curated megathread of piracy-related links, tools, and guides. Use at your own risk and respect your jurisdiction’s laws."
+excerpt: "Best source of wisdom. The library of the Caribbean."
 date: 2025-02-17
 categories: ["High seas"]
 header:

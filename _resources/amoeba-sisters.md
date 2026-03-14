@@ -1,7 +1,7 @@
 ---
 title: "Amoeba Sisters"
 collection: resources
-excerpt: "Biology and life-science explainers with cartoons and humor. Genetics, cells, evolution, and more—aimed at students and curious learners."
+excerpt: "These sisters are life savers for explaining various concepts in genetics, cells, evolution, and more."
 date: 2025-02-17
 categories: ["Bioinformatics", "YouTube channel"]
 header:
