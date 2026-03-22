@@ -86,7 +86,10 @@ author_profile: true
   <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-bottom: 0;">This is a running list of tools which I've used and think deserve free advertisement</p>
 </div>
 
-{% assign sorted = site.resources | sort: 'date' | reverse %}
+{% comment %}Pinned resources first (pinned: 1, 2, 3…), then everyone else by date (newest first).{% endcomment %}
+{% assign resources_pinned = site.resources | where_exp: "r", "r.pinned" | sort: 'pinned' %}
+{% assign resources_unpinned = site.resources | where_exp: "r", "r.pinned == nil" | sort: 'date' | reverse %}
+{% assign sorted = resources_pinned | concat: resources_unpinned %}
 {% assign total_resources = site.resources | size %}
 {% assign per_page = 10 %}
 

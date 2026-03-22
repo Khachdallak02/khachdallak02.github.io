@@ -1,6 +1,7 @@
 ---
 title: "Oryx"
 collection: resources
+pinned: 2
 excerpt: "Verified lists of military equipment losses. Photo- and video-documented; updated for Ukraine, Syria, Armenia. The best source for fact-checked comparison between sides of a conflict."
 date: 2025-02-17
 categories: ["Military history"]

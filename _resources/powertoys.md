@@ -1,6 +1,7 @@
 ---
 title: "Microsoft PowerToys"
 collection: resources
+pinned: 1
 excerpt: "Some tools are genuinely useful, such as Color Picker, Text Extractor, Keyboard Shortcut Manager, Command Not Found Helper, etc."
 date: 2025-02-17
 categories: ["Windows"]
