@@ -157,8 +157,11 @@ author_profile: true
   <button type="button" id="gallery-flags-toggle-all-btn" class="layout-toggle-btn flags-toggle-all-btn" title="Deselect all country filters" aria-label="Deselect or select all country filters"><i class="fas fa-check-square" aria-hidden="true"></i></button>
 </div>
 
+{% comment %}Pinned items first (pinned: 1, 2, …), then by date (newest first).{% endcomment %}
 {% if site.gallery %}
-  {% assign gallery = site.gallery | sort: 'date' | reverse %}
+  {% assign gallery_pinned = site.gallery | where_exp: "g", "g.pinned" | sort: 'pinned' %}
+  {% assign gallery_unpinned = site.gallery | where_exp: "g", "g.pinned == nil" | sort: 'date' | reverse %}
+  {% assign gallery = gallery_pinned | concat: gallery_unpinned %}
 {% else %}
   {% assign gallery = '' | split: ',' %}
 {% endif %}

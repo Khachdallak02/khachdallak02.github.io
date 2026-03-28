@@ -1,5 +1,5 @@
 ---
-title: "Scverse"
+title: "scverse"
 collection: resources
 excerpt: "Foundational tools (mostly in Python) for omics data in life sciences"
 date: 2026-03-21
