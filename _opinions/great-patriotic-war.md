@@ -12,8 +12,10 @@ share: false
 
 **Historically**, the Great Patriotic War was part of the 2nd World War and constituted the largest military confrontation in history between the Soviet Union and Axis powers on the European side. In this article, we will take the Soviet Union's perspective and, instead of focusing on the entire WW2, focus specifically on the Great Patriotic War. Let's start from the political and economic situation in the Soviet Union in the 1930s and **how Hearts of Iron IV represents it**.
 
-![Soviet soldier with red banner and warplanes](/images/opinions/great-patriotic-war/image1.jpeg)
-*Figure 1.*
+<figure style="max-width: 90%;">
+  <img src="/images/opinions/great-patriotic-war/image1.jpeg" alt="Soviet soldier with red banner" style="width: 100%;" />
+  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 1. Soviet soldier with red banner.</figcaption>
+</figure>
 
 ## Political life (Great Purge and Stalin's paranoia)
 
@@ -28,27 +30,27 @@ In the 30s and 40s social-political life was, to say the least, super unstable. 
 
 <div style="clear: both;"></div>
 
-<figure style="max-width: 75%; margin: 0 auto;">
+<figure style="max-width: 65%; margin: 0 auto;">
   <img src="/images/opinions/great-patriotic-war/image2.png" alt="Political Paranoia event window" style="width: 100%;" />
   <figcaption style="font-size: 0.9em; font-style: italic;">Figure 3. The Paranoia system and the options to lower it: forged production reports and inspections in the army, navy, and air force.</figcaption>
 </figure>
 
 **Historically**, the Soviets even went as far as sending operatives to kill Stalin's main political rival Trotsky, who had escaped to Mexico. **In the game**, to stop the purge you have to run a similar operation to raid Trotsky's villa in Mexico and assassinate him (see Figure 4).
 
-<figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
+<figure style="float: right; max-width: 320px; margin: -0.35em 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image4.png" alt="Raid Trotsky's villa operation in Mexico" style="width: 100%;" />
   <figcaption style="font-size: 0.9em; font-style: italic;">Figure 4. In-game operation to raid Trotsky's villa in Mexico and assassinate him.</figcaption>
 </figure>
 
-After a lot of old generals were purged, they were replaced by a new, less experienced generation. **In history**, before the war started most Soviet generals were in their 30s–40s. Germany, by comparison, had neither a civil war dividing society, nor mass emigrations of officers, nor such repressions. In the Wehrmacht (1935–45) there were many commanders with many years of experience. The most famous example was **Hoth**, the tank army general who was 56 when the USSR invasion began—soldiers called him "Father Hoth". Others were similar: in 1941, Guderian was 53, Hoepner 55, Kleist 60. German generals were chosen more by skill than by party belonging (although those not in the party were later blamed for losing the war :D ).
+After many old generals were purged, they were replaced by a new, less experienced generation. **Historically**, before the war started, most Soviet generals were in their 30s-40s. Germany, by comparison, had neither a civil war dividing society, nor mass emigrations of officers, nor such repression in the army. In the Wehrmacht (1935-45), there were many commanders with long years of experience. The most famous example was Hoth, the tank army general who was 56 when the USSR invasion began. Soldiers called him **"Father Hoth"**. Others were similar: in 1941, Guderian was 53, Hoepner was 55, and Kleist was 60. German generals were chosen more by skill than by party affiliation (although this rule had many exceptions, and later those not in the party were blamed more for the losses).
 
-**In the game** you don't get that same depth of character for every general, but the age and experience gap between Soviet and German high command is part of the setup. The Soviet intelligence agency, **in history**, was one of the most powerful in the world (probably second after the British) and had a major role supporting partisans in occupied territory and stealing German plans. **In Hearts of Iron IV** you manage your spy network and can mirror that effort. Below is my spy network in Germany before the war started.
+**In the game**, you don't get that same depth of character for every general, but the age and experience gap between Soviet and German high command is part of the setup. The Soviet intelligence agency, **historically**, was one of the most powerful in the world (probably second after the British) and played a major role in supporting partisans in occupied territory and in counterintelligence. **In Hearts of Iron IV**, you manage your spy network and can mirror that effort. In Figure 6, you can see the Soviet spy network in Germany before the war started.
 
 <div style="clear: both;"></div>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image6.png" alt="Spy network and map" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 6. My spy network in Germany before the war started, as described above.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 6. Soviet spy network in Germany before the war started.</figcaption>
 </figure>
 
 ## Economy
