@@ -35,12 +35,15 @@ In the 30s and 40s social-political life was, to say the least, super unstable. 
   <figcaption style="font-size: 0.9em; font-style: italic;">Figure 3. The Paranoia system and the options to lower it: forged production reports and inspections in the army, navy, and air force.</figcaption>
 </figure>
 
-**Historically**, the Soviets even went as far as sending operatives to kill Stalin's main political rival Trotsky, who had escaped to Mexico. **In the game**, to stop the purge you have to run a similar operation to raid Trotsky's villa in Mexico and assassinate him (see Figure 4).
-
-<figure style="float: right; max-width: 320px; margin: -5em 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image4.png" alt="Raid Trotsky's villa operation in Mexico" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 4. In-game operation to raid Trotsky's villa in Mexico and assassinate him.</figcaption>
-</figure>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
+  <div style="flex: 1 1 260px; min-width: 0;">
+    <p style="margin: 0;"><strong>Historically</strong>, the Soviets even went as far as sending operatives to kill Stalin's main political rival Trotsky, who had escaped to Mexico. <strong>In the game</strong>, to stop the purge you have to run a similar operation to raid Trotsky's villa in Mexico and assassinate him (see Figure 4).</p>
+  </div>
+  <figure style="flex: 0 0 auto; max-width: 320px; width: 100%; margin: 0;">
+    <img src="/images/opinions/great-patriotic-war/image4.png" alt="Raid Trotsky's villa operation in Mexico" style="width: 100%;" />
+    <figcaption style="font-size: 0.9em; font-style: italic;">Figure 4. In-game operation to raid Trotsky's villa in Mexico and assassinate him.</figcaption>
+  </figure>
+</div>
 
 After many old generals were purged, they were replaced by a new, less experienced generation. **Historically**, before the war started, most Soviet generals were in their 30s-40s. Germany, by comparison, had neither a civil war dividing society, nor mass emigrations of officers, nor such repression in the army. In the Wehrmacht (1935-45), there were many commanders with long years of experience. The most famous example was Hoth, the tank army general who was 56 when the USSR invasion began. Soldiers called him **"Father Hoth"**. Others were similar: in 1941, Guderian was 53, Hoepner was 55, and Kleist was 60. German generals were chosen more by skill than by party affiliation (although this rule had many exceptions, and later those not in the party were blamed more for the losses).
 
