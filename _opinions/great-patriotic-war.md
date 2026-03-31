@@ -8,42 +8,39 @@ header:
 share: false
 ---
 
-*Здравствуйте товарищи!* — Greetings, comrades. If you ever spent hours reading about Viking raids, Charlemagne's campaigns, the Hundred Years' War, or Napoleonic battles — and then sat through history class wondering where all of that went — you know exactly what the problem is. School history is dates and names. It gives you no real sense of how warfare was organized, how economies kept armies in the field, or why one decision at the top could send hundreds of thousands to die. Textbooks strip all of that out. Fortunately, strategy games don't. *Hearts of Iron IV* is a grand strategy game where you control an entire country through the Second World War — its armies, factories, research, diplomacy, everything. Using it, I want to show how games can present history in a format that is both educational and fun, and far more advanced than learn by heart textbooks or simplistic board games.
+*Здравствуйте товарищи!* — Greetings, comrades. If you ever spent hours reading or watching videos about the Munich conference, the battles of Stalingrad and Kursk, or the D-Day landings, but then sat through history class forced to memorize numbers, names, and facts, this article might be for you. School history (at least in most education systems) gives no real sense of how warfare was organized, the diplomacy around it, how economies kept armies in the field, and instead only forces fact memorization. Fortunately, some strategy games sometimes go deeper into history. *Hearts of Iron IV* is a grand strategy game where you control an entire country through the Second World War — its armies, factories, research, diplomacy, everything. Using it, I want to show how games can present history in a format that is both educational and fun, and far more advanced than most current education systems.
 
-**Historically**, the Great Patriotic War was part of the 2nd World War and constituted the largest military confrontation in history between the Soviet Union and Axis powers on the European side. Let's start from the political and economic situation in the Soviet Union in the 1930s—what actually happened, and **how Hearts of Iron IV represents it**.
+**Historically**, the Great Patriotic War was part of the 2nd World War and constituted the largest military confrontation in history between the Soviet Union and Axis powers on the European side. In this article, we will take the Soviet Union's perspective and, instead of focusing on the entire WW2, focus specifically on the Great Patriotic War. Let's start from the political and economic situation in the Soviet Union in the 1930s and **how Hearts of Iron IV represents it**.
 
 ![Soviet soldier with red banner and warplanes](/images/opinions/great-patriotic-war/image1.jpeg)
-*Figure 1. Opening art evoking the Soviet struggle on the Eastern Front.*
+*Figure 1.*
 
 ## Political life (Great Purge and Stalin's paranoia)
 
-In the 30s and 40s social-political life was, to say the least, super unstable. After having secured power, Stalin was quite worried about potential saboteurs, wreckers, counter-revolutionaries, spies, and so on. Being "worried" about potential activities against him, he gave the green light to a period of extremely harsh political repression among civilians, the military and even the Communist party: a period later called **"The Great Purge"**.
+In the 30s and 40s social-political life was, to say the least, super unstable. After having secured power, Stalin was quite worried about potential saboteurs, counter-revolutionaries, spies, and so on. Being "worried" about potential activities against him, he gave the green light to a period of extremely harsh political repression among civilians, the military and even the Communist party: a period later called **"The Great Purge"**.
 
-![Portraits purged in the game](/images/opinions/great-patriotic-war/image3.png){: style="float: right; margin: 0 0 1em 1em; max-width: 320px;"}
-*Figure 2. Some of the figures Stalin purged in this playthrough (as mentioned in the paragraph).*
+<figure style="float: right; margin: 0 0 1em 1em; max-width: 320px;">
+  <img src="/images/opinions/great-patriotic-war/image3.png" alt="Portraits purged in the game" style="width: 100%;" />
+  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 2. Some of the figures Stalin purged in my playthrough.</figcaption>
+</figure>
 
-**In Hearts of Iron IV**, the Great Purge is represented by a Paranoia system. If Stalin (Soviet leader and dictator)'s Paranoia reaches a certain level, he will start killing random generals, commanders, and political figures; but you can spend resources to lower Paranoia. For example, you can forge a satisfactory production report for Stalin; he will be happy, but you lose economic power and potential. It's an interesting system where you want to minimize the number of innocent people killed by Stalin with a minimum amount of resources spent. The game teaches that authoritarian paranoia cannot come without a drawback for the economy and the army—which is exactly what ended up happening historically. On the right you can see people Stalin ended up killing in "my universe" in the game.
+**In Hearts of Iron IV**, the Great Purge is represented by a Paranoia system. If Stalin's Paranoia (he was the Soviet leader) reaches a certain level, he will start killing random generals, commanders, and political figures, but you can spend resources to lower Paranoia. For example, you can forge a satisfactory production report for Stalin; he will be happy, but you lose economic potential, since faking reports is not the most optimal way to run the economy. It's an interesting system where you want to minimize the number of people killed (since generals, economists, and advisors might be useful for the country) while sacrificing a minimum amount of resources. The game teaches that authoritarian paranoia cannot come without a severe drawback for the economy and the army—which is exactly what ended up happening historically. In Figure 2, you can see the people Stalin ended up killing in "my universe" of the game.
 
 <div style="clear: both;"></div>
 
-<figure style="max-width: 100%;">
+<figure style="max-width: 75%; margin: 0 auto;">
   <img src="/images/opinions/great-patriotic-war/image2.png" alt="Political Paranoia event window" style="width: 100%;" />
   <figcaption style="font-size: 0.9em; font-style: italic;">Figure 3. The Paranoia system and the options to lower it: forged production reports and inspections in the army, navy, and air force.</figcaption>
 </figure>
 
-**Historically**, the Soviets even went as far as sending operatives to kill Stalin's main political rival Trotsky, who had escaped to Mexico. **In the game**, to stop the purge you have to run similar assassination operations. Stalin only calmed down after killing, arresting, and deporting thousands of people, including many innocent civilians and generals, weakening the Soviet Union before the upcoming war.
-
-After a lot of old generals were purged, they were replaced by a new, less experienced generation. **In history**, before the war started most Soviet generals were in their 30s–40s. Germany, by comparison, had neither a civil war dividing society, nor mass emigrations of officers, nor such repressions. In the Wehrmacht (1935–45) there were many commanders with many years of experience. The most famous example was **Hoth**, the tank army general who was 56 when the USSR invasion began—soldiers called him "Father Hoth". Others were similar: in 1941, Guderian was 53, Hoepner 55, Kleist 60. German generals were chosen more by skill than by party belonging (although those not in the party were later blamed for losing the war :D ).
+**Historically**, the Soviets even went as far as sending operatives to kill Stalin's main political rival Trotsky, who had escaped to Mexico. **In the game**, to stop the purge you have to run a similar operation to raid Trotsky's villa in Mexico and assassinate him (see Figure 4).
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image4.png" alt="Wehrmacht generals in the game" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 4. The game reflects the age and experience gap between Soviet and German high command.</figcaption>
+  <img src="/images/opinions/great-patriotic-war/image4.png" alt="Raid Trotsky's villa operation in Mexico" style="width: 100%;" />
+  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 4. In-game operation to raid Trotsky's villa in Mexico and assassinate him.</figcaption>
 </figure>
 
-<figure style="float: right; max-width: 280px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image5.jpeg" alt="Hermann Hoth portrait" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 5. Hermann Hoth, the panzer general soldiers called Father Hoth; he was 56 when Barbarossa began.</figcaption>
-</figure>
+After a lot of old generals were purged, they were replaced by a new, less experienced generation. **In history**, before the war started most Soviet generals were in their 30s–40s. Germany, by comparison, had neither a civil war dividing society, nor mass emigrations of officers, nor such repressions. In the Wehrmacht (1935–45) there were many commanders with many years of experience. The most famous example was **Hoth**, the tank army general who was 56 when the USSR invasion began—soldiers called him "Father Hoth". Others were similar: in 1941, Guderian was 53, Hoepner 55, Kleist 60. German generals were chosen more by skill than by party belonging (although those not in the party were later blamed for losing the war :D ).
 
 **In the game** you don't get that same depth of character for every general, but the age and experience gap between Soviet and German high command is part of the setup. The Soviet intelligence agency, **in history**, was one of the most powerful in the world (probably second after the British) and had a major role supporting partisans in occupied territory and stealing German plans. **In Hearts of Iron IV** you manage your spy network and can mirror that effort. Below is my spy network in Germany before the war started.
 
