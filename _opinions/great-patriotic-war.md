@@ -37,7 +37,7 @@ In the 30s and 40s social-political life was, to say the least, super unstable. 
 
 **Historically**, the Soviets even went as far as sending operatives to kill Stalin's main political rival Trotsky, who had escaped to Mexico. **In the game**, to stop the purge you have to run a similar operation to raid Trotsky's villa in Mexico and assassinate him (see Figure 4).
 
-<figure style="float: right; max-width: 320px; margin: -2.75em 0 1em 1em;">
+<figure style="float: right; max-width: 320px; margin: -5em 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image4.png" alt="Raid Trotsky's villa operation in Mexico" style="width: 100%;" />
   <figcaption style="font-size: 0.9em; font-style: italic;">Figure 4. In-game operation to raid Trotsky's villa in Mexico and assassinate him.</figcaption>
 </figure>
