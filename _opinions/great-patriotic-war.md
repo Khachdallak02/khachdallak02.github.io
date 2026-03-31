@@ -58,11 +58,19 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 ## Economy
 
-**Historically**, before the 20th century the Russian Empire was always behind other Western countries in industrialization—slavery in Russia ended only in 1861, for example. After the Empire collapsed, civil war worsened the economy. In the 1920s the Soviet economy was in ruins. The response was heavy industrialization through **five-year plans**: goals set for five-year periods. The USSR concluded agreements with foreign companies, mainly American (Ford, General Electric...) and German (Krupp, Borsig...) to carry out industrialization. Later in Soviet history these goals were often set low so that "overfulfilling" them became propaganda; after the Second World War, five-year plans became a symbol of Soviet corruption. But at the time they were a real step forward.
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
+  <div style="flex: 1 1 320px; min-width: 0;">
+    <p style="margin: 0;"><strong>Historically</strong>, before the 20th century the Russian Empire was always behind other European economies in industrialization (slavery in Russia ended only in 1861, for example). When the Russian Empire collapsed, civil war followed and deepened the economic crisis. In the 1920s the Soviet economy was in ruins. The response was heavy industrialization through <strong>five-year plans</strong>: goals set for five-year periods. <strong>In Hearts of Iron IV</strong> you can take national focuses that enact five-year plans; each choice nudges your economy in a direction—modifiers to factory output, construction speed, and military industry—so your long-term build reflects the plan you commit to (see Figure 6). In later decades the targets were often set deliberately low so that &quot;overfulfilling&quot; the plan could be packaged as propaganda, and after the Second World War five-year plans were widely seen as a symbol of Soviet corruption. In the 1920s and 1930s, however, they still represented a genuine step forward.</p>
+  </div>
+  <figure style="flex: 0 0 auto; max-width: 300px; width: 100%; margin: 0;">
+    <img src="/images/opinions/great-patriotic-war/image9.png" alt="Five Year Plan effects" style="width: 100%;" />
+    <figcaption style="font-size: 0.9em; font-style: italic;">Figure 6. The Five Year Plan in the game: its mixed effects on production efficiency, factory output, and military construction speed.</figcaption>
+  </figure>
+</div>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image7.png" alt="Soviet factory interior" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 7. The kind of heavy industry the five-year plans and agreements with Ford, Krupp, and others were meant to build.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 7. Industrialization in the 20th century.</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
@@ -71,13 +79,6 @@ After many old generals were purged, they were replaced by a new, less experienc
 </figure>
 
 **In the game**, you manage factories, research, and production. Another important part **in history** was research: the Russian Academy of Sciences, founded in the 1700s, became the USSR's highest scientific institution. National academies appeared in the Union republics. **Hearts of Iron IV** lets you build them for extra research speed and more innovations.
-
-<div style="clear: both;"></div>
-
-<figure style="float: left; max-width: 300px; margin: 0 1em 1em 0;">
-  <img src="/images/opinions/great-patriotic-war/image9.png" alt="Five Year Plan effects" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 9. The Five Year Plan in the game: its mixed effects on production efficiency, factory output, and military construction speed.</figcaption>
-</figure>
 
 **Historically**, before the war the Soviets had a huge variety of tanks and planes with unique spare parts. This unorganized production made it harder to find specific parts; some were made in very few factories. Losing those factories meant hundreds or thousands of tanks could not be repaired. The Soviets merged military factories to simplify production. **In the game** you can take similar decisions: merge factories and simplify production.
 
