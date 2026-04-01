@@ -85,7 +85,7 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 280px; min-width: 0;">
-    <p style="margin: 0;"><strong>Historically</strong>, before the war the Red Army fielded a bewildering mix of tanks and aircraft, often with incompatible spare parts. That fragmentation made maintenance harder—some components were built at only a handful of plants, so losing a factory could strand hundreds of machines. The USSR responded by consolidating military industry. <strong>In the game</strong> you can do the same: merge plants and streamline production (see Figure 9).</p>
+    <p style="margin: 0;"><strong>Historically</strong>, before the war the Red Army fielded a bewildering mix of tanks and aircraft, often with incompatible spare parts. That fragmentation made maintenance harder - some components were built at only a handful of plants, so losing a factory could strand hundreds of machines. The USSR responded by consolidating military industry. <strong>In the game</strong> you can do the same: merge plants and streamline production (see Figure 9).</p>
   </div>
   <figure style="flex: 1 1 380px; max-width: min(440px, 100%); width: 100%; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image11.png" alt="Merge Plant decisions" style="width: 100%;" />
@@ -95,7 +95,7 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 ## Aviation
 
-**In history**, during the 1930s the Soviet government funded missions to break world aviation records. Achievements became demonstrations of technological progress and the media exalted record-breaking pilots. In reality, Soviet aviation was far from as good as that suggested: it was plagued by mismanagement, inefficiency, deficient equipment, and very inexperienced pilots—in early 1941, apparently 2–3 planes on average were lost daily due to accidents. Men not in the Communist party, or women, were not allowed to become pilots. Before the war, 15% of pilots had flown a plane only **once**. This contributed to catastrophe: the Soviet air force lost over 1100 planes in one day (over 25% of what they had). In the first year of the war the Soviets effectively lost the war in the air. Later, through increased production, better training, opening the air force to more people, and allied help, they won the battle in the air.
+**Historically**, during the 1930s the Soviet government paid for runs at world aviation records. The press treated record flights as proof the country was moving ahead technically, and the pilots who set them became celebrities. Behind that, the air force was in worse shape than it looked: bad management, waste, poor equipment, and crews with almost no flying time. As a result in early 1941 airforce was still losing about two or three planes a day to accidents alone. Women were barred from pilot training, and so were men who were not Communist Party members. Before the war, 15% of pilots had flown a plane only **once**. When the Germans invaded, that showed up at once: on the Belarussiant Front the Soviets lost more than 1,100 planes in one day, well over a quarter of what they had in that sector. For the first year Soviets effectively lost the air war. After that, more planes, better training, opening pilot jobs to more people, and help from the Allies slowly reversed that.
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image12.png" alt="Soviet Air Force modifiers" style="width: 100%;" />
@@ -385,3 +385,10 @@ I was planning to finish this "class-report thingy" by Christmas, but since game
   <img src="/images/opinions/great-patriotic-war/image330.png" alt="Then and now" style="width: 100%;" />
   <figcaption style="font-size: 0.9em; font-style: italic;">Figure 53. After the smoke cleared; the same street in peace.</figcaption>
 </figure>
+
+## References
+
+This is not a formal bibliography. Most of what I describe comes straight from *Hearts of Iron IV* (mechanics, focus tree, on-map play) and from episodes of the Russian docudrama series *The Great Patriotic War* (often uploaded with English subtitles; Episode 1 is linked below). I am not footnoting every claim on purpose—I want the piece to read like a player’s essay, not a paper.
+
+- [*The Great Patriotic War*. Operation Barbarossa. Episode 1. Docudrama. English subtitles](https://www.youtube.com/watch?v=w7ubT3eHAy0) (YouTube). The same series has many other episodes; I drew on several of them in passing, not only this one.
+- Paradox Interactive, developer diary on the Soviet Union historical and common branches (HOI4): [HOI4 Dev Diary — Soviet Union: Historical and Common Branches](https://forum.paradoxplaza.com/forum/developer-diary/hoi4-dev-diary-soviet-union-historical-and-common-branches.1483940/).
