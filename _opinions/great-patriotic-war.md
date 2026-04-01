@@ -77,7 +77,7 @@ After many old generals were purged, they were replaced by a new, less experienc
   <div style="flex: 1 1 280px; min-width: 0;">
     <p style="margin: 0;">Another long-term piece of the economy was academic research: the Russian Academy of Sciences, founded in the 1700s, became the USSR’s top scientific body, and national academies later spread to the Union republics. <strong>Hearts of Iron IV</strong> lets you build additional national academies for faster research and more technologies—investments that can pay off later in the war (see Figure 8).</p>
   </div>
-  <figure style="flex: 0 0 auto; max-width: 280px; width: 100%; margin: 0;">
+  <figure style="flex: 0 0 auto; max-width: 340px; width: 100%; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image10.png" alt="National Academies of Sciences" style="width: 100%;" />
     <figcaption style="font-size: 0.9em; font-style: italic;">Figure 8. Building National Academies of Sciences in the republics, as the Russian Academy and later Union republics did historically.</figcaption>
   </figure>
@@ -87,7 +87,7 @@ After many old generals were purged, they were replaced by a new, less experienc
   <div style="flex: 1 1 280px; min-width: 0;">
     <p style="margin: 0;"><strong>Historically</strong>, before the war the Red Army fielded a bewildering mix of tanks and aircraft, often with incompatible spare parts. That fragmentation made maintenance harder—some components were built at only a handful of plants, so losing a factory could strand hundreds of machines. The USSR responded by consolidating military industry. <strong>In the game</strong> you can do the same: merge plants and streamline production (see Figure 9).</p>
   </div>
-  <figure style="flex: 1 1 380px; max-width: min(400px, 100%); width: 100%; margin: 0;">
+  <figure style="flex: 1 1 380px; max-width: min(440px, 100%); width: 100%; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image11.png" alt="Merge Plant decisions" style="width: 100%;" />
     <figcaption style="font-size: 0.9em; font-style: italic;">Figure 9. Merging factories to simplify production, as the Soviets did when unique spare parts became a liability.</figcaption>
   </figure>
