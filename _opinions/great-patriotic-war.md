@@ -386,9 +386,13 @@ I was planning to finish this "class-report thingy" by Christmas, but since game
   <figcaption style="font-size: 0.9em; font-style: italic;">Figure 53. After the smoke cleared; the same street in peace.</figcaption>
 </figure>
 
+<div class="post-references" markdown="1">
+
 ## References
 
-This is not a formal bibliography. Most of what I describe comes straight from *Hearts of Iron IV* (mechanics, focus tree, on-map play) and from episodes of the Russian docudrama series *The Great Patriotic War* (often uploaded with English subtitles; Episode 1 is linked below). I am not footnoting every claim on purpose—I want the piece to read like a player’s essay, not a paper.
+This is not a formal bibliography. Most of what I describe comes straight from *Hearts of Iron* (mechanics, focus tree) and from episodes of the documentary series *The Great Patriotic War* (Episode 1 is linked below). I am not footnoting every claim on purpose, since it's supposed to be my thoughts, rather than an academic paper.
 
-- [*The Great Patriotic War*. Operation Barbarossa. Episode 1. Docudrama. English subtitles](https://www.youtube.com/watch?v=w7ubT3eHAy0) (YouTube). The same series has many other episodes; I drew on several of them in passing, not only this one.
-- Paradox Interactive, developer diary on the Soviet Union historical and common branches (HOI4): [HOI4 Dev Diary — Soviet Union: Historical and Common Branches](https://forum.paradoxplaza.com/forum/developer-diary/hoi4-dev-diary-soviet-union-historical-and-common-branches.1483940/).
+- [*The Great Patriotic War*. Operation Barbarossa. Episode 1.](https://www.youtube.com/watch?v=w7ubT3eHAy0). The same series has many other episodes; I drew on several of them in passing, not only this one.
+- [HOI4 Dev Diary — Soviet Union: Historical and Common Branches](https://forum.paradoxplaza.com/forum/developer-diary/hoi4-dev-diary-soviet-union-historical-and-common-branches.1483940/).
+
+</div>
