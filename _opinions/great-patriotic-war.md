@@ -127,24 +127,23 @@ After many old generals were purged, they were replaced by a new, less experienc
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 280px; min-width: 0;">
     <p style="margin: 0;">The <strong>T-34</strong> is one of the most famous and most heavily produced tanks in history. T-34s were symbols of the Eastern Front from Moscow to Stalingrad to Berlin.</p>
-    <p style="margin: 1em 0 0 0;"><strong>Pictures 13–15</strong> (beside and below) are air-force screenshots from the same playthrough: the 588th Night Bomber Regiment in-game (<strong>Picture 13</strong>), a Soviet-aviation beat from the docudrama angle (<strong>Picture 14</strong>), and an air wing roster around Moscow (<strong>Picture 15</strong>).</p>
-    <p style="margin: 1em 0 0 0;"><strong>In the game</strong>, one of the coolest features is the tank designer: you add smoke launchers, machine guns, pick the engine, and in practice design your own T-34. My build is in <strong>Picture 16</strong> (further down, after Zhukov). Meta-wise it is not the most optimal design in the game, but I still tried to nod to real T-34 practice. The entrenchment module is highlighted there because T-34s often carried a shovel so the crew could dig in on defense—the hull-down idea is <strong>Picture 17</strong>. A famous Soviet tactic was to hide tanks beside roads and shoot the first and last tank in a German column, trapping the rest; <strong>Picture 18</strong> sketches that.</p>
+    <p style="margin: 1em 0 0 0;"><strong>In the game</strong>, one of the coolest features is the tank designer: you add smoke launchers, machine guns, pick the engine, and in practice design your own T-34. My build is in <strong>Picture 13</strong>. Meta-wise it is not the most optimal design in the game, but I still tried to nod to real T-34 practice. The entrenchment module is highlighted there because T-34s often carried a shovel so the crew could dig in on defense—the hull-down idea is <strong>Picture 14</strong>. A famous Soviet tactic was to hide tanks beside roads and shoot the first and last tank in a German column, trapping the rest; <strong>Picture 15</strong> sketches that. The same three topics are shown again with the actual tank screenshots as <strong>Pictures 16–18</strong> after Zhukov.</p>
   </div>
-  <figure style="flex: 0 0 auto; max-width: 380px; width: 100%; margin: 0;">
-    <img src="/images/opinions/great-patriotic-war/image15.png" alt="588th Night Bomber Regiment in game" style="width: 100%;" />
-    <figcaption style="font-size: 0.9em; font-style: italic;">Picture 13. The 588th Night Bomber Regiment as it appears in the game after that decision.</figcaption>
-  </figure>
+  <div style="flex: 0 0 auto; max-width: 380px; width: 100%; display: flex; flex-direction: column; gap: 1rem;">
+    <figure style="margin: 0;">
+      <img src="/images/opinions/great-patriotic-war/image15.png" alt="588th Night Bomber Regiment in game" style="width: 100%;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 13. Tank designer from this playthrough; the entrenchment (dig-in) choice is highlighted.</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+      <img src="/images/opinions/great-patriotic-war/image16.jpeg" alt="Soviet aviation" style="width: 100%;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 14. Hull-down T-34; historically the shovel on the tank was for scraping out a firing position.</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+      <img src="/images/opinions/great-patriotic-war/image17.png" alt="Air wing roster" style="width: 100%;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 15. First and last tank in the column get hit; the vehicles in between are stuck.</figcaption>
+    </figure>
+  </div>
 </div>
-
-<figure style="float: left; max-width: 360px; margin: 0 1em 1em 0;">
-  <img src="/images/opinions/great-patriotic-war/image16.jpeg" alt="Soviet aviation" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 14. Soviet aviation went from record-breaking propaganda to losing over 1,100 planes in a single day, then slowly winning the sky back.</figcaption>
-</figure>
-
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image17.png" alt="Air wing roster" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 15. Air wing roster with commanders and readiness in the Moscow region.</figcaption>
-</figure>
 
 <div style="clear: both;"></div>
 
@@ -193,7 +192,7 @@ According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best m
 
 <figure style="float: left; max-width: 340px; margin: 0 1em 1em 0;">
   <img src="/images/opinions/great-patriotic-war/image20.jpeg" alt="T-34 in defensive position" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 17. Hull-down T-34; historically the shovel on the tank was for scraping out a firing position.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 17. Soviet aviation went from record-breaking propaganda to losing over 1,100 planes in a single day, then slowly winning the sky back.</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
