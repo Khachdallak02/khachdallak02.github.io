@@ -95,38 +95,29 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 ## Aviation
 
-**Historically**, during the 1930s the Soviet government paid for runs at world aviation records. The press treated record flights as proof the country was moving ahead technically, and the pilots who set them became celebrities. Behind that, the air force was in worse shape than it looked: bad management, waste, poor equipment, and crews with almost no flying time. As a result in early 1941 airforce was still losing about two or three planes a day to accidents alone. Women were barred from pilot training, and so were men who were not Communist Party members. Before the war, 15% of pilots had flown a plane only **once**. When the Germans invaded, that showed up at once: on the Belarussiant Front the Soviets lost more than 1,100 planes in one day, well over a quarter of what they had in that sector. For the first year Soviets effectively lost the air war. After that, more planes, better training, opening pilot jobs to more people, and help from the Allies slowly reversed that.
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
+  <div style="flex: 1 1 280px; min-width: 0;">
+    <p style="margin: 0;"><strong>Historically</strong>, in the 1930s the Soviet government funded attempts to set world aviation records. The press treated record flights as proof the country was moving ahead, and the pilots who set them became celebrities. However, behind that, the air force was in worse shape than it looked: bad management, waste, poor equipment, and crews with almost no flying time. As a result, in early 1941 the air force was still losing about two or three planes a day to accidents alone. Women were banned from pilot training, and so were men who were not Communist Party members. Even worse, before the war, 15% of pilots had flown a plane only <strong>once</strong>. When the Germans invaded, that showed up instantly: on the Belarusian Front the Soviets lost more than 1,100 planes in one day, well over a quarter of what they had in that sector. For the first year the Soviets effectively lost the air war. After that, more planes, better training, opening pilot jobs to more people, and help from the Allies slowly reversed that.</p>
+  </div>
+  <figure style="flex: 1 1 380px; max-width: min(440px, 100%); width: 100%; margin: 0;">
+    <img src="/images/opinions/great-patriotic-war/image12.png" alt="Soviet Air Force modifiers" style="width: 100%;" />
+    <figcaption style="font-size: 0.9em; font-style: italic;">Figure 10. The game's Soviet Air Force penalties reflect the historical reality: high accident rates, inexperience.</figcaption>
+  </figure>
+</div>
 
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image12.png" alt="Soviet Air Force modifiers" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 10. The game's Soviet Air Force penalties reflect the historical reality: high accident rates, weak night operations, and inexperience.</figcaption>
-</figure>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
+  <div style="flex: 1 1 280px; min-width: 0;">
+    <p style="margin: 0;">The Soviet air force has a special mechanic in <strong>Hearts of Iron IV</strong>. You start with a heavy penalty (see Figure 10) but you can improve it slowly with historical or non-historical decisions. One I took was to allow women into the air force. The game then lets you recruit the famous women bomber pilots known as the <strong>Night Witches</strong> (<em>Ночные ведьмы</em>; see Figures 11 and 12). Sabaton even has a song about them: <a href="https://youtu.be/jcemHIqmkYI">Night Witches</a>.</p>
+  </div>
+  <figure style="flex: 0 0 auto; max-width: 340px; width: 100%; margin: 0;">
+    <img src="/images/opinions/great-patriotic-war/image14.jpeg" alt="Night Witches portrait triptych" style="width: 100%;" />
+    <figcaption style="font-size: 0.9em; font-style: italic;">Figure 11. Night Witches (from left to right): Lydia Litvyak; Yevdokiya Nikulina; Mariya Ivanovna Dolina.</figcaption>
+  </figure>
+</div>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image13.png" alt="Air wings in Moscow" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 11. The 586th, 587th, and 588th regiments in the Moscow region; the 588th became the Night Witches.</figcaption>
-</figure>
-
-**In Hearts of Iron IV** you have decisions that, with enough time and resources, give historical and non-historical improvements. One I enacted was to allow women into the air force. The game then lets you recruit the famous women pilots known as **Night witches** (*Ночные ведьмы*). Sabaton has a great song about them: [Night Witches](https://youtu.be/jcemHIqmkYI).
-
-<figure style="float: right; max-width: 340px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image14.jpeg" alt="Night Witches portrait triptych" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 12. Three of the Night Witches, the famous women pilots the game lets you recruit after allowing women into the air force.</figcaption>
-</figure>
-
-<figure style="float: left; max-width: 320px; margin: 0 1em 1em 0;">
-  <img src="/images/opinions/great-patriotic-war/image15.png" alt="588th Night Bomber Regiment in game" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 13. The 588th Night Bomber Regiment as it appears in the game after that decision.</figcaption>
-</figure>
-
-<figure style="float: right; max-width: 360px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image16.jpeg" alt="Soviet aviation" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 14. Soviet aviation went from record-breaking propaganda to losing over 1100 planes in a single day, then slowly won the air back.</figcaption>
-</figure>
-
-<figure style="float: left; max-width: 340px; margin: 0 1em 1em 0;">
-  <img src="/images/opinions/great-patriotic-war/image17.png" alt="Air wing roster" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 15. Air wing roster with commanders and readiness in the Moscow region.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 12. The 586th, 587th, and 588th female air regiments in the Moscow region; the 588th became the famous Night Witches.</figcaption>
 </figure>
 
 ## Symbols of victory: T-34s, Katyusha, Cossack cavalry, and Zhukov
@@ -184,6 +175,23 @@ According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best m
 <figure style="float: right; max-width: 300px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image26.png" alt="WAR scores ranking Zhukov" style="width: 100%;" />
   <figcaption style="font-size: 0.9em; font-style: italic;">Figure 24. Ethan Arsht's WAR scores rank Zhukov 9th among military generals in history and the only WW2 general on that list.</figcaption>
+</figure>
+
+<div style="clear: both;"></div>
+
+<figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
+  <img src="/images/opinions/great-patriotic-war/image15.png" alt="588th Night Bomber Regiment in game" style="width: 100%;" />
+  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 13. The 588th Night Bomber Regiment as it appears in the game after that decision.</figcaption>
+</figure>
+
+<figure style="float: left; max-width: 360px; margin: 0 1em 1em 0;">
+  <img src="/images/opinions/great-patriotic-war/image16.jpeg" alt="Soviet aviation" style="width: 100%;" />
+  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 14. Soviet aviation went from record-breaking propaganda to losing over 1,100 planes in a single day, then slowly winning the sky back.</figcaption>
+</figure>
+
+<figure style="float: right; max-width: 340px; margin: 0 0 1em 1em;">
+  <img src="/images/opinions/great-patriotic-war/image17.png" alt="Air wing roster" style="width: 100%;" />
+  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 15. Air wing roster with commanders and readiness in the Moscow region.</figcaption>
 </figure>
 
 ## Massive assault and early failures
