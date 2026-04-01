@@ -99,7 +99,7 @@ After many old generals were purged, they were replaced by a new, less experienc
   <div style="flex: 1 1 280px; min-width: 0;">
     <p style="margin: 0;"><strong>Historically</strong>, in the 1930s the Soviet government funded attempts to set world aviation records. The press treated record flights as proof the country was moving ahead, and the pilots who set them became celebrities. However, behind that, the air force was in worse shape than it looked: bad management, waste, poor equipment, and crews with almost no flying time. As a result, in early 1941 the air force was still losing about two or three planes a day to accidents alone. Women were banned from pilot training, and so were men who were not Communist Party members. Even worse, before the war, 15% of pilots had flown a plane only <strong>once</strong>. When the Germans invaded, that showed up instantly: on the Belarusian Front the Soviets lost more than 1,100 planes in one day, well over a quarter of what they had in that sector. For the first year the Soviets effectively lost the air war. After that, more planes, better training, opening pilot jobs to more people, and help from the Allies slowly reversed that.</p>
   </div>
-  <figure style="flex: 1 1 380px; max-width: min(440px, 100%); width: 100%; margin: 0;">
+  <figure style="flex: 0 0 auto; max-width: 340px; width: 100%; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image12.png" alt="Soviet Air Force modifiers" style="width: 100%;" />
     <figcaption style="font-size: 0.9em; font-style: italic;">Figure 10. The game's Soviet Air Force penalties reflect the historical reality: high accident rates, inexperience.</figcaption>
   </figure>
