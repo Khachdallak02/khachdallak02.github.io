@@ -14,7 +14,7 @@ share: false
 
 <figure style="max-width: 90%;">
   <img src="/images/opinions/great-patriotic-war/image1.jpeg" alt="Soviet soldier with red banner" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 1. Soviet soldier with red banner.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 1. Soviet soldier with red banner.</figcaption>
 </figure>
 
 ## Political life (Great Purge and Stalin's paranoia)
@@ -23,73 +23,73 @@ In the 30s and 40s social-political life was, to say the least, super unstable. 
 
 <figure style="float: right; margin: 0 0 1em 1em; max-width: 320px;">
   <img src="/images/opinions/great-patriotic-war/image3.png" alt="Portraits purged in the game" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 2. Some of the figures Stalin purged in my playthrough.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 2. Some of the figures Stalin purged in my playthrough.</figcaption>
 </figure>
 
-**In Hearts of Iron IV**, the Great Purge is represented by a Paranoia system. If Stalin's Paranoia (he was the Soviet leader) reaches a certain level, he will start killing random generals, commanders, and political figures, but you can spend resources to lower Paranoia. For example, you can forge a satisfactory production report for Stalin; he will be happy, but you lose economic potential, since faking reports is not the most optimal way to run the economy. It's an interesting system where you want to minimize the number of people killed (since generals, economists, and advisors might be useful for the country) while sacrificing a minimum amount of resources. The game teaches that authoritarian paranoia cannot come without a severe drawback for the economy and the army—which is exactly what ended up happening historically. In Figure 2, you can see the people Stalin ended up killing in "my universe" of the game.
+**In Hearts of Iron IV**, the Great Purge is represented by a Paranoia system. If Stalin's Paranoia (he was the Soviet leader) reaches a certain level, he will start killing random generals, commanders, and political figures, but you can spend resources to lower Paranoia. For example, you can forge a satisfactory production report for Stalin; he will be happy, but you lose economic potential, since faking reports is not the most optimal way to run the economy. It's an interesting system where you want to minimize the number of people killed (since generals, economists, and advisors might be useful for the country) while sacrificing a minimum amount of resources. The game teaches that authoritarian paranoia cannot come without a severe drawback for the economy and the army—which is exactly what ended up happening historically. In Picture 2, you can see the people Stalin ended up killing in "my universe" of the game.
 
 <div style="clear: both;"></div>
 
 <figure style="max-width: 65%; margin: 0 auto;">
   <img src="/images/opinions/great-patriotic-war/image2.png" alt="Political Paranoia event window" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 3. The Paranoia system and the options to lower it: forged production reports and inspections in the army, navy, and air force.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 3. The Paranoia system and the options to lower it: forged production reports and inspections in the army, navy, and air force.</figcaption>
 </figure>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 260px; min-width: 0;">
-    <p style="margin: 0;"><strong>Historically</strong>, the Soviets even went as far as sending operatives to kill Stalin's main political rival Trotsky, who had escaped to Mexico. <strong>In the game</strong>, to stop the purge you have to run a similar operation to raid Trotsky's villa in Mexico and assassinate him (see Figure 4).</p>
+    <p style="margin: 0;"><strong>Historically</strong>, the Soviets even went as far as sending operatives to kill Stalin's main political rival Trotsky, who had escaped to Mexico. <strong>In the game</strong>, to stop the purge you have to run a similar operation to raid Trotsky's villa in Mexico and assassinate him (see Picture 4).</p>
   </div>
   <figure style="flex: 0 0 auto; max-width: 320px; width: 100%; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image4.png" alt="Raid Trotsky's villa operation in Mexico" style="width: 100%;" />
-    <figcaption style="font-size: 0.9em; font-style: italic;">Figure 4. In-game operation to raid Trotsky's villa in Mexico and assassinate him.</figcaption>
+    <figcaption style="font-size: 0.9em; font-style: italic;">Picture 4. In-game operation to raid Trotsky's villa in Mexico and assassinate him.</figcaption>
   </figure>
 </div>
 
 After many old generals were purged, they were replaced by a new, less experienced generation. **Historically**, before the war started, most Soviet generals were in their 30s-40s. Germany, by comparison, had neither a civil war dividing society, nor mass emigrations of officers, nor such repression in the army. In the Wehrmacht (1935-45), there were many commanders with long years of experience. The most famous example was Hoth, the tank army general who was 56 when the USSR invasion began. Soldiers called him **"Father Hoth"**. Others were similar: in 1941, Guderian was 53, Hoepner was 55, and Kleist was 60. German generals were chosen more by skill than by party affiliation (although this rule had many exceptions, and later those not in the party were blamed more for the losses).
 
-**In the game**, you don't get that same depth of character for every general, but the age and experience gap between Soviet and German high command is part of the setup. The Soviet intelligence agency, **historically**, was one of the most powerful in the world (probably second after the British) and played a major role in supporting partisans in occupied territory and in counterintelligence. **In Hearts of Iron IV**, you manage your spy network and can mirror that effort. In Figure 5 below, you can see the Soviet spy network in Germany before the war started.
+**In the game**, you don't get that same depth of character for every general, but the age and experience gap between Soviet and German high command is part of the setup. The Soviet intelligence agency, **historically**, was one of the most powerful in the world (probably second after the British) and played a major role in supporting partisans in occupied territory and in counterintelligence. **In Hearts of Iron IV**, you manage your spy network and can mirror that effort. In Picture 5 below, you can see the Soviet spy network in Germany before the war started.
 
 <div style="clear: both;"></div>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image6.png" alt="Spy network and map" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 5. Soviet spy network in Germany before the war started.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 5. Soviet spy network in Germany before the war started.</figcaption>
 </figure>
 
 ## Economy
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 320px; min-width: 0;">
-    <p style="margin: 0;"><strong>Historically</strong>, before the 20th century the Russian Empire was always behind other European economies in industrialization (slavery in Russia ended only in 1861, for example). When the Russian Empire collapsed, civil war followed and deepened the economic crisis. In the 1920s the Soviet economy was in ruins. The response was heavy industrialization through <strong>five-year plans</strong>: goals set for five-year periods. <strong>In the game</strong> you can take national focuses that enact five-year plans, giving you economic bonuses that reflect the plan you commit to (see Figure 6). In later decades the targets were often set deliberately low so that &quot;overfulfilling&quot; the plan could be packaged as propaganda, and after the Second World War five-year plans were widely seen as a symbol of Soviet corruption. In the 1920s and 1930s, however, they still represented a genuine step forward.</p>
+    <p style="margin: 0;"><strong>Historically</strong>, before the 20th century the Russian Empire was always behind other European economies in industrialization (slavery in Russia ended only in 1861, for example). When the Russian Empire collapsed, civil war followed and deepened the economic crisis. In the 1920s the Soviet economy was in ruins. The response was heavy industrialization through <strong>five-year plans</strong>: goals set for five-year periods. <strong>In the game</strong> you can take national focuses that enact five-year plans, giving you economic bonuses that reflect the plan you commit to (see Picture 6). In later decades the targets were often set deliberately low so that &quot;overfulfilling&quot; the plan could be packaged as propaganda, and after the Second World War five-year plans were widely seen as a symbol of Soviet corruption. In the 1920s and 1930s, however, they still represented a genuine step forward.</p>
   </div>
   <figure style="flex: 0 0 auto; max-width: 300px; width: 100%; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image9.png" alt="Five Year Plan effects" style="width: 100%;" />
-    <figcaption style="font-size: 0.9em; font-style: italic;">Figure 6. The Five Year Plan in the game: its mixed effects on production efficiency, factory output, and military construction speed.</figcaption>
+    <figcaption style="font-size: 0.9em; font-style: italic;">Picture 6. The Five Year Plan in the game: its mixed effects on production efficiency, factory output, and military construction speed.</figcaption>
   </figure>
 </div>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image7.png" alt="Soviet factory interior" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 7. Industrialization in the 20th century.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 7. Industrialization in the 20th century.</figcaption>
 </figure>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 280px; min-width: 0;">
-    <p style="margin: 0;">Another long-term piece of the economy was academic research: the Russian Academy of Sciences, founded in the 1700s, became the USSR’s top scientific body, and national academies later spread to the Union republics. <strong>Hearts of Iron IV</strong> lets you build additional national academies for faster research and more technologies—investments that can pay off later in the war (see Figure 8).</p>
+    <p style="margin: 0;">Another long-term piece of the economy was academic research: the Russian Academy of Sciences, founded in the 1700s, became the USSR’s top scientific body, and national academies later spread to the Union republics. <strong>Hearts of Iron IV</strong> lets you build additional national academies for faster research and more technologies—investments that can pay off later in the war (see Picture 8).</p>
   </div>
   <figure style="flex: 0 0 auto; max-width: 340px; width: 100%; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image10.png" alt="National Academies of Sciences" style="width: 100%;" />
-    <figcaption style="font-size: 0.9em; font-style: italic;">Figure 8. Building National Academies of Sciences in the republics, as the Russian Academy and later Union republics did historically.</figcaption>
+    <figcaption style="font-size: 0.9em; font-style: italic;">Picture 8. Building National Academies of Sciences in the republics, as the Russian Academy and later Union republics did historically.</figcaption>
   </figure>
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 280px; min-width: 0;">
-    <p style="margin: 0;"><strong>Historically</strong>, before the war the Red Army fielded a bewildering mix of tanks and aircraft, often with incompatible spare parts. That fragmentation made maintenance harder - some components were built at only a handful of plants, so losing a factory could strand hundreds of machines. The USSR responded by consolidating military industry. <strong>In the game</strong> you can do the same: merge plants and streamline production (see Figure 9).</p>
+    <p style="margin: 0;"><strong>Historically</strong>, before the war the Red Army fielded a bewildering mix of tanks and aircraft, often with incompatible spare parts. That fragmentation made maintenance harder - some components were built at only a handful of plants, so losing a factory could strand hundreds of machines. The USSR responded by consolidating military industry. <strong>In the game</strong> you can do the same: merge plants and streamline production (see Picture 9).</p>
   </div>
   <figure style="flex: 1 1 380px; max-width: min(440px, 100%); width: 100%; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image11.png" alt="Merge Plant decisions" style="width: 100%;" />
-    <figcaption style="font-size: 0.9em; font-style: italic;">Figure 9. Merging factories to simplify production, as the Soviets did when unique spare parts became a liability.</figcaption>
+    <figcaption style="font-size: 0.9em; font-style: italic;">Picture 9. Merging factories to simplify production, as the Soviets did when unique spare parts became a liability.</figcaption>
   </figure>
 </div>
 
@@ -99,55 +99,70 @@ After many old generals were purged, they were replaced by a new, less experienc
   <div style="flex: 1 1 280px; min-width: 0;">
     <p style="margin: 0;"><strong>Historically</strong>, in the 1930s the Soviet government funded attempts to set world aviation records. The press treated record flights as proof the country was moving ahead, and the pilots who set them became celebrities. However, behind that, the air force was in worse shape than it looked: bad management, waste, poor equipment, and crews with almost no flying time. As a result, in early 1941 the air force was still losing about two or three planes a day to accidents alone. Women were banned from pilot training, and so were men who were not Communist Party members. Even worse, before the war, 15% of pilots had flown a plane only <strong>once</strong>. When the Germans invaded, that showed up instantly: on the Belarusian Front the Soviets lost more than 1,100 planes in one day, well over a quarter of what they had in that sector. For the first year the Soviets effectively lost the air war. After that, more planes, better training, opening pilot jobs to more people, and help from the Allies slowly reversed that.</p>
   </div>
-  <figure style="flex: 0 0 auto; max-width: 340px; width: 100%; margin: 0;">
+  <figure style="flex: 0 0 auto; max-width: 280px; width: 100%; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image12.png" alt="Soviet Air Force modifiers" style="width: 100%;" />
-    <figcaption style="font-size: 0.9em; font-style: italic;">Figure 10. The game's Soviet Air Force penalties reflect the historical reality: high accident rates, inexperience.</figcaption>
+    <figcaption style="font-size: 0.9em; font-style: italic;">Picture 10. The game's Soviet Air Force penalties reflect the historical reality: high accident rates, inexperience.</figcaption>
   </figure>
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 280px; min-width: 0;">
-    <p style="margin: 0;">The Soviet air force has a special mechanic in <strong>Hearts of Iron IV</strong>. You start with a heavy penalty (see Figure 10) but you can improve it slowly with historical or non-historical decisions. One I took was to allow women into the air force. The game then lets you recruit the famous women bomber pilots known as the <strong>Night Witches</strong> (<em>Ночные ведьмы</em>; see Figures 11 and 12). Sabaton even has a song about them: <a href="https://youtu.be/jcemHIqmkYI">Night Witches</a>.</p>
+    <p style="margin: 0;">The Soviet air force has a special mechanic in <strong>Hearts of Iron IV</strong>. You start with a heavy penalty (see Picture 10) but you can improve it slowly with historical or non-historical decisions. One I took was to allow women into the air force. The game then lets you recruit the famous women bomber pilots known as the <strong>Night Witches</strong> (<em>Ночные ведьмы</em>; see Pictures 11 and 12). Sabaton even has a song about them: <a href="https://youtu.be/jcemHIqmkYI">Night Witches</a>.</p>
   </div>
   <figure style="flex: 0 0 auto; max-width: 340px; width: 100%; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image14.jpeg" alt="Night Witches portrait triptych" style="width: 100%;" />
-    <figcaption style="font-size: 0.9em; font-style: italic;">Figure 11. Night Witches (from left to right): Lydia Litvyak; Yevdokiya Nikulina; Mariya Ivanovna Dolina.</figcaption>
+    <figcaption style="font-size: 0.9em; font-style: italic;">Picture 11. Night Witches (from left to right): Lydia Litvyak; Yevdokiya Nikulina; Mariya Ivanovna Dolina.</figcaption>
   </figure>
 </div>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image13.png" alt="Air wings in Moscow" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 12. The 586th, 587th, and 588th female air regiments in the Moscow region; the 588th became the famous Night Witches.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 12. The 586th, 587th, and 588th female air regiments in the Moscow region; the 588th became the famous Night Witches.</figcaption>
 </figure>
 
 ## Symbols of victory: T-34s, Katyusha, Cossack cavalry, and Zhukov
 
 <div style="clear: both;"></div>
 
-**Historically**, the **T-34** is the most famous and most heavily produced tank in history. These tanks defended Moscow, completed the Stalingrad encirclement, took Berlin, and became a symbol of victory. **In the game** you get a tank designer to build your desired tank from available parts. Below is the tank I designed. Historically, T-34s were also given a shovel so they could dig in during defense. A famous Soviet tactic was to hide tanks alongside roads and shoot the first and last tank of a German column—blocking the rest so they could be shot one by one.
-
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image18.jpeg" alt="T-34 tank designer" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 16. The T-34 design used in this playthrough, built from available parts in the game's tank designer.</figcaption>
-</figure>
-
-<figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image19.jpeg" alt="Tank ambush tactic diagram" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 17. The Soviet tactic described above: hit the first and last tank in a column to block the rest and pick them off.</figcaption>
-</figure>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
+  <div style="flex: 1 1 280px; min-width: 0;">
+    <p style="margin: 0;">The <strong>T-34</strong> is one of the most famous and most heavily produced tanks in history. T-34s were symbols of the Eastern Front from Moscow to Stalingrad to Berlin.</p>
+    <p style="margin: 1em 0 0 0;"><strong>In the game</strong>, one of the coolest features is the tank designer: you add smoke launchers, machine guns, pick the engine, and in practice design your own T-34. My build is in <strong>Picture 13</strong>. Meta-wise it is not the most optimal design in the game, but I still tried to nod to real T-34 practice. The entrenchment module is highlighted there because T-34s often carried a shovel so the crew could dig in on defense—that is the same idea as <strong>Picture 14</strong>.</p>
+  </div>
+  <figure style="flex: 0 0 auto; max-width: 380px; width: 100%; margin: 0;">
+    <img src="/images/opinions/great-patriotic-war/image18.jpeg" alt="T-34 tank designer" style="width: 100%;" />
+    <figcaption style="font-size: 0.9em; font-style: italic;">Picture 13. Tank designer from this playthrough; the entrenchment (dig-in) choice is highlighted.</figcaption>
+  </figure>
+</div>
 
 <figure style="float: left; max-width: 340px; margin: 0 1em 1em 0;">
   <img src="/images/opinions/great-patriotic-war/image20.jpeg" alt="T-34 in defensive position" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 18. A T-34 in a hull-down position; historically they were given shovels to dig in during defense.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 14. Hull-down T-34; historically the shovel on the tank was for scraping out a firing position.</figcaption>
 </figure>
+
+<p style="margin: 0 0 1em 0;">Picture 14 is the sort of deployment crews were aiming for when they dug in by hand.</p>
+
+<div style="clear: both;"></div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
+  <div style="flex: 1 1 240px; min-width: 0;">
+    <p style="margin: 0;">A famous Soviet tactic was to hide tanks beside roads and shoot the first and last tank in a German column—trapping the rest so they could be picked off. <strong>Picture 15</strong> is a simple sketch of that idea.</p>
+  </div>
+  <figure style="flex: 0 0 auto; max-width: 320px; width: 100%; margin: 0;">
+    <img src="/images/opinions/great-patriotic-war/image19.jpeg" alt="Tank ambush tactic diagram" style="width: 100%;" />
+    <figcaption style="font-size: 0.9em; font-style: italic;">Picture 15. First and last tank in the column get hit; the vehicles in between are stuck.</figcaption>
+  </figure>
+</div>
+
+<div style="clear: both;"></div>
 
 Another symbol of victory was the **Katyusha** rocket launcher: huge explosives on target, with a huge psychological effect, and very mobile. **In history**, the Germans tried to copy the idea (e.g. Panzerwerfer 42) but had reliability issues. There is a song *Katyusha* that many from post-Soviet countries know: [original](https://youtu.be/MLg83QMmlGs). The game has its own version: [HoI4 Katyusha](https://youtu.be/xSjnN39Qhmc). And there is even a Rammstein version in German: [Rammstein Katyusha](https://youtu.be/khgJftnrNw0).
 
 ![Katyusha rocket launchers firing](/images/opinions/great-patriotic-war/image21.png)
-*Figure 19. Katyusha rocket launchers in action; the text describes their huge psychological effect and mobility.*
+*Picture 19. Katyusha rocket launchers in action; the text describes their huge psychological effect and mobility.*
 
 ![Rocket artillery](/images/opinions/great-patriotic-war/image22.jpeg)
-*Figure 20. Mobile rocket artillery; the Germans tried to copy the idea (e.g. Panzerwerfer 42) but had reliability issues.*
+*Picture 20. Mobile rocket artillery; the Germans tried to copy the idea (e.g. Panzerwerfer 42) but had reliability issues.*
 
 
 **Cossack cavalry** is among the most famous cavalry in history (with Mongolian cavalry and Winged Hussars). They were still used in the Second World War—mostly for mobility; they fought on foot. **In the game** I restored Cossack units as the Soviets did historically.
@@ -156,12 +171,12 @@ Another symbol of victory was the **Katyusha** rocket launcher: huge explosives 
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image23.png" alt="Cossack cavalry division template" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 21. The restored Cossack cavalry division template in the game, as the Soviets did historically.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 21. The restored Cossack cavalry division template in the game, as the Soviets did historically.</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 360px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image24.jpeg" alt="Cossack cavalry painting" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 22. Cossack cavalry as used in the Second World War, mostly for mobility; they fought on foot.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 22. Cossack cavalry as used in the Second World War, mostly for mobility; they fought on foot.</figcaption>
 </figure>
 
 
@@ -169,29 +184,29 @@ According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best m
 
 <figure style="float: left; max-width: 360px; margin: 0 1em 1em 0;">
   <img src="/images/opinions/great-patriotic-war/image25.jpeg" alt="Soviet troops advancing with red flag" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 23. Soviet troops advancing under the red flag; Zhukov led the offensives that turned the tide at Moscow, Stalingrad, and Berlin.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 23. Soviet troops advancing under the red flag; Zhukov led the offensives that turned the tide at Moscow, Stalingrad, and Berlin.</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 300px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image26.png" alt="WAR scores ranking Zhukov" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 24. Ethan Arsht's WAR scores rank Zhukov 9th among military generals in history and the only WW2 general on that list.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 24. Ethan Arsht's WAR scores rank Zhukov 9th among military generals in history and the only WW2 general on that list.</figcaption>
 </figure>
 
 <div style="clear: both;"></div>
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image15.png" alt="588th Night Bomber Regiment in game" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 13. The 588th Night Bomber Regiment as it appears in the game after that decision.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 16. The 588th Night Bomber Regiment as it appears in the game after that decision.</figcaption>
 </figure>
 
 <figure style="float: left; max-width: 360px; margin: 0 1em 1em 0;">
   <img src="/images/opinions/great-patriotic-war/image16.jpeg" alt="Soviet aviation" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 14. Soviet aviation went from record-breaking propaganda to losing over 1,100 planes in a single day, then slowly winning the sky back.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 17. Soviet aviation went from record-breaking propaganda to losing over 1,100 planes in a single day, then slowly winning the sky back.</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 340px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image17.png" alt="Air wing roster" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 15. Air wing roster with commanders and readiness in the Moscow region.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 18. Air wing roster with commanders and readiness in the Moscow region.</figcaption>
 </figure>
 
 ## Massive assault and early failures
@@ -201,7 +216,7 @@ According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best m
 **In history**, every major army followed one of four doctrines. Germany's **Mobile warfare** emphasized breaking enemy lines with tanks and encircling them (Blitzkrieg). The USA and Britain focused on coordination of special forces, artillery, and air force; France on entrenchment and planning. The Soviet Union followed **Mass assault**: it did not value individual lives. Advancement came through human-wave offensives and guerrilla warfare. In Stalingrad, some troops were given one rifle and three bullets—as if they were meant to die before firing them. This doctrine is one reason the Soviet Union and China had the highest casualties: about 24 and 20 million respectively. Germany lost about 8.8 million. (Source: [National WWII Museum – Worldwide Deaths](https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-worldwide-deaths-world-war).) **In Hearts of Iron IV** you choose a doctrine; I chose one based on coordination between air force, artillery and special forces rather than mass assault.
 
 ![Doctrine selection in game](/images/opinions/great-patriotic-war/image27.png)
-*Figure 25. In the game you choose a doctrine; the text explains mass assault (human-wave, guerrilla) versus the coordination-based approach chosen here.*
+*Picture 25. In the game you choose a doctrine; the text explains mass assault (human-wave, guerrilla) versus the coordination-based approach chosen here.*
 
 **Historically**, because of doctrine, incompetence, and indecisiveness, retreat was often forbidden, which led to massive encirclements in the first months: 3.5 million POWs in total. At Kiev alone, Soviet sources say 532 thousand were encircled (German sources: 667 thousand)—the biggest encirclement in history. At Vyazma, another 517 thousand (663 thousand by German count). All top five encirclements were of Soviet forces, all in 1941. In the Kiev pocket the Germans captured only 50 tanks; at Stalingrad the Soviets captured 60 thousand Germans and more than 1200 tanks.
 
@@ -209,17 +224,17 @@ After retreating about 1200 km, something had to be done. **Order 227** ("No ste
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image29.png" alt="Order 227 in game" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 26. Order 227 ("No step back"), Stalin's order to stop retreats and hold the line, as represented in the game.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 26. Order 227 ("No step back"), Stalin's order to stop retreats and hold the line, as represented in the game.</figcaption>
 </figure>
 
 <figure style="float: left; max-width: 360px; margin: 0 1em 1em 0;">
   <img src="/images/opinions/great-patriotic-war/image30.jpeg" alt="Factory evacuation east" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 27. When the European part was overrun, the USSR moved factories east; they recovered about 85% of capacity.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 27. When the European part was overrun, the USSR moved factories east; they recovered about 85% of capacity.</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 360px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image31.jpeg" alt="Industry relocation map" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 28. Relocating industry beyond the Urals so production could continue and the counterattack could be supplied.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 28. Relocating industry beyond the Urals so production could continue and the counterattack could be supplied.</figcaption>
 </figure>
 
 ## Partisans, propaganda, and supply issues for the enemy
@@ -229,38 +244,38 @@ After retreating about 1200 km, something had to be done. **Order 227** ("No ste
 **In history**, after occupying the eastern Soviet Union, the Nazis portrayed themselves as liberators. The photo below was taken in Minsk during a forced pro-German demonstration—the text says "Hitler liberator" (with a possible spelling/grammar quirk :D ). When you then kill people and send them to forced labor by nationality, trust vanishes. Many took guns and ammunition and went to the forests; new settlements appeared there. Partisan activity in occupied Ukraine and Belarus was very high. **In Hearts of Iron IV** you can organize and support partisans; they can sabotage supplies, provide intel, and help trigger uprisings.
 
 ![Forced demonstration in Minsk](/images/opinions/great-patriotic-war/image28.png)
-*Figure 29. The photo described above: taken in Minsk during a forced pro-German demonstration; the text says "Hitler liberator."*
+*Picture 29. The photo described above: taken in Minsk during a forced pro-German demonstration; the text says "Hitler liberator."*
 
 ![Partisans in the game](/images/opinions/great-patriotic-war/image33.png)
-*Figure 30. In the game you can organize and support partisans to sabotage supplies, provide intel, and trigger uprisings.*
+*Picture 30. In the game you can organize and support partisans to sabotage supplies, provide intel, and trigger uprisings.*
 
 **Historically**, propaganda was central for the Soviet Union—through media, books, films, theatre. **In the game** you can enact decisions to run campaigns with specific bonuses. Soviet propaganda remains a fascinating subject (especially if you know Russian).
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image8.png" alt="Agitprop high yield poster" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 31. The Agitprop campaign “We will accomplish a high yield”," as it appears in the game.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 31. The Agitprop campaign “We will accomplish a high yield”," as it appears in the game.</figcaption>
 </figure>
 
 <div style="clear: both;"></div>
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image34.png" alt="Soviet propaganda Agitprop" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 32. Propaganda was central for the Soviet Union; in the game you enact decisions to run campaigns with specific bonuses.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 32. Propaganda was central for the Soviet Union; in the game you enact decisions to run campaigns with specific bonuses.</figcaption>
 </figure>
 
 <figure style="float: left; max-width: 280px; margin: 0 1em 1em 0;">
   <img src="/images/opinions/great-patriotic-war/image35.jpeg" alt="British propaganda poster" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 33. An Allied propaganda poster from the period.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 33. An Allied propaganda poster from the period.</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 280px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image32.png" alt="Propaganda poster" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 34. Wartime propaganda through media, books, films, and theatre.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 34. Wartime propaganda through media, books, films, and theatre.</figcaption>
 </figure>
 
 <figure style="float: left; max-width: 320px; margin: 0 1em 1em 0;">
   <img src="/images/opinions/great-patriotic-war/image36.png" alt="Propaganda campaigns in game" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 35. Running propaganda campaigns in the game for their bonuses.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 35. Running propaganda campaigns in the game for their bonuses.</figcaption>
 </figure>
 
 
@@ -270,17 +285,17 @@ Supply is easy to overlook, but food and ammunition don't grow on the battlefiel
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image37.png" alt="Supply and terrain in game" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 36. The text notes that supply, railways, and weather all affect your ability to fight; mud and snow blocked roads and helped defenders.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 36. The text notes that supply, railways, and weather all affect your ability to fight; mud and snow blocked roads and helped defenders.</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 340px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image38.png" alt="Supply and attrition" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 37. When supply lines are cut, attrition sets in; in the war most supply went by rail.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 37. When supply lines are cut, attrition sets in; in the war most supply went by rail.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image39.jpeg" alt="Operation Bagration briefing map" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 38. Operation Bagration as shown in Steel Division II, the more tactical game mentioned in the next section.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 38. Operation Bagration as shown in Steel Division II, the more tactical game mentioned in the next section.</figcaption>
 </figure>
 
 
@@ -294,27 +309,27 @@ As Guderian said after losing to the Soviet army: **"They are learning."** **In 
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image40.png" alt="Encirclement plan Zhytomyr" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 39. The Germans tried to encircle my divisions around Zhytomyr; the idea is to find weak spots, break through, and join two salients.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 39. The Germans tried to encircle my divisions around Zhytomyr; the idea is to find weak spots, break through, and join two salients.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image41.png" alt="Railway cut from Kiev" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 40. The Germans cut the railway from Kiev; to resupply we had to build a new railway from Minsk to Zhytomyr.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 40. The Germans cut the railway from Kiev; to resupply we had to build a new railway from Minsk to Zhytomyr.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image42.png" alt="Counterattack closing the pocket" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 41. After resupply we could counterattack; if you stabilize the front you can encircle the enemy yourself.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 41. After resupply we could counterattack; if you stabilize the front you can encircle the enemy yourself.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image43.png" alt="Encirclement completed" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 42. As planned, the operation succeeded and the German army was encircled; the principle is the same as in real life.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 42. As planned, the operation succeeded and the German army was encircled; the principle is the same as in real life.</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 280px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image44.png" alt="Reflection after encirclement" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 43. A moment of reflection after pulling off the encirclement.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 43. A moment of reflection after pulling off the encirclement.</figcaption>
 </figure>
 
 
@@ -331,12 +346,12 @@ After the encirclement and surrender of the German 6th Army at Stalingrad (the f
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image45.png" alt="Stalingrad in the game" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 44. Stalingrad was fought for every street and every floor; the quote calls it "rat warfare" where the smarter, braver soldier won.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 44. Stalingrad was fought for every street and every floor; the quote calls it "rat warfare" where the smarter, braver soldier won.</figcaption>
 </figure>
 
 <figure style="float: left; max-width: 380px; margin: 0 1em 1em 0;">
   <img src="/images/opinions/great-patriotic-war/image46.jpeg" alt="Ruins after battle" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 45. The ruins left after the encirclement and surrender of the 6th Army at Stalingrad.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 45. The ruins left after the encirclement and surrender of the 6th Army at Stalingrad.</figcaption>
 </figure>
 
 
@@ -350,48 +365,48 @@ Hearts of Iron IV does not actually depict these atrocities—the Holocaust, con
 
 <figure style="float: right; max-width: 360px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image47.png" alt="Children on abandoned tank, Belgium 1945" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 46. Children on an abandoned Jagdpanther in Sterpigny, Belgium, 1945; the afterword asks us to remember the victims and not repeat the crimes.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 46. Children on an abandoned Jagdpanther in Sterpigny, Belgium, 1945; the afterword asks us to remember the victims and not repeat the crimes.</figcaption>
 </figure>
 
 
 I was planning to finish this "class-report thingy" by Christmas, but since gameplay took longer and later I was lazy to write everything down, I ended up doing most of the writing in one go. Yet I want to finish with the same Christmas quote by Franklin Roosevelt, since I find it very epic and heroic:
 
 ![Roosevelt Christmas 1942](/images/opinions/great-patriotic-war/image48.jpeg)
-*Figure 47. Franklin Roosevelt delivering his Christmas address in 1942; the quote below is the one the author finds epic and heroic.*
+*Picture 47. Franklin Roosevelt delivering his Christmas address in 1942; the quote below is the one the author finds epic and heroic.*
 
 > "I cannot say 'Merry Christmas' – for I think constantly of those thousands of soldiers and sailors who are in actual combat throughout the world – but I can express to you my thought that this is a happier Christmas than last year in the sense that the forces of darkness stand against us with less confidence in the success of their evil ways."  
 > — Franklin Roosevelt, December 1942
 
 <figure style="float: right; max-width: 300px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image49.jpeg" alt="Honorable mention" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 48. Honorable mention.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 48. Honorable mention.</figcaption>
 </figure>
 
 <div style="clear: both;"></div>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image280.png" alt="Same street in wartime and today" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 49. The same location in wartime and today.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 49. The same location in wartime and today.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image300.png" alt="Past and present overlay" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 50. Holding the past up to the present.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 50. Holding the past up to the present.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image310.png" alt="One place, two moments" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 51. The same place in two moments in time.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 51. The same place in two moments in time.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image320.png" alt="History in the hand" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 52. A wartime photograph aligned with the same street today.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 52. A wartime photograph aligned with the same street today.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image330.png" alt="Then and now" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Figure 53. After the smoke cleared; the same street in peace.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 53. After the smoke cleared; the same street in peace.</figcaption>
 </figure>
 
 <div class="post-references" markdown="1">
