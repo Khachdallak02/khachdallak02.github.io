@@ -35,7 +35,7 @@ In the 30s and 40s social-political life was, to say the least, super unstable. 
   <figcaption style="font-size: 0.9em; font-style: italic;">Picture 3. The Paranoia system and the options to lower it: forged production reports and inspections in the army, navy, and air force.</figcaption>
 </figure>
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 260px; min-width: 0;">
     <p style="margin: 0;"><strong>Historically</strong>, the Soviets even went as far as sending operatives to kill Stalin's main political rival Trotsky, who had escaped to Mexico. <strong>In the game</strong>, to stop the purge you have to run a similar operation to raid Trotsky's villa in Mexico and assassinate him (see Picture 4).</p>
   </div>
@@ -58,7 +58,7 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 ## Economy
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 320px; min-width: 0;">
     <p style="margin: 0;"><strong>Historically</strong>, before the 20th century the Russian Empire was always behind other European economies in industrialization (slavery in Russia ended only in 1861, for example). When the Russian Empire collapsed, civil war followed and deepened the economic crisis. In the 1920s the Soviet economy was in ruins. The response was heavy industrialization through <strong>five-year plans</strong>: goals set for five-year periods. <strong>In the game</strong> you can take national focuses that enact five-year plans, giving you economic bonuses that reflect the plan you commit to (see Picture 6). In later decades the targets were often set deliberately low so that &quot;overfulfilling&quot; the plan could be packaged as propaganda, and after the Second World War five-year plans were widely seen as a symbol of Soviet corruption. In the 1920s and 1930s, however, they still represented a genuine step forward.</p>
   </div>
@@ -73,8 +73,8 @@ After many old generals were purged, they were replaced by a new, less experienc
   <figcaption style="font-size: 0.9em; font-style: italic;">Picture 7. Industrialization in the 20th century.</figcaption>
 </figure>
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
-  <div style="flex: 1 1 280px; min-width: 0;">
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
+  <div style="flex: 1 1 280px; min-width: 0; padding-left: clamp(1.25rem, 5vw, 3.5rem); box-sizing: border-box;">
     <p style="margin: 0;">Another long-term piece of the economy was academic research: the Russian Academy of Sciences, founded in the 1700s, became the USSR’s top scientific body, and national academies later spread to the Union republics. <strong>Hearts of Iron IV</strong> lets you build additional national academies for faster research and more technologies—investments that can pay off later in the war (see Picture 8).</p>
   </div>
   <figure style="flex: 0 0 auto; max-width: 340px; width: 100%; margin: 0;">
@@ -83,7 +83,7 @@ After many old generals were purged, they were replaced by a new, less experienc
   </figure>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 280px; min-width: 0;">
     <p style="margin: 0;"><strong>Historically</strong>, before the war the Red Army fielded a bewildering mix of tanks and aircraft, often with incompatible spare parts. That fragmentation made maintenance harder - some components were built at only a handful of plants, so losing a factory could strand hundreds of machines. The USSR responded by consolidating military industry. <strong>In the game</strong> you can do the same: merge plants and streamline production (see Picture 9).</p>
   </div>
@@ -95,7 +95,7 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 ## Aviation
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 280px; min-width: 0;">
     <p style="margin: 0;"><strong>Historically</strong>, in the 1930s the Soviet government funded attempts to set world aviation records. The press treated record flights as proof the country was moving ahead, and the pilots who set them became celebrities. However, behind that, the air force was in worse shape than it looked: bad management, waste, poor equipment, and crews with almost no flying time. As a result, in early 1941 the air force was still losing about two or three planes a day to accidents alone. Women were banned from pilot training, and so were men who were not Communist Party members. Even worse, before the war, 15% of pilots had flown a plane only <strong>once</strong>. When the Germans invaded, that showed up instantly: on the Belarusian Front the Soviets lost more than 1,100 planes in one day, well over a quarter of what they had in that sector. For the first year the Soviets effectively lost the air war. After that, more planes, better training, opening pilot jobs to more people, and help from the Allies slowly reversed that.</p>
   </div>
@@ -105,7 +105,7 @@ After many old generals were purged, they were replaced by a new, less experienc
   </figure>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 280px; min-width: 0;">
     <p style="margin: 0;">The Soviet air force has a special mechanic in <strong>Hearts of Iron IV</strong>. You start with a heavy penalty (see Picture 10) but you can improve it slowly with historical or non-historical decisions. One I took was to allow women into the air force. The game then lets you recruit the famous women bomber pilots known as the <strong>Night Witches</strong> (<em>Ночные ведьмы</em>; see Pictures 11 and 12). Sabaton even has a song about them: <a href="https://youtu.be/jcemHIqmkYI">Night Witches</a>.</p>
   </div>
@@ -126,10 +126,10 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 <p style="margin: 0 0 3.25em 0;">When people picture the Red Army in the Great Patriotic War, a few symbols keep coming back: the <strong>T-34</strong>, the scream of <strong>Katyusha</strong> rockets, <strong>Cossack</strong> horsemen in the popular imagination, and <strong>Zhukov</strong> as the face of Soviet generalship. None of that replaces the grim arithmetic of casualties or the complexity of the front, but it does shape how the war is remembered—and <strong>Hearts of Iron IV</strong> leans into some of these icons through design choices, units, and characters. I will start with the tank everyone has heard of, then move through the rest of this heading in order.</p>
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 300px; min-width: 0;">
     <p style="margin: 0;">The <strong>T-34</strong> is one of the most famous and most heavily produced tanks in history. T-34s were symbols of the Eastern Front from Moscow to Stalingrad to Berlin.</p>
-    <p style="margin: 2.35em 0 0 0;"><strong>In the game</strong>, one of the coolest features is the tank designer: you can add smoke launchers, machine guns, pick the engine type, and design your own mass-produced tank (T-34). You can see the tank design that I used in <strong>Picture 13</strong>. Meta-wise it is not the most optimal design in the game, but it is a more historically inspired take on the T-34.</p>
+    <p style="margin: 2.35em 0 0 0;"><strong>In the game</strong>, one of the coolest features is the tank designer: you can add smoke launchers, machine guns, pick the engine type, and design your own mass-produced tank (T-34). You can see the tank design that I used in <strong>Picture 13</strong> (radio; shovels; extra machine gun and cannon). Meta-wise it is not the most optimal design in the game, but it is a more historically inspired take on the T-34.</p>
     <p style="margin: 2.35em 0 0 0;">The entrenchment module is highlighted there because T-34s often carried a shovel so the crew could dig in on defense in a hull-down position—see <strong>Picture 14</strong> in the figures alongside this text (directly under <strong>Picture 13</strong>).</p>
     <p style="margin: 2.35em 0 0 0;">Soviet tankers with their entrenched tank appear in the contemporary photograph <strong>Picture 15</strong>.</p>
     <p style="margin: 2.35em 0 0 0;">A famous Soviet tactic was to hide tanks beside roads and shoot the first and last tank in a German column, trapping the rest; <strong>Picture 16</strong> sketches that.</p>
