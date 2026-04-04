@@ -124,6 +124,8 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 <div style="clear: both;"></div>
 
+<p style="margin: 0 0 3.25em 0;">When people picture the Red Army in the Great Patriotic War, a few symbols keep coming back: the <strong>T-34</strong>, the scream of <strong>Katyusha</strong> rockets, <strong>Cossack</strong> horsemen in the popular imagination, and <strong>Zhukov</strong> as the face of Soviet generalship. None of that replaces the grim arithmetic of casualties or the complexity of the front, but it does shape how the war is remembered—and <strong>Hearts of Iron IV</strong> leans into some of these icons through design choices, units, and characters. I will start with the tank everyone has heard of, then move through the rest of this heading in order.</p>
+
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 300px; min-width: 0;">
     <p style="margin: 0;">The <strong>T-34</strong> is one of the most famous and most heavily produced tanks in history. T-34s were symbols of the Eastern Front from Moscow to Stalingrad to Berlin.</p>
