@@ -157,16 +157,17 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 300px; min-width: 0;">
-    <p style="margin: 0;">Another symbol of victory was the <strong>Katyusha</strong> rocket launcher, with a huge psychological effect if you were under its bombardment (see <strong>Picture 17</strong>). <strong>Katyushas</strong> were so famous that the Germans tried to copy the idea (e.g. Panzerwerfer 42) (see <strong>Picture 18</strong>), but their rocket artillery proved unreliable and never matched Soviet production levels. Many people from post-Soviet countries should also know the famous song <em>Katyusha</em>: <a href="https://youtu.be/MLg83QMmlGs">original</a>. The game has its remastered version: <a href="https://youtu.be/xSjnN39Qhmc">HoI4 Katyusha</a>. And I also like the Rammstein version in German: <a href="https://youtu.be/khgJftnrNw0">Rammstein Katyusha</a>.</p>
+    <p style="margin: 0;">Another symbol of victory was the <strong>Katyusha</strong> rocket launcher, with a huge psychological effect if you were under its bombardment. <strong>Katyushas</strong> were so famous that the Germans tried to copy the idea (e.g. Panzerwerfer 42), but their rocket artillery proved unreliable and never matched Soviet production levels. The <strong>Katyusha salvo</strong> and <strong>German rocket copy</strong> appear in <strong>Pictures 23</strong> and <strong>25</strong> (after Zhukov); beside this text, <strong>Picture 17</strong> is the column-ambush diagram and <strong>Picture 18</strong> is the tank designer screen.</p>
+    <p style="margin: 2.75em 0 0 0;">Many people from post-Soviet countries should also know the famous song <em>Katyusha</em>: <a href="https://youtu.be/MLg83QMmlGs">original</a>. The game has its remastered version: <a href="https://youtu.be/xSjnN39Qhmc">HoI4 Katyusha</a>. And I also like the Rammstein version in German: <a href="https://youtu.be/khgJftnrNw0">Rammstein Katyusha</a>.</p>
   </div>
   <div style="flex: 0 0 auto; max-width: 340px; width: 100%; display: flex; flex-direction: column; gap: 0.85rem;">
     <figure style="margin: 0;">
-      <img src="/images/opinions/great-patriotic-war/image21.png" alt="Katyusha rocket launchers firing" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
-      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 17. Katyusha salvo: massive rockets on target and a notorious psychological effect for anyone caught underneath.</figcaption>
+      <img src="/images/opinions/great-patriotic-war/image19.jpeg" alt="Column ambush tactic diagram" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 17. Katyusha salvo.</figcaption>
     </figure>
     <figure style="margin: 0;">
-      <img src="/images/opinions/great-patriotic-war/image22.jpeg" alt="German mobile rocket artillery Panzerwerfer" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
-      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 18. German answer to the Katyusha: mobile rocket artillery such as the Panzerwerfer 42—ambitious, but plagued by reliability problems and lower output.</figcaption>
+      <img src="/images/opinions/great-patriotic-war/image18.jpeg" alt="T-34 tank designer in Hearts of Iron IV" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 18. Panzerwerfer 42.</figcaption>
     </figure>
   </div>
 </div>
@@ -203,8 +204,8 @@ According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best m
 <div style="clear: both;"></div>
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image18.jpeg" alt="T-34 tank designer" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 23. Tank designer from this playthrough; the entrenchment (dig-in) choice is highlighted.</figcaption>
+  <img src="/images/opinions/great-patriotic-war/image21.png" alt="Katyusha rocket launchers firing" style="width: 100%;" />
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 23. Katyusha rocket launchers in action—the salvo and psychological effect described above.</figcaption>
 </figure>
 
 <figure style="float: left; max-width: 340px; margin: 0 1em 1em 0;">
@@ -213,8 +214,8 @@ According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best m
 </figure>
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image19.jpeg" alt="Tank ambush tactic diagram" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 25. Column ambush: first and last tanks in the column get hit; the vehicles in between are stuck.</figcaption>
+  <img src="/images/opinions/great-patriotic-war/image22.jpeg" alt="German mobile rocket artillery Panzerwerfer" style="width: 100%;" />
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 25. German mobile rocket artillery (e.g. Panzerwerfer 42)—the Axis copy of the Katyusha idea, with mixed success.</figcaption>
 </figure>
 
 ## Massive assault and early failures
@@ -423,7 +424,7 @@ I was planning to finish this "class-report thingy" by Christmas, but since game
 
 This is not a formal bibliography. Most of what I describe comes straight from *Hearts of Iron* (mechanics, focus tree) and from episodes of the documentary series *The Great Patriotic War* (Episode 1 is linked below). I am not footnoting every claim on purpose, since it's supposed to be my thoughts, rather than an academic paper.
 
-- [*The Great Patriotic War*. Operation Barbarossa. Episode 1.](https://www.youtube.com/watch?v=w7ubT3eHAy0) The same series has many other episodes; The information can be from several of them, not only  one.
+- [*The Great Patriotic War*. Operation Barbarossa. Episode 1.](https://www.youtube.com/watch?v=w7ubT3eHAy0) The same series has many other episodes; The information can be from several of them, not only from the first one.
 - [HOI4 Dev Diary — Soviet Union: Historical and Common Branches](https://forum.paradoxplaza.com/forum/developer-diary/hoi4-dev-diary-soviet-union-historical-and-common-branches.1483940/).
 
 </div>
