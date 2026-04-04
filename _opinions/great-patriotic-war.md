@@ -131,7 +131,7 @@ After many old generals were purged, they were replaced by a new, less experienc
     <p style="margin: 0;">The <strong>T-34</strong> is one of the most famous and most heavily produced tanks in history. T-34s were symbols of the Eastern Front from Moscow to Stalingrad to Berlin.</p>
     <p style="margin: 2.35em 0 0 0;"><strong>In the game</strong>, one of the coolest features is the tank designer: you can add smoke launchers, machine guns, pick the engine type, and design your own mass-produced tank (T-34). You can see the tank design that I used in <strong>Picture 13</strong> (radio; shovels; extra machine gun and cannon). Meta-wise it is not the most optimal design in the game, but it is a more historically inspired take on the T-34.</p>
     <p style="margin: 2.35em 0 0 0;">The entrenchment module is highlighted there because T-34s often carried a shovel so the crew could dig in on defense in a hull-down position (see <strong>Picture 13</strong> and <strong>Picture 14</strong>). </p>
-    <p style="margin: 2.35em 0 0 0;">A famous tactic was the <strong>column ambush</strong> a type of <strong>convoy ambush</strong> on a narrow road: hide tanks at the roadside, knock out the <strong>lead and trail</strong> German tanks, and trap the vehicles in between; <strong>Picture 16</strong> sketches that.</p>
+    <p style="margin: 2.35em 0 0 0;">A famous tactic was the <strong>column ambush</strong>—a type of <strong>convoy ambush</strong> on a narrow road: hide tanks at the roadside, knock out the <strong>lead and trail</strong> German tanks, and trap the vehicles in between; <strong>Picture 16</strong> sketches that.</p>
   </div>
   <div style="flex: 0 0 auto; max-width: 380px; width: 100%; display: flex; flex-direction: column; gap: 1rem;">
     <figure style="margin: 0;">
@@ -155,14 +155,23 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 <div style="clear: both;"></div>
 
-Another symbol of victory was the **Katyusha** rocket launcher: huge explosives on target, with a huge psychological effect, and very mobile. **In history**, the Germans tried to copy the idea (e.g. Panzerwerfer 42) but had reliability issues. There is a song *Katyusha* that many from post-Soviet countries know: [original](https://youtu.be/MLg83QMmlGs). The game has its own version: [HoI4 Katyusha](https://youtu.be/xSjnN39Qhmc). And there is even a Rammstein version in German: [Rammstein Katyusha](https://youtu.be/khgJftnrNw0).
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
+  <div style="flex: 1 1 300px; min-width: 0;">
+    <p style="margin: 0;">Another symbol of victory was the <strong>Katyusha</strong> rocket launcher, with a huge psychological effect if you were under its bombardment (see <strong>Picture 17</strong>). <strong>Katyushas</strong> were so famous that the Germans tried to copy the idea (e.g. Panzerwerfer 42) (see <strong>Picture 18</strong>), but their rocket artillery proved unreliable and never matched Soviet production levels. Many people from post-Soviet countries should also know the famous song <em>Katyusha</em>: <a href="https://youtu.be/MLg83QMmlGs">original</a>. The game has its remastered version: <a href="https://youtu.be/xSjnN39Qhmc">HoI4 Katyusha</a>. And I also like the Rammstein version in German: <a href="https://youtu.be/khgJftnrNw0">Rammstein Katyusha</a>.</p>
+  </div>
+  <div style="flex: 0 0 auto; max-width: 340px; width: 100%; display: flex; flex-direction: column; gap: 0.85rem;">
+    <figure style="margin: 0;">
+      <img src="/images/opinions/great-patriotic-war/image21.png" alt="Katyusha rocket launchers firing" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 17. Katyusha salvo: massive rockets on target and a notorious psychological effect for anyone caught underneath.</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+      <img src="/images/opinions/great-patriotic-war/image22.jpeg" alt="German mobile rocket artillery Panzerwerfer" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 18. German answer to the Katyusha: mobile rocket artillery such as the Panzerwerfer 42—ambitious, but plagued by reliability problems and lower output.</figcaption>
+    </figure>
+  </div>
+</div>
 
-![Katyusha rocket launchers firing](/images/opinions/great-patriotic-war/image21.png)
-*Picture 20. Katyusha rocket launchers in action; the text describes their huge psychological effect and mobility.*
-
-![Rocket artillery](/images/opinions/great-patriotic-war/image22.jpeg)
-*Picture 21. Mobile rocket artillery; the Germans tried to copy the idea (e.g. Panzerwerfer 42) but had reliability issues.*
-
+<div style="clear: both;"></div>
 
 **Cossack cavalry** is among the most famous cavalry in history (with Mongolian cavalry and Winged Hussars). They were still used in the Second World War—mostly for mobility; they fought on foot. **In the game** I restored Cossack units as the Soviets did historically.
 
@@ -170,12 +179,12 @@ Another symbol of victory was the **Katyusha** rocket launcher: huge explosives 
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image23.png" alt="Cossack cavalry division template" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 22. The restored Cossack cavalry division template in the game, as the Soviets did historically.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 19. The restored Cossack cavalry division template in the game, as the Soviets did historically.</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 360px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image24.jpeg" alt="Cossack cavalry painting" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 23. Cossack cavalry as used in the Second World War, mostly for mobility; they fought on foot.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 20. Cossack cavalry as used in the Second World War, mostly for mobility; they fought on foot.</figcaption>
 </figure>
 
 
@@ -183,29 +192,29 @@ According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best m
 
 <figure style="float: left; max-width: 360px; margin: 0 1em 1em 0;">
   <img src="/images/opinions/great-patriotic-war/image25.jpeg" alt="Soviet troops advancing with red flag" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 24. Soviet troops advancing under the red flag; Zhukov led the offensives that turned the tide at Moscow, Stalingrad, and Berlin.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 21. Soviet troops advancing under the red flag; Zhukov led the offensives that turned the tide at Moscow, Stalingrad, and Berlin.</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 300px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image26.png" alt="WAR scores ranking Zhukov" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 25. Ethan Arsht's WAR scores rank Zhukov 9th among military generals in history and the only WW2 general on that list.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 22. Ethan Arsht's WAR scores rank Zhukov 9th among military generals in history and the only WW2 general on that list.</figcaption>
 </figure>
 
 <div style="clear: both;"></div>
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image18.jpeg" alt="T-34 tank designer" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 17. Tank designer from this playthrough; the entrenchment (dig-in) choice is highlighted.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 23. Tank designer from this playthrough; the entrenchment (dig-in) choice is highlighted.</figcaption>
 </figure>
 
 <figure style="float: left; max-width: 340px; margin: 0 1em 1em 0;">
   <img src="/images/opinions/great-patriotic-war/image20.jpeg" alt="T-34 in defensive position" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 18. Soviet aviation went from record-breaking propaganda to losing over 1,100 planes in a single day, then slowly winning the sky back.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 24. T-34 in a hull-down / defensive posture (game screenshot echoing Pictures 13–14).</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image19.jpeg" alt="Tank ambush tactic diagram" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 19. First and last tank in the column get hit; the vehicles in between are stuck.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 25. Column ambush: first and last tanks in the column get hit; the vehicles in between are stuck.</figcaption>
 </figure>
 
 ## Massive assault and early failures
@@ -414,7 +423,7 @@ I was planning to finish this "class-report thingy" by Christmas, but since game
 
 This is not a formal bibliography. Most of what I describe comes straight from *Hearts of Iron* (mechanics, focus tree) and from episodes of the documentary series *The Great Patriotic War* (Episode 1 is linked below). I am not footnoting every claim on purpose, since it's supposed to be my thoughts, rather than an academic paper.
 
-- [*The Great Patriotic War*. Operation Barbarossa. Episode 1.](https://www.youtube.com/watch?v=w7ubT3eHAy0). The same series has many other episodes; I drew on several of them in passing, not only this one.
+- [*The Great Patriotic War*. Operation Barbarossa. Episode 1.](https://www.youtube.com/watch?v=w7ubT3eHAy0) The same series has many other episodes; The information can be from several of them, not only  one.
 - [HOI4 Dev Diary — Soviet Union: Historical and Common Branches](https://forum.paradoxplaza.com/forum/developer-diary/hoi4-dev-diary-soviet-union-historical-and-common-branches.1483940/).
 
 </div>
