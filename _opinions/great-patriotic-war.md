@@ -124,21 +124,19 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 <div style="clear: both;"></div>
 
-<p style="margin: 0 0 3.25em 0;">When people picture the Red Army in the Great Patriotic War, a few symbols keep coming back: the <strong>T-34</strong>, the scream of <strong>Katyusha</strong> rockets, <strong>Cossack</strong> horsemen in the popular imagination, and <strong>Zhukov</strong> as the face of Soviet generalship. None of that replaces the grim arithmetic of casualties or the complexity of the front, but it does shape how the war is remembered—and <strong>Hearts of Iron IV</strong> leans into some of these icons through design choices, units, and characters. I will start with the tank everyone has heard of, then move through the rest of this heading in order.</p>
+<p style="margin: 0 0 3.25em 0;">When people picture the Red Army in the Great Patriotic War, a few symbols keep coming back: the <strong>T-34</strong>, the scream of <strong>Katyusha</strong> rockets, <strong>Cossack</strong> horsemen, <strong>Zhukov</strong> as the face of Soviet victories. <strong>Hearts of Iron IV</strong> leans into some of these icons through design choices, units, and characters. </p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 300px; min-width: 0;">
     <p style="margin: 0;">The <strong>T-34</strong> is one of the most famous and most heavily produced tanks in history. T-34s were symbols of the Eastern Front from Moscow to Stalingrad to Berlin.</p>
     <p style="margin: 2.35em 0 0 0;"><strong>In the game</strong>, one of the coolest features is the tank designer: you can add smoke launchers, machine guns, pick the engine type, and design your own mass-produced tank (T-34). You can see the tank design that I used in <strong>Picture 13</strong> (radio; shovels; extra machine gun and cannon). Meta-wise it is not the most optimal design in the game, but it is a more historically inspired take on the T-34.</p>
-    <p style="margin: 2.35em 0 0 0;">The entrenchment module is highlighted there because T-34s often carried a shovel so the crew could dig in on defense in a hull-down position—see <strong>Picture 14</strong> in the figures alongside this text (directly under <strong>Picture 13</strong>).</p>
-    <p style="margin: 2.35em 0 0 0;">Soviet tankers with their entrenched tank appear in the contemporary photograph <strong>Picture 15</strong>.</p>
-    <p style="margin: 2.35em 0 0 0;">A famous Soviet tactic was to hide tanks beside roads and shoot the first and last tank in a German column, trapping the rest; <strong>Picture 16</strong> sketches that.</p>
-    <p style="margin: 2.35em 0 0 0;">The same three topics are shown again with the actual tank screenshots as <strong>Pictures 17–19</strong> after Zhukov.</p>
+    <p style="margin: 2.35em 0 0 0;">The entrenchment module is highlighted there because T-34s often carried a shovel so the crew could dig in on defense in a hull-down position (see <strong>Picture 13</strong> and <strong>Picture 14</strong>). </p>
+    <p style="margin: 2.35em 0 0 0;">A famous tactic was the <strong>column ambush</strong> a type of <strong>convoy ambush</strong> on a narrow road: hide tanks at the roadside, knock out the <strong>lead and trail</strong> German tanks, and trap the vehicles in between; <strong>Picture 16</strong> sketches that.</p>
   </div>
   <div style="flex: 0 0 auto; max-width: 380px; width: 100%; display: flex; flex-direction: column; gap: 1rem;">
     <figure style="margin: 0;">
       <img src="/images/opinions/great-patriotic-war/image15.png" alt="588th Night Bomber Regiment in game" style="width: 100%;" />
-      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 13. Tank designer from this playthrough; the entrenchment (dig-in) choice is highlighted.</figcaption>
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 13. T34 in the tank designer.</figcaption>
     </figure>
     <figure style="margin: 0;">
       <img src="/images/opinions/great-patriotic-war/image16.jpeg" alt="Soviet aviation" style="width: 100%;" />
@@ -146,11 +144,11 @@ After many old generals were purged, they were replaced by a new, less experienc
     </figure>
     <figure style="margin: 0;">
       <img src="/images/opinions/great-patriotic-war/image22.jpg" alt="Soviet tankers with their entrenched tank" style="width: 100%;" />
-      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 15. Soviet tankers with their entrenched T-34.</figcaption>
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 15. Soviet tankers with their entrenched tank.</figcaption>
     </figure>
     <figure style="margin: 0;">
       <img src="/images/opinions/great-patriotic-war/image17.png" alt="Air wing roster" style="width: 100%;" />
-      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 16. First and last tank in the column get hit; the vehicles in between are stuck.</figcaption>
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 16. Column ambush: first and last tanks in the column get hit; the vehicles in between are stuck.</figcaption>
     </figure>
   </div>
 </div>
