@@ -125,13 +125,13 @@ After many old generals were purged, they were replaced by a new, less experienc
 <div style="clear: both;"></div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start; margin: 0.75em 0 1em 0;">
-  <div style="flex: 1 1 280px; min-width: 0;">
+  <div style="flex: 1 1 300px; min-width: 0;">
     <p style="margin: 0;">The <strong>T-34</strong> is one of the most famous and most heavily produced tanks in history. T-34s were symbols of the Eastern Front from Moscow to Stalingrad to Berlin.</p>
-    <p style="margin: 1em 0 0 0;"><strong>In the game</strong>, one of the coolest features is the tank designer: you can add smoke launchers, machine guns, pick the engine type, and design your own mass-produced tank (T-34). You can see the tank design that I used in <strong>Picture 13</strong>. Meta-wise it is not the most optimal design in the game, but it is a more historically inspired take on the T-34.</p>
-    <p style="margin: 1em 0 0 0;">The entrenchment module is highlighted there because T-34s often carried a shovel so the crew could dig in on defense in a hull-down position—see <strong>Picture 14</strong> in the figures alongside this text (directly under <strong>Picture 13</strong>).</p>
-    <p style="margin: 1em 0 0 0;">Soviet tankers with their entrenched tank appear in the contemporary photograph <strong>Picture 15</strong>.</p>
-    <p style="margin: 1em 0 0 0;">A famous Soviet tactic was to hide tanks beside roads and shoot the first and last tank in a German column, trapping the rest; <strong>Picture 16</strong> sketches that.</p>
-    <p style="margin: 1em 0 0 0;">The same three topics are shown again with the actual tank screenshots as <strong>Pictures 17–19</strong> after Zhukov.</p>
+    <p style="margin: 2.35em 0 0 0;"><strong>In the game</strong>, one of the coolest features is the tank designer: you can add smoke launchers, machine guns, pick the engine type, and design your own mass-produced tank (T-34). You can see the tank design that I used in <strong>Picture 13</strong>. Meta-wise it is not the most optimal design in the game, but it is a more historically inspired take on the T-34.</p>
+    <p style="margin: 2.35em 0 0 0;">The entrenchment module is highlighted there because T-34s often carried a shovel so the crew could dig in on defense in a hull-down position—see <strong>Picture 14</strong> in the figures alongside this text (directly under <strong>Picture 13</strong>).</p>
+    <p style="margin: 2.35em 0 0 0;">Soviet tankers with their entrenched tank appear in the contemporary photograph <strong>Picture 15</strong>.</p>
+    <p style="margin: 2.35em 0 0 0;">A famous Soviet tactic was to hide tanks beside roads and shoot the first and last tank in a German column, trapping the rest; <strong>Picture 16</strong> sketches that.</p>
+    <p style="margin: 2.35em 0 0 0;">The same three topics are shown again with the actual tank screenshots as <strong>Pictures 17–19</strong> after Zhukov.</p>
   </div>
   <div style="flex: 0 0 auto; max-width: 380px; width: 100%; display: flex; flex-direction: column; gap: 1rem;">
     <figure style="margin: 0;">
@@ -140,11 +140,11 @@ After many old generals were purged, they were replaced by a new, less experienc
     </figure>
     <figure style="margin: 0;">
       <img src="/images/opinions/great-patriotic-war/image16.jpeg" alt="Soviet aviation" style="width: 100%;" />
-      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 14. Hull-down T-34; historically the shovel on the tank was for scraping out a firing position.</figcaption>
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 14. Entrenched T-34.</figcaption>
     </figure>
     <figure style="margin: 0;">
       <img src="/images/opinions/great-patriotic-war/image22.jpg" alt="Soviet tankers with their entrenched tank" style="width: 100%;" />
-      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 15. Soviet tankers with their entrenched tank.</figcaption>
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 15. Soviet tankers with their entrenched T-34.</figcaption>
     </figure>
     <figure style="margin: 0;">
       <img src="/images/opinions/great-patriotic-war/image17.png" alt="Air wing roster" style="width: 100%;" />
