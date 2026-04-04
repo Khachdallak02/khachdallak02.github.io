@@ -157,7 +157,7 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 300px; min-width: 0;">
-    <p style="margin: 0;">Another symbol of victory was the <strong>Katyusha</strong> rocket launcher, with a huge psychological effect if you were under its bombardment. <strong>Katyushas</strong> were so famous that the Germans tried to copy the idea (e.g. Panzerwerfer 42), but their rocket artillery proved unreliable and never matched Soviet production levels. The <strong>Katyusha salvo</strong> and <strong>German rocket copy</strong> appear in <strong>Pictures 23</strong> and <strong>25</strong> (after Zhukov); beside this text, <strong>Picture 17</strong> is the column-ambush diagram and <strong>Picture 18</strong> is the tank designer screen.</p>
+    <p style="margin: 0;">Another symbol of victory was the <strong>Katyusha</strong> rocket artillery whose salvoes were as hard on morale as on enemy positions. (see Picture 17) The Germans chased the same idea (the Panzerwerfer 42 is the usual example), but their rocket launchers were plagued by reliability problems and never approached Soviet production numbers. (see Picture 18) </p>
     <p style="margin: 2.75em 0 0 0;">Many people from post-Soviet countries should also know the famous song <em>Katyusha</em>: <a href="https://youtu.be/MLg83QMmlGs">original</a>. The game has its remastered version: <a href="https://youtu.be/xSjnN39Qhmc">HoI4 Katyusha</a>. And I also like the Rammstein version in German: <a href="https://youtu.be/khgJftnrNw0">Rammstein Katyusha</a>.</p>
   </div>
   <div style="flex: 0 0 auto; max-width: 340px; width: 100%; display: flex; flex-direction: column; gap: 0.85rem;">
@@ -174,20 +174,24 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 <div style="clear: both;"></div>
 
-**Cossack cavalry** is among the most famous cavalry in history (with Mongolian cavalry and Winged Hussars). They were still used in the Second World War—mostly for mobility; they fought on foot. **In the game** I restored Cossack units as the Soviets did historically.
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
+  <div style="flex: 1 1 300px; min-width: 0;">
+    <p style="margin: 0;"><strong>Cossack cavalry</strong> (see <strong>Picture 19</strong>) was another iconic part of cavalry in war—almost as famous as Mongolian cavalry or the Winged Hussars. It was still used in the Second World War, mostly for mobility; in combat they often fought on foot.</p>
+    <p style="margin: 2.75em 0 0 0;"><strong>In the game</strong> you can restore and recreate Cossack units (see <strong>Picture 20</strong>).</p>
+  </div>
+  <div style="flex: 0 0 auto; max-width: 340px; width: 100%; display: flex; flex-direction: column; gap: 0.85rem;">
+    <figure style="margin: 0;">
+      <img src="/images/opinions/great-patriotic-war/image20.jpeg" alt="Cossack cavalry, 19th-century illustration" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 19. Cossack cavalry from a 19th-century image—the romantic archetype behind the wartime units.</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+      <img src="/images/opinions/great-patriotic-war/image21.png" alt="Cossack cavalry division template in Hearts of Iron IV division designer" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 20. Restored Cossack cavalry division in the division designer, as in my Soviet playthrough.</figcaption>
+    </figure>
+  </div>
+</div>
 
 <div style="clear: both;"></div>
-
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image23.png" alt="Cossack cavalry division template" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 19. The restored Cossack cavalry division template in the game, as the Soviets did historically.</figcaption>
-</figure>
-
-<figure style="float: right; max-width: 360px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image24.jpeg" alt="Cossack cavalry painting" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 20. Cossack cavalry as used in the Second World War, mostly for mobility; they fought on foot.</figcaption>
-</figure>
-
 
 According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best military general in history (Napoleon is 1st—forever an idol ❤️) and the only WW2 general on that list. **In history** he was everywhere: in 1941 he helped repel the German attack on Moscow; in 1942 he had a hand in the three most important Soviet offensives (Rzhev, Stalingrad, breaking the siege of Leningrad) and personally led the Stalingrad offensive. Victory at Stalingrad led to the encirclement of Germany's 6th Army and turned the tides. Zhukov eventually led the operation to capture Berlin—the biggest operation in history, with some 3.5 million people involved.
 
@@ -204,13 +208,13 @@ According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best m
 <div style="clear: both;"></div>
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image21.png" alt="Katyusha rocket launchers firing" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 23. Katyusha rocket launchers in action—the salvo and psychological effect described above.</figcaption>
+  <img src="/images/opinions/great-patriotic-war/image24.jpeg" alt="Cossack cavalry in the Second World War" style="width: 100%;" />
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 23. Cossack cavalry in the Second World War—mobility and fighting on foot, as in the main text above.</figcaption>
 </figure>
 
 <figure style="float: left; max-width: 340px; margin: 0 1em 1em 0;">
-  <img src="/images/opinions/great-patriotic-war/image20.jpeg" alt="T-34 in defensive position" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 24. T-34 in a hull-down / defensive posture (game screenshot echoing Pictures 13–14).</figcaption>
+  <img src="/images/opinions/great-patriotic-war/image23.png" alt="Cossack cavalry division template in game" style="width: 100%;" />
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 24. Full-width view of the Cossack division template UI (same asset family as Picture 20), shown here after Zhukov.</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
