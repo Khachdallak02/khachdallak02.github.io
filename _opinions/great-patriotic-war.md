@@ -451,17 +451,17 @@ html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-scrollbar { 
 
 <div id="gpw-encirc-root">
   <div class="gpw-encirc__head">
-    <p class="gpw-encirc__title">Same operation, four beats</p>
-    <div class="gpw-encirc__badge" aria-hidden="true">4 frames <span>·</span> Swiper</div>
+    <p class="gpw-encirc__title">Same operation, five beats</p>
+    <div class="gpw-encirc__badge" aria-hidden="true">5 frames <span>·</span> Swiper</div>
   </div>
   <p class="gpw-encirc__hint">
-    Pictures 39–42 in order. Use arrows, the draggable bar, swipe, or keyboard. Preview many layouts on the official <a href="https://swiperjs.com/demos" target="_blank" rel="noopener noreferrer">Swiper demos</a> (library home: <a href="https://swiperjs.com" target="_blank" rel="noopener noreferrer">swiperjs.com</a>).
+    Pictures 39–43 in order. Use arrows, the draggable bar, swipe, or keyboard. Preview many layouts on the official <a href="https://swiperjs.com/demos" target="_blank" rel="noopener noreferrer">Swiper demos</a> (library home: <a href="https://swiperjs.com" target="_blank" rel="noopener noreferrer">swiperjs.com</a>).
   </p>
   <div class="swiper" id="gpw-swiper-encirc">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <figure class="gpw-encirc__card">
-          <div class="gpw-encirc__ribbon" style="background: rgba(183, 28, 28, 0.92);">1 / 4 · Breakthrough</div>
+          <div class="gpw-encirc__ribbon" style="background: rgba(183, 28, 28, 0.92);">1 / 5 · Breakthrough</div>
           <div class="gpw-encirc__imgwrap">
             <img src="/images/opinions/great-patriotic-war/image40.png" alt="Encirclement plan Zhytomyr" />
           </div>
@@ -470,7 +470,7 @@ html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-scrollbar { 
       </div>
       <div class="swiper-slide">
         <figure class="gpw-encirc__card">
-          <div class="gpw-encirc__ribbon" style="background: rgba(183, 28, 28, 0.85);">2 / 4 · Rail cut</div>
+          <div class="gpw-encirc__ribbon" style="background: rgba(183, 28, 28, 0.85);">2 / 5 · Rail cut</div>
           <div class="gpw-encirc__imgwrap">
             <img src="/images/opinions/great-patriotic-war/image41.png" alt="Railway cut from Kiev" />
           </div>
@@ -479,7 +479,7 @@ html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-scrollbar { 
       </div>
       <div class="swiper-slide">
         <figure class="gpw-encirc__card">
-          <div class="gpw-encirc__ribbon" style="background: rgba(183, 28, 28, 0.78);">3 / 4 · Counterattack</div>
+          <div class="gpw-encirc__ribbon" style="background: rgba(183, 28, 28, 0.78);">3 / 5 · Counterattack</div>
           <div class="gpw-encirc__imgwrap">
             <img src="/images/opinions/great-patriotic-war/image42.png" alt="Counterattack closing the pocket" />
           </div>
@@ -488,11 +488,20 @@ html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-scrollbar { 
       </div>
       <div class="swiper-slide">
         <figure class="gpw-encirc__card">
-          <div class="gpw-encirc__ribbon" style="background: rgba(93, 16, 16, 0.95);">4 / 4 · Pocket closed</div>
+          <div class="gpw-encirc__ribbon" style="background: rgba(93, 16, 16, 0.95);">4 / 5 · Pocket closed</div>
           <div class="gpw-encirc__imgwrap">
             <img src="/images/opinions/great-patriotic-war/image43.png" alt="Encirclement completed" />
           </div>
           <figcaption>Picture 42. As planned, the operation succeeded and the German army was encircled; the principle is the same as in real life.</figcaption>
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure class="gpw-encirc__card">
+          <div class="gpw-encirc__ribbon" style="background: rgba(120, 20, 20, 0.9);">5 / 5 · Stalingrad</div>
+          <div class="gpw-encirc__imgwrap">
+            <img src="/images/opinions/great-patriotic-war/image45.png" alt="Stalingrad in the game" />
+          </div>
+          <figcaption>Picture 43. Stalingrad was fought for every street and every floor; the quote below calls it "rat warfare" where the smarter, braver soldier won.</figcaption>
         </figure>
       </div>
     </div>
@@ -522,12 +531,6 @@ html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-scrollbar { 
 })();
 </script>
 
-<figure style="float: right; max-width: 280px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image44.png" alt="Reflection after encirclement" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 43. A moment of reflection after pulling off the encirclement.</figcaption>
-</figure>
-
-
 <div style="clear: both;"></div>
 
 Here's a quote about encirclements in war:
@@ -535,74 +538,30 @@ Here's a quote about encirclements in war:
 > "A peculiarity of any encirclement battle… is that on the front line an enormous breach is created, which either requires a large number of reserves to be put into battle to plug the gap or requires a consolidating front to be extended on both sides of the void that has formed. The encirclement… of the 6th Army… led to precisely this situation."  
 > *Alexei Isaev*, *The Battle of Kharkov*
 
-After the encirclement and surrender of the German 6th Army at Stalingrad (the first such surrender in German military history since 1800), Germany lost the initiative. Stalingrad was fought for every street and every floor ("rat warfare"), where the smarter, braver, trickier soldier won.
-
-<div style="clear: both;"></div>
-
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image45.png" alt="Stalingrad in the game" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 44. Stalingrad was fought for every street and every floor; the quote calls it "rat warfare" where the smarter, braver soldier won.</figcaption>
-</figure>
-
-<figure style="float: left; max-width: 380px; margin: 0 1em 1em 0;">
-  <img src="/images/opinions/great-patriotic-war/image46.jpeg" alt="Ruins after battle" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 45. The ruins left after the encirclement and surrender of the 6th Army at Stalingrad.</figcaption>
-</figure>
-
+After the encirclement and surrender of the German 6th Army at Stalingrad (the first such surrender in German military history since 1800), Germany lost the initiative. Stalingrad was fought for every street and every floor ("rat warfare"), where the smarter, braver, trickier soldier won. Picture 43 in the strip above shows the same idea in the game.
 
 ## Afterword
 
 <div style="clear: both;"></div>
 
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
+  <div markdown="1" style="flex: 1 1 300px; min-width: 0;">
+
 After that victory the Soviet Union fought for another three years until the flag was raised over Berlin. This war was not fought with honor by the German side. When Soviet troops entered Nazi concentration camps in Poland, the world saw crimes it had not fully expected. At Auschwitz, thousands of bodies lay unburied. Millions, including children, were used as forced labor. During occupation of Ukraine, the population dropped sharply. Those killed were not only Jews but also Poles, Russians, Ukrainians, Belarussians, Serbs, etc. We should be grateful to those who gave their lives to stop these crimes.
+
+  </div>
+  <figure style="flex: 0 0 auto; width: 100%; max-width: 340px; margin: 0;">
+    <img src="/images/opinions/great-patriotic-war/image46.jpeg" alt="Ruins after battle" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+    <figcaption style="font-size: 0.9em; font-style: italic;">Picture 44. The ruins left after the encirclement and surrender of the 6th Army at Stalingrad.</figcaption>
+  </figure>
+</div>
 
 Hearts of Iron IV does not actually depict these atrocities: the Holocaust, concentration camps, mass killings of civilians, or the full horror of occupation. That is a deliberate and controversial choice: if such things were included in the game, players would be able to commit atrocities themselves, which would be unacceptable. Nevertheless, it is very important that we remember and know what happened. Games like HoI IV can teach us a lot about strategy, industry, and the shape of the war; they cannot and should not turn the worst of human cruelty into gameplay. Remembering the victims and understanding the scale of the crimes is part of honoring history and ensuring we do not repeat it.
 
-<figure style="float: right; max-width: 360px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image47.png" alt="Children on abandoned tank, Belgium 1945" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 46. Children on an abandoned Jagdpanther in Sterpigny, Belgium, 1945; the afterword asks us to remember the victims and not repeat the crimes.</figcaption>
-</figure>
-
-
 I was planning to finish this "class-report thingy" by Christmas, but since gameplay took longer and later I was lazy to write everything down, I ended up doing most of the writing in one go. Yet I want to finish with the same Christmas quote by Franklin Roosevelt, since I find it very epic and heroic:
-
-![Roosevelt Christmas 1942](/images/opinions/great-patriotic-war/image48.jpeg)
-*Picture 47. Franklin Roosevelt delivering his Christmas address in 1942; the quote below is the one the author finds epic and heroic.*
 
 > "I cannot say 'Merry Christmas', for I think constantly of those thousands of soldiers and sailors who are in actual combat throughout the world, but I can express to you my thought that this is a happier Christmas than last year in the sense that the forces of darkness stand against us with less confidence in the success of their evil ways."  
 > *Franklin Roosevelt*, December 1942
-
-<figure style="float: right; max-width: 300px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image49.jpeg" alt="Honorable mention" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 48. Honorable mention.</figcaption>
-</figure>
-
-<div style="clear: both;"></div>
-
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image280.png" alt="Same street in wartime and today" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 49. The same location in wartime and today.</figcaption>
-</figure>
-
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image300.png" alt="Past and present overlay" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 50. Holding the past up to the present.</figcaption>
-</figure>
-
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image310.png" alt="One place, two moments" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 51. The same place in two moments in time.</figcaption>
-</figure>
-
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image320.png" alt="History in the hand" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 52. A wartime photograph aligned with the same street today.</figcaption>
-</figure>
-
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image330.png" alt="Then and now" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 53. After the smoke cleared; the same street in peace.</figcaption>
-</figure>
 
 <div class="post-references" markdown="1">
 

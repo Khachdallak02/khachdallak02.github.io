@@ -110,19 +110,19 @@ author_profile: true
 
 .resources-search-bar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   width: 100%;
   max-width: 100%;
   min-width: 0;
   box-sizing: border-box;
-  margin-top: 0.45rem;
-  margin-bottom: 0.65rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .resources-search-bar__field {
   position: relative;
-  flex: 0 1 auto;
-  width: min(18rem, 100%);
+  flex: 1 1 auto;
+  width: 100%;
   max-width: 100%;
   min-width: 0;
   box-sizing: border-box;
@@ -162,15 +162,6 @@ author_profile: true
   outline-offset: 2px;
 }
 
-@media (max-width: 576px) {
-  .resources-search-bar {
-    justify-content: stretch;
-  }
-  .resources-search-bar__field {
-    width: 100%;
-    max-width: 100%;
-  }
-}
 </style>
 
 <div style="text-align: center; margin-bottom: 1.25rem;">
