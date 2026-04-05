@@ -198,8 +198,10 @@ After many old generals were purged, they were replaced by a new, less experienc
 <div style="clear: both;"></div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: center; margin: 0 0 1.25rem 0;">
-  <div style="flex: 1 1 280px; min-width: 0;">
-    <p style="margin: 0;">According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best military general in history (Napoleon is 1st, no questions there 🫡) and the only WW2 general on that list. **Picture 24** shows Napoleon's cumulative WAR and score under the same *Wins Above Replacement* idea. Arsht's project is a pretty interesting idea: he borrows the baseball *Wins Above Replacement* idea for historical battles, scoring commanders against what a typical general might have achieved in the same circumstances and summing the results over a career; he explains the method and shows the charts in [*Napoleon was the best general ever, and the math proves it*](https://medium.com/data-science/napoleon-was-the-best-general-ever-and-the-math-proves-it-86efed303eeb). **In history** Zhukov was everywhere: in 1941 he helped repel the German attack on Moscow; in 1942 he had a hand in the three most important Soviet offensives (Rzhev, Stalingrad, breaking the siege of Leningrad) and personally led the Stalingrad offensive. Victory at Stalingrad led to the encirclement of Germany's 6th Army and turned the tides. Zhukov eventually led the operation to capture Berlin, the biggest operation in history, with some 3.5 million people involved.</p>
+  <div markdown="1" style="flex: 1 1 280px; min-width: 0;">
+
+According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best military general in history (Napoleon is 1st, no questions there 🫡) and the only WW2 general on that list. **Picture 24** shows Napoleon's cumulative WAR and score under the same *Wins Above Replacement* idea. Arsht's project is a pretty interesting idea: he borrows the baseball *Wins Above Replacement* idea for historical battles, scoring commanders against what a typical general might have achieved in the same circumstances and summing the results over a career; he explains the method and shows the charts in [*Napoleon was the best general ever, and the math proves it*](https://medium.com/data-science/napoleon-was-the-best-general-ever-and-the-math-proves-it-86efed303eeb). **In history** Zhukov was everywhere: in 1941 he helped repel the German attack on Moscow; in 1942 he had a hand in the three most important Soviet offensives (Rzhev, Stalingrad, breaking the siege of Leningrad) and personally led the Stalingrad offensive. Victory at Stalingrad led to the encirclement of Germany's 6th Army and turned the tides. Zhukov eventually led the operation to capture Berlin, the biggest operation in history, with some 3.5 million people involved.
+
   </div>
   <div style="flex: 0 0 auto; width: 100%; max-width: 320px; display: flex; flex-direction: column; gap: 0.85rem;">
     <figure style="margin: 0;">
@@ -225,8 +227,10 @@ After many old generals were purged, they were replaced by a new, less experienc
 <div style="clear: both;"></div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: center; margin: 0 0 1.25rem 0;">
-  <div style="flex: 1 1 280px; min-width: 0;">
-    <p style="margin: 0;">**In history**, every major army followed one of four doctrines. Germany's **Mobile warfare** emphasized breaking enemy lines with tanks and encircling them (Blitzkrieg). The USA and Britain focused on coordination of special forces, artillery, and air force; France on entrenchment and planning. The Soviet Union followed **Mass assault**: it did not value individual lives. Advancement came through human-wave offensives and guerrilla warfare. In Stalingrad, some troops were given one rifle and three bullets, as if they were meant to die before firing them. This doctrine is one reason the Soviet Union and China had the highest casualties: about 24 and 20 million respectively. Germany lost about 8.8 million. (Source: [National WWII Museum: Worldwide Deaths](https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-worldwide-deaths-world-war).) **In Hearts of Iron IV** you choose a doctrine; I chose one based on coordination between air force, artillery and special forces rather than mass assault.</p>
+  <div markdown="1" style="flex: 1 1 280px; min-width: 0;">
+
+**In history**, every major army followed one of four doctrines. Germany's **Mobile warfare** emphasized breaking enemy lines with tanks and encircling them (Blitzkrieg). The USA and Britain focused on coordination of special forces, artillery, and air force; France on entrenchment and planning. The Soviet Union followed **Mass assault**: it did not value individual lives. Advancement came through human-wave offensives and guerrilla warfare. In Stalingrad, some troops were given one rifle and three bullets, as if they were meant to die before firing them. This doctrine is one reason the Soviet Union and China had the highest casualties: about 24 and 20 million respectively. Germany lost about 8.8 million. (Source: [National WWII Museum: Worldwide Deaths](https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-worldwide-deaths-world-war).) **In Hearts of Iron IV** you choose a doctrine; I chose one based on coordination between air force, artillery and special forces rather than mass assault.
+
   </div>
   <div style="flex: 0 0 auto; width: 100%; max-width: 320px; display: flex; flex-direction: column; gap: 0.85rem;">
     <figure style="margin: 0;">
@@ -247,8 +251,10 @@ After many old generals were purged, they were replaced by a new, less experienc
 **Historically**, because of doctrine, incompetence, and indecisiveness, retreat was often forbidden, which led to massive encirclements in the first months: 3.5 million POWs in total. At Kiev alone, Soviet sources say 532 thousand were encircled (German sources: 667 thousand): the biggest encirclement in history. At Vyazma, another 517 thousand (663 thousand by German count). All top five encirclements were of Soviet forces, all in 1941. In the Kiev pocket the Germans captured only 50 tanks; at Stalingrad the Soviets captured 60 thousand Germans and more than 1200 tanks.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: center; margin: 0 0 1.25rem 0;">
-  <div style="flex: 1 1 280px; min-width: 0;">
-    <p style="margin: 0;">After retreating about 1200 km, something had to be done. 🛡️ **Order 227** ("No step back") was Stalin's order to stop retreats: last stand. Civilians and factory workers were conscripted. In Stalingrad there were cases of tanks firing from the factory windows where they had been produced. **In history**, those who retreated could be sent to **Penal battalions** and used in the riskiest sectors, sometimes as a "human shield". **In the game** you don't play that in detail, but the pressure to hold the line is there. Before the war most Soviet industry was in the European part; when that was overrun, the USSR moved factories east. They recovered about 85% of capacity and could continue producing and eventually counterattack.</p>
+  <div markdown="1" style="flex: 1 1 280px; min-width: 0;">
+
+After retreating about 1200 km, something had to be done. 🛡️ **Order 227** ("No step back") was Stalin's order to stop retreats: last stand. Civilians and factory workers were conscripted. In Stalingrad there were cases of tanks firing from the factory windows where they had been produced. **In history**, those who retreated could be sent to **Penal battalions** and used in the riskiest sectors, sometimes as a "human shield". **In the game** you don't play that in detail, but the pressure to hold the line is there. Before the war most Soviet industry was in the European part; when that was overrun, the USSR moved factories east. They recovered about 85% of capacity and could continue producing and eventually counterattack.
+
   </div>
   <figure style="flex: 0 0 auto; width: 100%; max-width: 460px; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image28.png" alt="Forced pro-German demonstration in Minsk" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
@@ -263,9 +269,11 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 <div style="clear: both;"></div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: flex-start; margin: 0 0 1.25rem 0;">
-  <div style="flex: 1 1 280px; min-width: 0;">
-    <p style="margin: 0;">**In history**, after occupying the eastern Soviet Union, the Nazis portrayed themselves as liberators. Picture 28 shows one such scene in Minsk. When you then kill people and send them to forced labor by nationality, trust vanishes. Many took guns and ammunition and went to the forests; new settlements appeared there. Partisan activity in occupied Ukraine and Belarus was very high. **In Hearts of Iron IV** you can organize and support partisans; they can sabotage supplies, provide intel, and help trigger uprisings.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: center; margin: 0 0 1.25rem 0;">
+  <div markdown="1" style="flex: 1 1 280px; min-width: 0;">
+
+**In history**, after occupying the eastern Soviet Union, the Nazis portrayed themselves as liberators. Picture 28 shows one such scene in Minsk. When you then kill people and send them to forced labor by nationality, trust vanishes. Many took guns and ammunition and went to the forests; new settlements appeared there. Partisan activity in occupied Ukraine and Belarus was very high. **In Hearts of Iron IV** you can organize and support partisans; they can sabotage supplies, provide intel, and help trigger uprisings.
+
   </div>
   <div style="flex: 0 0 auto; width: 100%; max-width: 440px; display: flex; flex-direction: column; gap: 0.75rem;">
     <figure style="margin: 0;">
@@ -283,18 +291,21 @@ After many old generals were purged, they were replaced by a new, less experienc
   </div>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: flex-start; margin: 0 0 1.25rem 0;">
-  <div style="flex: 1 1 280px; min-width: 0;">
-    <p style="margin: 0;">**Historically**, propaganda was central for the Soviet Union through media, books, films, theatre. **In the game** you can enact decisions to run campaigns with specific bonuses. Soviet propaganda remains a fascinating subject (especially if you know Russian).</p>
+<div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: center; margin: 0 0 1.25rem 0;">
+  <div markdown="1" style="flex: 1 1 280px; min-width: 0;">
+
+**Historically**, propaganda was central for the Soviet Union through media, books, films, theatre. **In the game** you can enact decisions to run campaigns with specific bonuses. Soviet propaganda remains a fascinating subject (especially if you know Russian).
+
+<figure style="margin: 0.85rem 0 0 0;">
+  <img src="/images/opinions/great-patriotic-war/image34.png" alt="Soviet propaganda Agitprop" style="width: 100%; max-width: 360px; height: auto; display: block; border-radius: 4px;" />
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 33. Propaganda was central for the Soviet Union; in the game you enact decisions to run campaigns with specific bonuses.</figcaption>
+</figure>
+
   </div>
   <div style="flex: 0 0 auto; width: 100%; max-width: 320px; display: flex; flex-direction: column; gap: 0.75rem;">
     <figure style="margin: 0;">
       <img src="/images/opinions/great-patriotic-war/image33.png" alt="Partisans in the game" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
       <figcaption style="font-size: 0.9em; font-style: italic;">Picture 32. In the game you can organize and support partisans to sabotage supplies, provide intel, and trigger uprisings.</figcaption>
-    </figure>
-    <figure style="margin: 0;">
-      <img src="/images/opinions/great-patriotic-war/image34.png" alt="Soviet propaganda Agitprop" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
-      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 33. Propaganda was central for the Soviet Union; in the game you enact decisions to run campaigns with specific bonuses.</figcaption>
     </figure>
     <figure style="margin: 0;">
       <img src="/images/opinions/great-patriotic-war/image35.jpeg" alt="British propaganda poster" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
@@ -303,9 +314,11 @@ After many old generals were purged, they were replaced by a new, less experienc
   </div>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: flex-start; margin: 0 0 1.25rem 0;">
-  <div style="flex: 1 1 280px; min-width: 0;">
-    <p style="margin: 0;">Supply is easy to overlook, but food and ammunition don't grow on the battlefield. **In history**, a **scorched-earth policy** was used by both sides: before retreating, the Soviets destroyed railways, roads, radio stations, supply depots. Partisans sabotaged infrastructure in the enemy rear. Weather also created supply issues: mud and snow blocked roads. Defenders were more used to the cold and mud; invaders struggled (for example from October to December 1941), and that was one reason the Moscow offensive failed. **In the game** supply, railways, and weather all affect your ability to fight.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: center; margin: 0 0 1.25rem 0;">
+  <div markdown="1" style="flex: 1 1 280px; min-width: 0;">
+
+Supply is easy to overlook, but food and ammunition don't grow on the battlefield. **In history**, a **scorched-earth policy** was used by both sides: before retreating, the Soviets destroyed railways, roads, radio stations, supply depots. Partisans sabotaged infrastructure in the enemy rear. Weather also created supply issues: mud and snow blocked roads. Defenders were more used to the cold and mud; invaders struggled (for example from October to December 1941), and that was one reason the Moscow offensive failed. **In the game** supply, railways, and weather all affect your ability to fight.
+
   </div>
   <figure style="flex: 0 0 auto; width: 100%; max-width: 400px; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image36.png" alt="Propaganda campaigns in game" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
@@ -322,9 +335,11 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 <div style="clear: both;"></div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: flex-start; margin: 0 0 1.25rem 0;">
-  <div style="flex: 1 1 280px; min-width: 0;">
-    <p style="margin: 0;">As Guderian said after losing to the Soviet army: **"They are learning."** **In history**, after early failures the Soviets improved: battle-hardened soldiers and generals, better tactics. Operation Bagration was one of the most successful operations in history, ending German occupation of Soviet territory. There is another game about it: *Steel Division 2* (more tactical). Here I focus on **how I carried out a similar encirclement in Hearts of Iron IV**.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: center; margin: 0 0 1.25rem 0;">
+  <div markdown="1" style="flex: 1 1 280px; min-width: 0;">
+
+As Guderian said after losing to the Soviet army: **"They are learning."** **In history**, after early failures the Soviets improved: battle-hardened soldiers and generals, better tactics. Operation Bagration was one of the most successful operations in history, ending German occupation of Soviet territory. There is another game about it: *Steel Division 2* (more tactical). Here I focus on **how I carried out a similar encirclement in Hearts of Iron IV**.
+
   </div>
   <figure style="flex: 0 0 auto; width: 100%; max-width: 380px; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image39.jpeg" alt="Operation Bagration briefing map" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
@@ -400,10 +415,37 @@ After many old generals were purged, they were replaced by a new, less experienc
 #gpw-encirc-root #gpw-swiper-encirc .swiper-button-next { color: #b71c1c; }
 #gpw-encirc-root #gpw-swiper-encirc .swiper-scrollbar { background: rgba(0,0,0,0.06); }
 #gpw-encirc-root #gpw-swiper-encirc .swiper-scrollbar-drag { background: rgba(183,28,28,0.45); }
-#gpw-encirc-root .gpw-encirc__credit {
-  margin: 0.5rem 0 0 0; padding-top: 0.55rem; border-top: 1px solid rgba(0,0,0,0.06);
-  font-size: 0.78rem; color: #666;
+html[data-theme="dark"] #gpw-encirc-root {
+  background: linear-gradient(155deg, rgba(30,24,24,0.98) 0%, rgba(22,20,20,1) 45%, rgba(18,16,16,1) 100%);
+  border-color: var(--global-border-color, rgba(255,255,255,0.12));
+  box-shadow: 0 8px 32px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.06);
+  color: var(--global-text-color, #eee);
 }
+html[data-theme="dark"] #gpw-encirc-root:hover {
+  box-shadow: 0 12px 40px rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,255,255,0.08);
+}
+html[data-theme="dark"] #gpw-encirc-root .gpw-encirc__title { color: var(--global-text-color-light, #ccc); }
+html[data-theme="dark"] #gpw-encirc-root .gpw-encirc__badge {
+  color: #f0b4b4;
+  background: rgba(183,28,28,0.22);
+  border-color: rgba(255,100,100,0.25);
+}
+html[data-theme="dark"] #gpw-encirc-root .gpw-encirc__hint { color: var(--global-text-color-light, #bbb); }
+html[data-theme="dark"] #gpw-encirc-root .gpw-encirc__hint a { color: #ff8a8a; border-bottom-color: rgba(255,138,138,0.45); }
+html[data-theme="dark"] #gpw-encirc-root .gpw-encirc__hint a:hover { border-bottom-color: #ffb4b4; }
+html[data-theme="dark"] #gpw-encirc-root .gpw-encirc__card {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+}
+html[data-theme="dark"] #gpw-encirc-root .gpw-encirc__card:hover {
+  box-shadow: 0 14px 40px rgba(183,28,28,0.2), 0 4px 16px rgba(0,0,0,0.45);
+}
+html[data-theme="dark"] #gpw-encirc-root .gpw-encirc__card figcaption {
+  background: var(--global-code-background-color, #1a1a1a);
+  color: var(--global-fig-caption-color, #bbb);
+}
+html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-scrollbar { background: rgba(255,255,255,0.08); }
+html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-pagination-bullet { background: #fff; opacity: 0.35; }
+html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-pagination-bullet-active { opacity: 1; }
 @media (prefers-reduced-motion: reduce) {
   #gpw-encirc-root .gpw-encirc__card, #gpw-encirc-root .gpw-encirc__card img { transition: none; }
   #gpw-encirc-root .gpw-encirc__card:hover { transform: none; }
@@ -463,7 +505,6 @@ After many old generals were purged, they were replaced by a new, less experienc
     <div class="swiper-pagination"></div>
     <div class="swiper-scrollbar"></div>
   </div>
-  <p class="gpw-encirc__credit">UI: <a href="https://swiperjs.com" target="_blank" rel="noopener noreferrer">Swiper</a> v12 via jsDelivr · <a href="https://swiperjs.com/demos" target="_blank" rel="noopener noreferrer">demos gallery</a></p>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 <script>
