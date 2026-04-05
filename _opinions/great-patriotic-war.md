@@ -409,8 +409,6 @@ As Guderian said after losing to the Soviet army: **"They are learning."** **In 
 #gpw-encirc-root .gpw-encirc__card figcaption {
   font-size: 0.9em; font-style: italic; padding: 0.55rem 0.7rem 0.7rem; background: rgba(255,255,255,0.96);
 }
-#gpw-encirc-root #gpw-swiper-encirc .swiper-pagination-bullet { opacity: 0.45; }
-#gpw-encirc-root #gpw-swiper-encirc .swiper-pagination-bullet-active { opacity: 1; }
 #gpw-encirc-root #gpw-swiper-encirc .swiper-button-prev,
 #gpw-encirc-root #gpw-swiper-encirc .swiper-button-next { color: #b71c1c; }
 #gpw-encirc-root #gpw-swiper-encirc .swiper-scrollbar { background: rgba(0,0,0,0.06); }
@@ -444,8 +442,6 @@ html[data-theme="dark"] #gpw-encirc-root .gpw-encirc__card figcaption {
   color: var(--global-fig-caption-color, #bbb);
 }
 html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-scrollbar { background: rgba(255,255,255,0.08); }
-html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-pagination-bullet { background: #fff; opacity: 0.35; }
-html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-pagination-bullet-active { opacity: 1; }
 @media (prefers-reduced-motion: reduce) {
   #gpw-encirc-root .gpw-encirc__card, #gpw-encirc-root .gpw-encirc__card img { transition: none; }
   #gpw-encirc-root .gpw-encirc__card:hover { transform: none; }
@@ -459,7 +455,7 @@ html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-pagination-b
     <div class="gpw-encirc__badge" aria-hidden="true">4 frames <span>·</span> Swiper</div>
   </div>
   <p class="gpw-encirc__hint">
-    Pictures 39–42 in order. Use arrows, the draggable bar, dots, swipe, or keyboard. Preview many layouts on the official <a href="https://swiperjs.com/demos" target="_blank" rel="noopener noreferrer">Swiper demos</a> (library home: <a href="https://swiperjs.com" target="_blank" rel="noopener noreferrer">swiperjs.com</a>).
+    Pictures 39–42 in order. Use arrows, the draggable bar, swipe, or keyboard. Preview many layouts on the official <a href="https://swiperjs.com/demos" target="_blank" rel="noopener noreferrer">Swiper demos</a> (library home: <a href="https://swiperjs.com" target="_blank" rel="noopener noreferrer">swiperjs.com</a>).
   </p>
   <div class="swiper" id="gpw-swiper-encirc">
     <div class="swiper-wrapper">
@@ -502,7 +498,6 @@ html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-pagination-b
     </div>
     <div class="swiper-button-prev" aria-label="Previous slide"></div>
     <div class="swiper-button-next" aria-label="Next slide"></div>
-    <div class="swiper-pagination"></div>
     <div class="swiper-scrollbar"></div>
   </div>
 </div>
@@ -518,7 +513,6 @@ html[data-theme="dark"] #gpw-encirc-root #gpw-swiper-encirc .swiper-pagination-b
     autoHeight: true,
     grabCursor: true,
     keyboard: { enabled: true },
-    pagination: { el: el.querySelector('.swiper-pagination'), clickable: true },
     navigation: {
       nextEl: el.querySelector('.swiper-button-next'),
       prevEl: el.querySelector('.swiper-button-prev')
