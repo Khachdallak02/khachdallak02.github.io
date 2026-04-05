@@ -12,6 +12,11 @@ author_profile: true
   text-align: center !important;
 }
 
+/* Let the main column shrink so nested controls (search) cannot overflow the grid */
+#main .archive {
+  min-width: 0;
+}
+
 #resources-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -21,6 +26,10 @@ author_profile: true
 
 .resources-toolbar {
   margin-top: 1rem;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .resources-toolbar__icons {
@@ -31,6 +40,10 @@ author_profile: true
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .category-filter-btn {
@@ -97,27 +110,22 @@ author_profile: true
 
 .resources-search-bar {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
   margin-top: 0.45rem;
   margin-bottom: 0.65rem;
 }
 
-.resources-search-bar__label {
-  display: block;
-  font-size: 0.8rem;
-  font-weight: 600;
-  margin-bottom: 0.25rem;
-  color: var(--global-text-color-light, #555);
-  text-align: right;
-  width: 100%;
-  max-width: min(100%, 20rem);
-}
-
 .resources-search-bar__field {
   position: relative;
-  width: 100%;
-  max-width: min(100%, 20rem);
+  flex: 0 1 auto;
+  width: min(18rem, 100%);
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .resources-search-bar__field .fa-search {
@@ -132,6 +140,8 @@ author_profile: true
 
 .resources-search-bar__input {
   width: 100%;
+  min-width: 0;
+  max-width: 100%;
   box-sizing: border-box;
   padding: 0.65rem 1rem 0.65rem 2.55rem;
   font-size: 1rem;
@@ -154,14 +164,11 @@ author_profile: true
 
 @media (max-width: 576px) {
   .resources-search-bar {
-    align-items: stretch;
-  }
-  .resources-search-bar__label {
-    text-align: left;
-    max-width: none;
+    justify-content: stretch;
   }
   .resources-search-bar__field {
-    max-width: none;
+    width: 100%;
+    max-width: 100%;
   }
 }
 </style>
@@ -216,7 +223,6 @@ author_profile: true
 </div>
 
 <div class="resources-search-bar">
-  <label for="resources-search-input" class="resources-search-bar__label">Search</label>
   <div class="resources-search-bar__field">
     <i class="fas fa-search" aria-hidden="true"></i>
     <input type="search" id="resources-search-input" class="resources-search-bar__input" placeholder="Filter by title, description, or tags…" autocomplete="off" spellcheck="false" aria-label="Filter resources by title, description, or tags" />
