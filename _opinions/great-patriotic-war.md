@@ -339,25 +339,153 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 **In the game**, the Germans tried to encircle my divisions around Zhytomyr. The idea is not to push the whole front at once but to find weak spots, break through, and join two salients to encircle the frontline. The Germans also cut the railway from Kiev. In the war, most supply went by rail; cutting it meant attrition. To resupply, we had to build a new railway from Minsk to Zhytomyr. We did, got supplied, and could counterattack. If you stabilize the front, you can counter-attack and encircle the enemy yourself. As planned, the operation succeeded and the German army was encircled. In real life, controlling troops is much harder, but the principle is the same: cut the enemy off from supply without being cut off yourself.
 
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image40.png" alt="Encirclement plan Zhytomyr" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 39. The Germans tried to encircle my divisions around Zhytomyr; the idea is to find weak spots, break through, and join two salients.</figcaption>
-</figure>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+<style>
+#gpw-encirc-root {
+  --swiper-theme-color: #b71c1c;
+  --swiper-navigation-size: 32px;
+  margin: 1.5rem 0;
+  padding: 1.1rem 1rem 1rem;
+  border-radius: 14px;
+  background: linear-gradient(155deg, rgba(255,255,255,0.95) 0%, rgba(248,240,240,0.98) 40%, rgba(240,236,236,1) 100%);
+  border: 1px solid rgba(0,0,0,0.09);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.06), inset 0 1px 0 rgba(255,255,255,0.9);
+  transition: box-shadow 0.35s ease;
+}
+#gpw-encirc-root:hover { box-shadow: 0 12px 40px rgba(120,20,20,0.1), inset 0 1px 0 rgba(255,255,255,0.95); }
+#gpw-encirc-root .gpw-encirc__head {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.65rem 1rem;
+  margin-bottom: 0.65rem;
+}
+#gpw-encirc-root .gpw-encirc__title {
+  margin: 0; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: #444;
+}
+#gpw-encirc-root .gpw-encirc__badge {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  padding: 0.25rem 0.65rem; border-radius: 999px;
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.04em;
+  color: #6a1515; background: rgba(183,28,28,0.12); border: 1px solid rgba(183,28,28,0.2);
+}
+#gpw-encirc-root .gpw-encirc__badge span { opacity: 0.75; font-weight: 500; }
+#gpw-encirc-root .gpw-encirc__hint { margin: 0 0 0.75rem 0; font-size: 0.88rem; line-height: 1.45; color: #555; }
+#gpw-encirc-root .gpw-encirc__hint a { color: #8b1a1a; font-weight: 600; text-decoration: none; border-bottom: 1px solid rgba(183,28,28,0.35); }
+#gpw-encirc-root .gpw-encirc__hint a:hover { border-bottom-color: #b71c1c; }
+#gpw-encirc-root #gpw-swiper-encirc { width: 100%; padding-bottom: 2.5rem; margin: 0; }
+#gpw-encirc-root #gpw-swiper-encirc .swiper-slide { height: auto; }
+#gpw-encirc-root .gpw-encirc__card {
+  margin: 0; border-radius: 10px; overflow: hidden;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.11);
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease;
+}
+#gpw-encirc-root .gpw-encirc__card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 36px rgba(120,20,20,0.14), 0 4px 12px rgba(0,0,0,0.08);
+}
+#gpw-encirc-root .gpw-encirc__ribbon {
+  display: flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.7rem; color: #fff;
+  font-size: 0.74rem; font-weight: 700; letter-spacing: 0.04em;
+}
+#gpw-encirc-root .gpw-encirc__imgwrap { overflow: hidden; background: #1a1a1a; }
+#gpw-encirc-root .gpw-encirc__card img {
+  width: 100%; height: auto; display: block;
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+#gpw-encirc-root .gpw-encirc__card:hover img { transform: scale(1.02); }
+#gpw-encirc-root .gpw-encirc__card figcaption {
+  font-size: 0.9em; font-style: italic; padding: 0.55rem 0.7rem 0.7rem; background: rgba(255,255,255,0.96);
+}
+#gpw-encirc-root #gpw-swiper-encirc .swiper-pagination-bullet { opacity: 0.45; }
+#gpw-encirc-root #gpw-swiper-encirc .swiper-pagination-bullet-active { opacity: 1; }
+#gpw-encirc-root #gpw-swiper-encirc .swiper-button-prev,
+#gpw-encirc-root #gpw-swiper-encirc .swiper-button-next { color: #b71c1c; }
+#gpw-encirc-root #gpw-swiper-encirc .swiper-scrollbar { background: rgba(0,0,0,0.06); }
+#gpw-encirc-root #gpw-swiper-encirc .swiper-scrollbar-drag { background: rgba(183,28,28,0.45); }
+#gpw-encirc-root .gpw-encirc__credit {
+  margin: 0.5rem 0 0 0; padding-top: 0.55rem; border-top: 1px solid rgba(0,0,0,0.06);
+  font-size: 0.78rem; color: #666;
+}
+@media (prefers-reduced-motion: reduce) {
+  #gpw-encirc-root .gpw-encirc__card, #gpw-encirc-root .gpw-encirc__card img { transition: none; }
+  #gpw-encirc-root .gpw-encirc__card:hover { transform: none; }
+  #gpw-encirc-root .gpw-encirc__card:hover img { transform: none; }
+}
+</style>
 
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image41.png" alt="Railway cut from Kiev" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 40. The Germans cut the railway from Kiev; to resupply we had to build a new railway from Minsk to Zhytomyr.</figcaption>
-</figure>
-
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image42.png" alt="Counterattack closing the pocket" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 41. After resupply we could counterattack; if you stabilize the front you can encircle the enemy yourself.</figcaption>
-</figure>
-
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image43.png" alt="Encirclement completed" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 42. As planned, the operation succeeded and the German army was encircled; the principle is the same as in real life.</figcaption>
-</figure>
+<div id="gpw-encirc-root">
+  <div class="gpw-encirc__head">
+    <p class="gpw-encirc__title">Same operation, four beats</p>
+    <div class="gpw-encirc__badge" aria-hidden="true">4 frames <span>·</span> Swiper</div>
+  </div>
+  <p class="gpw-encirc__hint">
+    Pictures 39–42 in order. Use arrows, the draggable bar, dots, swipe, or keyboard. Preview many layouts on the official <a href="https://swiperjs.com/demos" target="_blank" rel="noopener noreferrer">Swiper demos</a> (library home: <a href="https://swiperjs.com" target="_blank" rel="noopener noreferrer">swiperjs.com</a>).
+  </p>
+  <div class="swiper" id="gpw-swiper-encirc">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <figure class="gpw-encirc__card">
+          <div class="gpw-encirc__ribbon" style="background: rgba(183, 28, 28, 0.92);">1 / 4 · Breakthrough</div>
+          <div class="gpw-encirc__imgwrap">
+            <img src="/images/opinions/great-patriotic-war/image40.png" alt="Encirclement plan Zhytomyr" />
+          </div>
+          <figcaption>Picture 39. The Germans tried to encircle my divisions around Zhytomyr; the idea is to find weak spots, break through, and join two salients.</figcaption>
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure class="gpw-encirc__card">
+          <div class="gpw-encirc__ribbon" style="background: rgba(183, 28, 28, 0.85);">2 / 4 · Rail cut</div>
+          <div class="gpw-encirc__imgwrap">
+            <img src="/images/opinions/great-patriotic-war/image41.png" alt="Railway cut from Kiev" />
+          </div>
+          <figcaption>Picture 40. The Germans cut the railway from Kiev; to resupply we had to build a new railway from Minsk to Zhytomyr.</figcaption>
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure class="gpw-encirc__card">
+          <div class="gpw-encirc__ribbon" style="background: rgba(183, 28, 28, 0.78);">3 / 4 · Counterattack</div>
+          <div class="gpw-encirc__imgwrap">
+            <img src="/images/opinions/great-patriotic-war/image42.png" alt="Counterattack closing the pocket" />
+          </div>
+          <figcaption>Picture 41. After resupply we could counterattack; if you stabilize the front you can encircle the enemy yourself.</figcaption>
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure class="gpw-encirc__card">
+          <div class="gpw-encirc__ribbon" style="background: rgba(93, 16, 16, 0.95);">4 / 4 · Pocket closed</div>
+          <div class="gpw-encirc__imgwrap">
+            <img src="/images/opinions/great-patriotic-war/image43.png" alt="Encirclement completed" />
+          </div>
+          <figcaption>Picture 42. As planned, the operation succeeded and the German army was encircled; the principle is the same as in real life.</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="swiper-button-prev" aria-label="Previous slide"></div>
+    <div class="swiper-button-next" aria-label="Next slide"></div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-scrollbar"></div>
+  </div>
+  <p class="gpw-encirc__credit">UI: <a href="https://swiperjs.com" target="_blank" rel="noopener noreferrer">Swiper</a> v12 via jsDelivr · <a href="https://swiperjs.com/demos" target="_blank" rel="noopener noreferrer">demos gallery</a></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script>
+(function () {
+  if (typeof Swiper === 'undefined') return;
+  var el = document.querySelector('#gpw-swiper-encirc');
+  if (!el) return;
+  new Swiper(el, {
+    slidesPerView: 1,
+    spaceBetween: 18,
+    autoHeight: true,
+    grabCursor: true,
+    keyboard: { enabled: true },
+    pagination: { el: el.querySelector('.swiper-pagination'), clickable: true },
+    navigation: {
+      nextEl: el.querySelector('.swiper-button-next'),
+      prevEl: el.querySelector('.swiper-button-prev')
+    },
+    scrollbar: { el: el.querySelector('.swiper-scrollbar'), draggable: true }
+  });
+})();
+</script>
 
 <figure style="float: right; max-width: 280px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image44.png" alt="Reflection after encirclement" style="width: 100%;" />
