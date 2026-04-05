@@ -80,6 +80,56 @@ author_profile: true
     gap: 20px;
   }
 }
+
+.resources-search-bar {
+  margin-top: 40px;
+  margin-bottom: 4px;
+}
+
+.resources-search-bar__label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: var(--global-text-color-light, #555);
+}
+
+.resources-search-bar__field {
+  position: relative;
+  max-width: 480px;
+}
+
+.resources-search-bar__field .fa-search {
+  position: absolute;
+  left: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--global-text-color-light, #888);
+  pointer-events: none;
+  font-size: 0.95rem;
+}
+
+.resources-search-bar__input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.65rem 1rem 0.65rem 2.55rem;
+  font-size: 1rem;
+  line-height: 1.35;
+  border: 1px solid var(--global-border-color, #dee2e6);
+  border-radius: 8px;
+  background: var(--global-code-background-color, #fff);
+  color: var(--global-text-color, #212529);
+}
+
+.resources-search-bar__input::placeholder {
+  color: var(--global-text-color-light, #6c757d);
+  opacity: 1;
+}
+
+.resources-search-bar__input:focus {
+  outline: 2px solid var(--global-theme-color, #0f4c81);
+  outline-offset: 2px;
+}
 </style>
 
 <div style="text-align: center; margin-bottom: 40px;">
@@ -93,7 +143,15 @@ author_profile: true
 {% assign total_resources = site.resources | size %}
 {% assign per_page = 10 %}
 
-<div id="category-filters" style="text-align: left; margin-top: 40px; margin-bottom: 30px; display: flex; justify-content: flex-start; gap: 12px; flex-wrap: wrap; align-items: center;">
+<div class="resources-search-bar">
+  <label for="resources-search-input" class="resources-search-bar__label">Search resources</label>
+  <div class="resources-search-bar__field">
+    <i class="fas fa-search" aria-hidden="true"></i>
+    <input type="search" id="resources-search-input" class="resources-search-bar__input" placeholder="Filter by title, description, or tags…" autocomplete="off" spellcheck="false" />
+  </div>
+</div>
+
+<div id="category-filters" style="text-align: left; margin-top: 20px; margin-bottom: 30px; display: flex; justify-content: flex-start; gap: 12px; flex-wrap: wrap; align-items: center;">
   <button class="category-filter-btn active" data-category="High seas" title="High seas" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/11.png" alt="High seas" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
@@ -169,8 +227,24 @@ author_profile: true
 (function() {
   const perPage = {{ per_page }};
   const allResourceItems = Array.from(document.querySelectorAll('.resource-item'));
+  const itemSearchText = new Map();
+  allResourceItems.forEach(function (item) {
+    const card = item.querySelector('.resource-card');
+    const raw = card ? card.innerText : '';
+    itemSearchText.set(item, raw.toLowerCase().replace(/\s+/g, ' ').trim());
+  });
   let activeCategories = new Set(['High seas', 'AI', 'Windows', 'Browser', 'Android', 'Gaming', 'Cryptocurrency', 'Bioinformatics', 'Military history', 'Python package', 'YouTube channel']);
   let currentPage = 1;
+
+  function matchesSearchQuery(item) {
+    const input = document.getElementById('resources-search-input');
+    const q = (input && input.value ? input.value : '').trim().toLowerCase();
+    if (!q) return true;
+    const hay = itemSearchText.get(item) || '';
+    const parts = q.split(/\s+/).filter(Boolean);
+    if (parts.length === 0) return true;
+    return parts.every(function (token) { return hay.indexOf(token) !== -1; });
+  }
   
   // Get page from URL or default to 1
   const urlParams = new URLSearchParams(window.location.search);
@@ -247,7 +321,8 @@ author_profile: true
     const filteredItems = allResourceItems.filter(item => {
       const catsStr = item.getAttribute('data-categories') || '';
       const itemCats = catsStr.split('|').map(s => s.trim()).filter(Boolean);
-      return itemCats.some(c => activeCategories.has(c));
+      const catOk = itemCats.some(c => activeCategories.has(c));
+      return catOk && matchesSearchQuery(item);
     });
     
     // Recalculate pagination based on filtered items
@@ -398,6 +473,14 @@ author_profile: true
   
   // Initialize category filters
   initializeCategoryFilters();
+
+  const searchInput = document.getElementById('resources-search-input');
+  if (searchInput) {
+    searchInput.addEventListener('input', function () {
+      currentPage = 1;
+      applyFilters();
+    });
+  }
   
   // Set initial toggle-all button label
   updateToggleAllButton();
