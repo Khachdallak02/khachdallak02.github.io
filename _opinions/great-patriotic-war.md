@@ -250,122 +250,118 @@ After many old generals were purged, they were replaced by a new, less experienc
   <div style="flex: 1 1 280px; min-width: 0;">
     <p style="margin: 0;">After retreating about 1200 km, something had to be done. 🛡️ **Order 227** ("No step back") was Stalin's order to stop retreats: last stand. Civilians and factory workers were conscripted. In Stalingrad there were cases of tanks firing from the factory windows where they had been produced. **In history**, those who retreated could be sent to **Penal battalions** and used in the riskiest sectors, sometimes as a "human shield". **In the game** you don't play that in detail, but the pressure to hold the line is there. Before the war most Soviet industry was in the European part; when that was overrun, the USSR moved factories east. They recovered about 85% of capacity and could continue producing and eventually counterattack.</p>
   </div>
-  <figure style="flex: 0 0 auto; width: 100%; max-width: 340px; margin: 0;">
+  <figure style="flex: 0 0 auto; width: 100%; max-width: 460px; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image28.png" alt="Forced pro-German demonstration in Minsk" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
     <figcaption style="font-size: 0.9em; font-style: italic;">Picture 28. Forced pro-German demonstration in Minsk; the text says "Hitler liberator" (with a possible spelling/grammar quirk :D ).</figcaption>
   </figure>
 </div>
 
-![Doctrine selection in game](/images/opinions/great-patriotic-war/image27.png)
-*Picture 29. In the game you choose a doctrine; the text explains mass assault (human-wave, guerrilla) versus the coordination-based approach chosen here.*
 
 <div style="clear: both;"></div>
-
-<figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image2.png" alt="Order 227 No step back in Hearts of Iron IV" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 30. Order 227 ("No step back"), Stalin's order to stop retreats and hold the line, as represented in the game.</figcaption>
-</figure>
-
-<figure style="float: left; max-width: 360px; margin: 0 1em 1em 0;">
-  <img src="/images/opinions/great-patriotic-war/image30.jpeg" alt="Factory evacuation east" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 31. When the European part was overrun, the USSR moved factories east; they recovered about 85% of capacity.</figcaption>
-</figure>
-
-<figure style="float: right; max-width: 360px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image31.jpeg" alt="Industry relocation map" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 32. Relocating industry beyond the Urals so production could continue and the counterattack could be supplied.</figcaption>
-</figure>
 
 ## Partisans, propaganda, and supply issues for the enemy
 
 <div style="clear: both;"></div>
 
-**In history**, after occupying the eastern Soviet Union, the Nazis portrayed themselves as liberators. Picture 28 shows one such scene in Minsk. When you then kill people and send them to forced labor by nationality, trust vanishes. Many took guns and ammunition and went to the forests; new settlements appeared there. Partisan activity in occupied Ukraine and Belarus was very high. **In Hearts of Iron IV** you can organize and support partisans; they can sabotage supplies, provide intel, and help trigger uprisings.
+<div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: flex-start; margin: 0 0 1.25rem 0;">
+  <div style="flex: 1 1 280px; min-width: 0;">
+    <p style="margin: 0;">**In history**, after occupying the eastern Soviet Union, the Nazis portrayed themselves as liberators. Picture 28 shows one such scene in Minsk. When you then kill people and send them to forced labor by nationality, trust vanishes. Many took guns and ammunition and went to the forests; new settlements appeared there. Partisan activity in occupied Ukraine and Belarus was very high. **In Hearts of Iron IV** you can organize and support partisans; they can sabotage supplies, provide intel, and help trigger uprisings.</p>
+  </div>
+  <div style="flex: 0 0 auto; width: 100%; max-width: 440px; display: flex; flex-direction: column; gap: 0.75rem;">
+    <figure style="margin: 0;">
+      <img src="/images/opinions/great-patriotic-war/image30.jpeg" alt="Factory evacuation east" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 29. When the European part was overrun, the USSR moved factories east; they recovered about 85% of capacity.</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+      <img src="/images/opinions/great-patriotic-war/image31.jpeg" alt="Industry relocation map" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 30. Relocating industry beyond the Urals so production could continue and the counterattack could be supplied.</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+      <img src="/images/opinions/great-patriotic-war/image32.png" alt="Propaganda poster" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 31. Wartime propaganda through media, books, films, and theatre.</figcaption>
+    </figure>
+  </div>
+</div>
 
-![Partisans in the game](/images/opinions/great-patriotic-war/image33.png)
-*Picture 33. In the game you can organize and support partisans to sabotage supplies, provide intel, and trigger uprisings.*
+<div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: flex-start; margin: 0 0 1.25rem 0;">
+  <div style="flex: 1 1 280px; min-width: 0;">
+    <p style="margin: 0;">**Historically**, propaganda was central for the Soviet Union through media, books, films, theatre. **In the game** you can enact decisions to run campaigns with specific bonuses. Soviet propaganda remains a fascinating subject (especially if you know Russian).</p>
+  </div>
+  <div style="flex: 0 0 auto; width: 100%; max-width: 320px; display: flex; flex-direction: column; gap: 0.75rem;">
+    <figure style="margin: 0;">
+      <img src="/images/opinions/great-patriotic-war/image33.png" alt="Partisans in the game" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 32. In the game you can organize and support partisans to sabotage supplies, provide intel, and trigger uprisings.</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+      <img src="/images/opinions/great-patriotic-war/image34.png" alt="Soviet propaganda Agitprop" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 33. Propaganda was central for the Soviet Union; in the game you enact decisions to run campaigns with specific bonuses.</figcaption>
+    </figure>
+    <figure style="margin: 0;">
+      <img src="/images/opinions/great-patriotic-war/image35.jpeg" alt="British propaganda poster" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 34. An Allied propaganda poster from the period.</figcaption>
+    </figure>
+  </div>
+</div>
 
-**Historically**, propaganda was central for the Soviet Union through media, books, films, theatre. **In the game** you can enact decisions to run campaigns with specific bonuses. Soviet propaganda remains a fascinating subject (especially if you know Russian).
+<div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: flex-start; margin: 0 0 1.25rem 0;">
+  <div style="flex: 1 1 280px; min-width: 0;">
+    <p style="margin: 0;">Supply is easy to overlook, but food and ammunition don't grow on the battlefield. **In history**, a **scorched-earth policy** was used by both sides: before retreating, the Soviets destroyed railways, roads, radio stations, supply depots. Partisans sabotaged infrastructure in the enemy rear. Weather also created supply issues: mud and snow blocked roads. Defenders were more used to the cold and mud; invaders struggled (for example from October to December 1941), and that was one reason the Moscow offensive failed. **In the game** supply, railways, and weather all affect your ability to fight.</p>
+  </div>
+  <figure style="flex: 0 0 auto; width: 100%; max-width: 400px; margin: 0;">
+    <img src="/images/opinions/great-patriotic-war/image36.png" alt="Propaganda campaigns in game" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+    <figcaption style="font-size: 0.9em; font-style: italic;">Picture 35. Running propaganda campaigns in the game for their bonuses.</figcaption>
+  </figure>
+</div>
 
-<figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image8.png" alt="Agitprop high yield poster" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 34. The Agitprop campaign “We will accomplish a high yield”," as it appears in the game.</figcaption>
+<figure style="max-width: min(720px, 88%); margin: 0 auto 1.25rem auto;">
+  <img src="/images/opinions/great-patriotic-war/image37.png" alt="Supply and terrain in game" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 36. The text notes that supply, railways, and weather all affect your ability to fight; mud and snow blocked roads and helped defenders.</figcaption>
 </figure>
-
-<div style="clear: both;"></div>
-
-<figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image34.png" alt="Soviet propaganda Agitprop" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 35. Propaganda was central for the Soviet Union; in the game you enact decisions to run campaigns with specific bonuses.</figcaption>
-</figure>
-
-<figure style="float: left; max-width: 280px; margin: 0 1em 1em 0;">
-  <img src="/images/opinions/great-patriotic-war/image35.jpeg" alt="British propaganda poster" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 36. An Allied propaganda poster from the period.</figcaption>
-</figure>
-
-<figure style="float: right; max-width: 280px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image32.png" alt="Propaganda poster" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 37. Wartime propaganda through media, books, films, and theatre.</figcaption>
-</figure>
-
-<figure style="float: left; max-width: 320px; margin: 0 1em 1em 0;">
-  <img src="/images/opinions/great-patriotic-war/image36.png" alt="Propaganda campaigns in game" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 38. Running propaganda campaigns in the game for their bonuses.</figcaption>
-</figure>
-
-
-<div style="clear: both;"></div>
-
-Supply is easy to overlook, but food and ammunition don't grow on the battlefield. **In history**, a **scorched-earth policy** was used by both sides: before retreating, the Soviets destroyed railways, roads, radio stations, supply depots. Partisans sabotaged infrastructure in the enemy rear. Weather also created supply issues: mud and snow blocked roads. Defenders were more used to the cold and mud; invaders struggled (for example from October to December 1941), and that was one reason the Moscow offensive failed. **In the game** supply, railways, and weather all affect your ability to fight.
-
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image37.png" alt="Supply and terrain in game" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 39. The text notes that supply, railways, and weather all affect your ability to fight; mud and snow blocked roads and helped defenders.</figcaption>
-</figure>
-
-<figure style="float: right; max-width: 340px; margin: 0 0 1em 1em;">
-  <img src="/images/opinions/great-patriotic-war/image38.png" alt="Supply and attrition" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 40. When supply lines are cut, attrition sets in; in the war most supply went by rail.</figcaption>
-</figure>
-
-<figure style="max-width: 100%;">
-  <img src="/images/opinions/great-patriotic-war/image39.jpeg" alt="Operation Bagration briefing map" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 41. Operation Bagration as shown in Steel Division II, the more tactical game mentioned in the next section.</figcaption>
-</figure>
-
 
 ## Operation Bagration in my universe
 
 <div style="clear: both;"></div>
 
-As Guderian said after losing to the Soviet army: **"They are learning."** **In history**, after early failures the Soviets improved: battle-hardened soldiers and generals, better tactics. Operation Bagration was one of the most successful operations in history, ending German occupation of Soviet territory. There is another game about it: *Steel Division 2* (more tactical). Here I focus on **how I carried out a similar encirclement in Hearts of Iron IV**.
+<div style="display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: flex-start; margin: 0 0 1.25rem 0;">
+  <div style="flex: 1 1 280px; min-width: 0;">
+    <p style="margin: 0;">As Guderian said after losing to the Soviet army: **"They are learning."** **In history**, after early failures the Soviets improved: battle-hardened soldiers and generals, better tactics. Operation Bagration was one of the most successful operations in history, ending German occupation of Soviet territory. There is another game about it: *Steel Division 2* (more tactical). Here I focus on **how I carried out a similar encirclement in Hearts of Iron IV**.</p>
+  </div>
+  <figure style="flex: 0 0 auto; width: 100%; max-width: 380px; margin: 0;">
+    <img src="/images/opinions/great-patriotic-war/image39.jpeg" alt="Operation Bagration briefing map" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+    <figcaption style="font-size: 0.9em; font-style: italic;">Picture 37. Operation Bagration as shown in Steel Division II, the more tactical game mentioned in the next section.</figcaption>
+  </figure>
+</div>
+
+<figure style="max-width: 100%; margin: 0 0 1.25rem 0;">
+  <img src="/images/opinions/great-patriotic-war/image38.png" alt="Supply and attrition" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 38. When supply lines are cut, attrition sets in; in the war most supply went by rail.</figcaption>
+</figure>
 
 **In the game**, the Germans tried to encircle my divisions around Zhytomyr. The idea is not to push the whole front at once but to find weak spots, break through, and join two salients to encircle the frontline. The Germans also cut the railway from Kiev. In the war, most supply went by rail; cutting it meant attrition. To resupply, we had to build a new railway from Minsk to Zhytomyr. We did, got supplied, and could counterattack. If you stabilize the front, you can counter-attack and encircle the enemy yourself. As planned, the operation succeeded and the German army was encircled. In real life, controlling troops is much harder, but the principle is the same: cut the enemy off from supply without being cut off yourself.
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image40.png" alt="Encirclement plan Zhytomyr" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 42. The Germans tried to encircle my divisions around Zhytomyr; the idea is to find weak spots, break through, and join two salients.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 39. The Germans tried to encircle my divisions around Zhytomyr; the idea is to find weak spots, break through, and join two salients.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image41.png" alt="Railway cut from Kiev" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 43. The Germans cut the railway from Kiev; to resupply we had to build a new railway from Minsk to Zhytomyr.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 40. The Germans cut the railway from Kiev; to resupply we had to build a new railway from Minsk to Zhytomyr.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image42.png" alt="Counterattack closing the pocket" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 44. After resupply we could counterattack; if you stabilize the front you can encircle the enemy yourself.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 41. After resupply we could counterattack; if you stabilize the front you can encircle the enemy yourself.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image43.png" alt="Encirclement completed" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 45. As planned, the operation succeeded and the German army was encircled; the principle is the same as in real life.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 42. As planned, the operation succeeded and the German army was encircled; the principle is the same as in real life.</figcaption>
 </figure>
 
 <figure style="float: right; max-width: 280px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image44.png" alt="Reflection after encirclement" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 46. A moment of reflection after pulling off the encirclement.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 43. A moment of reflection after pulling off the encirclement.</figcaption>
 </figure>
 
 
@@ -382,12 +378,12 @@ After the encirclement and surrender of the German 6th Army at Stalingrad (the f
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image45.png" alt="Stalingrad in the game" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 47. Stalingrad was fought for every street and every floor; the quote calls it "rat warfare" where the smarter, braver soldier won.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 44. Stalingrad was fought for every street and every floor; the quote calls it "rat warfare" where the smarter, braver soldier won.</figcaption>
 </figure>
 
 <figure style="float: left; max-width: 380px; margin: 0 1em 1em 0;">
   <img src="/images/opinions/great-patriotic-war/image46.jpeg" alt="Ruins after battle" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 48. The ruins left after the encirclement and surrender of the 6th Army at Stalingrad.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 45. The ruins left after the encirclement and surrender of the 6th Army at Stalingrad.</figcaption>
 </figure>
 
 
@@ -401,48 +397,48 @@ Hearts of Iron IV does not actually depict these atrocities: the Holocaust, conc
 
 <figure style="float: right; max-width: 360px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image47.png" alt="Children on abandoned tank, Belgium 1945" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 49. Children on an abandoned Jagdpanther in Sterpigny, Belgium, 1945; the afterword asks us to remember the victims and not repeat the crimes.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 46. Children on an abandoned Jagdpanther in Sterpigny, Belgium, 1945; the afterword asks us to remember the victims and not repeat the crimes.</figcaption>
 </figure>
 
 
 I was planning to finish this "class-report thingy" by Christmas, but since gameplay took longer and later I was lazy to write everything down, I ended up doing most of the writing in one go. Yet I want to finish with the same Christmas quote by Franklin Roosevelt, since I find it very epic and heroic:
 
 ![Roosevelt Christmas 1942](/images/opinions/great-patriotic-war/image48.jpeg)
-*Picture 50. Franklin Roosevelt delivering his Christmas address in 1942; the quote below is the one the author finds epic and heroic.*
+*Picture 47. Franklin Roosevelt delivering his Christmas address in 1942; the quote below is the one the author finds epic and heroic.*
 
 > "I cannot say 'Merry Christmas', for I think constantly of those thousands of soldiers and sailors who are in actual combat throughout the world, but I can express to you my thought that this is a happier Christmas than last year in the sense that the forces of darkness stand against us with less confidence in the success of their evil ways."  
 > *Franklin Roosevelt*, December 1942
 
 <figure style="float: right; max-width: 300px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image49.jpeg" alt="Honorable mention" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 51. Honorable mention.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 48. Honorable mention.</figcaption>
 </figure>
 
 <div style="clear: both;"></div>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image280.png" alt="Same street in wartime and today" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 52. The same location in wartime and today.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 49. The same location in wartime and today.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image300.png" alt="Past and present overlay" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 53. Holding the past up to the present.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 50. Holding the past up to the present.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image310.png" alt="One place, two moments" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 54. The same place in two moments in time.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 51. The same place in two moments in time.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image320.png" alt="History in the hand" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 55. A wartime photograph aligned with the same street today.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 52. A wartime photograph aligned with the same street today.</figcaption>
 </figure>
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image330.png" alt="Then and now" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 56. After the smoke cleared; the same street in peace.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 53. After the smoke cleared; the same street in peace.</figcaption>
 </figure>
 
 <div class="post-references" markdown="1">
