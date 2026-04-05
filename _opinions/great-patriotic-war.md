@@ -8,7 +8,7 @@ header:
 share: false
 ---
 
-*Здравствуйте товарищи!* — Greetings, comrades. If you ever spent hours reading or watching videos about the Munich conference, the battles of Stalingrad and Kursk, or the D-Day landings, but then sat through history class forced to memorize numbers, names, and facts, this article might be for you. School history (at least in most education systems) gives no real sense of how warfare was organized, the diplomacy around it, how economies kept armies in the field, and instead only forces fact memorization. Fortunately, some strategy games sometimes go deeper into history. *Hearts of Iron IV* is a grand strategy game where you control an entire country through the Second World War — its armies, factories, research, diplomacy, everything. Using it, I want to show how games can present history in a format that is both educational and fun, and far more advanced than most current education systems.
+*Здравствуйте товарищи!* Greetings, comrades. If you ever spent hours reading or watching videos about the Munich conference, the battles of Stalingrad and Kursk, or the D-Day landings, but then sat through history class forced to memorize numbers, names, and facts, this article might be for you. School history (at least in most education systems) gives no real sense of how warfare was organized, the diplomacy around it, how economies kept armies in the field, and instead only forces fact memorization. Fortunately, some strategy games sometimes go deeper into history. *Hearts of Iron IV* is a grand strategy game where you control an entire country through the Second World War: its armies, factories, research, diplomacy, everything. Using it, I want to show how games can present history in a format that is both educational and fun, and far more advanced than most current education systems.
 
 **Historically**, the Great Patriotic War was part of the 2nd World War and constituted the largest military confrontation in history between the Soviet Union and Axis powers on the European side. In this article, we will take the Soviet Union's perspective and, instead of focusing on the entire WW2, focus specifically on the Great Patriotic War. Let's start from the political and economic situation in the Soviet Union in the 1930s and **how Hearts of Iron IV represents it**.
 
@@ -26,7 +26,7 @@ In the 30s and 40s social-political life was, to say the least, super unstable. 
   <figcaption style="font-size: 0.9em; font-style: italic;">Picture 2. Some of the figures Stalin purged in my playthrough.</figcaption>
 </figure>
 
-**In Hearts of Iron IV**, the Great Purge is represented by a Paranoia system. If Stalin's Paranoia (he was the Soviet leader) reaches a certain level, he will start killing random generals, commanders, and political figures, but you can spend resources to lower Paranoia. For example, you can forge a satisfactory production report for Stalin; he will be happy, but you lose economic potential, since faking reports is not the most optimal way to run the economy. It's an interesting system where you want to minimize the number of people killed (since generals, economists, and advisors might be useful for the country) while sacrificing a minimum amount of resources. The game teaches that authoritarian paranoia cannot come without a severe drawback for the economy and the army—which is exactly what ended up happening historically. In Picture 2, you can see the people Stalin ended up killing in "my universe" of the game.
+**In Hearts of Iron IV**, the Great Purge is represented by a Paranoia system. If Stalin's Paranoia (he was the Soviet leader) reaches a certain level, he will start killing random generals, commanders, and political figures, but you can spend resources to lower Paranoia. For example, you can forge a satisfactory production report for Stalin; he will be happy, but you lose economic potential, since faking reports is not the most optimal way to run the economy. It's an interesting system where you want to minimize the number of people killed (since generals, economists, and advisors might be useful for the country) while sacrificing a minimum amount of resources. The game teaches that authoritarian paranoia cannot come without a severe drawback for the economy and the army, which is exactly what ended up happening historically. In Picture 2, you can see the people Stalin ended up killing in "my universe" of the game.
 
 <div style="clear: both;"></div>
 
@@ -75,7 +75,7 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 280px; min-width: 0; padding-left: clamp(1.25rem, 5vw, 3.5rem); box-sizing: border-box;">
-    <p style="margin: 0;">Another long-term piece of the economy was academic research: the Russian Academy of Sciences, founded in the 1700s, became the USSR’s top scientific body, and national academies later spread to the Union republics. <strong>Hearts of Iron IV</strong> lets you build additional national academies for faster research and more technologies—investments that can pay off later in the war (see Picture 8).</p>
+    <p style="margin: 0;">Another long-term piece of the economy was academic research: the Russian Academy of Sciences, founded in the 1700s, became the USSR’s top scientific body, and national academies later spread to the Union republics. <strong>Hearts of Iron IV</strong> lets you build additional national academies for faster research and more technologies; investments that can pay off later in the war (see Picture 8).</p>
   </div>
   <figure style="flex: 0 0 auto; max-width: 340px; width: 100%; margin: 0;">
     <img src="/images/opinions/great-patriotic-war/image10.png" alt="National Academies of Sciences" style="width: 100%;" />
@@ -128,15 +128,15 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 300px; min-width: 0;">
-    <p style="margin: 0;">The <strong>T-34</strong> is one of the most famous and most heavily produced tanks in history. T-34s were symbols of the Eastern Front from Moscow to Stalingrad to Berlin. The scale of wartime production—assembly lines turning them out in huge numbers—is the backdrop for <strong>Picture 13</strong>.</p>
+    <p style="margin: 0;">The <strong>T-34</strong> is one of the most famous and most heavily produced tanks in history. T-34s were symbols of the Eastern Front from Moscow to Stalingrad to Berlin. The scale of wartime production (assembly lines turning them out in huge numbers) is the backdrop for <strong>Picture 13</strong>.</p>
     <p style="margin: 2.35em 0 0 0;"><strong>In the game</strong>, one of the coolest features is the tank designer: you can add smoke launchers, machine guns, pick the engine type, and design your own mass-produced tank (T-34). You can see the tank design that I used in <strong>Picture 14</strong> (radio; shovels; extra machine gun and cannon). Meta-wise it is not the most optimal design in the game, but it is a more historically inspired take on the T-34.</p>
     <p style="margin: 2.35em 0 0 0;">The entrenchment module is highlighted there because T-34s often carried a shovel so the crew could dig in on defense in a hull-down position (see <strong>Picture 14</strong> and <strong>Picture 15</strong>). </p>
-    <p style="margin: 2.35em 0 0 0;">A famous tactic was the <strong>column ambush</strong>—a type of <strong>convoy ambush</strong> on a narrow road: hide tanks at the roadside, knock out the <strong>lead and trail</strong> German tanks, and trap the vehicles in between; <strong>Picture 17</strong> sketches that.</p>
+    <p style="margin: 2.35em 0 0 0;">A famous tactic was the <strong>column ambush</strong>, a type of <strong>convoy ambush</strong> on a narrow road: hide tanks at the roadside, knock out the <strong>lead and trail</strong> German tanks, and trap the vehicles in between; <strong>Picture 17</strong> sketches that.</p>
   </div>
   <div style="flex: 0 0 auto; max-width: 380px; width: 100%; display: flex; flex-direction: column; gap: 1rem;">
     <figure style="margin: 0;">
       <img src="/images/opinions/great-patriotic-war/image29.png" alt="T-34 tanks on the assembly line" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
-      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 13. T-34 production line—mass output that matched the tank’s fame on the Eastern Front.</figcaption>
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 13. T-34 production line.</figcaption>
     </figure>
     <figure style="margin: 0;">
       <img src="/images/opinions/great-patriotic-war/image15.png" alt="588th Night Bomber Regiment in game" style="width: 100%;" />
@@ -180,28 +180,28 @@ After many old generals were purged, they were replaced by a new, less experienc
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 0.75em 0 1em 0;">
   <div style="flex: 1 1 300px; min-width: 0;">
-    <p style="margin: 0;"><strong>Cossack cavalry</strong> (see <strong>Picture 20</strong>) was another iconic part of cavalry in war—almost as famous as Mongolian cavalry or the Winged Hussars. It was still used in the Second World War, mostly for mobility; in combat they often fought on foot.</p>
-    <p style="margin: 2.75em 0 0 0;"><strong>In the game</strong> you can restore and recreate Cossack units (see <strong>Picture 21</strong>).</p>
+    <p style="margin: 0;"><strong>Cossack cavalry</strong> (see Picture 20) used to be core part of Russian Empire army, almost as iconic as Mongolian cavalry or the Winged Hussars. </p>
+    <p style="margin: 2.75em 0 0 0;">The cavalry was still used in the Second World War, mostly for mobility; in combat they often fought on foot.<strong>In the game</strong> you can restore and recreate Cossack units (see <strong>Picture 21</strong>).</p>
   </div>
   <div style="flex: 0 0 auto; max-width: 340px; width: 100%; display: flex; flex-direction: column; gap: 0.85rem;">
     <figure style="margin: 0;">
       <img src="/images/opinions/great-patriotic-war/image20.jpeg" alt="Cossack cavalry, 19th-century illustration" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
-      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 20. Cossack cavalry from a 19th-century image—the romantic archetype behind the wartime units.</figcaption>
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 20. Cossack cavalry; 19th-century.</figcaption>
     </figure>
     <figure style="margin: 0;">
       <img src="/images/opinions/great-patriotic-war/image21.png" alt="Cossack cavalry division template in Hearts of Iron IV division designer" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
-      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 21. Restored Cossack cavalry division in the division designer, as in my Soviet playthrough.</figcaption>
+      <figcaption style="font-size: 0.9em; font-style: italic;">Picture 21. Cossack cavalry division in the division designer.</figcaption>
     </figure>
   </div>
 </div>
 
 <div style="clear: both;"></div>
 
-According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best military general in history (Napoleon is 1st—forever an idol ❤️; see <strong>Picture 22</strong> for his cumulative WAR under the same <em>Wins Above Replacement</em> idea) and the only WW2 general on that list. **In history** he was everywhere: in 1941 he helped repel the German attack on Moscow; in 1942 he had a hand in the three most important Soviet offensives (Rzhev, Stalingrad, breaking the siege of Leningrad) and personally led the Stalingrad offensive. Victory at Stalingrad led to the encirclement of Germany's 6th Army and turned the tides. Zhukov eventually led the operation to capture Berlin—the biggest operation in history, with some 3.5 million people involved.
+According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best military general in history (Napoleon is 1st, forever an idol ❤️; **Picture 22** shows Napoleon's cumulative WAR and score under the same *Wins Above Replacement* idea) and the only WW2 general on that list. Arsht's project is worth a look: he borrows the baseball *Wins Above Replacement* idea for historical battles, scoring commanders against what a typical general might have achieved in the same circumstances and summing the results over a career; he explains the method and shows the charts in [*Napoleon was the best general ever, and the math proves it*](https://medium.com/data-science/napoleon-was-the-best-general-ever-and-the-math-proves-it-86efed303eeb) on Medium. **In history** Zhukov was everywhere: in 1941 he helped repel the German attack on Moscow; in 1942 he had a hand in the three most important Soviet offensives (Rzhev, Stalingrad, breaking the siege of Leningrad) and personally led the Stalingrad offensive. Victory at Stalingrad led to the encirclement of Germany's 6th Army and turned the tides. Zhukov eventually led the operation to capture Berlin, the biggest operation in history, with some 3.5 million people involved.
 
 <figure style="max-width: 100%; margin: 0 0 1.25rem 0;">
   <img src="/images/opinions/great-patriotic-war/image100.png" alt="Ethan Arsht cumulative WAR chart for Napoleon Bonaparte across his major battles" style="width: 100%; height: auto; display: block; border-radius: 4px;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 22. Ethan Arsht's <em>Wins Above Replacement</em> (WAR) for Napoleon: cumulative score across his battles (title “Napoleon (38 - 0 - 5)”). The rising line is cumulative WAR; small bars are each battle’s contribution (blue positive, red negative—e.g. Waterloo).</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 22. Ethan Arsht's <em>Wins Above Replacement</em> (WAR) for Napoleon: cumulative score across his battles (chart title “Napoleon”, 38 wins, 0 losses, 5 draws). The rising line is cumulative WAR; small bars are each battle’s contribution (blue positive, red negative, e.g. Waterloo).</figcaption>
 </figure>
 
 <figure style="float: left; max-width: 360px; margin: 0 1em 1em 0;">
@@ -218,7 +218,7 @@ According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best m
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image24.jpeg" alt="Cossack cavalry in the Second World War" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 25. Cossack cavalry in the Second World War—mobility and fighting on foot, as in the main text above.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 25. Cossack cavalry in the Second World War: mobility and fighting on foot, as in the main text above.</figcaption>
 </figure>
 
 <figure style="float: left; max-width: 340px; margin: 0 1em 1em 0;">
@@ -228,21 +228,21 @@ According to Ethan Arsht's WAR scores, **Georgy Zhukov** ranks as the 9th best m
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image22.jpeg" alt="German mobile rocket artillery Panzerwerfer" style="width: 100%;" />
-  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 27. German mobile rocket artillery (e.g. Panzerwerfer 42)—the Axis copy of the Katyusha idea, with mixed success.</figcaption>
+  <figcaption style="font-size: 0.9em; font-style: italic;">Picture 27. German mobile rocket artillery (e.g. Panzerwerfer 42): the Axis copy of the Katyusha idea, with mixed success.</figcaption>
 </figure>
 
 ## Massive assault and early failures
 
 <div style="clear: both;"></div>
 
-**In history**, every major army followed one of four doctrines. Germany's **Mobile warfare** emphasized breaking enemy lines with tanks and encircling them (Blitzkrieg). The USA and Britain focused on coordination of special forces, artillery, and air force; France on entrenchment and planning. The Soviet Union followed **Mass assault**: it did not value individual lives. Advancement came through human-wave offensives and guerrilla warfare. In Stalingrad, some troops were given one rifle and three bullets—as if they were meant to die before firing them. This doctrine is one reason the Soviet Union and China had the highest casualties: about 24 and 20 million respectively. Germany lost about 8.8 million. (Source: [National WWII Museum – Worldwide Deaths](https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-worldwide-deaths-world-war).) **In Hearts of Iron IV** you choose a doctrine; I chose one based on coordination between air force, artillery and special forces rather than mass assault.
+**In history**, every major army followed one of four doctrines. Germany's **Mobile warfare** emphasized breaking enemy lines with tanks and encircling them (Blitzkrieg). The USA and Britain focused on coordination of special forces, artillery, and air force; France on entrenchment and planning. The Soviet Union followed **Mass assault**: it did not value individual lives. Advancement came through human-wave offensives and guerrilla warfare. In Stalingrad, some troops were given one rifle and three bullets, as if they were meant to die before firing them. This doctrine is one reason the Soviet Union and China had the highest casualties: about 24 and 20 million respectively. Germany lost about 8.8 million. (Source: [National WWII Museum: Worldwide Deaths](https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-worldwide-deaths-world-war).) **In Hearts of Iron IV** you choose a doctrine; I chose one based on coordination between air force, artillery and special forces rather than mass assault.
 
 ![Doctrine selection in game](/images/opinions/great-patriotic-war/image27.png)
 *Picture 28. In the game you choose a doctrine; the text explains mass assault (human-wave, guerrilla) versus the coordination-based approach chosen here.*
 
-**Historically**, because of doctrine, incompetence, and indecisiveness, retreat was often forbidden, which led to massive encirclements in the first months: 3.5 million POWs in total. At Kiev alone, Soviet sources say 532 thousand were encircled (German sources: 667 thousand)—the biggest encirclement in history. At Vyazma, another 517 thousand (663 thousand by German count). All top five encirclements were of Soviet forces, all in 1941. In the Kiev pocket the Germans captured only 50 tanks; at Stalingrad the Soviets captured 60 thousand Germans and more than 1200 tanks.
+**Historically**, because of doctrine, incompetence, and indecisiveness, retreat was often forbidden, which led to massive encirclements in the first months: 3.5 million POWs in total. At Kiev alone, Soviet sources say 532 thousand were encircled (German sources: 667 thousand): the biggest encirclement in history. At Vyazma, another 517 thousand (663 thousand by German count). All top five encirclements were of Soviet forces, all in 1941. In the Kiev pocket the Germans captured only 50 tanks; at Stalingrad the Soviets captured 60 thousand Germans and more than 1200 tanks.
 
-After retreating about 1200 km, something had to be done. **Order 227** ("No step back") was Stalin's order to stop retreats: last stand. Civilians and factory workers were conscripted. In Stalingrad there were cases of tanks firing from the factory windows where they had been produced. **In history**, those who retreated could be sent to **Penal battalions** and used in the riskiest sectors—sometimes as a "human shield". **In the game** you don't play that in detail, but the pressure to hold the line is there. Before the war most Soviet industry was in the European part; when that was overrun, the USSR moved factories east. They recovered about 85% of capacity and could continue producing and eventually counterattack.
+After retreating about 1200 km, something had to be done. **Order 227** ("No step back") was Stalin's order to stop retreats: last stand. Civilians and factory workers were conscripted. In Stalingrad there were cases of tanks firing from the factory windows where they had been produced. **In history**, those who retreated could be sent to **Penal battalions** and used in the riskiest sectors, sometimes as a "human shield". **In the game** you don't play that in detail, but the pressure to hold the line is there. Before the war most Soviet industry was in the European part; when that was overrun, the USSR moved factories east. They recovered about 85% of capacity and could continue producing and eventually counterattack.
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image2.png" alt="Order 227 No step back in Hearts of Iron IV" style="width: 100%;" />
@@ -263,7 +263,7 @@ After retreating about 1200 km, something had to be done. **Order 227** ("No ste
 
 <div style="clear: both;"></div>
 
-**In history**, after occupying the eastern Soviet Union, the Nazis portrayed themselves as liberators. The photo below was taken in Minsk during a forced pro-German demonstration—the text says "Hitler liberator" (with a possible spelling/grammar quirk :D ). When you then kill people and send them to forced labor by nationality, trust vanishes. Many took guns and ammunition and went to the forests; new settlements appeared there. Partisan activity in occupied Ukraine and Belarus was very high. **In Hearts of Iron IV** you can organize and support partisans; they can sabotage supplies, provide intel, and help trigger uprisings.
+**In history**, after occupying the eastern Soviet Union, the Nazis portrayed themselves as liberators. The photo below was taken in Minsk during a forced pro-German demonstration; the text says "Hitler liberator" (with a possible spelling/grammar quirk :D ). When you then kill people and send them to forced labor by nationality, trust vanishes. Many took guns and ammunition and went to the forests; new settlements appeared there. Partisan activity in occupied Ukraine and Belarus was very high. **In Hearts of Iron IV** you can organize and support partisans; they can sabotage supplies, provide intel, and help trigger uprisings.
 
 ![Forced demonstration in Minsk](/images/opinions/great-patriotic-war/image28.png)
 *Picture 32. The photo described above: taken in Minsk during a forced pro-German demonstration; the text says "Hitler liberator."*
@@ -271,7 +271,7 @@ After retreating about 1200 km, something had to be done. **Order 227** ("No ste
 ![Partisans in the game](/images/opinions/great-patriotic-war/image33.png)
 *Picture 33. In the game you can organize and support partisans to sabotage supplies, provide intel, and trigger uprisings.*
 
-**Historically**, propaganda was central for the Soviet Union—through media, books, films, theatre. **In the game** you can enact decisions to run campaigns with specific bonuses. Soviet propaganda remains a fascinating subject (especially if you know Russian).
+**Historically**, propaganda was central for the Soviet Union through media, books, films, theatre. **In the game** you can enact decisions to run campaigns with specific bonuses. Soviet propaganda remains a fascinating subject (especially if you know Russian).
 
 <figure style="float: right; max-width: 320px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image8.png" alt="Agitprop high yield poster" style="width: 100%;" />
@@ -303,7 +303,7 @@ After retreating about 1200 km, something had to be done. **Order 227** ("No ste
 
 <div style="clear: both;"></div>
 
-Supply is easy to overlook, but food and ammunition don't grow on the battlefield. **In history**, a **scorched-earth policy** was used by both sides: before retreating, the Soviets destroyed railways, roads, radio stations, supply depots. Partisans sabotaged infrastructure in the enemy rear. Weather also created supply issues: mud and snow blocked roads. Defenders were more used to the cold and mud; invaders struggled—e.g. from October to December 1941—and that was one reason the Moscow offensive failed. **In the game** supply, railways, and weather all affect your ability to fight.
+Supply is easy to overlook, but food and ammunition don't grow on the battlefield. **In history**, a **scorched-earth policy** was used by both sides: before retreating, the Soviets destroyed railways, roads, radio stations, supply depots. Partisans sabotaged infrastructure in the enemy rear. Weather also created supply issues: mud and snow blocked roads. Defenders were more used to the cold and mud; invaders struggled (for example from October to December 1941), and that was one reason the Moscow offensive failed. **In the game** supply, railways, and weather all affect your ability to fight.
 
 <figure style="max-width: 100%;">
   <img src="/images/opinions/great-patriotic-war/image37.png" alt="Supply and terrain in game" style="width: 100%;" />
@@ -325,7 +325,7 @@ Supply is easy to overlook, but food and ammunition don't grow on the battlefiel
 
 <div style="clear: both;"></div>
 
-As Guderian said after losing to the Soviet army: **"They are learning."** **In history**, after early failures the Soviets improved: battle-hardened soldiers and generals, better tactics. Operation Bagration was one of the most successful operations in history, ending German occupation of Soviet territory. There is another game about it—*Steel Division 2* (more tactical). Here I focus on **how I carried out a similar encirclement in Hearts of Iron IV**.
+As Guderian said after losing to the Soviet army: **"They are learning."** **In history**, after early failures the Soviets improved: battle-hardened soldiers and generals, better tactics. Operation Bagration was one of the most successful operations in history, ending German occupation of Soviet territory. There is another game about it: *Steel Division 2* (more tactical). Here I focus on **how I carried out a similar encirclement in Hearts of Iron IV**.
 
 **In the game**, the Germans tried to encircle my divisions around Zhytomyr. The idea is not to push the whole front at once but to find weak spots, break through, and join two salients to encircle the frontline. The Germans also cut the railway from Kiev. In the war, most supply went by rail; cutting it meant attrition. To resupply, we had to build a new railway from Minsk to Zhytomyr. We did, got supplied, and could counterattack. If you stabilize the front, you can counter-attack and encircle the enemy yourself. As planned, the operation succeeded and the German army was encircled. In real life, controlling troops is much harder, but the principle is the same: cut the enemy off from supply without being cut off yourself.
 
@@ -360,9 +360,9 @@ As Guderian said after losing to the Soviet army: **"They are learning."** **In 
 Here's a quote about encirclements in war:
 
 > "A peculiarity of any encirclement battle… is that on the front line an enormous breach is created, which either requires a large number of reserves to be put into battle to plug the gap or requires a consolidating front to be extended on both sides of the void that has formed. The encirclement… of the 6th Army… led to precisely this situation."  
-> — Alexei Isaev, *The Battle of Kharkov*
+> *Alexei Isaev*, *The Battle of Kharkov*
 
-After the encirclement and surrender of the German 6th Army at Stalingrad (the first such surrender in German military history since 1800), Germany lost the initiative. Stalingrad was fought for every street and every floor—"rat warfare"—where the smarter, braver, trickier soldier won.
+After the encirclement and surrender of the German 6th Army at Stalingrad (the first such surrender in German military history since 1800), Germany lost the initiative. Stalingrad was fought for every street and every floor ("rat warfare"), where the smarter, braver, trickier soldier won.
 
 <div style="clear: both;"></div>
 
@@ -383,7 +383,7 @@ After the encirclement and surrender of the German 6th Army at Stalingrad (the f
 
 After that victory the Soviet Union fought for another three years until the flag was raised over Berlin. This war was not fought with honor by the German side. When Soviet troops entered Nazi concentration camps in Poland, the world saw crimes it had not fully expected. At Auschwitz, thousands of bodies lay unburied. Millions, including children, were used as forced labor. During occupation of Ukraine, the population dropped sharply. Those killed were not only Jews but also Poles, Russians, Ukrainians, Belarussians, Serbs, etc. We should be grateful to those who gave their lives to stop these crimes.
 
-Hearts of Iron IV does not actually depict these atrocities—the Holocaust, concentration camps, mass killings of civilians, or the full horror of occupation. That is a deliberate and controversial choice: if such things were included in the game, players would be able to commit atrocities themselves, which would be unacceptable. Nevertheless, it is very important that we remember and know what happened. Games like HoI IV can teach us a lot about strategy, industry, and the shape of the war; they cannot and should not turn the worst of human cruelty into gameplay. Remembering the victims and understanding the scale of the crimes is part of honoring history and ensuring we do not repeat it.
+Hearts of Iron IV does not actually depict these atrocities: the Holocaust, concentration camps, mass killings of civilians, or the full horror of occupation. That is a deliberate and controversial choice: if such things were included in the game, players would be able to commit atrocities themselves, which would be unacceptable. Nevertheless, it is very important that we remember and know what happened. Games like HoI IV can teach us a lot about strategy, industry, and the shape of the war; they cannot and should not turn the worst of human cruelty into gameplay. Remembering the victims and understanding the scale of the crimes is part of honoring history and ensuring we do not repeat it.
 
 <figure style="float: right; max-width: 360px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image47.png" alt="Children on abandoned tank, Belgium 1945" style="width: 100%;" />
@@ -396,8 +396,8 @@ I was planning to finish this "class-report thingy" by Christmas, but since game
 ![Roosevelt Christmas 1942](/images/opinions/great-patriotic-war/image48.jpeg)
 *Picture 50. Franklin Roosevelt delivering his Christmas address in 1942; the quote below is the one the author finds epic and heroic.*
 
-> "I cannot say 'Merry Christmas' – for I think constantly of those thousands of soldiers and sailors who are in actual combat throughout the world – but I can express to you my thought that this is a happier Christmas than last year in the sense that the forces of darkness stand against us with less confidence in the success of their evil ways."  
-> — Franklin Roosevelt, December 1942
+> "I cannot say 'Merry Christmas', for I think constantly of those thousands of soldiers and sailors who are in actual combat throughout the world, but I can express to you my thought that this is a happier Christmas than last year in the sense that the forces of darkness stand against us with less confidence in the success of their evil ways."  
+> *Franklin Roosevelt*, December 1942
 
 <figure style="float: right; max-width: 300px; margin: 0 0 1em 1em;">
   <img src="/images/opinions/great-patriotic-war/image49.jpeg" alt="Honorable mention" style="width: 100%;" />
@@ -438,6 +438,6 @@ I was planning to finish this "class-report thingy" by Christmas, but since game
 This is not a formal bibliography. Most of what I describe comes straight from *Hearts of Iron* (mechanics, focus tree) and from episodes of the documentary series *The Great Patriotic War* (Episode 1 is linked below). I am not footnoting every claim on purpose, since it's supposed to be my thoughts, rather than an academic paper.
 
 - [*The Great Patriotic War*. Operation Barbarossa. Episode 1.](https://www.youtube.com/watch?v=w7ubT3eHAy0) The same series has many other episodes; The information can be from several of them, not only from the first one.
-- [HOI4 Dev Diary — Soviet Union: Historical and Common Branches](https://forum.paradoxplaza.com/forum/developer-diary/hoi4-dev-diary-soviet-union-historical-and-common-branches.1483940/).
+- [HOI4 Dev Diary: Soviet Union: Historical and Common Branches](https://forum.paradoxplaza.com/forum/developer-diary/hoi4-dev-diary-soviet-union-historical-and-common-branches.1483940/).
 
 </div>
