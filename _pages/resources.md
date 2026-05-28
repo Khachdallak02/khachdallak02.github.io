@@ -19,13 +19,18 @@ author_profile: true
 
 #resources-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 1fr);
   gap: 24px;
   margin-top: 6px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .resources-toolbar {
   margin-top: 1rem;
+  margin-bottom: 0.25rem;
   width: 100%;
   max-width: 100%;
   min-width: 0;
@@ -108,20 +113,25 @@ author_profile: true
   }
 }
 
+#resources-container .resource-item,
+#resources-container .resources-search-wrap {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.resources-search-wrap {
+  margin-bottom: 0;
+}
+
 .resources-search-bar {
-  display: flex;
-  justify-content: flex-start;
   width: 100%;
   max-width: 100%;
   min-width: 0;
   box-sizing: border-box;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .resources-search-bar__field {
   position: relative;
-  flex: 1 1 auto;
   width: 100%;
   max-width: 100%;
   min-width: 0;
@@ -139,9 +149,11 @@ author_profile: true
 }
 
 .resources-search-bar__input {
+  display: block;
   width: 100%;
   min-width: 0;
   max-width: 100%;
+  margin-bottom: 0;
   box-sizing: border-box;
   padding: 0.65rem 1rem 0.65rem 2.55rem;
   font-size: 1rem;
@@ -150,6 +162,7 @@ author_profile: true
   border-radius: 8px;
   background: var(--global-code-background-color, #fff);
   color: var(--global-text-color, #212529);
+  box-shadow: none;
 }
 
 .resources-search-bar__input::placeholder {
@@ -212,16 +225,17 @@ author_profile: true
   </button>
   <button type="button" id="resources-toggle-all-btn" class="category-toggle-all-btn" title="Deselect all categories" aria-label="Deselect or select all categories"><i class="fas fa-check-square" aria-hidden="true"></i></button>
 </div>
-
-<div class="resources-search-bar">
-  <div class="resources-search-bar__field">
-    <i class="fas fa-search" aria-hidden="true"></i>
-    <input type="search" id="resources-search-input" class="resources-search-bar__input" placeholder="Filter by title, description, or tags…" autocomplete="off" spellcheck="false" aria-label="Filter resources by title, description, or tags" />
-  </div>
-</div>
 </div>
 
 <div id="resources-container">
+  <div class="list__item resources-search-wrap">
+    <div class="resources-search-bar">
+      <div class="resources-search-bar__field">
+        <i class="fas fa-search" aria-hidden="true"></i>
+        <input type="search" id="resources-search-input" class="resources-search-bar__input" placeholder="Filter by title, description, or tags…" autocomplete="off" spellcheck="false" aria-label="Filter resources by title, description, or tags" />
+      </div>
+    </div>
+  </div>
   {% for post in sorted %}
     {% unless post.categories contains 'High seas' %}
       {% if post.categories and post.categories.size > 0 %}
