@@ -19,18 +19,13 @@ author_profile: true
 
 #resources-container {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: 1fr;
   gap: 24px;
   margin-top: 6px;
-  width: 100%;
-  max-width: 100%;
-  min-width: 0;
-  box-sizing: border-box;
 }
 
 .resources-toolbar {
   margin-top: 1rem;
-  margin-bottom: 0.25rem;
   width: 100%;
   max-width: 100%;
   min-width: 0;
@@ -113,21 +108,13 @@ author_profile: true
   }
 }
 
-#resources-container .resource-item,
-#resources-container .resources-search-wrap {
-  min-width: 0;
-  max-width: 100%;
-}
-
-.resources-search-wrap {
-  margin-bottom: 0;
-}
-
 .resources-search-bar {
   width: 100%;
   max-width: 100%;
   min-width: 0;
   box-sizing: border-box;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .resources-search-bar__field {
@@ -135,6 +122,7 @@ author_profile: true
   width: 100%;
   max-width: 100%;
   min-width: 0;
+  overflow: hidden;
   box-sizing: border-box;
 }
 
@@ -148,13 +136,16 @@ author_profile: true
   font-size: 0.95rem;
 }
 
-.resources-search-bar__input {
+/* Reset uses content-box on input[type="search"], which makes width:100% overflow the card column */
+#resources-search-input {
   display: block;
   width: 100%;
   min-width: 0;
   max-width: 100%;
   margin-bottom: 0;
   box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
   padding: 0.65rem 1rem 0.65rem 2.55rem;
   font-size: 1rem;
   line-height: 1.35;
@@ -165,14 +156,14 @@ author_profile: true
   box-shadow: none;
 }
 
-.resources-search-bar__input::placeholder {
+#resources-search-input::placeholder {
   color: var(--global-text-color-light, #6c757d);
   opacity: 1;
 }
 
-.resources-search-bar__input:focus {
+#resources-search-input:focus {
   outline: 2px solid var(--global-theme-color, #0f4c81);
-  outline-offset: 2px;
+  outline-offset: 0;
 }
 
 </style>
@@ -225,17 +216,16 @@ author_profile: true
   </button>
   <button type="button" id="resources-toggle-all-btn" class="category-toggle-all-btn" title="Deselect all categories" aria-label="Deselect or select all categories"><i class="fas fa-check-square" aria-hidden="true"></i></button>
 </div>
+
+<div class="resources-search-bar">
+  <div class="resources-search-bar__field">
+    <i class="fas fa-search" aria-hidden="true"></i>
+    <input type="search" id="resources-search-input" placeholder="Filter by title, description, or tags…" autocomplete="off" spellcheck="false" aria-label="Filter resources by title, description, or tags" />
+  </div>
+</div>
 </div>
 
 <div id="resources-container">
-  <div class="list__item resources-search-wrap">
-    <div class="resources-search-bar">
-      <div class="resources-search-bar__field">
-        <i class="fas fa-search" aria-hidden="true"></i>
-        <input type="search" id="resources-search-input" class="resources-search-bar__input" placeholder="Filter by title, description, or tags…" autocomplete="off" spellcheck="false" aria-label="Filter resources by title, description, or tags" />
-      </div>
-    </div>
-  </div>
   {% for post in sorted %}
     {% unless post.categories contains 'High seas' %}
       {% if post.categories and post.categories.size > 0 %}
