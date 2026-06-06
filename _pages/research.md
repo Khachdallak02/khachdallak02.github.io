@@ -86,6 +86,7 @@ author_profile: true
 
 <div style="margin-bottom: 1em; font-size: 0.9em; color: #666;">
 <sup>†</sup> denotes equal contribution <br>
+<sup>‡</sup> denotes corresponding / main authorship <br>
 </div>
 
 <div class="publication-container">
@@ -106,9 +107,9 @@ author_profile: true
   <div class="publication-text">
     <h3><a href="https://doi.org/10.64898/2026.04.09.716777" target="_blank">In utero transduction resolves gut cell lineages and enables conditional gene perturbation in the developing enteric nervous system</a></h3>
     
-    <p><strong>Authors:</strong> <strong>Ziwei Liu</strong>, <strong>Krishnanand Padmanabhan</strong>, Jingyan He, Katrin Hector, Bettina Semsch, Jia Sun, Viktoria Knoflach, Sarantis Giatrellis, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Christian Göritz, Emma Rachel Andersson, Ulrika Marklund</p>
+    <p><strong>Authors:</strong> Ziwei Liu<sup>‡</sup>, Krishnanand Padmanabhan<sup>‡</sup>, Jingyan He, Katrin Hector, Bettina Semsch, Jia Sun, Viktoria Knoflach, Sarantis Giatrellis, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Christian Göritz, Emma Rachel Andersson, Ulrika Marklund</p>
     
-    <p><strong>Journal:</strong> Gastroenterology (bioRxiv preprint)</p>
+    <p><strong>Journal:</strong> Gastroenterology</p>
   </div>
   
   <div class="publication-image">
