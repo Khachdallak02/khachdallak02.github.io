@@ -1,0 +1,405 @@
+<!-- Codex of Armenian Kings (Top 20) - CK3 Tier-List Forge -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Top 20 Armenian Kings - CK3 Tier-List</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;900&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Cinzel+Decorative:wght@700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0e0b07;--bg2:#15100a;--panel:#1c150d;--panel2:#241a0f;
+    --ink:#efe3c8;--ink-dim:#b7a47e;--gold:#c9a24b;--gold-bright:#e9c976;
+    --crimson:#8c2b2b;--line:#3a2c18;--shadow:0 18px 40px rgba(0,0,0,.55);
+    --dip:#5aa0d0;--mar:#cf4438;--ste:#e0b13c;--int:#9b76c4;--lea:#46b48a;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:
+      radial-gradient(1200px 600px at 50% -10%, #241a0f 0%, transparent 60%),
+      repeating-linear-gradient(0deg, rgba(0,0,0,.18) 0 2px, transparent 2px 4px),
+      linear-gradient(180deg,var(--bg) 0%, var(--bg2) 100%);
+    color:var(--ink);font-family:"EB Garamond",Georgia,serif;
+    -webkit-font-smoothing:antialiased;min-height:100vh;
+  }
+  .wrap{position:relative;z-index:1;max-width:1280px;margin:0 auto;padding:22px 16px 50px}
+  header.codex{text-align:center;padding:22px 16px 18px;margin-bottom:16px;
+    border:1px solid var(--line);border-radius:14px;
+    background:radial-gradient(800px 200px at 50% 0%, rgba(201,162,75,.10), transparent 70%),
+      linear-gradient(180deg,var(--panel2),var(--panel));
+    box-shadow:var(--shadow);position:relative;overflow:hidden}
+  header.codex::after{content:"";position:absolute;left:50%;bottom:0;transform:translateX(-50%);
+    width:60%;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+  .crest{width:60px;height:60px;margin:0 auto 6px;display:block;filter:drop-shadow(0 4px 6px rgba(0,0,0,.6))}
+  h1{font-family:"Cinzel Decorative","Cinzel",serif;font-weight:900;
+    font-size:clamp(24px,5vw,40px);letter-spacing:.04em;margin:.1em 0 .05em;
+    color:var(--gold-bright);text-shadow:0 2px 0 #2a1d0c,0 0 24px rgba(201,162,75,.25)}
+  .sub{font-family:"Cinzel",serif;letter-spacing:.30em;text-transform:uppercase;
+    font-size:11.5px;color:var(--ink-dim);margin-top:4px}
+  .tagline{color:var(--ink-dim);font-style:italic;max-width:760px;margin:12px auto 0;font-size:14.5px;line-height:1.5}
+  .legend{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:center;
+    margin:14px auto 6px;font-size:13px;color:var(--ink-dim)}
+  .legend b{color:var(--ink)}
+  .lk{display:inline-flex;align-items:center;gap:8px}
+  .lk img.ck3ico{width:22px;height:22px}
+  .scale-note{text-align:center;color:var(--ink-dim);font-size:12.5px;margin:4px auto 0;font-style:italic}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;
+    margin:16px 0 12px;padding:12px;border:1px solid var(--line);border-radius:12px;
+    background:linear-gradient(180deg,var(--panel),var(--bg2))}
+  .controls .grp{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  label.lbl{font-family:"Cinzel",serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-dim)}
+  select,button.btn{font-family:"Cinzel",serif;font-size:12px;letter-spacing:.06em;
+    background:linear-gradient(180deg,#2c2010,#1c150d);color:var(--ink);
+    border:1px solid var(--gold);border-radius:8px;padding:8px 12px;cursor:pointer;transition:.15s}
+  button.btn:hover,select:hover{background:linear-gradient(180deg,#3a2a14,#241a0f);box-shadow:0 0 0 1px var(--gold-bright) inset}
+  button.btn.gold{border-color:var(--gold-bright);color:var(--gold-bright)}
+  button.btn.warn{border-color:var(--crimson);color:#e7b3a8}
+  .tiers{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+  .tier{display:grid;grid-template-columns:78px 1fr;min-height:96px;
+    border:1px solid var(--line);border-radius:12px;overflow:hidden;
+    background:linear-gradient(180deg,var(--panel),#120d07);transition:.15s}
+  .tier.dragover{box-shadow:0 0 0 2px var(--gold-bright) inset, var(--shadow)}
+  .tier .lab{display:flex;align-items:center;justify-content:center;
+    font-family:"Cinzel Decorative",serif;font-weight:900;font-size:34px;color:#1a120a;
+    text-shadow:0 1px 0 rgba(255,255,255,.25)}
+  .tier .drop{display:flex;flex-wrap:wrap;gap:8px;padding:9px;align-content:flex-start}
+  .tS .lab{background:linear-gradient(180deg,#ffd86b,#e0a93c)}
+  .tA .lab{background:linear-gradient(180deg,#ffb06b,#e07c2f)}
+  .tB .lab{background:linear-gradient(180deg,#ffe07a,#d8c24a)}
+  .tC .lab{background:linear-gradient(180deg,#bfe07a,#8fb84a)}
+  .tD .lab{background:linear-gradient(180deg,#9ec8e0,#5f93b8)}
+  .tF .lab{background:linear-gradient(180deg,#d99,#b86)}
+  .pool-head{display:flex;align-items:center;gap:12px;margin:24px 0 10px}
+  .pool-head h2{font-family:"Cinzel",serif;color:var(--gold-bright);letter-spacing:.12em;
+    text-transform:uppercase;font-size:16px;margin:0}
+  .pool-head .rule{flex:1;height:1px;background:linear-gradient(90deg,var(--gold),transparent)}
+  .pool{display:flex;flex-wrap:wrap;gap:11px;padding:11px;border:1px dashed var(--line);
+    border-radius:12px;min-height:120px;background:rgba(0,0,0,.18)}
+  .pool.dragover{box-shadow:0 0 0 2px var(--gold-bright) inset}
+  .card{width:190px;border:1px solid var(--line);border-radius:11px;overflow:hidden;
+    background:linear-gradient(180deg,var(--panel2),#140e08);cursor:grab;
+    box-shadow:0 6px 14px rgba(0,0,0,.4);transition:transform .12s, box-shadow .12s;
+    position:relative;animation:rise .5s both}
+  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .card:hover{transform:translateY(-3px);box-shadow:0 12px 24px rgba(0,0,0,.55),0 0 0 1px var(--gold) inset}
+  .card.dragging{opacity:.4}
+  .portrait{position:relative;height:150px;overflow:hidden;border-bottom:1px solid var(--line);
+    background:radial-gradient(120px 90px at 50% 35%, #2a1f12, #0e0a06)}
+  .portrait .med{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:92px;height:92px}
+  .portrait img.photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+    opacity:0;transition:opacity .55s ease;filter:sepia(.22) saturate(.9) contrast(1.04) brightness(.98)}
+  .portrait img.photo.loaded{opacity:1}
+  .portrait .vig{position:absolute;inset:0;pointer-events:none;
+    box-shadow:inset 0 0 26px rgba(0,0,0,.55), inset 0 0 0 1px rgba(201,162,75,.25)}
+  .dyn-rib{position:absolute;top:8px;left:8px;font-family:"Cinzel",serif;font-size:8.5px;
+    letter-spacing:.1em;text-transform:uppercase;padding:2px 7px;border-radius:20px;
+    color:#0e0b07;font-weight:700;box-shadow:0 2px 5px rgba(0,0,0,.5)}
+  .rank-no{position:absolute;top:8px;right:8px;font-family:"Cinzel",serif;font-size:11px;font-weight:700;
+    color:#f3e6c2;background:rgba(0,0,0,.55);border:1px solid rgba(201,162,75,.5);
+    border-radius:20px;padding:1px 7px}
+  .body{padding:8px 10px 0}
+  .name{font-family:"Cinzel",serif;font-weight:700;font-size:14px;line-height:1.05;color:var(--ink)}
+  .epi{font-style:italic;font-size:11px;color:var(--gold);line-height:1.2;margin-top:2px;min-height:26px}
+  .reign{font-size:10.5px;color:var(--ink-dim);margin-top:2px;letter-spacing:.02em}
+  .stats{padding:7px 10px 6px;display:flex;flex-direction:column;gap:4px}
+  .stat{display:grid;grid-template-columns:22px 1fr 18px;align-items:center;gap:8px}
+  .stat .ico{display:flex;align-items:center;justify-content:center;width:22px;height:20px}
+  .ck3ico{width:20px;height:20px;object-fit:contain;display:block}
+  .bar{height:6px;border-radius:4px;background:rgba(255,255,255,.07);overflow:hidden}
+  .bar i{display:block;height:100%;border-radius:4px}
+  .stat .v{font-size:10.5px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums}
+  .total{display:flex;justify-content:space-between;align-items:center;padding:5px 10px;
+    border-top:1px solid var(--line);background:rgba(0,0,0,.25);font-size:10.5px;color:var(--ink-dim)}
+  .total b{color:var(--gold-bright);font-family:"Cinzel",serif;font-size:13px}
+  .tierpick{display:flex;gap:3px;padding:6px 8px 8px;border-top:1px solid var(--line)}
+  .tierpick button{flex:1;font-family:"Cinzel",serif;font-weight:700;font-size:11px;
+    border:1px solid var(--line);background:#1a130b;color:var(--ink-dim);border-radius:5px;
+    padding:3px 0;cursor:pointer;transition:.12s}
+  .tierpick button:hover{color:var(--ink);border-color:var(--gold)}
+  .tierpick button.on{color:#0e0b07}
+  .tierpick button.S.on{background:#e0a93c}.tierpick button.A.on{background:#e07c2f}
+  .tierpick button.B.on{background:#d8c24a}.tierpick button.C.on{background:#8fb84a}
+  .tierpick button.D.on{background:#5f93b8}.tierpick button.F.on{background:#b86}
+  .bioline{padding:4px 10px 9px;font-size:11px;line-height:1.35;color:var(--ink-dim);font-style:italic}
+  .modal{position:fixed;inset:0;background:rgba(0,0,0,.7);display:none;align-items:center;
+    justify-content:center;z-index:50;padding:20px}
+  .modal.show{display:flex}
+  .modal .box{max-width:600px;width:100%;background:var(--panel2);border:1px solid var(--gold);
+    border-radius:12px;padding:18px;box-shadow:var(--shadow)}
+  .modal h3{font-family:"Cinzel",serif;color:var(--gold-bright);margin:0 0 10px}
+  .modal textarea{width:100%;height:300px;background:#120d07;color:var(--ink);border:1px solid var(--line);
+    border-radius:8px;padding:10px;font-family:"EB Garamond",serif;font-size:13px;resize:vertical}
+  .modal .row{display:flex;gap:10px;justify-content:flex-end;margin-top:10px}
+  footer{text-align:center;color:var(--ink-dim);font-size:12px;margin-top:26px;font-style:italic;line-height:1.6}
+  @media (max-width:520px){
+    .card{width:calc(50% - 6px)}
+    .tier{grid-template-columns:54px 1fr}.tier .lab{font-size:26px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="codex">
+    <svg class="crest" viewBox="0 0 64 64" aria-hidden="true">
+      <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#e9c976"/><stop offset="1" stop-color="#a9802f"/></linearGradient></defs>
+      <path fill="url(#g)" d="M32 4c6 6 14 8 22 8-1 22-9 36-22 48C19 48 11 34 10 12c8 0 16-2 22-8z"/>
+      <path fill="#8c2b2b" d="M32 12c4 4 9 5 14 5-1 15-6 25-14 33-8-8-13-18-14-33 5 0 10-1 14-5z"/>
+      <path fill="#e9c976" d="M32 20l3 6 6 1-4 4 1 6-6-3-6 3 1-6-4-4 6-1z"/>
+    </svg>
+    <h1>Top 20 Armenian Kings</h1>
+    <div class="sub">A Crusader Kings III Tier-List &middot; By Depth of the Historical Record</div>
+    <p class="tagline">The twenty best-documented Armenian sovereigns, from Hellenistic antiquity to the fall of Cilicia, each rated on the five Crusader Kings III attributes. Portraits are drawn from surviving coins, statues and manuscript miniatures; the attribute icons are the CK3 game icons. Drag or tap a king into a tier, sort the pool, then export your ranking.</p>
+  </header>
+
+  <div class="legend" id="legend"></div>
+  <div class="scale-note">CK3 scale: ~8 average &middot; 12+ skilled &middot; 16+ great &middot; 18-20 legendary. Ratings are interpretive - overrule them in your own tiering.</div>
+
+  <div class="controls">
+    <div class="grp">
+      <label class="lbl" for="sort">Sort pool</label>
+      <select id="sort">
+        <option value="total">By Total</option>
+        <option value="dip">By Diplomacy</option>
+        <option value="mar">By Martial</option>
+        <option value="ste">By Stewardship</option>
+        <option value="int">By Intrigue</option>
+        <option value="lea">By Learning</option>
+        <option value="chron">Chronological</option>
+      </select>
+    </div>
+    <div class="grp">
+      <button class="btn gold" id="auto">Auto-seed by Total</button>
+      <button class="btn" id="export">Export ranking</button>
+      <button class="btn warn" id="reset">Reset all</button>
+    </div>
+  </div>
+
+  <div class="tiers" id="tiers"></div>
+
+  <div class="pool-head"><h2>The Royal Pool</h2><span class="rule"></span></div>
+  <div class="pool" id="pool" data-tier="pool"></div>
+
+  <footer>
+    CK3 attribute icons &copy; Paradox Interactive, loaded from the CK3 Wiki; drawn glyphs appear as a fallback if offline.<br>
+    Portraits are local images of coins, statues and manuscript miniatures; kings with no surviving likeness keep a heraldic medallion.<br>
+    Drag-and-drop on desktop &middot; tap the S A B C D F buttons on any device.
+  </footer>
+</div>
+
+<div class="modal" id="modal">
+  <div class="box">
+    <h3>Your Tier List</h3>
+    <textarea id="exporttext" readonly></textarea>
+    <div class="row">
+      <button class="btn" id="copybtn">Copy to clipboard</button>
+      <button class="btn gold" id="closebtn">Close</button>
+    </div>
+  </div>
+</div>
+<script>
+// ---------- Real CK3 attribute icons (CK3 Wiki) + drawn fallbacks ----------
+const ICON_URL = {
+  dip:"https://ck3.paradoxwikis.com/images/a/af/Diplomacy.png",
+  mar:"https://ck3.paradoxwikis.com/images/3/3f/Icon_commander_advantage.png",
+  ste:"https://ck3.paradoxwikis.com/images/a/a3/Icon_tax_collector.png",
+  int:"https://ck3.paradoxwikis.com/images/0/0b/Intrigue.png",
+  lea:"https://ck3.paradoxwikis.com/images/2/22/Learning.png"
+};
+const HEX = {dip:"#5aa0d0",mar:"#cf4438",ste:"#e0b13c",int:"#9b76c4",lea:"#46b48a"};
+const GLYPH = {
+  dip:c=>`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='${c}'><path d='M2.5 13.2c3 .3 5-1.4 7.2-1.4 1 0 1.8.4 2.7.6L21 8l-1.3 4.6c-.8 2.9-3.6 5.2-7.2 5.6l.9 2.6-2.7-1.1-1.9 1.6-.8-2.7-3.9 1 1.3-3.4c-.8-.6-1.5-1.4-1.9-2.6z'/><circle cx='18.4' cy='9.2' r='.9' fill='#120d07'/></svg>`,
+  mar:c=>`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='${c}'><path d='M4.3 3.2 3 4.5l9.1 9.1 1.3-1.3zM6 18.4l-1.9.3.3 1.6-1 1 .9.9 1-1 1.6.3.3-1.9 2.6-2.6-1.3-1.3zM19.7 3.2 21 4.5l-9.1 9.1-1.3-1.3zM18 18.4l1.9.3-.3 1.6 1 1-.9.9-1-1-1.6.3-.3-1.9-2.6-2.6 1.3-1.3z'/></svg>`,
+  ste:c=>`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='${c}'><circle cx='9' cy='10' r='5.4'/><circle cx='15.4' cy='14.4' r='5' fill-opacity='.82'/></svg>`,
+  int:c=>`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='${c}'><path d='M11 2.5h2l-.5 10.5h-1z'/><path d='M7.8 13h8.4v1.9H7.8z'/><path d='M11 14.9h2v3.4l-1 2.2-1-2.2z'/></svg>`,
+  lea:c=>`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='${c}'><path d='M12 6.2C9.4 4.6 6.3 4.4 3 5.2v13.2c3.3-.8 6.4-.6 9 1 2.6-1.6 5.7-1.8 9-1V5.2c-3.3-.8-6.4-.6-9 1z'/></svg>`
+};
+const fb = key => "data:image/svg+xml,"+encodeURIComponent(GLYPH[key](HEX[key]));
+
+const DYN = {
+  Artaxiad:{c:"#7a45ad",label:"Artaxiad"},
+  Arsacid:{c:"#a83232",label:"Arsacid"}, Bagratid:{c:"#2f5ea0",label:"Bagratid"},
+  Vaspurakan:{c:"#1f9684",label:"Artsruni"}, Rubenid:{c:"#c43c22",label:"Rubenid"},
+  Hethumid:{c:"#368a52",label:"Hethumid"}, Lusignan:{c:"#4278b0",label:"Lusignan"}
+};
+
+const IMG = "/images/opinions/kings/";
+// stats:[Diplomacy,Martial,Stewardship,Intrigue,Learning]; img = local portrait
+const KINGS = [
+ {id:1,name:"Artaxias I",epi:"Artashes the Lawgiver",reign:"c. 190-160 BC",dyn:"Artaxiad",mono:"A\u00b7I",img:IMG+"Artashes_I.png",stats:[13,15,16,10,13],bio:"Founded the Artaxiad dynasty and the capital Artaxata (reputedly laid out by the exiled Hannibal). Set bilingual boundary stones across a unified Armenia."},
+ {id:2,name:"Tigranes II",epi:"The Great \u00b7 King of Kings",reign:"95-55 BC",dyn:"Artaxiad",mono:"T\u00b7II",img:IMG+"Tigran_II.jpg",stats:[17,18,17,14,14],bio:"Forged the largest empire in Armenian history - Caspian to the Mediterranean - and built Tigranocerta. The apex of Armenian power."},
+ {id:3,name:"Artavasdes II",epi:"The Playwright-King",reign:"55-34 BC",dyn:"Artaxiad",mono:"A\u00b7II",img:IMG+"Artavazd_II.png",stats:[14,11,13,15,18],bio:"Wrote Greek tragedies and histories; balanced Rome and Parthia until Antony betrayed him. Paraded in golden chains and executed by Cleopatra."},
+ {id:4,name:"Tiridates I",epi:"Crowned by Nero",reign:"63-88 AD",dyn:"Arsacid",mono:"T\u00b7I",img:IMG+"Trdat_I.jpg",stats:[16,13,13,12,14],bio:"Founder of Arsacid Armenia and a Zoroastrian magus; travelled overland to Rome with 3,000 retainers for a spectacular coronation by Nero."},
+ {id:5,name:"Tiridates III",epi:"The Great \u00b7 First Christian King",reign:"c. 298-330 AD",dyn:"Arsacid",mono:"T\u00b7III",img:IMG+"Trdat_III.jpg",stats:[14,16,14,11,13],bio:"Made Armenia the first Christian state (301), converted by Gregory the Illuminator. Famed in tradition for legendary strength."},
+ {id:6,name:"Arshak II",epi:"The Defiant",reign:"c. 350-368 AD",dyn:"Arsacid",mono:"Ar\u00b7II",img:IMG+"Arshak_II.jpg",stats:[10,16,11,13,10],bio:"Waged a long war against Shapur II, founded the refuge-city Arshakavan, and died in the Castle of Oblivion. Pavstos Buzand devotes a whole book to him."},
+ {id:7,name:"Pap",epi:"The Restorer",reign:"370-374 AD",dyn:"Arsacid",mono:"Pap",img:IMG+"Pap.jpg",stats:[12,13,12,16,9],bio:"Clawed back Armenian autonomy and curbed Church power; cunning to the last - murdered by the Romans at a banquet, as narrated by Ammianus Marcellinus."},
+ {id:8,name:"Vramshapuh",epi:"Patron of the Alphabet",reign:"389-417 AD",dyn:"Arsacid",mono:"Vr",img:IMG+"Vramshapuh.jpg",stats:[13,9,13,8,18],bio:"During his reign Mesrop Mashtots created the Armenian alphabet (c. 405) - a civilisational landmark recorded by Koryun."},
+ {id:9,name:"Ashot I",epi:"The Great \u00b7 Restorer of the Crown",reign:"884-890",dyn:"Bagratid",mono:"As\u00b7I",img:IMG+"Ashot_I.png",stats:[16,14,14,11,12],bio:"Revived the Armenian crown after centuries of vassalage, recognised as king by both the Abbasid Caliph and the Byzantine Emperor."},
+ {id:10,name:"Smbat I",epi:"The Martyr",reign:"890-914",dyn:"Bagratid",mono:"Sm\u00b7I",img:IMG+"Smbat_I.jpg",stats:[13,12,12,9,11],bio:"Expanded the realm but was captured and tortured to death by the emir Yusuf, who hung his body from the walls of Dvin - the Martyr-king."},
+ {id:11,name:"Ashot II",epi:"The Iron",reign:"914-929",dyn:"Bagratid",mono:"As\u00b7II",img:IMG+"Ashot_II.jpeg",stats:[12,17,11,11,10],bio:"Drove out the Sajid armies in a brutal counter-offensive and was recognised as Shahanshah, King of Kings of Armenia."},
+ {id:12,name:"Gagik Artsruni",epi:"of Vaspurakan \u00b7 Builder of Aghtamar",reign:"908-943",dyn:"Vaspurakan",mono:"G\u00b7A",img:IMG+"Gagik_I_Artsrun%D5%AB.jpg",stats:[14,13,17,11,15],bio:"Founded the independent Kingdom of Vaspurakan and raised the Holy Cross church on Aghtamar island - a jewel of medieval Armenian art."},
+ {id:13,name:"Ashot III",epi:"The Merciful",reign:"953-977",dyn:"Bagratid",mono:"As\u00b7III",img:IMG+"Ashot_III.jpg",stats:[15,12,17,10,14],bio:"Moved the capital to Ani and earned his epithet through monasteries, hospitals and almshouses; Ani begins its rise to the city of a thousand churches."},
+ {id:14,name:"Gagik I",epi:"The Golden Age",reign:"989-1020",dyn:"Bagratid",mono:"G\u00b7I",img:IMG+"Gagik_I.jpg",stats:[16,14,17,12,15],bio:"The long, stable, prosperous reign at the apex of Bagratid Ani; under him the cathedral was completed and the city swelled past 100,000."},
+ {id:15,name:"Gagik II",epi:"The Last of Ani",reign:"1042-1045",dyn:"Bagratid",mono:"G\u00b7II",img:IMG+"Gagik_II.jpg",stats:[8,10,8,7,11],bio:"The last Bagratid king of Ani; lured to Constantinople, pressured to abdicate, and murdered in exile. Ani fell to Byzantium soon after."},
+ {id:16,name:"Levon I",epi:"The Magnificent \u00b7 First King of Cilicia",reign:"1198-1219",dyn:"Rubenid",mono:"L\u00b7I",img:IMG+"Levon_I.gif",stats:[18,15,16,14,13],bio:"First crowned King of Cilician Armenia in 1198, recognised by the Holy Roman Empire, the Papacy and Byzantium. A master diplomat."},
+ {id:17,name:"Hethum I",epi:"The Mongol Envoy",reign:"1226-1270",dyn:"Hethumid",mono:"H\u00b7I",img:IMG+"Hetum_I.jpg",stats:[17,13,14,15,13],bio:"Travelled across Asia to Karakorum and allied Cilicia with the Mongols - shrewd realpolitik that bought decades of survival against the Mamluks."},
+ {id:18,name:"Levon II",epi:"Cilicia's Zenith",reign:"1269-1289",dyn:"Hethumid",mono:"L\u00b7II",img:IMG+"Leon_II.jpg",stats:[15,14,16,12,13],bio:"Cilicia's cultural and economic golden age and patron of Toros Roslin's manuscript workshop, even as Mamluk pressure intensified."},
+ {id:19,name:"Hethum II",epi:"The Friar-King",reign:"1289-1307",dyn:"Hethumid",mono:"H\u00b7II",img:IMG+"Hetoum_II.jpg",stats:[12,10,10,11,16],bio:"Abdicated and returned to the throne three times and took Franciscan vows; erudite but politically unstable. Assassinated near Anazarbus."},
+ {id:20,name:"Levon V",epi:"The Last King \u00b7 Exile in Paris",reign:"1374-1375",dyn:"Lusignan",mono:"L\u00b7V",img:IMG+"Levon_V.jpg",stats:[13,11,9,11,12],bio:"The last king of Armenia; Sis fell to the Mamluks. He died an exile in Paris and was entombed among the kings of France at Saint-Denis."}
+];
+
+const SKILL=[
+ {key:"dip",name:"Diplomacy",color:"var(--dip)"},
+ {key:"mar",name:"Martial",color:"var(--mar)"},
+ {key:"ste",name:"Stewardship",color:"var(--ste)"},
+ {key:"int",name:"Intrigue",color:"var(--int)"},
+ {key:"lea",name:"Learning",color:"var(--lea)"}
+];
+const TIERS=["S","A","B","C","D","F"];
+const place={}; KINGS.forEach(k=>place[k.id]="pool");
+const total=k=>k.stats.reduce((a,b)=>a+b,0);
+
+document.getElementById("legend").innerHTML = SKILL.map(s=>
+  `<span class="lk"><img class="ck3ico" data-skill="${s.key}" alt="${s.name}">${s.name}</span>`).join("");
+
+function medallion(k){
+  const c=DYN[k.dyn].c;
+  return `<svg class="med" viewBox="0 0 60 60">
+    <defs>
+      <radialGradient id="f${k.id}" cx="50%" cy="36%" r="72%"><stop offset="0" stop-color="${c}"/><stop offset="1" stop-color="#120d07"/></radialGradient>
+      <linearGradient id="r${k.id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9c976"/><stop offset="1" stop-color="#9a7327"/></linearGradient>
+    </defs>
+    <circle cx="30" cy="30" r="28" fill="url(#r${k.id})"/>
+    <circle cx="30" cy="30" r="24" fill="url(#f${k.id})" stroke="#120d07" stroke-width="1"/>
+    <text x="30" y="35" text-anchor="middle" font-family="Cinzel, serif" font-weight="700" font-size="${k.mono.length>3?12:15}" fill="#f3e6c2">${k.mono}</text>
+  </svg>`;
+}
+function statRow(k){
+  return SKILL.map((s,i)=>{
+    const v=k.stats[i],pct=Math.round(v/20*100);
+    return `<div class="stat"><span class="ico"><img class="ck3ico" data-skill="${s.key}" alt="${s.name}"></span>
+      <span class="bar"><i style="width:${pct}%;background:${s.color}"></i></span>
+      <span class="v">${v}</span></div>`;
+  }).join("");
+}
+function tierButtons(k){
+  return `<div class="tierpick">`+TIERS.map(t=>
+    `<button class="${t} ${place[k.id]===t?'on':''}" data-id="${k.id}" data-t="${t}">${t}</button>`).join("")+`</div>`;
+}
+function cardHTML(k){
+  const d=DYN[k.dyn];
+  return `<div class="card" draggable="true" data-id="${k.id}">
+    <div class="portrait">
+      ${medallion(k)}
+      <img class="photo" alt="${k.name}" data-id="${k.id}">
+      <span class="dyn-rib" style="background:${d.c}">${d.label}</span>
+      <span class="rank-no">#${k.id}</span>
+      <span class="vig"></span>
+    </div>
+    <div class="body">
+      <div class="name">${k.name}</div>
+      <div class="epi">${k.epi}</div>
+      <div class="reign">${k.reign}</div>
+    </div>
+    <div class="stats">${statRow(k)}</div>
+    <div class="bioline">${k.bio}</div>
+    <div class="total"><span>Total</span><b>${total(k)}</b></div>
+    ${tierButtons(k)}
+  </div>`;
+}
+
+const tiersEl=document.getElementById("tiers");
+TIERS.forEach(t=>{const row=document.createElement("div");row.className="tier t"+t;
+  row.innerHTML=`<div class="lab">${t}</div><div class="drop" data-tier="${t}"></div>`;tiersEl.appendChild(row);});
+const poolEl=document.getElementById("pool");
+let sortMode="total";
+function sortedPool(){let a=KINGS.filter(k=>place[k.id]==="pool");
+  if(sortMode==="chron")a.sort((x,y)=>x.id-y.id);
+  else if(sortMode==="total")a.sort((x,y)=>total(y)-total(x));
+  else{const i=SKILL.findIndex(s=>s.key===sortMode);a.sort((x,y)=>y.stats[i]-x.stats[i]);}
+  return a;}
+
+function applyIcons(scope){
+  (scope||document).querySelectorAll("img.ck3ico").forEach(img=>{
+    if(img.dataset.done)return; img.dataset.done="1";
+    const k=img.dataset.skill;
+    img.onerror=function(){this.onerror=null;this.src=fb(k);};
+    img.src=ICON_URL[k];
+  });
+}
+
+function applyPortraits(){
+  document.querySelectorAll("img.photo").forEach(img=>{
+    if(img.dataset.set)return; img.dataset.set="1";
+    const id=+img.dataset.id, k=KINGS.find(x=>x.id===id);
+    if(!k||!k.img)return;
+    img.onload=()=>{img.classList.add("loaded");postHeight();};
+    img.onerror=()=>{img.classList.remove("loaded");};
+    img.src=k.img;
+  });
+}
+function render(){
+  document.querySelectorAll(".drop").forEach(d=>d.innerHTML="");poolEl.innerHTML="";
+  TIERS.forEach(t=>{const drop=document.querySelector(`.drop[data-tier="${t}"]`);
+    KINGS.filter(k=>place[k.id]===t).forEach(k=>drop.insertAdjacentHTML("beforeend",cardHTML(k)));});
+  sortedPool().forEach(k=>poolEl.insertAdjacentHTML("beforeend",cardHTML(k)));
+  bindCards();applyPortraits();applyIcons();postHeight();
+}
+
+let dragId=null;
+function bindCards(){
+  document.querySelectorAll(".card").forEach(c=>{
+    c.addEventListener("dragstart",e=>{dragId=+c.dataset.id;c.classList.add("dragging");e.dataTransfer.effectAllowed="move";});
+    c.addEventListener("dragend",()=>{dragId=null;document.querySelectorAll(".card").forEach(x=>x.classList.remove("dragging"));});
+  });
+  document.querySelectorAll(".tierpick button").forEach(b=>{
+    b.addEventListener("click",e=>{e.stopPropagation();place[+b.dataset.id]=b.dataset.t;render();});
+  });
+}
+function setupZones(){
+  document.querySelectorAll(".drop, .pool").forEach(z=>{
+    z.addEventListener("dragover",e=>{e.preventDefault();
+      if(z.classList.contains("pool"))poolEl.classList.add("dragover");else z.closest(".tier").classList.add("dragover");});
+    z.addEventListener("dragleave",()=>{z.closest(".tier")?.classList.remove("dragover");poolEl.classList.remove("dragover");});
+    z.addEventListener("drop",e=>{e.preventDefault();const t=z.dataset.tier;
+      if(dragId!=null){place[dragId]=t;render();}
+      document.querySelectorAll(".dragover").forEach(x=>x.classList.remove("dragover"));});
+  });
+}
+
+document.getElementById("sort").addEventListener("change",e=>{sortMode=e.target.value;render();});
+document.getElementById("reset").addEventListener("click",()=>{KINGS.forEach(k=>place[k.id]="pool");render();});
+document.getElementById("auto").addEventListener("click",()=>{
+  KINGS.forEach(k=>{const t=total(k);
+    place[k.id]=t>=78?"S":t>=70?"A":t>=62?"B":t>=54?"C":t>=46?"D":"F";});render();});
+document.getElementById("export").addEventListener("click",()=>{
+  let out="TOP 20 ARMENIAN KINGS - TIER LIST\n=================================\n";
+  TIERS.forEach(t=>{const ks=KINGS.filter(k=>place[k.id]===t);
+    if(ks.length)out+=`\n[${t}]  `+ks.map(k=>k.name+` (${k.epi.split("\u00b7")[0].trim()})`).join("  \u00b7  ")+"\n";});
+  const u=KINGS.filter(k=>place[k.id]==="pool");
+  if(u.length)out+="\n[Unranked]  "+u.map(k=>k.name).join("  \u00b7  ")+"\n";
+  document.getElementById("exporttext").value=out;document.getElementById("modal").classList.add("show");});
+document.getElementById("closebtn").addEventListener("click",()=>document.getElementById("modal").classList.remove("show"));
+document.getElementById("modal").addEventListener("click",e=>{if(e.target.id==="modal")e.target.classList.remove("show");});
+document.getElementById("copybtn").addEventListener("click",()=>{const ta=document.getElementById("exporttext");ta.select();
+  try{document.execCommand("copy");const b=document.getElementById("copybtn");b.textContent="Copied!";setTimeout(()=>b.textContent="Copy to clipboard",1400);}catch(e){}});
+
+// ---------- auto-resize when embedded in an iframe ----------
+let _ht=0;
+function postHeight(){
+  const h=Math.ceil(document.documentElement.scrollHeight);
+  if(h===_ht)return; _ht=h;
+  if(window.parent!==window)window.parent.postMessage({type:"akt-height",height:h},"*");
+}
+window.addEventListener("resize",postHeight);
+window.addEventListener("load",postHeight);
+
+setupZones();
+applyIcons();
+render();
+</script>
+</body>
+</html>

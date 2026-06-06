@@ -68,6 +68,20 @@ author_profile: true
   </div>
 </div>
 
+<div class="publication-container">
+  <div class="publication-text">
+    <h3><a href="https://www.nature.com/articles/s41467-026-72570-x" target="_blank">SCMBench: Benchmarking Domain-specific and Foundation Models for Single-cell Multi-omics Data Integration</a></h3>
+    
+    <p><strong>Authors:</strong> Yixuan Wang<sup>†</sup>, Yimin Fan<sup>†</sup>, Xuesong Wang<sup>†</sup>, Tingyang Yu<sup>†</sup>, Yongshuo Zong<sup>†</sup>, Xinyuan Liu, Gaoyang Zhong, Meitong Liu, Qing Li, Kin Hei Lee, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Zhichao Hu, Yaqian Qi, Junjie Huang, Gengjie Jia, Jiao Yuan, Ting-Fung Chan, Xin Gao, Irwin King, Yu Li</p>
+    
+    <p><strong>Journal:</strong> Nature Communications</p>
+  </div>
+  
+  <div class="publication-image">
+    <img src="/images/2paper.png" alt="SCMBench - Single-cell Multi-omics Benchmark">
+  </div>
+</div>
+
 ## Preprints
 
 <div style="margin-bottom: 1em; font-size: 0.9em; color: #666;">
@@ -90,15 +104,15 @@ author_profile: true
 
 <div class="publication-container">
   <div class="publication-text">
-    <h3>SCMBench: Benchmarking Domain-specific and Foundation Models for Single-cell Multi-omics Data Integration</h3>
+    <h3><a href="https://doi.org/10.64898/2026.04.09.716777" target="_blank">In utero transduction resolves gut cell lineages and enables conditional gene perturbation in the developing enteric nervous system</a></h3>
     
-    <p><strong>Authors:</strong> Yixuan Wang<sup>†</sup>, Yimin Fan<sup>†</sup>, Xuesong Wang<sup>†</sup>, Tingyang Yu<sup>†</sup>, Yongshuo Zong<sup>†</sup>, Xinyuan Liu, Meitong Liu, Qing Li, Kin hei Lee, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Junjie Huang, Gengjie Jia, Jiao Yuan, Ting-Fung Chan, Xin Gao, Irwin King, Yu Li</p>
+    <p><strong>Authors:</strong> <strong>Ziwei Liu</strong>, <strong>Krishnanand Padmanabhan</strong>, Jingyan He, Katrin Hector, Bettina Semsch, Jia Sun, Viktoria Knoflach, Sarantis Giatrellis, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Christian Göritz, Emma Rachel Andersson, Ulrika Marklund</p>
     
-    <p><strong>Journal:</strong> Nature Communications</p>
+    <p><strong>Journal:</strong> Gastroenterology (bioRxiv preprint)</p>
   </div>
   
   <div class="publication-image">
-    <img src="/images/2paper.png" alt="SCMBench - Single-cell Multi-omics Benchmark">
+    <img src="/images/5paper.png" alt="In utero transduction in the developing enteric nervous system">
   </div>
 </div>
 
