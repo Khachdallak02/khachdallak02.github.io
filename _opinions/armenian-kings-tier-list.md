@@ -127,8 +127,28 @@ pagination: false
   <iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html" title="Armenian Kings Tier List" loading="lazy" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
 </div>
 
+<h2 class="akt-profiles-head">King profiles</h2>
+
+{% include armenian-king-profiles.html %}
+
 <script>
 (function () {
+  function aktScrollToKing(anchor) {
+    var el = document.getElementById(anchor);
+    if (!el) {
+      window.location.hash = anchor;
+      return;
+    }
+    var top = el.getBoundingClientRect().top + window.pageYOffset - 88;
+    window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+    el.classList.remove("akt-king--flash");
+    void el.offsetWidth;
+    el.classList.add("akt-king--flash");
+    window.setTimeout(function () { el.classList.remove("akt-king--flash"); }, 1200);
+  }
+
+  window.aktScrollToKing = aktScrollToKing;
+
   window.addEventListener("message", function (e) {
     if (!e.data) return;
     if (e.data.type === "akt-height") {
@@ -137,18 +157,14 @@ pagination: false
       return;
     }
     if (e.data.type === "akt-scroll" && e.data.anchor) {
-      var el = document.getElementById(e.data.anchor);
-      if (!el) return;
-      el.scrollIntoView({ behavior: "smooth", block: "start" });
-      el.classList.remove("akt-king--flash");
-      void el.offsetWidth;
-      el.classList.add("akt-king--flash");
-      window.setTimeout(function () { el.classList.remove("akt-king--flash"); }, 1200);
+      aktScrollToKing(e.data.anchor);
     }
   });
+
+  if (window.location.hash && window.location.hash.indexOf("king-") === 1) {
+    window.setTimeout(function () {
+      aktScrollToKing(window.location.hash.slice(1));
+    }, 300);
+  }
 })();
 </script>
-
-<h2 class="akt-profiles-head">King profiles</h2>
-
-{% include armenian-king-profiles.html %}

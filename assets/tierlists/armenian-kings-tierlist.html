@@ -58,7 +58,7 @@
   button.btn.gold{border-color:var(--gold-bright);color:var(--gold-bright)}
   button.btn.warn{border-color:var(--crimson);color:#e7b3a8}
   .tiers{display:flex;flex-direction:column;gap:10px;margin-top:8px}
-  .tier{display:grid;grid-template-columns:78px 1fr;min-height:96px;
+  .tier{display:grid;grid-template-columns:78px 1fr;min-height:72px;
     border:1px solid var(--line);border-radius:12px;overflow:hidden;
     background:linear-gradient(180deg,var(--panel),#120d07);transition:.15s}
   .tier.dragover{box-shadow:0 0 0 2px var(--gold-bright) inset, var(--shadow)}
@@ -81,43 +81,48 @@
   .pool.dragover{box-shadow:0 0 0 2px var(--gold-bright) inset}
   .card{
     width:calc(33.333% - 6px);flex:0 0 calc(33.333% - 6px);
-    border:1px solid var(--line);border-radius:10px;overflow:hidden;
+    border:1px solid var(--line);border-radius:8px;overflow:hidden;
     background:linear-gradient(180deg,var(--panel2),#140e08);cursor:grab;
-    box-shadow:0 4px 10px rgba(0,0,0,.35);transition:transform .12s, box-shadow .12s;
+    box-shadow:0 3px 8px rgba(0,0,0,.32);transition:transform .12s, box-shadow .12s;
     position:relative;animation:rise .5s both}
   @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-  .card:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(0,0,0,.5),0 0 0 1px var(--gold) inset}
-  .card.dragging{opacity:.4}
-  .card-main{display:flex;gap:6px;padding:5px 5px 4px;align-items:stretch}
-  .card-left{width:92px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;min-width:0}
-  .card-right{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:space-between}
-  .portrait{position:relative;width:100%;height:68px;overflow:hidden;border-radius:6px;
-    border:1px solid var(--line);cursor:pointer;
-    background:radial-gradient(80px 60px at 50% 35%, #2a1f12, #0e0a06)}
-  .portrait:hover{box-shadow:0 0 0 1px var(--gold-bright)}
-  .portrait .med{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:48px;height:48px}
+  .card:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.45),0 0 0 1px var(--gold) inset}
+  .card.dragging{opacity:.45}
+  .card-main{
+    display:flex;flex-direction:row;align-items:center;gap:8px;
+    padding:4px 6px 3px;cursor:pointer;min-height:58px}
+  .card-main:hover .name{color:var(--gold-bright)}
+  .card-id{
+    display:flex;flex-direction:row;align-items:center;gap:6px;
+    flex:0 0 46%;min-width:0;max-width:148px}
+  .card-stats{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
+  .portrait{position:relative;width:50px;height:50px;flex-shrink:0;overflow:hidden;border-radius:5px;
+    border:1px solid var(--line);
+    background:radial-gradient(70px 50px at 50% 35%, #2a1f12, #0e0a06)}
+  .portrait .med{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:38px;height:38px}
   .portrait img.photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
     opacity:0;transition:opacity .55s ease;filter:sepia(.22) saturate(.9) contrast(1.04) brightness(.98)}
   .portrait img.photo.loaded{opacity:1}
   .portrait .vig{position:absolute;inset:0;pointer-events:none;
-    box-shadow:inset 0 0 18px rgba(0,0,0,.55), inset 0 0 0 1px rgba(201,162,75,.25)}
-  .ident{min-width:0}
-  .name{font-family:"Cinzel",serif;font-weight:700;font-size:10px;line-height:1.1;color:var(--ink)}
-  .name-hy{font-family:"Noto Sans Armenian",sans-serif;font-size:9px;line-height:1.2;color:var(--gold);margin-top:1px}
-  .dyn{font-family:"Cinzel",serif;font-size:8px;color:var(--ink-dim);margin-top:2px;letter-spacing:.04em;text-transform:uppercase}
-  .dyn-hy{font-family:"Noto Sans Armenian",sans-serif;font-size:8px;line-height:1.2;color:var(--ink-dim);margin-top:1px}
-  .reign{font-size:8px;color:var(--ink-dim);margin-top:2px;letter-spacing:.02em}
+    box-shadow:inset 0 0 14px rgba(0,0,0,.55), inset 0 0 0 1px rgba(201,162,75,.25)}
+  .ident{min-width:0;line-height:1.15}
+  .name{font-family:"Cinzel",serif;font-weight:700;font-size:9.5px;color:var(--ink);transition:color .12s}
+  .name-hy{font-family:"Noto Sans Armenian",sans-serif;font-size:9px;color:var(--gold);margin-top:1px}
+  .dyn-line{font-size:7.5px;color:var(--ink-dim);margin-top:2px;line-height:1.25}
+  .dyn{font-family:"Cinzel",serif;letter-spacing:.03em;text-transform:uppercase}
+  .dyn-hy{font-family:"Noto Sans Armenian",sans-serif}
+  .reign{font-size:7.5px;color:var(--ink-dim);margin-top:1px}
   .stats{padding:0;display:flex;flex-direction:column;gap:1px}
-  .stat{display:grid;grid-template-columns:14px 1fr 12px;align-items:center;gap:3px}
-  .stat .ico{display:flex;align-items:center;justify-content:center;width:14px;height:13px}
-  .ck3ico{width:13px;height:13px;object-fit:contain;display:block}
-  .bar{height:3px;border-radius:2px;background:rgba(255,255,255,.07);overflow:hidden}
+  .stat{display:grid;grid-template-columns:13px 1fr 11px;align-items:center;gap:4px}
+  .stat .ico{display:flex;align-items:center;justify-content:center;width:13px;height:12px}
+  .ck3ico{width:12px;height:12px;object-fit:contain;display:block}
+  .bar{height:4px;border-radius:2px;background:rgba(255,255,255,.08);overflow:hidden;min-width:48px}
   .bar i{display:block;height:100%;border-radius:2px}
-  .stat .v{font-size:8px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums}
-  .total{display:flex;justify-content:space-between;align-items:center;padding:2px 0 0;margin-top:2px;
-    border-top:1px solid var(--line);font-size:8px;color:var(--ink-dim)}
-  .total b{color:var(--gold-bright);font-family:"Cinzel",serif;font-size:10px}
-  .tierpick{display:flex;gap:2px;padding:3px 5px 5px;border-top:1px solid var(--line)}
+  .stat .v{font-size:7.5px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums}
+  .total{display:flex;justify-content:flex-end;align-items:center;gap:6px;padding-top:1px;margin-top:1px;
+    border-top:1px solid rgba(255,255,255,.06);font-size:7.5px;color:var(--ink-dim)}
+  .total b{color:var(--gold-bright);font-family:"Cinzel",serif;font-size:9px}
+  .tierpick{display:flex;gap:2px;padding:2px 5px 4px;border-top:1px solid var(--line);cursor:default}
   .tierpick button{flex:1;font-family:"Cinzel",serif;font-weight:700;font-size:8px;
     border:1px solid var(--line);background:#1a130b;color:var(--ink-dim);border-radius:5px;
     padding:3px 0;cursor:pointer;transition:.12s}
@@ -223,7 +228,7 @@ const DYN = {
   Vaspurakan:{c:"#1f9684",label:"Artsruni",labelHy:"Արծրունի"},
   Rubenid:{c:"#c43c22",label:"Rubenid",labelHy:"Ռուբինյան"},
   Hethumid:{c:"#368a52",label:"Hethumid",labelHy:"Հեթումյան"},
-  Lusignan:{c:"#4278b0",label:"Lusignan",labelHy:"\u053c\u0578\u057d\u056b\u0576\u0575\u0561\u0576"}
+  Lusignan:{c:"#4278b0",label:"Lusignan",labelHy:"\u053c\u0578\u0582\u057d\u056b\u0576\u0575\u0561\u0576"}
 };
 
 const IMG = "/images/opinions/kings/";
@@ -297,9 +302,9 @@ function tierButtons(k){
 function cardHTML(k){
   const d=DYN[k.dyn];
   return `<div class="card" draggable="true" data-id="${k.id}" data-anchor="${k.anchor}">
-    <div class="card-main">
-      <div class="card-left">
-        <div class="portrait" title="View profile">
+    <div class="card-main" title="View king profile">
+      <div class="card-id">
+        <div class="portrait">
           ${medallion(k)}
           <img class="photo" alt="${k.name}" data-id="${k.id}">
           <span class="vig"></span>
@@ -307,12 +312,11 @@ function cardHTML(k){
         <div class="ident">
           <div class="name">${k.name}</div>
           <div class="name-hy">${k.nameHy}</div>
-          <div class="dyn">${d.label}</div>
-          <div class="dyn-hy">${d.labelHy}</div>
+          <div class="dyn-line"><span class="dyn">${d.label}</span> · <span class="dyn-hy">${d.labelHy}</span></div>
           <div class="reign">${k.reign}</div>
         </div>
       </div>
-      <div class="card-right">
+      <div class="card-stats">
         <div class="stats">${statRow(k)}</div>
         <div class="total"><span>Total</span><b>${total(k)}</b></div>
       </div>
@@ -323,12 +327,23 @@ function cardHTML(k){
 
 function jumpToProfile(anchor){
   if(!anchor)return;
-  if(window.parent!==window){
-    window.parent.postMessage({type:"akt-scroll",anchor:anchor},"*");
-  }else{
-    const el=document.getElementById(anchor);
-    if(el)el.scrollIntoView({behavior:"smooth",block:"start"});
-  }
+  const home=window.parent!==window?window.parent:window;
+  try{
+    const el=home.document.getElementById(anchor);
+    if(el){
+      const top=el.getBoundingClientRect().top+home.pageYOffset-88;
+      home.scrollTo({top:Math.max(0,top),behavior:"smooth"});
+      el.classList.remove("akt-king--flash");
+      void el.offsetWidth;
+      el.classList.add("akt-king--flash");
+      home.setTimeout(()=>el.classList.remove("akt-king--flash"),1200);
+      return;
+    }
+  }catch(err){}
+  try{
+    home.postMessage({type:"akt-scroll",anchor:anchor},"*");
+    if(home.location)home.location.hash=anchor;
+  }catch(err2){}
 }
 
 const tiersEl=document.getElementById("tiers");
@@ -370,20 +385,27 @@ function render(){
 }
 
 let dragId=null;
+let didDrag=false;
 function bindCards(){
   document.querySelectorAll(".card").forEach(c=>{
     c.addEventListener("dragstart",e=>{
-      if(e.target.closest(".portrait")){e.preventDefault();return;}
-      dragId=+c.dataset.id;c.classList.add("dragging");e.dataTransfer.effectAllowed="move";
+      if(e.target.closest(".tierpick")){e.preventDefault();return;}
+      didDrag=false;
+      dragId=+c.dataset.id;
+      c.classList.add("dragging");
+      e.dataTransfer.effectAllowed="move";
     });
-    c.addEventListener("dragend",()=>{dragId=null;document.querySelectorAll(".card").forEach(x=>x.classList.remove("dragging"));});
-    const portrait=c.querySelector(".portrait");
-    if(portrait){
-      portrait.addEventListener("click",e=>{
-        e.preventDefault();e.stopPropagation();
-        jumpToProfile(c.dataset.anchor);
-      });
-    }
+    c.addEventListener("drag",()=>{didDrag=true;});
+    c.addEventListener("dragend",()=>{
+      dragId=null;
+      document.querySelectorAll(".card").forEach(x=>x.classList.remove("dragging"));
+      setTimeout(()=>{didDrag=false;},150);
+    });
+    c.addEventListener("click",e=>{
+      if(e.target.closest(".tierpick button"))return;
+      if(didDrag)return;
+      jumpToProfile(c.dataset.anchor);
+    });
   });
   document.querySelectorAll(".tierpick button").forEach(b=>{
     b.addEventListener("click",e=>{e.stopPropagation();place[+b.dataset.id]=b.dataset.t;render();});
