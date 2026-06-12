@@ -112,10 +112,10 @@
   .dyn{font-family:"Cinzel",serif;letter-spacing:.03em;text-transform:uppercase}
   .dyn-hy{font-family:"Noto Sans Armenian",sans-serif}
   .reign{font-size:7.5px;color:var(--ink-dim);margin-top:1px;letter-spacing:.02em}
-  .stats{padding:0;display:flex;flex-direction:column;gap:1px}
-  .stat{display:grid;grid-template-columns:14px 34px 10px;align-items:center;gap:2px}
-  .stat .ico{display:flex;align-items:center;justify-content:center;width:14px;height:14px}
-  .ck3ico{width:14px;height:14px;object-fit:contain;display:block}
+  .stats{padding:0;display:flex;flex-direction:column;gap:3px}
+  .stat{display:grid;grid-template-columns:28px 34px 12px;align-items:center;gap:3px;min-height:28px}
+  .stat .ico{display:flex;align-items:center;justify-content:center;width:28px;height:28px;flex-shrink:0}
+  .stats .stat .ico img.ck3ico{width:28px;height:28px;max-width:none;max-height:none;object-fit:contain;display:block}
   .bar{height:2px;border-radius:1px;background:rgba(255,255,255,.07);overflow:hidden;width:100%;max-width:34px}
   .bar i{display:block;height:100%;max-width:100%;border-radius:1px}
   .stat .v{font-size:7.5px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums;line-height:1}
@@ -321,7 +321,7 @@ function medallion(k){
 function statRow(k){
   return SKILL.map((s,i)=>{
     const v=k.stats[i],pct=Math.round(v/20*100);
-    return `<div class="stat"><span class="ico"><img class="ck3ico" data-skill="${s.key}" alt="${s.name}"></span>
+    return `<div class="stat"><span class="ico"><img class="ck3ico" width="28" height="28" data-skill="${s.key}" alt="${s.name}"></span>
       <span class="bar"><i style="width:${pct}%;background:${s.color}"></i></span>
       <span class="v">${v}</span></div>`;
   }).join("");
