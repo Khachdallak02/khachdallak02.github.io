@@ -90,12 +90,14 @@
   .card.dragging{opacity:.45}
   .card-main{
     display:flex;flex-direction:row;align-items:center;gap:8px;
-    padding:4px 6px 3px;cursor:pointer;min-height:66px}
+    padding:4px 6px 3px;cursor:pointer;min-height:58px}
   .card-main:hover .name{color:var(--gold-bright)}
   .card-id{
     display:flex;flex-direction:row;align-items:center;gap:6px;
-    flex:0 0 46%;min-width:0;max-width:148px}
-  .card-stats{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
+    flex:0 0 46%;min-width:0;max-width:148px;height:50px}
+  .card-stats{
+    flex:1;min-width:0;height:50px;display:flex;flex-direction:column;
+    justify-content:space-between}
   .portrait{position:relative;width:50px;height:50px;flex-shrink:0;overflow:hidden;border-radius:5px;
     border:1px solid var(--line);
     background:radial-gradient(70px 50px at 50% 35%, #2a1f12, #0e0a06)}
@@ -112,15 +114,18 @@
   .dyn{font-family:"Cinzel",serif;letter-spacing:.03em;text-transform:uppercase}
   .dyn-hy{font-family:"Noto Sans Armenian",sans-serif}
   .reign{font-size:7.5px;color:var(--ink-dim);margin-top:1px}
-  .stats{padding:0;display:flex;flex-direction:column;gap:2px}
-  .stat{display:grid;grid-template-columns:15px 1fr 11px;align-items:center;gap:3px}
-  .stat .ico{display:flex;align-items:center;justify-content:center;width:15px;height:16px}
-  .ck3ico{width:15px;height:15px;object-fit:contain;display:block}
-  .bar{height:4px;border-radius:2px;background:rgba(255,255,255,.08);overflow:hidden;min-width:48px}
-  .bar i{display:block;height:100%;border-radius:2px}
-  .stat .v{font-size:7.5px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums}
-  .total{display:flex;justify-content:flex-end;align-items:center;gap:6px;padding-top:1px;margin-top:1px;
-    border-top:1px solid rgba(255,255,255,.06);font-size:7.5px;color:var(--ink-dim)}
+  .stats{
+    flex:1;min-height:0;padding:0;display:flex;flex-direction:column;
+    justify-content:space-evenly;gap:0}
+  .stat{display:grid;grid-template-columns:16px 1fr 10px;align-items:center;gap:2px;min-height:0}
+  .stat .ico{display:flex;align-items:center;justify-content:center;width:16px;height:16px}
+  .ck3ico{width:16px;height:16px;object-fit:contain;display:block}
+  .bar{height:2px;border-radius:1px;background:rgba(255,255,255,.08);overflow:hidden;min-width:48px}
+  .bar i{display:block;height:100%;border-radius:1px}
+  .stat .v{font-size:7px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums;line-height:1}
+  .total{
+    flex:0 0 auto;display:flex;justify-content:flex-end;align-items:center;gap:5px;
+    padding:0;margin:0;border:0;font-size:7px;line-height:1;color:var(--ink-dim)}
   .total b{color:var(--gold-bright);font-family:"Cinzel",serif;font-size:9px}
   .tierpick{display:flex;gap:2px;padding:2px 5px 4px;border-top:1px solid var(--line);cursor:default}
   .tierpick button{flex:1;font-family:"Cinzel",serif;font-weight:700;font-size:8px;
