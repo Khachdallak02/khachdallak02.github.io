@@ -58,7 +58,7 @@
   button.btn.gold{border-color:var(--gold-bright);color:var(--gold-bright)}
   button.btn.warn{border-color:var(--crimson);color:#e7b3a8}
   .tiers{display:flex;flex-direction:column;gap:10px;margin-top:8px}
-  .tier{display:grid;grid-template-columns:78px 1fr;min-height:72px;
+  .tier{display:grid;grid-template-columns:78px 1fr;min-height:96px;
     border:1px solid var(--line);border-radius:12px;overflow:hidden;
     background:linear-gradient(180deg,var(--panel),#120d07);transition:.15s}
   .tier.dragover{box-shadow:0 0 0 2px var(--gold-bright) inset, var(--shadow)}
@@ -89,44 +89,38 @@
   .card:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.45),0 0 0 1px var(--gold) inset}
   .card.dragging{opacity:.45}
   .card-main{
-    display:flex;flex-direction:row;align-items:center;gap:8px;
-    padding:4px 6px 3px;cursor:pointer;min-height:58px}
+    display:flex;flex-direction:row;align-items:stretch;gap:6px;
+    padding:5px 5px 4px;cursor:pointer}
   .card-main:hover .name{color:var(--gold-bright)}
-  .card-id{
-    display:flex;flex-direction:row;align-items:center;gap:6px;
-    flex:0 0 46%;min-width:0;max-width:148px;height:50px}
-  .card-stats{
-    flex:1;min-width:0;height:50px;display:flex;flex-direction:column;
-    justify-content:space-between}
-  .portrait{position:relative;width:50px;height:50px;flex-shrink:0;overflow:hidden;border-radius:5px;
+  .card-left{
+    width:92px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;min-width:0}
+  .card-right{
+    flex:1;min-width:0;display:flex;flex-direction:column;justify-content:space-between}
+  .portrait{position:relative;width:100%;height:68px;overflow:hidden;border-radius:6px;
     border:1px solid var(--line);
-    background:radial-gradient(70px 50px at 50% 35%, #2a1f12, #0e0a06)}
-  .portrait .med{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:38px;height:38px}
+    background:radial-gradient(80px 60px at 50% 35%, #2a1f12, #0e0a06)}
+  .portrait .med{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:48px;height:48px}
   .portrait img.photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
     opacity:0;transition:opacity .55s ease;filter:sepia(.22) saturate(.9) contrast(1.04) brightness(.98)}
   .portrait img.photo.loaded{opacity:1}
   .portrait .vig{position:absolute;inset:0;pointer-events:none;
-    box-shadow:inset 0 0 14px rgba(0,0,0,.55), inset 0 0 0 1px rgba(201,162,75,.25)}
+    box-shadow:inset 0 0 18px rgba(0,0,0,.55), inset 0 0 0 1px rgba(201,162,75,.25)}
   .ident{min-width:0;line-height:1.15}
-  .name{font-family:"Cinzel",serif;font-weight:700;font-size:9.5px;color:var(--ink);transition:color .12s}
-  .name-hy{font-family:"Noto Sans Armenian",sans-serif;font-size:9px;color:var(--gold);margin-top:1px}
-  .dyn-line{font-size:7.5px;color:var(--ink-dim);margin-top:2px;line-height:1.25}
-  .dyn{font-family:"Cinzel",serif;letter-spacing:.03em;text-transform:uppercase}
-  .dyn-hy{font-family:"Noto Sans Armenian",sans-serif}
-  .reign{font-size:7.5px;color:var(--ink-dim);margin-top:1px}
-  .stats{
-    flex:1;min-height:0;padding:0;display:flex;flex-direction:column;
-    justify-content:space-evenly;gap:0}
-  .stat{display:grid;grid-template-columns:16px 1fr 10px;align-items:center;gap:2px;min-height:0}
-  .stat .ico{display:flex;align-items:center;justify-content:center;width:16px;height:16px}
-  .ck3ico{width:16px;height:16px;object-fit:contain;display:block}
-  .bar{height:2px;border-radius:1px;background:rgba(255,255,255,.08);overflow:hidden;min-width:48px}
-  .bar i{display:block;height:100%;border-radius:1px}
-  .stat .v{font-size:7px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums;line-height:1}
-  .total{
-    flex:0 0 auto;display:flex;justify-content:flex-end;align-items:center;gap:5px;
-    padding:0;margin:0;border:0;font-size:7px;line-height:1;color:var(--ink-dim)}
-  .total b{color:var(--gold-bright);font-family:"Cinzel",serif;font-size:9px}
+  .name{font-family:"Cinzel",serif;font-weight:700;font-size:10px;line-height:1.1;color:var(--ink);transition:color .12s}
+  .name-hy{font-family:"Noto Sans Armenian",sans-serif;font-size:9px;line-height:1.2;color:var(--gold);margin-top:1px}
+  .dyn{font-family:"Cinzel",serif;font-size:8px;color:var(--ink-dim);margin-top:2px;letter-spacing:.04em;text-transform:uppercase}
+  .dyn-hy{font-family:"Noto Sans Armenian",sans-serif;font-size:8px;line-height:1.2;color:var(--ink-dim);margin-top:1px}
+  .reign{font-size:8px;color:var(--ink-dim);margin-top:2px;letter-spacing:.02em}
+  .stats{padding:0;display:flex;flex-direction:column;gap:1px}
+  .stat{display:grid;grid-template-columns:14px 1fr 12px;align-items:center;gap:3px}
+  .stat .ico{display:flex;align-items:center;justify-content:center;width:14px;height:13px}
+  .ck3ico{width:13px;height:13px;object-fit:contain;display:block}
+  .bar{height:4px;border-radius:2px;background:rgba(255,255,255,.07);overflow:hidden;min-width:48px}
+  .bar i{display:block;height:100%;border-radius:2px}
+  .stat .v{font-size:8px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums}
+  .total{display:flex;justify-content:space-between;align-items:center;padding:3px 0 0;margin-top:2px;
+    border-top:1px solid var(--line);font-size:8px;color:var(--ink-dim)}
+  .total b{color:var(--gold-bright);font-family:"Cinzel",serif;font-size:10px}
   .tierpick{display:flex;gap:2px;padding:2px 5px 4px;border-top:1px solid var(--line);cursor:default}
   .tierpick button{flex:1;font-family:"Cinzel",serif;font-weight:700;font-size:8px;
     border:1px solid var(--line);background:#1a130b;color:var(--ink-dim);border-radius:5px;
@@ -270,10 +264,41 @@ const SKILL=[
 ];
 const TIERS=["S","A","B","C","D","F"];
 const total=k=>k.stats.reduce((a,b)=>a+b,0);
-const place={};
+const kingById=id=>KINGS.find(k=>k.id===id);
+const lists={pool:[]};
+TIERS.forEach(t=>{lists[t]=[]});
+
+function tierOf(id){
+  for(const t of TIERS)if(lists[t].includes(id))return t;
+  return "pool";
+}
+
+function removeFromLists(id){
+  TIERS.forEach(t=>{const i=lists[t].indexOf(id);if(i>=0)lists[t].splice(i,1);});
+  const p=lists.pool.indexOf(id);if(p>=0)lists.pool.splice(p,1);
+}
+
+function getInsertIndex(dropEl,x,y){
+  const cards=[...dropEl.querySelectorAll(".card:not(.dragging)")];
+  if(!cards.length)return 0;
+  for(let i=0;i<cards.length;i++){
+    const r=cards[i].getBoundingClientRect();
+    if(y<r.top+4)return i;
+    if(y<=r.bottom&&x<r.left+r.width/2)return i;
+  }
+  return cards.length;
+}
+
 function seedByTotal(){
-  KINGS.forEach(k=>{const t=total(k);
-    place[k.id]=t>=78?"S":t>=70?"A":t>=62?"B":t>=54?"C":t>=46?"D":"F";});
+  TIERS.forEach(t=>{lists[t]=[];});
+  lists.pool=[];
+  KINGS.forEach(k=>{
+    const t=total(k)>=78?"S":total(k)>=70?"A":total(k)>=62?"B":total(k)>=54?"C":total(k)>=46?"D":"F";
+    lists[t].push(k.id);
+  });
+  TIERS.forEach(t=>{
+    lists[t].sort((a,b)=>total(kingById(b))-total(kingById(a)));
+  });
 }
 seedByTotal();
 
@@ -302,13 +327,13 @@ function statRow(k){
 }
 function tierButtons(k){
   return `<div class="tierpick">`+TIERS.map(t=>
-    `<button class="${t} ${place[k.id]===t?'on':''}" data-id="${k.id}" data-t="${t}">${t}</button>`).join("")+`</div>`;
+    `<button class="${t} ${tierOf(k.id)===t?'on':''}" data-id="${k.id}" data-t="${t}">${t}</button>`).join("")+`</div>`;
 }
 function cardHTML(k){
   const d=DYN[k.dyn];
   return `<div class="card" draggable="true" data-id="${k.id}" data-anchor="${k.anchor}">
     <div class="card-main" title="View king profile">
-      <div class="card-id">
+      <div class="card-left">
         <div class="portrait">
           ${medallion(k)}
           <img class="photo" alt="${k.name}" data-id="${k.id}">
@@ -317,11 +342,12 @@ function cardHTML(k){
         <div class="ident">
           <div class="name">${k.name}</div>
           <div class="name-hy">${k.nameHy}</div>
-          <div class="dyn-line"><span class="dyn">${d.label}</span> · <span class="dyn-hy">${d.labelHy}</span></div>
+          <div class="dyn">${d.label}</div>
+          <div class="dyn-hy">${d.labelHy}</div>
           <div class="reign">${k.reign}</div>
         </div>
       </div>
-      <div class="card-stats">
+      <div class="card-right">
         <div class="stats">${statRow(k)}</div>
         <div class="total"><span>Total</span><b>${total(k)}</b></div>
       </div>
@@ -356,11 +382,14 @@ TIERS.forEach(t=>{const row=document.createElement("div");row.className="tier t"
   row.innerHTML=`<div class="lab">${t}</div><div class="drop" data-tier="${t}"></div>`;tiersEl.appendChild(row);});
 const poolEl=document.getElementById("pool");
 let sortMode="total";
-function sortedPool(){let a=KINGS.filter(k=>place[k.id]==="pool");
-  if(sortMode==="chron")a.sort((x,y)=>x.id-y.id);
-  else if(sortMode==="total")a.sort((x,y)=>total(y)-total(x));
-  else{const i=SKILL.findIndex(s=>s.key===sortMode);a.sort((x,y)=>y.stats[i]-x.stats[i]);}
-  return a;}
+function sortPoolIds(ids){
+  const a=[...ids];
+  if(sortMode==="chron")a.sort((x,y)=>x-y);
+  else if(sortMode==="total")a.sort((x,y)=>total(kingById(y))-total(kingById(x)));
+  else{const i=SKILL.findIndex(s=>s.key===sortMode);a.sort((x,y)=>kingById(y).stats[i]-kingById(x).stats[i]);}
+  return a;
+}
+function poolIdsForRender(){return [...lists.pool];}
 
 function applyIcons(scope){
   (scope||document).querySelectorAll("img.ck3ico").forEach(img=>{
@@ -383,9 +412,17 @@ function applyPortraits(){
 }
 function render(){
   document.querySelectorAll(".drop").forEach(d=>d.innerHTML="");poolEl.innerHTML="";
-  TIERS.forEach(t=>{const drop=document.querySelector(`.drop[data-tier="${t}"]`);
-    KINGS.filter(k=>place[k.id]===t).forEach(k=>drop.insertAdjacentHTML("beforeend",cardHTML(k)));});
-  sortedPool().forEach(k=>poolEl.insertAdjacentHTML("beforeend",cardHTML(k)));
+  TIERS.forEach(t=>{
+    const drop=document.querySelector(`.drop[data-tier="${t}"]`);
+    lists[t].forEach(id=>{
+      const k=kingById(id);
+      if(k)drop.insertAdjacentHTML("beforeend",cardHTML(k));
+    });
+  });
+  poolIdsForRender().forEach(id=>{
+    const k=kingById(id);
+    if(k)poolEl.insertAdjacentHTML("beforeend",cardHTML(k));
+  });
   bindCards();applyPortraits();applyIcons();postHeight();
 }
 
@@ -399,6 +436,7 @@ function bindCards(){
       dragId=+c.dataset.id;
       c.classList.add("dragging");
       e.dataTransfer.effectAllowed="move";
+      e.dataTransfer.setData("text/plain",String(dragId));
     });
     c.addEventListener("drag",()=>{didDrag=true;});
     c.addEventListener("dragend",()=>{
@@ -413,29 +451,56 @@ function bindCards(){
     });
   });
   document.querySelectorAll(".tierpick button").forEach(b=>{
-    b.addEventListener("click",e=>{e.stopPropagation();place[+b.dataset.id]=b.dataset.t;render();});
+    b.addEventListener("click",e=>{
+      e.stopPropagation();
+      const id=+b.dataset.id,t=b.dataset.t;
+      removeFromLists(id);
+      lists[t].push(id);
+      render();
+    });
   });
 }
 function setupZones(){
   document.querySelectorAll(".drop, .pool").forEach(z=>{
-    z.addEventListener("dragover",e=>{e.preventDefault();
-      if(z.classList.contains("pool"))poolEl.classList.add("dragover");else z.closest(".tier").classList.add("dragover");});
+    z.addEventListener("dragover",e=>{
+      e.preventDefault();
+      e.dataTransfer.dropEffect="move";
+      if(z.classList.contains("pool"))poolEl.classList.add("dragover");
+      else z.closest(".tier").classList.add("dragover");
+    });
     z.addEventListener("dragleave",()=>{z.closest(".tier")?.classList.remove("dragover");poolEl.classList.remove("dragover");});
-    z.addEventListener("drop",e=>{e.preventDefault();const t=z.dataset.tier;
-      if(dragId!=null){place[dragId]=t;render();}
-      document.querySelectorAll(".dragover").forEach(x=>x.classList.remove("dragover"));});
+    z.addEventListener("drop",e=>{
+      e.preventDefault();
+      const t=z.dataset.tier;
+      const id=dragId!=null?dragId:+(e.dataTransfer.getData("text/plain")||0);
+      if(!id)return;
+      removeFromLists(id);
+      const idx=getInsertIndex(z,e.clientX,e.clientY);
+      lists[t].splice(idx,0,id);
+      dragId=null;
+      render();
+      document.querySelectorAll(".dragover").forEach(x=>x.classList.remove("dragover"));
+    });
   });
 }
 
-document.getElementById("sort").addEventListener("change",e=>{sortMode=e.target.value;render();});
+document.getElementById("sort").addEventListener("change",e=>{
+  sortMode=e.target.value;
+  lists.pool=sortPoolIds(lists.pool);
+  render();
+});
 document.getElementById("reset").addEventListener("click",()=>{seedByTotal();render();});
 document.getElementById("auto").addEventListener("click",()=>{seedByTotal();render();});
 document.getElementById("export").addEventListener("click",()=>{
   let out="ARMENIAN KING TIER LIST\n=======================\n";
-  TIERS.forEach(t=>{const ks=KINGS.filter(k=>place[k.id]===t);
-    if(ks.length)out+=`\n[${t}]  `+ks.map(k=>k.name+` (${k.epi.split("\u00b7")[0].trim()})`).join("  \u00b7  ")+"\n";});
-  const u=KINGS.filter(k=>place[k.id]==="pool");
-  if(u.length)out+="\n[Unranked]  "+u.map(k=>k.name).join("  \u00b7  ")+"\n";
+  TIERS.forEach(t=>{
+    if(!lists[t].length)return;
+    out+=`\n[${t}]  `+lists[t].map(id=>{
+      const k=kingById(id);
+      return k?k.name+` (${k.epi.split("\u00b7")[0].trim()})`:"";
+    }).filter(Boolean).join("  \u00b7  ")+"\n";
+  });
+  if(lists.pool.length)out+="\n[Unranked]  "+lists.pool.map(id=>kingById(id)?.name).filter(Boolean).join("  \u00b7  ")+"\n";
   document.getElementById("exporttext").value=out;document.getElementById("modal").classList.add("show");});
 document.getElementById("closebtn").addEventListener("click",()=>document.getElementById("modal").classList.remove("show"));
 document.getElementById("modal").addEventListener("click",e=>{if(e.target.id==="modal")e.target.classList.remove("show");});
