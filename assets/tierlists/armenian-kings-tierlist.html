@@ -95,7 +95,8 @@
   .card-left{
     width:92px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;min-width:0}
   .card-right{
-    flex:1;min-width:0;display:flex;flex-direction:column;justify-content:flex-start}
+    flex:1;min-width:0;display:flex;flex-direction:column;justify-content:flex-start;align-items:flex-start}
+  .attr-panel{display:flex;flex-direction:column;gap:4px;width:fit-content;max-width:100%}
   .portrait{position:relative;width:100%;height:68px;overflow:hidden;border-radius:6px;
     border:1px solid var(--line);
     background:radial-gradient(80px 60px at 50% 35%, #2a1f12, #0e0a06)}
@@ -112,16 +113,19 @@
   .dyn{font-family:"Cinzel",serif;letter-spacing:.03em;text-transform:uppercase}
   .dyn-hy{font-family:"Noto Sans Armenian",sans-serif}
   .reign{font-size:7.5px;color:var(--ink-dim);margin-top:1px;letter-spacing:.02em}
-  .stats{padding:0;display:flex;flex-direction:column;gap:3px}
-  .stat{display:grid;grid-template-columns:28px 34px 12px;align-items:center;gap:3px;min-height:28px}
-  .stat .ico{display:flex;align-items:center;justify-content:center;width:28px;height:28px;flex-shrink:0}
-  .stats .stat .ico img.ck3ico{width:28px;height:28px;max-width:none;max-height:none;object-fit:contain;display:block}
-  .bar{height:2px;border-radius:1px;background:rgba(255,255,255,.07);overflow:hidden;width:100%;max-width:34px}
+  .stats{padding:0;display:flex;flex-direction:column;gap:4px}
+  .stat{display:grid;grid-template-columns:32px 42px 14px;column-gap:4px;align-items:center;min-height:32px}
+  .stat .ico{display:flex;align-items:center;justify-content:center;width:32px;height:32px;flex-shrink:0;line-height:0}
+  .stat .ico img.stat-ico{width:32px!important;height:32px!important;min-width:32px;min-height:32px;object-fit:contain;display:block}
+  .bar{height:2px;border-radius:1px;background:rgba(255,255,255,.07);overflow:hidden;width:42px;max-width:42px}
   .bar i{display:block;height:100%;max-width:100%;border-radius:1px}
-  .stat .v{font-size:7.5px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums;line-height:1}
-  .total{display:flex;justify-content:flex-end;align-items:center;gap:4px;padding:2px 0 0;margin-top:2px;
-    border-top:1px solid rgba(255,255,255,.08);font-size:7.5px;line-height:1;color:var(--ink-dim)}
-  .total b{color:var(--gold-bright);font-family:"Cinzel",serif;font-size:8px}
+  .stat .v{font-size:8px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums;line-height:1}
+  .total{
+    display:grid;grid-template-columns:32px 42px 14px;column-gap:4px;align-items:center;
+    padding:4px 0 0;margin-top:2px;border-top:1px solid rgba(255,255,255,.08);
+    font-size:8px;line-height:1;color:var(--ink-dim);width:100%}
+  .total-lbl{grid-column:2;text-align:right}
+  .total-val{grid-column:3;text-align:right;color:var(--gold-bright);font-family:"Cinzel",serif;font-size:9px;font-weight:700}
   .tierpick{display:flex;gap:2px;padding:2px 5px 4px;border-top:1px solid var(--line);cursor:default}
   .tierpick button{flex:1;font-family:"Cinzel",serif;font-weight:700;font-size:8px;
     border:1px solid var(--line);background:#1a130b;color:var(--ink-dim);border-radius:5px;
@@ -321,7 +325,7 @@ function medallion(k){
 function statRow(k){
   return SKILL.map((s,i)=>{
     const v=k.stats[i],pct=Math.round(v/20*100);
-    return `<div class="stat"><span class="ico"><img class="ck3ico" width="28" height="28" data-skill="${s.key}" alt="${s.name}"></span>
+    return `<div class="stat"><span class="ico"><img class="stat-ico" width="32" height="32" data-skill="${s.key}" alt="${s.name}"></span>
       <span class="bar"><i style="width:${pct}%;background:${s.color}"></i></span>
       <span class="v">${v}</span></div>`;
   }).join("");
@@ -348,8 +352,10 @@ function cardHTML(k){
         </div>
       </div>
       <div class="card-right">
-        <div class="stats">${statRow(k)}</div>
-        <div class="total"><span>Total</span><b>${total(k)}</b></div>
+        <div class="attr-panel">
+          <div class="stats">${statRow(k)}</div>
+          <div class="total"><span class="total-lbl">Total</span><span class="total-val">${total(k)}</span></div>
+        </div>
       </div>
     </div>
     ${tierButtons(k)}
@@ -392,9 +398,13 @@ function sortPoolIds(ids){
 function poolIdsForRender(){return [...lists.pool];}
 
 function applyIcons(scope){
-  (scope||document).querySelectorAll("img.ck3ico").forEach(img=>{
+  (scope||document).querySelectorAll("img[data-skill]").forEach(img=>{
     if(img.dataset.done)return; img.dataset.done="1";
     const k=img.dataset.skill;
+    if(img.classList.contains("stat-ico")){
+      img.style.width="32px";
+      img.style.height="32px";
+    }
     img.onerror=function(){this.onerror=null;this.src=fb(k);};
     img.src=ICON_URL[k];
   });
