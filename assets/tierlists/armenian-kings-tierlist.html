@@ -58,11 +58,11 @@
   button.btn.gold{border-color:var(--gold-bright);color:var(--gold-bright)}
   button.btn.warn{border-color:var(--crimson);color:#e7b3a8}
   .tiers{display:flex;flex-direction:column;gap:10px;margin-top:8px}
-  .tier{display:grid;grid-template-columns:78px 1fr;min-height:96px;
-    border:1px solid var(--line);border-radius:12px;overflow:hidden;
+  .tier{display:grid;grid-template-columns:78px 1fr;align-items:stretch;
+    border:1px solid var(--line);border-radius:12px;overflow:visible;
     background:linear-gradient(180deg,var(--panel),#120d07);transition:.15s}
   .tier.dragover{box-shadow:0 0 0 2px var(--gold-bright) inset, var(--shadow)}
-  .tier .lab{display:flex;align-items:center;justify-content:center;
+  .tier .lab{display:flex;align-items:center;justify-content:center;align-self:stretch;
     font-family:"Cinzel Decorative",serif;font-weight:900;font-size:34px;color:#1a120a;
     text-shadow:0 1px 0 rgba(255,255,255,.25)}
   .tier .drop{display:flex;flex-wrap:wrap;gap:8px;padding:9px;align-content:flex-start}
@@ -89,13 +89,13 @@
   .card:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(0,0,0,.45),0 0 0 1px var(--gold) inset}
   .card.dragging{opacity:.45}
   .card-main{
-    display:flex;flex-direction:row;align-items:stretch;gap:6px;
+    display:flex;flex-direction:row;align-items:flex-start;gap:6px;
     padding:5px 5px 4px;cursor:pointer}
   .card-main:hover .name{color:var(--gold-bright)}
   .card-left{
     width:92px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;min-width:0}
   .card-right{
-    flex:1;min-width:0;display:flex;flex-direction:column;justify-content:space-between}
+    flex:1;min-width:0;display:flex;flex-direction:column;justify-content:flex-start}
   .portrait{position:relative;width:100%;height:68px;overflow:hidden;border-radius:6px;
     border:1px solid var(--line);
     background:radial-gradient(80px 60px at 50% 35%, #2a1f12, #0e0a06)}
@@ -104,23 +104,24 @@
     opacity:0;transition:opacity .55s ease;filter:sepia(.22) saturate(.9) contrast(1.04) brightness(.98)}
   .portrait img.photo.loaded{opacity:1}
   .portrait .vig{position:absolute;inset:0;pointer-events:none;
-    box-shadow:inset 0 0 18px rgba(0,0,0,.55), inset 0 0 0 1px rgba(201,162,75,.25)}
-  .ident{min-width:0;line-height:1.15}
+    box-shadow:inset 0 0 14px rgba(0,0,0,.55), inset 0 0 0 1px rgba(201,162,75,.25)}
+  .ident{min-width:0;line-height:1.12}
   .name{font-family:"Cinzel",serif;font-weight:700;font-size:10px;line-height:1.1;color:var(--ink);transition:color .12s}
-  .name-hy{font-family:"Noto Sans Armenian",sans-serif;font-size:9px;line-height:1.2;color:var(--gold);margin-top:1px}
-  .dyn{font-family:"Cinzel",serif;font-size:8px;color:var(--ink-dim);margin-top:2px;letter-spacing:.04em;text-transform:uppercase}
-  .dyn-hy{font-family:"Noto Sans Armenian",sans-serif;font-size:8px;line-height:1.2;color:var(--ink-dim);margin-top:1px}
-  .reign{font-size:8px;color:var(--ink-dim);margin-top:2px;letter-spacing:.02em}
+  .name-hy{font-family:"Noto Sans Armenian",sans-serif;font-size:9px;line-height:1.15;color:var(--gold);margin-top:1px}
+  .dyn-line{font-size:7.5px;color:var(--ink-dim);margin-top:2px;line-height:1.2}
+  .dyn{font-family:"Cinzel",serif;letter-spacing:.03em;text-transform:uppercase}
+  .dyn-hy{font-family:"Noto Sans Armenian",sans-serif}
+  .reign{font-size:7.5px;color:var(--ink-dim);margin-top:1px;letter-spacing:.02em}
   .stats{padding:0;display:flex;flex-direction:column;gap:1px}
-  .stat{display:grid;grid-template-columns:14px 1fr 12px;align-items:center;gap:3px}
-  .stat .ico{display:flex;align-items:center;justify-content:center;width:14px;height:13px}
-  .ck3ico{width:13px;height:13px;object-fit:contain;display:block}
-  .bar{height:4px;border-radius:2px;background:rgba(255,255,255,.07);overflow:hidden;min-width:48px}
-  .bar i{display:block;height:100%;border-radius:2px}
-  .stat .v{font-size:8px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums}
-  .total{display:flex;justify-content:space-between;align-items:center;padding:3px 0 0;margin-top:2px;
-    border-top:1px solid var(--line);font-size:8px;color:var(--ink-dim)}
-  .total b{color:var(--gold-bright);font-family:"Cinzel",serif;font-size:10px}
+  .stat{display:grid;grid-template-columns:14px 34px 10px;align-items:center;gap:2px}
+  .stat .ico{display:flex;align-items:center;justify-content:center;width:14px;height:14px}
+  .ck3ico{width:14px;height:14px;object-fit:contain;display:block}
+  .bar{height:2px;border-radius:1px;background:rgba(255,255,255,.07);overflow:hidden;width:100%;max-width:34px}
+  .bar i{display:block;height:100%;max-width:100%;border-radius:1px}
+  .stat .v{font-size:7.5px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums;line-height:1}
+  .total{display:flex;justify-content:flex-end;align-items:center;gap:4px;padding:2px 0 0;margin-top:2px;
+    border-top:1px solid rgba(255,255,255,.08);font-size:7.5px;line-height:1;color:var(--ink-dim)}
+  .total b{color:var(--gold-bright);font-family:"Cinzel",serif;font-size:8px}
   .tierpick{display:flex;gap:2px;padding:2px 5px 4px;border-top:1px solid var(--line);cursor:default}
   .tierpick button{flex:1;font-family:"Cinzel",serif;font-weight:700;font-size:8px;
     border:1px solid var(--line);background:#1a130b;color:var(--ink-dim);border-radius:5px;
@@ -342,8 +343,7 @@ function cardHTML(k){
         <div class="ident">
           <div class="name">${k.name}</div>
           <div class="name-hy">${k.nameHy}</div>
-          <div class="dyn">${d.label}</div>
-          <div class="dyn-hy">${d.labelHy}</div>
+          <div class="dyn-line"><span class="dyn">${d.label}</span> · <span class="dyn-hy">${d.labelHy}</span></div>
           <div class="reign">${k.reign}</div>
         </div>
       </div>
