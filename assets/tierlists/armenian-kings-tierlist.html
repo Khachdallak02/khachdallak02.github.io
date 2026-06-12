@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Top 20 Armenian Kings - CK3 Tier-List</title>
+<title>Armenian king tier list</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;900&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Cinzel+Decorative:wght@700;900&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
       repeating-linear-gradient(0deg, rgba(0,0,0,.18) 0 2px, transparent 2px 4px),
       linear-gradient(180deg,var(--bg) 0%, var(--bg2) 100%);
     color:var(--ink);font-family:"EB Garamond",Georgia,serif;
-    -webkit-font-smoothing:antialiased;min-height:100vh;
+    -webkit-font-smoothing:antialiased;
   }
   .wrap{position:relative;z-index:1;max-width:1280px;margin:0 auto;padding:22px 16px 50px}
   header.codex{text-align:center;padding:22px 16px 18px;margin-bottom:16px;
@@ -150,9 +150,7 @@
       <path fill="#8c2b2b" d="M32 12c4 4 9 5 14 5-1 15-6 25-14 33-8-8-13-18-14-33 5 0 10-1 14-5z"/>
       <path fill="#e9c976" d="M32 20l3 6 6 1-4 4 1 6-6-3-6 3 1-6-4-4 6-1z"/>
     </svg>
-    <h1>Top 20 Armenian Kings</h1>
-    <div class="sub">A Crusader Kings III Tier-List &middot; By Depth of the Historical Record</div>
-    <p class="tagline">The twenty best-documented Armenian sovereigns, from Hellenistic antiquity to the fall of Cilicia, each rated on the five Crusader Kings III attributes. Portraits are drawn from surviving coins, statues and manuscript miniatures; the attribute icons are the CK3 game icons. Drag or tap a king into a tier, sort the pool, then export your ranking.</p>
+    <h1>Armenian king tier list</h1>
   </header>
 
   <div class="legend" id="legend"></div>
@@ -259,8 +257,13 @@ const SKILL=[
  {key:"lea",name:"Learning",color:"var(--lea)"}
 ];
 const TIERS=["S","A","B","C","D","F"];
-const place={}; KINGS.forEach(k=>place[k.id]="pool");
 const total=k=>k.stats.reduce((a,b)=>a+b,0);
+const place={};
+function seedByTotal(){
+  KINGS.forEach(k=>{const t=total(k);
+    place[k.id]=t>=78?"S":t>=70?"A":t>=62?"B":t>=54?"C":t>=46?"D":"F";});
+}
+seedByTotal();
 
 document.getElementById("legend").innerHTML = SKILL.map(s=>
   `<span class="lk"><img class="ck3ico" data-skill="${s.key}" alt="${s.name}">${s.name}</span>`).join("");
@@ -371,12 +374,10 @@ function setupZones(){
 }
 
 document.getElementById("sort").addEventListener("change",e=>{sortMode=e.target.value;render();});
-document.getElementById("reset").addEventListener("click",()=>{KINGS.forEach(k=>place[k.id]="pool");render();});
-document.getElementById("auto").addEventListener("click",()=>{
-  KINGS.forEach(k=>{const t=total(k);
-    place[k.id]=t>=78?"S":t>=70?"A":t>=62?"B":t>=54?"C":t>=46?"D":"F";});render();});
+document.getElementById("reset").addEventListener("click",()=>{seedByTotal();render();});
+document.getElementById("auto").addEventListener("click",()=>{seedByTotal();render();});
 document.getElementById("export").addEventListener("click",()=>{
-  let out="TOP 20 ARMENIAN KINGS - TIER LIST\n=================================\n";
+  let out="ARMENIAN KING TIER LIST\n=======================\n";
   TIERS.forEach(t=>{const ks=KINGS.filter(k=>place[k.id]===t);
     if(ks.length)out+=`\n[${t}]  `+ks.map(k=>k.name+` (${k.epi.split("\u00b7")[0].trim()})`).join("  \u00b7  ")+"\n";});
   const u=KINGS.filter(k=>place[k.id]==="pool");
@@ -390,8 +391,9 @@ document.getElementById("copybtn").addEventListener("click",()=>{const ta=docume
 // ---------- auto-resize when embedded in an iframe ----------
 let _ht=0;
 function postHeight(){
-  const h=Math.ceil(document.documentElement.scrollHeight);
-  if(h===_ht)return; _ht=h;
+  const wrap=document.querySelector(".wrap");
+  const h=wrap?Math.ceil(wrap.getBoundingClientRect().height):Math.ceil(document.body.scrollHeight);
+  if(!h||h===_ht)return; _ht=h;
   if(window.parent!==window)window.parent.postMessage({type:"akt-height",height:h},"*");
 }
 window.addEventListener("resize",postHeight);

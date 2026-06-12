@@ -1,5 +1,5 @@
 ---
-title: "Ranking Armenia's 20 best-documented kings: a Crusader Kings III tier list"
+title: "Armenian king tier list"
 collection: opinions
 slug: armenian-kings-tier-list
 date: 2026-06-06
@@ -8,20 +8,33 @@ header:
 share: false
 ---
 
-I have always found that the easiest way to argue about history is to rank it. So here is a small experiment: I took the twenty Armenian kings with the deepest surviving historical record (the ones who actually get a contemporary or near-contemporary chronicler, from Plutarch and Tacitus in antiquity to Kirakos Gandzaketsi and Froissart in the Middle Ages) and rated each of them on the five attributes from *Crusader Kings III*: **Diplomacy**, **Martial**, **Stewardship**, **Intrigue**, and **Learning**. The attribute icons below are the actual CK3 game icons, since that is the metric I am using to score them.
+<style>
+  .ck3-attrs { display: flex; flex-direction: column; gap: 0.65rem; margin: 1.25rem 0 1.5rem; }
+  .ck3-attr { display: flex; align-items: flex-start; gap: 0.75rem; }
+  .ck3-attr img { width: 22px; height: 22px; flex-shrink: 0; margin-top: 0.15rem; }
+  .ck3-attr strong { margin-right: 0.25rem; }
+</style>
 
-Each king sits on a card with a portrait (from surviving coins, statues, and manuscript miniatures), the five CK3 stats, and a one-line biography. You can sort the pool, hit **Auto-seed by Total** for a first pass, then drag or tap each sovereign into the tier you think they deserve and export your own ranking. The numbers are my interpretation, so feel free to overrule them.
+**Why exactly 20 kings?** There are many kings; I wanted to keep the list short to make my research feasible. I selected them by the amount of information available about them from historians and their significance in Armenian history, in my subjective view.
 
-<iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html" title="Top 20 Armenian kings Crusader Kings III tier list" loading="lazy" style="width: 100%; min-height: 1100px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
+Each king is rated on five *Crusader Kings III* attributes:
+
+<div class="ck3-attrs">
+  <div class="ck3-attr"><img src="https://ck3.paradoxwikis.com/images/a/af/Diplomacy.png" alt="Diplomacy" width="22" height="22"><span><strong>Diplomacy</strong> — alliances, negotiation, and keeping neighbours at bay.</span></div>
+  <div class="ck3-attr"><img src="https://ck3.paradoxwikis.com/images/3/3f/Icon_commander_advantage.png" alt="Martial" width="22" height="22"><span><strong>Martial</strong> — battlefield command and personal military prowess.</span></div>
+  <div class="ck3-attr"><img src="https://ck3.paradoxwikis.com/images/a/a3/Icon_tax_collector.png" alt="Stewardship" width="22" height="22"><span><strong>Stewardship</strong> — building the realm, its economy, and its institutions.</span></div>
+  <div class="ck3-attr"><img src="https://ck3.paradoxwikis.com/images/0/0b/Intrigue.png" alt="Intrigue" width="22" height="22"><span><strong>Intrigue</strong> — plots, schemes, and reading the court.</span></div>
+  <div class="ck3-attr"><img src="https://ck3.paradoxwikis.com/images/2/22/Learning.png" alt="Learning" width="22" height="22"><span><strong>Learning</strong> — scholarship, culture, and patronage of knowledge.</span></div>
+</div>
+
+<iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html" title="Armenian king tier list" loading="lazy" style="width: 100%; height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
 
 <script>
 (function () {
   window.addEventListener("message", function (e) {
     if (!e.data || e.data.type !== "akt-height") return;
     var f = document.getElementById("akt-frame");
-    if (f && e.data.height) f.style.height = (e.data.height + 24) + "px";
+    if (f && e.data.height) f.style.height = e.data.height + "px";
   });
 })();
 </script>
-
-A few notes on the scoring. The Cilician diplomats (Levon I, Hethum I) score highest in Diplomacy because their whole survival strategy was negotiation between Crusaders, Byzantium, the Papacy, and the Mongols. The Bagratid builders (Ashot III, Gagik I, Gagik Artsruni) lean into Stewardship for Ani and Aghtamar. Artavasdes II and Hethum II carry the Learning crown as the scholar-kings, while Tigranes II and Ashot II "the Iron" anchor the Martial end. As always, this is opinion dressed up as a spreadsheet.
