@@ -10,6 +10,7 @@ pagination: false
 ---
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@400;600&display=swap');
   .akt-faq { display: flex; flex-direction: column; gap: 1.25rem; margin: 0 0 2rem; }
   .akt-faq-item {
     border: 1px solid rgba(0, 0, 0, 0.12);
@@ -47,6 +48,7 @@ pagination: false
     gap: 1.1rem;
     padding-bottom: 1.75rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    scroll-margin-top: 5.5rem;
   }
   .akt-king:last-child { border-bottom: 0; padding-bottom: 0; }
   .akt-king img {
@@ -58,6 +60,13 @@ pagination: false
     background: #f5f5f5;
   }
   .akt-king h3 { margin: 0 0 0.2rem; font-size: 1.15rem; line-height: 1.3; }
+  .akt-names-hy {
+    margin: 0 0 0.35rem;
+    font-family: "Noto Sans Armenian", sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.35;
+    opacity: 0.88;
+  }
   .akt-reign { margin: 0 0 0.55rem; font-size: 0.92rem; opacity: 0.75; font-style: italic; }
   .akt-king p { margin: 0 0 0.65rem; line-height: 1.6; }
   .akt-skills { margin: 0 0 0.65rem; padding-left: 1.15rem; line-height: 1.55; }
@@ -79,6 +88,11 @@ pagination: false
   .akt-tier-b { background: #d8c24a; color: #1a120a; }
   .akt-tier-c { background: #8fb84a; color: #1a120a; }
   .akt-tier-f { background: #bb8866; color: #1a120a; }
+  .akt-king--flash { animation: aktFlash 1.2s ease; }
+  @keyframes aktFlash {
+    0%, 100% { background: transparent; }
+    35% { background: rgba(201, 162, 75, 0.14); }
+  }
   @media (max-width: 640px) {
     .akt-king { grid-template-columns: 1fr; }
     .akt-king img { width: 100%; max-width: 180px; height: auto; aspect-ratio: 4 / 5; }
@@ -89,7 +103,7 @@ pagination: false
 
 <div class="akt-faq-item">
   <h2>Why exactly 20 kings?</h2>
-  <p>There are many kings; I wanted to keep the list short to make my research feasible. I selected them by the amount of information available about them from historians and their significance in Armenian history, in my subjective view.</p>
+  <p>Armenia had far more than twenty kings; I stopped at twenty so the research stayed manageable. Each entry made the cut for two reasons: the reign is well covered in the sources historians rely on, and I judge it important in the broader arc of Armenian history — with that second criterion openly subjective.</p>
 </div>
 
 <div class="akt-faq-item">
@@ -116,9 +130,21 @@ pagination: false
 <script>
 (function () {
   window.addEventListener("message", function (e) {
-    if (!e.data || e.data.type !== "akt-height") return;
-    var f = document.getElementById("akt-frame");
-    if (f && e.data.height) f.style.height = e.data.height + "px";
+    if (!e.data) return;
+    if (e.data.type === "akt-height") {
+      var f = document.getElementById("akt-frame");
+      if (f && e.data.height) f.style.height = e.data.height + "px";
+      return;
+    }
+    if (e.data.type === "akt-scroll" && e.data.anchor) {
+      var el = document.getElementById(e.data.anchor);
+      if (!el) return;
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      el.classList.remove("akt-king--flash");
+      void el.offsetWidth;
+      el.classList.add("akt-king--flash");
+      window.setTimeout(function () { el.classList.remove("akt-king--flash"); }, 1200);
+    }
   });
 })();
 </script>

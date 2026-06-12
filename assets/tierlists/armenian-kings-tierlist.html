@@ -7,7 +7,7 @@
 <title>Armenian Kings Tier List</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;900&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Cinzel+Decorative:wght@700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;900&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Cinzel+Decorative:wght@700;900&family=Noto+Sans+Armenian:wght@400;600&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#0e0b07;--bg2:#15100a;--panel:#1c150d;--panel2:#241a0f;
@@ -79,43 +79,46 @@
   .pool{display:flex;flex-wrap:wrap;gap:11px;padding:11px;border:1px dashed var(--line);
     border-radius:12px;min-height:120px;background:rgba(0,0,0,.18)}
   .pool.dragover{box-shadow:0 0 0 2px var(--gold-bright) inset}
-  .card{width:132px;border:1px solid var(--line);border-radius:10px;overflow:hidden;
+  .card{
+    width:calc(33.333% - 6px);flex:0 0 calc(33.333% - 6px);
+    border:1px solid var(--line);border-radius:10px;overflow:hidden;
     background:linear-gradient(180deg,var(--panel2),#140e08);cursor:grab;
-    box-shadow:0 6px 14px rgba(0,0,0,.4);transition:transform .12s, box-shadow .12s;
+    box-shadow:0 4px 10px rgba(0,0,0,.35);transition:transform .12s, box-shadow .12s;
     position:relative;animation:rise .5s both}
   @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-  .card:hover{transform:translateY(-3px);box-shadow:0 12px 24px rgba(0,0,0,.55),0 0 0 1px var(--gold) inset}
+  .card:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(0,0,0,.5),0 0 0 1px var(--gold) inset}
   .card.dragging{opacity:.4}
-  .portrait{position:relative;height:96px;overflow:hidden;border-bottom:1px solid var(--line);
-    background:radial-gradient(120px 90px at 50% 35%, #2a1f12, #0e0a06)}
-  .portrait .med{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:64px;height:64px}
+  .card-main{display:flex;gap:6px;padding:5px 5px 4px;align-items:stretch}
+  .card-left{width:92px;flex-shrink:0;display:flex;flex-direction:column;gap:4px;min-width:0}
+  .card-right{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:space-between}
+  .portrait{position:relative;width:100%;height:68px;overflow:hidden;border-radius:6px;
+    border:1px solid var(--line);cursor:pointer;
+    background:radial-gradient(80px 60px at 50% 35%, #2a1f12, #0e0a06)}
+  .portrait:hover{box-shadow:0 0 0 1px var(--gold-bright)}
+  .portrait .med{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:48px;height:48px}
   .portrait img.photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
     opacity:0;transition:opacity .55s ease;filter:sepia(.22) saturate(.9) contrast(1.04) brightness(.98)}
   .portrait img.photo.loaded{opacity:1}
   .portrait .vig{position:absolute;inset:0;pointer-events:none;
-    box-shadow:inset 0 0 26px rgba(0,0,0,.55), inset 0 0 0 1px rgba(201,162,75,.25)}
-  .dyn-rib{position:absolute;top:8px;left:8px;font-family:"Cinzel",serif;font-size:8.5px;
-    letter-spacing:.1em;text-transform:uppercase;padding:2px 7px;border-radius:20px;
-    color:#0e0b07;font-weight:700;box-shadow:0 2px 5px rgba(0,0,0,.5)}
-  .rank-no{position:absolute;top:8px;right:8px;font-family:"Cinzel",serif;font-size:11px;font-weight:700;
-    color:#f3e6c2;background:rgba(0,0,0,.55);border:1px solid rgba(201,162,75,.5);
-    border-radius:20px;padding:1px 7px}
-  .body{padding:8px 10px 0}
-  .name{font-family:"Cinzel",serif;font-weight:700;font-size:11.5px;line-height:1.05;color:var(--ink)}
-  .epi{font-style:italic;font-size:9.5px;color:var(--gold);line-height:1.15;margin-top:2px}
-  .reign{font-size:9px;color:var(--ink-dim);margin-top:2px;letter-spacing:.02em}
-  .stats{padding:5px 7px 4px;display:flex;flex-direction:column;gap:2px}
-  .stat{display:grid;grid-template-columns:18px 1fr 14px;align-items:center;gap:5px}
-  .stat .ico{display:flex;align-items:center;justify-content:center;width:18px;height:16px}
-  .ck3ico{width:16px;height:16px;object-fit:contain;display:block}
-  .bar{height:4px;border-radius:3px;background:rgba(255,255,255,.07);overflow:hidden}
-  .bar i{display:block;height:100%;border-radius:4px}
-  .stat .v{font-size:9px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums}
-  .total{display:flex;justify-content:space-between;align-items:center;padding:4px 7px;
-    border-top:1px solid var(--line);background:rgba(0,0,0,.25);font-size:9px;color:var(--ink-dim)}
-  .total b{color:var(--gold-bright);font-family:"Cinzel",serif;font-size:11px}
-  .tierpick{display:flex;gap:2px;padding:4px 6px 6px;border-top:1px solid var(--line)}
-  .tierpick button{flex:1;font-family:"Cinzel",serif;font-weight:700;font-size:9px;
+    box-shadow:inset 0 0 18px rgba(0,0,0,.55), inset 0 0 0 1px rgba(201,162,75,.25)}
+  .ident{min-width:0}
+  .name{font-family:"Cinzel",serif;font-weight:700;font-size:10px;line-height:1.1;color:var(--ink)}
+  .name-hy{font-family:"Noto Sans Armenian",sans-serif;font-size:9px;line-height:1.2;color:var(--gold);margin-top:1px}
+  .dyn{font-family:"Cinzel",serif;font-size:8px;color:var(--ink-dim);margin-top:2px;letter-spacing:.04em;text-transform:uppercase}
+  .dyn-hy{font-family:"Noto Sans Armenian",sans-serif;font-size:8px;line-height:1.2;color:var(--ink-dim);margin-top:1px}
+  .reign{font-size:8px;color:var(--ink-dim);margin-top:2px;letter-spacing:.02em}
+  .stats{padding:0;display:flex;flex-direction:column;gap:1px}
+  .stat{display:grid;grid-template-columns:14px 1fr 12px;align-items:center;gap:3px}
+  .stat .ico{display:flex;align-items:center;justify-content:center;width:14px;height:13px}
+  .ck3ico{width:13px;height:13px;object-fit:contain;display:block}
+  .bar{height:3px;border-radius:2px;background:rgba(255,255,255,.07);overflow:hidden}
+  .bar i{display:block;height:100%;border-radius:2px}
+  .stat .v{font-size:8px;text-align:right;color:var(--ink-dim);font-variant-numeric:tabular-nums}
+  .total{display:flex;justify-content:space-between;align-items:center;padding:2px 0 0;margin-top:2px;
+    border-top:1px solid var(--line);font-size:8px;color:var(--ink-dim)}
+  .total b{color:var(--gold-bright);font-family:"Cinzel",serif;font-size:10px}
+  .tierpick{display:flex;gap:2px;padding:3px 5px 5px;border-top:1px solid var(--line)}
+  .tierpick button{flex:1;font-family:"Cinzel",serif;font-weight:700;font-size:8px;
     border:1px solid var(--line);background:#1a130b;color:var(--ink-dim);border-radius:5px;
     padding:3px 0;cursor:pointer;transition:.12s}
   .tierpick button:hover{color:var(--ink);border-color:var(--gold)}
@@ -132,8 +135,11 @@
   .modal textarea{width:100%;height:300px;background:#120d07;color:var(--ink);border:1px solid var(--line);
     border-radius:8px;padding:10px;font-family:"EB Garamond",serif;font-size:13px;resize:vertical}
   .modal .row{display:flex;gap:10px;justify-content:flex-end;margin-top:10px}
-  @media (max-width:520px){
-    .card{width:calc(50% - 6px)}
+  @media (max-width:720px){
+    .card{width:calc(50% - 4px);flex:0 0 calc(50% - 4px)}
+  }
+  @media (max-width:480px){
+    .card{width:100%;flex:0 0 100%}
     .tier{grid-template-columns:54px 1fr}.tier .lab{font-size:26px}
   }
 </style>
@@ -211,35 +217,38 @@ const GLYPH = {
 const fb = key => "data:image/svg+xml,"+encodeURIComponent(GLYPH[key](HEX[key]));
 
 const DYN = {
-  Artaxiad:{c:"#7a45ad",label:"Artaxiad"},
-  Arsacid:{c:"#a83232",label:"Arsacid"}, Bagratid:{c:"#2f5ea0",label:"Bagratid"},
-  Vaspurakan:{c:"#1f9684",label:"Artsruni"}, Rubenid:{c:"#c43c22",label:"Rubenid"},
-  Hethumid:{c:"#368a52",label:"Hethumid"}, Lusignan:{c:"#4278b0",label:"Lusignan"}
+  Artaxiad:{c:"#7a45ad",label:"Artaxiad",labelHy:"Արտաշեսյան"},
+  Arsacid:{c:"#a83232",label:"Arsacid",labelHy:"Արշակունի"},
+  Bagratid:{c:"#2f5ea0",label:"Bagratid",labelHy:"Բագրատունի"},
+  Vaspurakan:{c:"#1f9684",label:"Artsruni",labelHy:"Արծրունի"},
+  Rubenid:{c:"#c43c22",label:"Rubenid",labelHy:"Ռուբինյան"},
+  Hethumid:{c:"#368a52",label:"Hethumid",labelHy:"Հեթումյան"},
+  Lusignan:{c:"#4278b0",label:"Lusignan",labelHy:"\u053c\u0578\u057d\u056b\u0576\u0575\u0561\u0576"}
 };
 
 const IMG = "/images/opinions/kings/";
 // stats:[Diplomacy,Martial,Stewardship,Intrigue,Learning]; img = local portrait
 const KINGS = [
- {id:1,name:"Artaxias I",epi:"Artashes the Lawgiver",reign:"c. 190-160 BC",dyn:"Artaxiad",mono:"A\u00b7I",img:IMG+"Artashes_I.png",stats:[13,15,16,10,13],bio:"Founded the Artaxiad dynasty and the capital Artaxata (reputedly laid out by the exiled Hannibal). Set bilingual boundary stones across a unified Armenia."},
- {id:2,name:"Tigranes II",epi:"The Great \u00b7 King of Kings",reign:"95-55 BC",dyn:"Artaxiad",mono:"T\u00b7II",img:IMG+"Tigran_II.jpg",stats:[17,18,17,14,14],bio:"Forged the largest empire in Armenian history - Caspian to the Mediterranean - and built Tigranocerta. The apex of Armenian power."},
- {id:3,name:"Artavasdes II",epi:"The Playwright-King",reign:"55-34 BC",dyn:"Artaxiad",mono:"A\u00b7II",img:IMG+"Artavazd_II.png",stats:[14,11,13,15,18],bio:"Wrote Greek tragedies and histories; balanced Rome and Parthia until Antony betrayed him. Paraded in golden chains and executed by Cleopatra."},
- {id:4,name:"Tiridates I",epi:"Crowned by Nero",reign:"63-88 AD",dyn:"Arsacid",mono:"T\u00b7I",img:IMG+"Trdat_I.jpg",stats:[16,13,13,12,14],bio:"Founder of Arsacid Armenia and a Zoroastrian magus; travelled overland to Rome with 3,000 retainers for a spectacular coronation by Nero."},
- {id:5,name:"Tiridates III",epi:"The Great \u00b7 First Christian King",reign:"c. 298-330 AD",dyn:"Arsacid",mono:"T\u00b7III",img:IMG+"Trdat_III.jpg",stats:[14,16,14,11,13],bio:"Made Armenia the first Christian state (301), converted by Gregory the Illuminator. Famed in tradition for legendary strength."},
- {id:6,name:"Arshak II",epi:"The Defiant",reign:"c. 350-368 AD",dyn:"Arsacid",mono:"Ar\u00b7II",img:IMG+"Arshak_II.jpg",stats:[10,16,11,13,10],bio:"Waged a long war against Shapur II, founded the refuge-city Arshakavan, and died in the Castle of Oblivion. Pavstos Buzand devotes a whole book to him."},
- {id:7,name:"Pap",epi:"The Restorer",reign:"370-374 AD",dyn:"Arsacid",mono:"Pap",img:IMG+"Pap.jpg",stats:[12,13,12,16,9],bio:"Clawed back Armenian autonomy and curbed Church power; cunning to the last - murdered by the Romans at a banquet, as narrated by Ammianus Marcellinus."},
- {id:8,name:"Vramshapuh",epi:"Patron of the Alphabet",reign:"389-417 AD",dyn:"Arsacid",mono:"Vr",img:IMG+"Vramshapuh.jpg",stats:[13,9,13,8,18],bio:"During his reign Mesrop Mashtots created the Armenian alphabet (c. 405) - a civilisational landmark recorded by Koryun."},
- {id:9,name:"Ashot I",epi:"The Great \u00b7 Restorer of the Crown",reign:"884-890",dyn:"Bagratid",mono:"As\u00b7I",img:IMG+"Ashot_I.png",stats:[16,14,14,11,12],bio:"Revived the Armenian crown after centuries of vassalage, recognised as king by both the Abbasid Caliph and the Byzantine Emperor."},
- {id:10,name:"Smbat I",epi:"The Martyr",reign:"890-914",dyn:"Bagratid",mono:"Sm\u00b7I",img:IMG+"Smbat_I.jpg",stats:[13,12,12,9,11],bio:"Expanded the realm but was captured and tortured to death by the emir Yusuf, who hung his body from the walls of Dvin - the Martyr-king."},
- {id:11,name:"Ashot II",epi:"The Iron",reign:"914-929",dyn:"Bagratid",mono:"As\u00b7II",img:IMG+"Ashot_II.jpeg",stats:[12,17,11,11,10],bio:"Drove out the Sajid armies in a brutal counter-offensive and was recognised as Shahanshah, King of Kings of Armenia."},
- {id:12,name:"Gagik Artsruni",epi:"of Vaspurakan \u00b7 Builder of Aghtamar",reign:"908-943",dyn:"Vaspurakan",mono:"G\u00b7A",img:IMG+"Gagik_I_Artsrun%D5%AB.jpg",stats:[14,13,17,11,15],bio:"Founded the independent Kingdom of Vaspurakan and raised the Holy Cross church on Aghtamar island - a jewel of medieval Armenian art."},
- {id:13,name:"Ashot III",epi:"The Merciful",reign:"953-977",dyn:"Bagratid",mono:"As\u00b7III",img:IMG+"Ashot_III.jpg",stats:[15,12,17,10,14],bio:"Moved the capital to Ani and earned his epithet through monasteries, hospitals and almshouses; Ani begins its rise to the city of a thousand churches."},
- {id:14,name:"Gagik I",epi:"The Golden Age",reign:"989-1020",dyn:"Bagratid",mono:"G\u00b7I",img:IMG+"Gagik_I.jpg",stats:[16,14,17,12,15],bio:"The long, stable, prosperous reign at the apex of Bagratid Ani; under him the cathedral was completed and the city swelled past 100,000."},
- {id:15,name:"Gagik II",epi:"The Last of Ani",reign:"1042-1045",dyn:"Bagratid",mono:"G\u00b7II",img:IMG+"Gagik_II.jpg",stats:[8,10,8,7,11],bio:"The last Bagratid king of Ani; lured to Constantinople, pressured to abdicate, and murdered in exile. Ani fell to Byzantium soon after."},
- {id:16,name:"Levon I",epi:"The Magnificent \u00b7 First King of Cilicia",reign:"1198-1219",dyn:"Rubenid",mono:"L\u00b7I",img:IMG+"Levon_I.gif",stats:[18,15,16,14,13],bio:"First crowned King of Cilician Armenia in 1198, recognised by the Holy Roman Empire, the Papacy and Byzantium. A master diplomat."},
- {id:17,name:"Hethum I",epi:"The Mongol Envoy",reign:"1226-1270",dyn:"Hethumid",mono:"H\u00b7I",img:IMG+"Hetum_I.jpg",stats:[17,13,14,15,13],bio:"Travelled across Asia to Karakorum and allied Cilicia with the Mongols - shrewd realpolitik that bought decades of survival against the Mamluks."},
- {id:18,name:"Levon II",epi:"Cilicia's Zenith",reign:"1269-1289",dyn:"Hethumid",mono:"L\u00b7II",img:IMG+"Leon_II.jpg",stats:[15,14,16,12,13],bio:"Cilicia's cultural and economic golden age and patron of Toros Roslin's manuscript workshop, even as Mamluk pressure intensified."},
- {id:19,name:"Hethum II",epi:"The Friar-King",reign:"1289-1307",dyn:"Hethumid",mono:"H\u00b7II",img:IMG+"Hetoum_II.jpg",stats:[12,10,10,11,16],bio:"Abdicated and returned to the throne three times and took Franciscan vows; erudite but politically unstable. Assassinated near Anazarbus."},
- {id:20,name:"Levon V",epi:"The Last King \u00b7 Exile in Paris",reign:"1374-1375",dyn:"Lusignan",mono:"L\u00b7V",img:IMG+"Levon_V.jpg",stats:[13,11,9,11,12],bio:"The last king of Armenia; Sis fell to the Mamluks. He died an exile in Paris and was entombed among the kings of France at Saint-Denis."}
+ {id:1,anchor:"king-artaxias-i",name:"Artaxias I",nameHy:"\u0531\u0580\u057f\u0561\u0577\u0565\u057d \u0531",epi:"Artashes the Lawgiver",reign:"c. 190-160 BC",dyn:"Artaxiad",mono:"A\u00b7I",img:IMG+"Artashes_I.png",stats:[13,15,16,10,13],bio:"Founded the Artaxiad dynasty and the capital Artaxata (reputedly laid out by the exiled Hannibal). Set bilingual boundary stones across a unified Armenia."},
+ {id:2,anchor:"king-tigranes-ii",name:"Tigranes II",nameHy:"\u054f\u056b\u0563\u0580\u0561\u0576 \u0532",epi:"The Great \u00b7 King of Kings",reign:"95-55 BC",dyn:"Artaxiad",mono:"T\u00b7II",img:IMG+"Tigran_II.jpg",stats:[17,18,17,14,14],bio:"Forged the largest empire in Armenian history - Caspian to the Mediterranean - and built Tigranocerta. The apex of Armenian power."},
+ {id:3,anchor:"king-artavasdes-ii",name:"Artavasdes II",nameHy:"\u0531\u0580\u057f\u0561\u057e\u0561\u0566\u0564 \u0532",epi:"The Playwright-King",reign:"55-34 BC",dyn:"Artaxiad",mono:"A\u00b7II",img:IMG+"Artavazd_II.png",stats:[14,11,13,15,18],bio:"Wrote Greek tragedies and histories; balanced Rome and Parthia until Antony betrayed him. Paraded in golden chains and executed by Cleopatra."},
+ {id:4,anchor:"king-tiridates-i",name:"Tiridates I",nameHy:"\u054d\u0580\u0564\u0561\u057f \u0531",epi:"Crowned by Nero",reign:"63-88 AD",dyn:"Arsacid",mono:"T\u00b7I",img:IMG+"Trdat_I.jpg",stats:[16,13,13,12,14],bio:"Founder of Arsacid Armenia and a Zoroastrian magus; travelled overland to Rome with 3,000 retainers for a spectacular coronation by Nero."},
+ {id:5,anchor:"king-tiridates-iii",name:"Tiridates III",nameHy:"\u054d\u0580\u0564\u0561\u057f \u0533",epi:"The Great \u00b7 First Christian King",reign:"c. 298-330 AD",dyn:"Arsacid",mono:"T\u00b7III",img:IMG+"Trdat_III.jpg",stats:[14,16,14,11,13],bio:"Made Armenia the first Christian state (301), converted by Gregory the Illuminator. Famed in tradition for legendary strength."},
+ {id:6,anchor:"king-arshak-ii",name:"Arshak II",nameHy:"\u0531\u0580\u0577\u0561\u056f \u0532",epi:"The Defiant",reign:"c. 350-368 AD",dyn:"Arsacid",mono:"Ar\u00b7II",img:IMG+"Arshak_II.jpg",stats:[10,16,11,13,10],bio:"Waged a long war against Shapur II, founded the refuge-city Arshakavan, and died in the Castle of Oblivion. Pavstos Buzand devotes a whole book to him."},
+ {id:7,anchor:"king-pap",name:"Pap",nameHy:"\u054a\u0561\u057a",epi:"The Restorer",reign:"370-374 AD",dyn:"Arsacid",mono:"Pap",img:IMG+"Pap.jpg",stats:[12,13,12,16,9],bio:"Clawed back Armenian autonomy and curbed Church power; cunning to the last - murdered by the Romans at a banquet, as narrated by Ammianus Marcellinus."},
+ {id:8,anchor:"king-vramshapuh",name:"Vramshapuh",nameHy:"\u054e\u0580\u0561\u0574\u0577\u0561\u057a\u0578\u0582\u0570",epi:"Patron of the Alphabet",reign:"389-417 AD",dyn:"Arsacid",mono:"Vr",img:IMG+"Vramshapuh.jpg",stats:[13,9,13,8,18],bio:"During his reign Mesrop Mashtots created the Armenian alphabet (c. 405) - a civilisational landmark recorded by Koryun."},
+ {id:9,anchor:"king-ashot-i",name:"Ashot I",nameHy:"\u0531\u0577\u0578\u057f \u0531",epi:"The Great \u00b7 Restorer of the Crown",reign:"884-890",dyn:"Bagratid",mono:"As\u00b7I",img:IMG+"Ashot_I.png",stats:[16,14,14,11,12],bio:"Revived the Armenian crown after centuries of vassalage, recognised as king by both the Abbasid Caliph and the Byzantine Emperor."},
+ {id:10,anchor:"king-smbat-i",name:"Smbat I",nameHy:"\u054d\u0574\u0562\u0561\u057f \u0531",epi:"The Martyr",reign:"890-914",dyn:"Bagratid",mono:"Sm\u00b7I",img:IMG+"Smbat_I.jpg",stats:[13,12,12,9,11],bio:"Expanded the realm but was captured and tortured to death by the emir Yusuf, who hung his body from the walls of Dvin - the Martyr-king."},
+ {id:11,anchor:"king-ashot-ii",name:"Ashot II",nameHy:"\u0531\u0577\u0578\u057f \u0532",epi:"The Iron",reign:"914-929",dyn:"Bagratid",mono:"As\u00b7II",img:IMG+"Ashot_II.jpeg",stats:[12,17,11,11,10],bio:"Drove out the Sajid armies in a brutal counter-offensive and was recognised as Shahanshah, King of Kings of Armenia."},
+ {id:12,anchor:"king-gagik-artsruni",name:"Gagik Artsruni",nameHy:"\u0533\u0561\u0563\u056b\u056f \u0531\u0580\u0581\u0580\u0578\u0582\u0576\u056b",epi:"of Vaspurakan \u00b7 Builder of Aghtamar",reign:"908-943",dyn:"Vaspurakan",mono:"G\u00b7A",img:IMG+"Gagik_I_Artsrun%D5%AB.jpg",stats:[14,13,17,11,15],bio:"Founded the independent Kingdom of Vaspurakan and raised the Holy Cross church on Aghtamar island - a jewel of medieval Armenian art."},
+ {id:13,anchor:"king-ashot-iii",name:"Ashot III",nameHy:"\u0531\u0577\u0578\u057f \u0533",epi:"The Merciful",reign:"953-977",dyn:"Bagratid",mono:"As\u00b7III",img:IMG+"Ashot_III.jpg",stats:[15,12,17,10,14],bio:"Moved the capital to Ani and earned his epithet through monasteries, hospitals and almshouses; Ani begins its rise to the city of a thousand churches."},
+ {id:14,anchor:"king-gagik-i",name:"Gagik I",nameHy:"\u0533\u0561\u0563\u056b\u056f \u0531",epi:"The Golden Age",reign:"989-1020",dyn:"Bagratid",mono:"G\u00b7I",img:IMG+"Gagik_I.jpg",stats:[16,14,17,12,15],bio:"The long, stable, prosperous reign at the apex of Bagratid Ani; under him the cathedral was completed and the city swelled past 100,000."},
+ {id:15,anchor:"king-gagik-ii",name:"Gagik II",nameHy:"\u0533\u0561\u0563\u056b\u056f \u0532",epi:"The Last of Ani",reign:"1042-1045",dyn:"Bagratid",mono:"G\u00b7II",img:IMG+"Gagik_II.jpg",stats:[8,10,8,7,11],bio:"The last Bagratid king of Ani; lured to Constantinople, pressured to abdicate, and murdered in exile. Ani fell to Byzantium soon after."},
+ {id:16,anchor:"king-levon-i",name:"Levon I",nameHy:"\u053c\u0565\u057e\u0578\u0576 \u0531",epi:"The Magnificent \u00b7 First King of Cilicia",reign:"1198-1219",dyn:"Rubenid",mono:"L\u00b7I",img:IMG+"Levon_I.gif",stats:[18,15,16,14,13],bio:"First crowned King of Cilician Armenia in 1198, recognised by the Holy Roman Empire, the Papacy and Byzantium. A master diplomat."},
+ {id:17,anchor:"king-hethum-i",name:"Hethum I",nameHy:"\u0540\u0565\u0569\u0578\u0582\u0574 \u0531",epi:"The Mongol Envoy",reign:"1226-1270",dyn:"Hethumid",mono:"H\u00b7I",img:IMG+"Hetum_I.jpg",stats:[17,13,14,15,13],bio:"Travelled across Asia to Karakorum and allied Cilicia with the Mongols - shrewd realpolitik that bought decades of survival against the Mamluks."},
+ {id:18,anchor:"king-levon-ii",name:"Levon II",nameHy:"\u053c\u0565\u057e\u0578\u0576 \u0532",epi:"Cilicia's Zenith",reign:"1269-1289",dyn:"Hethumid",mono:"L\u00b7II",img:IMG+"Leon_II.jpg",stats:[15,14,16,12,13],bio:"Cilicia's cultural and economic golden age and patron of Toros Roslin's manuscript workshop, even as Mamluk pressure intensified."},
+ {id:19,anchor:"king-hethum-ii",name:"Hethum II",nameHy:"\u0540\u0565\u0569\u0578\u0582\u0574 \u0532",epi:"The Friar-King",reign:"1289-1307",dyn:"Hethumid",mono:"H\u00b7II",img:IMG+"Hetoum_II.jpg",stats:[12,10,10,11,16],bio:"Abdicated and returned to the throne three times and took Franciscan vows; erudite but politically unstable. Assassinated near Anazarbus."},
+ {id:20,anchor:"king-levon-v",name:"Levon V",nameHy:"\u053c\u0565\u057e\u0578\u0576 \u0535",epi:"The Last King \u00b7 Exile in Paris",reign:"1374-1375",dyn:"Lusignan",mono:"L\u00b7V",img:IMG+"Levon_V.jpg",stats:[13,11,9,11,12],bio:"The last king of Armenia; Sis fell to the Mamluks. He died an exile in Paris and was entombed among the kings of France at Saint-Denis."}
 ];
 
 const SKILL=[
@@ -287,23 +296,39 @@ function tierButtons(k){
 }
 function cardHTML(k){
   const d=DYN[k.dyn];
-  return `<div class="card" draggable="true" data-id="${k.id}">
-    <div class="portrait">
-      ${medallion(k)}
-      <img class="photo" alt="${k.name}" data-id="${k.id}">
-      <span class="dyn-rib" style="background:${d.c}">${d.label}</span>
-      <span class="rank-no">#${k.id}</span>
-      <span class="vig"></span>
+  return `<div class="card" draggable="true" data-id="${k.id}" data-anchor="${k.anchor}">
+    <div class="card-main">
+      <div class="card-left">
+        <div class="portrait" title="View profile">
+          ${medallion(k)}
+          <img class="photo" alt="${k.name}" data-id="${k.id}">
+          <span class="vig"></span>
+        </div>
+        <div class="ident">
+          <div class="name">${k.name}</div>
+          <div class="name-hy">${k.nameHy}</div>
+          <div class="dyn">${d.label}</div>
+          <div class="dyn-hy">${d.labelHy}</div>
+          <div class="reign">${k.reign}</div>
+        </div>
+      </div>
+      <div class="card-right">
+        <div class="stats">${statRow(k)}</div>
+        <div class="total"><span>Total</span><b>${total(k)}</b></div>
+      </div>
     </div>
-    <div class="body">
-      <div class="name">${k.name}</div>
-      <div class="epi">${k.epi}</div>
-      <div class="reign">${k.reign}</div>
-    </div>
-    <div class="stats">${statRow(k)}</div>
-    <div class="total"><span>Total</span><b>${total(k)}</b></div>
     ${tierButtons(k)}
   </div>`;
+}
+
+function jumpToProfile(anchor){
+  if(!anchor)return;
+  if(window.parent!==window){
+    window.parent.postMessage({type:"akt-scroll",anchor:anchor},"*");
+  }else{
+    const el=document.getElementById(anchor);
+    if(el)el.scrollIntoView({behavior:"smooth",block:"start"});
+  }
 }
 
 const tiersEl=document.getElementById("tiers");
@@ -347,8 +372,18 @@ function render(){
 let dragId=null;
 function bindCards(){
   document.querySelectorAll(".card").forEach(c=>{
-    c.addEventListener("dragstart",e=>{dragId=+c.dataset.id;c.classList.add("dragging");e.dataTransfer.effectAllowed="move";});
+    c.addEventListener("dragstart",e=>{
+      if(e.target.closest(".portrait")){e.preventDefault();return;}
+      dragId=+c.dataset.id;c.classList.add("dragging");e.dataTransfer.effectAllowed="move";
+    });
     c.addEventListener("dragend",()=>{dragId=null;document.querySelectorAll(".card").forEach(x=>x.classList.remove("dragging"));});
+    const portrait=c.querySelector(".portrait");
+    if(portrait){
+      portrait.addEventListener("click",e=>{
+        e.preventDefault();e.stopPropagation();
+        jumpToProfile(c.dataset.anchor);
+      });
+    }
   });
   document.querySelectorAll(".tierpick button").forEach(b=>{
     b.addEventListener("click",e=>{e.stopPropagation();place[+b.dataset.id]=b.dataset.t;render();});
