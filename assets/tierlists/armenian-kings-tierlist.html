@@ -208,12 +208,13 @@
 </div>
 <script>
 // ---------- Real CK3 attribute icons (CK3 Wiki) + drawn fallbacks ----------
-const ICON_URL = {
-  dip:"https://ck3.paradoxwikis.com/images/a/af/Diplomacy.png",
-  mar:"https://ck3.paradoxwikis.com/images/3/3f/Icon_commander_advantage.png",
-  ste:"https://ck3.paradoxwikis.com/images/a/a3/Icon_tax_collector.png",
-  int:"https://ck3.paradoxwikis.com/images/0/0b/Intrigue.png",
-  lea:"https://ck3.paradoxwikis.com/images/2/22/Learning.png"
+const ICON_BASE="/images/opinions/ck3/";
+const ICON_URL={
+  dip:ICON_BASE+"diplomacy.png",
+  mar:ICON_BASE+"martial.png",
+  ste:ICON_BASE+"stewardship.png",
+  int:ICON_BASE+"intrigue.png",
+  lea:ICON_BASE+"learning.png"
 };
 const HEX = {dip:"#5aa0d0",mar:"#cf4438",ste:"#e0b13c",int:"#9b76c4",lea:"#46b48a"};
 const GLYPH = {

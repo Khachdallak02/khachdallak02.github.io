@@ -116,15 +116,15 @@ pagination: false
 <p class="akt-attrs-title">The five attributes:</p>
 
 <div class="akt-attrs">
-  <div class="akt-attr"><img src="https://ck3.paradoxwikis.com/images/a/af/Diplomacy.png" alt="Diplomacy" width="22" height="22"><span><strong>Diplomacy</strong> — alliances, negotiation, and keeping neighbours at bay.</span></div>
-  <div class="akt-attr"><img src="https://ck3.paradoxwikis.com/images/3/3f/Icon_commander_advantage.png" alt="Martial" width="22" height="22"><span><strong>Martial</strong> — battlefield command and personal military prowess.</span></div>
-  <div class="akt-attr"><img src="https://ck3.paradoxwikis.com/images/a/a3/Icon_tax_collector.png" alt="Stewardship" width="22" height="22"><span><strong>Stewardship</strong> — building the realm, its economy, and its institutions.</span></div>
-  <div class="akt-attr"><img src="https://ck3.paradoxwikis.com/images/0/0b/Intrigue.png" alt="Intrigue" width="22" height="22"><span><strong>Intrigue</strong> — plots, schemes, and reading the court.</span></div>
-  <div class="akt-attr"><img src="https://ck3.paradoxwikis.com/images/2/22/Learning.png" alt="Learning" width="22" height="22"><span><strong>Learning</strong> — scholarship, culture, and patronage of knowledge.</span></div>
+  <div class="akt-attr"><img src="/images/opinions/ck3/diplomacy.png" alt="Diplomacy" width="22" height="22"><span><strong>Diplomacy</strong> — alliances, negotiation, and keeping neighbours at bay.</span></div>
+  <div class="akt-attr"><img src="/images/opinions/ck3/martial.png" alt="Martial" width="22" height="22"><span><strong>Martial</strong> — battlefield command and personal military prowess.</span></div>
+  <div class="akt-attr"><img src="/images/opinions/ck3/stewardship.png" alt="Stewardship" width="22" height="22"><span><strong>Stewardship</strong> — building the realm, its economy, and its institutions.</span></div>
+  <div class="akt-attr"><img src="/images/opinions/ck3/intrigue.png" alt="Intrigue" width="22" height="22"><span><strong>Intrigue</strong> — plots, schemes, and reading the court.</span></div>
+  <div class="akt-attr"><img src="/images/opinions/ck3/learning.png" alt="Learning" width="22" height="22"><span><strong>Learning</strong> — scholarship, culture, and patronage of knowledge.</span></div>
 </div>
 
 <div class="akt-tierlist-wrap">
-  <iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html?v=7" title="Armenian Kings Tier List" loading="lazy" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
+  <iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html?v=8" title="Armenian Kings Tier List" loading="lazy" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
 </div>
 
 <h2 class="akt-profiles-head">King profiles</h2>
