@@ -15,10 +15,14 @@ pagination: false
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@400;600&display=swap');
   .akt-faq { display: flex; flex-direction: column; gap: 1.25rem; margin: 0 0 2rem; }
   .akt-faq-item {
-    border: 1px solid rgba(0, 0, 0, 0.12);
+    border: 1px solid var(--global-border-color);
     border-radius: 10px;
     padding: 1rem 1.15rem 1.05rem;
     background: rgba(0, 0, 0, 0.02);
+  }
+  html[data-theme="dark"] .akt-faq-item {
+    border-color: rgba(255, 255, 255, 0.16);
+    background: rgba(255, 255, 255, 0.06);
   }
   .akt-faq-item h2 {
     margin: 0 0 0.55rem;
@@ -27,16 +31,20 @@ pagination: false
     line-height: 1.35;
   }
   .akt-faq-item p { margin: 0; line-height: 1.6; }
-  .akt-attrs-title { margin: 0 0 0.75rem; font-size: 1.05rem; }
+  .akt-faq-item .akt-faq-subhead {
+    margin: 1.4rem 0 0.55rem;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+    line-height: 1.35;
+  }
   .akt-attrs {
     display: flex;
     flex-direction: column;
     gap: 0.65rem;
-    margin: 0 0 2rem;
-    padding: 1rem 1.15rem;
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    border-radius: 10px;
-    background: rgba(0, 0, 0, 0.02);
+    margin: 0.85rem 0 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
   }
   .akt-attr { display: flex; align-items: flex-start; gap: 0.75rem; }
   .akt-attr img { width: 22px; height: 22px; flex-shrink: 0; margin-top: 0.15rem; }
@@ -49,8 +57,11 @@ pagination: false
     grid-template-columns: 120px 1fr;
     gap: 1.1rem;
     padding-bottom: 1.75rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid var(--global-border-color);
     scroll-margin-top: 5.5rem;
+  }
+  html[data-theme="dark"] .akt-king {
+    border-bottom-color: rgba(255, 255, 255, 0.12);
   }
   .akt-king:last-child { border-bottom: 0; padding-bottom: 0; }
   .akt-king img {
@@ -58,8 +69,12 @@ pagination: false
     height: 150px;
     object-fit: cover;
     border-radius: 8px;
-    border: 1px solid rgba(0, 0, 0, 0.12);
+    border: 1px solid var(--global-border-color);
     background: #f5f5f5;
+  }
+  html[data-theme="dark"] .akt-king img {
+    border-color: rgba(255, 255, 255, 0.14);
+    background: #1a1a1a;
   }
   .akt-king h3 { margin: 0 0 0.2rem; font-size: 1.15rem; line-height: 1.3; }
   .akt-names-hy {
@@ -104,25 +119,21 @@ pagination: false
 <div class="akt-faq">
 
 <div class="akt-faq-item">
-  <h2>Why exactly 20 kings?</h2>
-  <p>Armenia had far more than twenty kings; I stopped at twenty so the research stayed manageable. Each entry made the cut for two reasons: the reign is well covered in the sources historians rely on, and I judge it important in the broader arc of Armenian history — with that second criterion openly subjective.</p>
+  <h2>Why exactly 21 kings?</h2>
+  <p>Unfortunately, what we know about many Armenian kings is very limited. Kosrov II is a good example: Roman and Persian sources often confuse him with his grandfather, Khosrov I. Almost nothing survives about his life before he became king, and not much more about his reign — mostly from two Armenian historians, Pavstos Buzand (Փավստոս Բուզանդ) and Movses Khorenatsi (Մովսես Խորենացի). I had to make a subjective choice based on publicly available material and on how important I think each reign was. That is how I ended up with twenty-one kings.</p>
+
+  <h2 class="akt-faq-subhead">Why exactly Crusader Kings III attributes?</h2>
+  <p>In CK3 every ruler is defined by five attributes — the main directions a leader can be strong in. That makes it easier to compare kings when one was good in battle and another was better at building cities.</p>
+
+  <div class="akt-attrs">
+    <div class="akt-attr"><img src="/images/opinions/ck3/diplomacy.png" alt="Diplomacy" width="22" height="22"><span><strong>Diplomacy</strong> — alliances, negotiation, and keeping neighbours at bay.</span></div>
+    <div class="akt-attr"><img src="/images/opinions/ck3/martial.png" alt="Martial" width="22" height="22"><span><strong>Martial</strong> — battlefield command and personal military prowess.</span></div>
+    <div class="akt-attr"><img src="/images/opinions/ck3/stewardship.png" alt="Stewardship" width="22" height="22"><span><strong>Stewardship</strong> — building the realm, its economy, and its institutions.</span></div>
+    <div class="akt-attr"><img src="/images/opinions/ck3/intrigue.png" alt="Intrigue" width="22" height="22"><span><strong>Intrigue</strong> — plots, schemes, and reading the court.</span></div>
+    <div class="akt-attr"><img src="/images/opinions/ck3/learning.png" alt="Learning" width="22" height="22"><span><strong>Learning</strong> — scholarship, culture, and patronage of knowledge.</span></div>
+  </div>
 </div>
 
-<div class="akt-faq-item">
-  <h2>Why exactly Crusader Kings III attributes?</h2>
-  <p>CK3 gives every ruler five comparable axes — diplomacy, war, state-building, scheming, and learning — which map cleanly onto what chronicles actually praise or blame. It turns vague “great king” arguments into something you can rank, disagree with, and defend.</p>
-</div>
-
-</div>
-
-<p class="akt-attrs-title">The five attributes:</p>
-
-<div class="akt-attrs">
-  <div class="akt-attr"><img src="/images/opinions/ck3/diplomacy.png" alt="Diplomacy" width="22" height="22"><span><strong>Diplomacy</strong> — alliances, negotiation, and keeping neighbours at bay.</span></div>
-  <div class="akt-attr"><img src="/images/opinions/ck3/martial.png" alt="Martial" width="22" height="22"><span><strong>Martial</strong> — battlefield command and personal military prowess.</span></div>
-  <div class="akt-attr"><img src="/images/opinions/ck3/stewardship.png" alt="Stewardship" width="22" height="22"><span><strong>Stewardship</strong> — building the realm, its economy, and its institutions.</span></div>
-  <div class="akt-attr"><img src="/images/opinions/ck3/intrigue.png" alt="Intrigue" width="22" height="22"><span><strong>Intrigue</strong> — plots, schemes, and reading the court.</span></div>
-  <div class="akt-attr"><img src="/images/opinions/ck3/learning.png" alt="Learning" width="22" height="22"><span><strong>Learning</strong> — scholarship, culture, and patronage of knowledge.</span></div>
 </div>
 
 <div class="akt-tierlist-wrap">

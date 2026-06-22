@@ -14,8 +14,16 @@ author_profile: true
   font-weight: 600;
   text-align: center;
   letter-spacing: -0.01em;
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.65rem;
   line-height: 1.2;
+}
+
+.opinions-subtitle {
+  text-align: center;
+  margin: 0 0 2.5rem;
+  font-size: 0.9em;
+  color: var(--global-text-color-light);
+  line-height: 1.5;
 }
 
 #opinions-container {
@@ -33,9 +41,7 @@ author_profile: true
 }
 </style>
 
-<div style="text-align: center; margin-bottom: 40px;">
-  <p style="font-size: 0.9em; color: var(--global-text-color-light); margin-top: -10px; margin-bottom: 0;">Thoughts on artificial neurons, battlefield tactics, and everything in between</p>
-</div>
+<p class="opinions-subtitle">Thoughts on artificial neurons, battlefield tactics, and everything in between</p>
 
 {% if site.opinions %}
   {% assign opinions = site.opinions | sort: 'date' | reverse %}
