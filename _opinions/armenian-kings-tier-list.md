@@ -77,17 +77,103 @@ pagination: false
     background: #1a1a1a;
   }
   .akt-king h3 { margin: 0 0 0.2rem; font-size: 1.15rem; line-height: 1.3; }
+  .akt-dynasty {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.12rem 0.45rem;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin: 0 0.2rem 0 0.3rem;
+  }
+  .akt-dynasty-hy {
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+  .akt-dynasty-hy.akt-dynasty--artaxiad { color: #3d6f7d; }
+  .akt-dynasty-hy.akt-dynasty--arsacid { color: #5c4a7a; }
+  .akt-dynasty-hy.akt-dynasty--bagratid { color: #7a3d55; }
+  .akt-dynasty-hy.akt-dynasty--artsruni { color: #6b5a3c; }
+  .akt-dynasty-hy.akt-dynasty--rubenid { color: #8f3d5a; }
+  .akt-dynasty-hy.akt-dynasty--hethumid { color: #3d5a82; }
+  .akt-dynasty-hy.akt-dynasty--lusignan { color: #45458f; }
+  html[data-theme="dark"] .akt-dynasty-hy.akt-dynasty--artaxiad { color: #8ec8d8; }
+  html[data-theme="dark"] .akt-dynasty-hy.akt-dynasty--arsacid { color: #b8a8d8; }
+  html[data-theme="dark"] .akt-dynasty-hy.akt-dynasty--bagratid { color: #d8a0b8; }
+  html[data-theme="dark"] .akt-dynasty-hy.akt-dynasty--artsruni { color: #d0b888; }
+  html[data-theme="dark"] .akt-dynasty-hy.akt-dynasty--rubenid { color: #e8a0b8; }
+  html[data-theme="dark"] .akt-dynasty-hy.akt-dynasty--hethumid { color: #a8c0e0; }
+  html[data-theme="dark"] .akt-dynasty-hy.akt-dynasty--lusignan { color: #b8b8e8; }
+  .akt-dynasty.akt-dynasty--artaxiad { background: rgba(74, 124, 140, 0.2); color: #3d6f7d; }
+  .akt-dynasty.akt-dynasty--arsacid { background: rgba(109, 91, 141, 0.2); color: #5c4a7a; }
+  .akt-dynasty.akt-dynasty--bagratid { background: rgba(139, 74, 98, 0.2); color: #7a3d55; }
+  .akt-dynasty.akt-dynasty--artsruni { background: rgba(122, 104, 72, 0.22); color: #6b5a3c; }
+  .akt-dynasty.akt-dynasty--rubenid { background: rgba(166, 77, 107, 0.2); color: #8f3d5a; }
+  .akt-dynasty.akt-dynasty--hethumid { background: rgba(77, 109, 148, 0.2); color: #3d5a82; }
+  .akt-dynasty.akt-dynasty--lusignan { background: rgba(90, 90, 158, 0.2); color: #45458f; }
+  html[data-theme="dark"] .akt-dynasty.akt-dynasty--artaxiad { background: rgba(126, 184, 200, 0.18); color: #8ec8d8; }
+  html[data-theme="dark"] .akt-dynasty.akt-dynasty--arsacid { background: rgba(164, 148, 196, 0.18); color: #b8a8d8; }
+  html[data-theme="dark"] .akt-dynasty.akt-dynasty--bagratid { background: rgba(196, 130, 154, 0.18); color: #d8a0b8; }
+  html[data-theme="dark"] .akt-dynasty.akt-dynasty--artsruni { background: rgba(184, 162, 120, 0.18); color: #d0b888; }
+  html[data-theme="dark"] .akt-dynasty.akt-dynasty--rubenid { background: rgba(208, 120, 148, 0.18); color: #e8a0b8; }
+  html[data-theme="dark"] .akt-dynasty.akt-dynasty--hethumid { background: rgba(120, 154, 196, 0.18); color: #a8c0e0; }
+  html[data-theme="dark"] .akt-dynasty.akt-dynasty--lusignan { background: rgba(140, 140, 208, 0.18); color: #b8b8e8; }
   .akt-names-hy {
-    margin: 0 0 0.35rem;
+    margin: 0 0 0.2rem;
     font-family: "Noto Sans Armenian", sans-serif;
     font-size: 0.95rem;
     line-height: 1.35;
-    opacity: 0.88;
+    opacity: 0.9;
   }
-  .akt-reign { margin: 0 0 0.55rem; font-size: 0.92rem; opacity: 0.75; font-style: italic; }
+  .akt-reign {
+    margin: 0 0 0.55rem;
+    font-size: 0.88rem;
+    opacity: 0.68;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
+  }
   .akt-king p { margin: 0 0 0.65rem; line-height: 1.6; }
-  .akt-skills { margin: 0 0 0.65rem; padding-left: 1.15rem; line-height: 1.55; }
-  .akt-skills li { margin-bottom: 0.35rem; }
+  .akt-skills { list-style: none; margin: 0 0 0.65rem; padding: 0; line-height: 1.55; }
+  .akt-skill {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
+  .akt-skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+    flex-shrink: 0;
+    min-width: 2.6rem;
+    padding-top: 0.12rem;
+  }
+  .akt-badge { display: inline-flex; align-items: center; gap: 0.2rem; }
+  .akt-badge img { width: 18px; height: 18px; object-fit: contain; display: block; }
+  .akt-val {
+    font-family: "Cinzel", "EB Garamond", serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+  .akt-badge--dip .akt-val { color: #5aa0d0; }
+  .akt-badge--mar .akt-val { color: #cf4438; }
+  .akt-badge--ste .akt-val { color: #c9a020; }
+  .akt-badge--int .akt-val { color: #9b76c4; }
+  .akt-badge--lea .akt-val { color: #46b48a; }
+  html[data-theme="dark"] .akt-badge--ste .akt-val { color: #e0b13c; }
+  .akt-skill-desc { flex: 1; min-width: 0; }
+  .akt-skill--combo .akt-skill-badges { gap: 0.45rem; }
+  .akt-skill--combo .akt-skill-badges::after {
+    content: ":";
+    margin-left: 0.1rem;
+    opacity: 0.65;
+    font-weight: 600;
+  }
   .akt-tier-note { margin: 0; font-size: 0.95rem; }
   .akt-tier {
     display: inline-block;
@@ -120,24 +206,24 @@ pagination: false
 
 <div class="akt-faq-item">
   <h2>Why exactly 21 kings?</h2>
-  <p>Unfortunately, what we know about many Armenian kings is very limited. Kosrov II is a good example: Roman and Persian sources often confuse him with his grandfather, Khosrov I. Almost nothing survives about his life before he became king, and not much more about his reign — mostly from two Armenian historians, Pavstos Buzand (Փավստոս Բուզանդ) and Movses Khorenatsi (Մովսես Խորենացի). I had to make a subjective choice based on publicly available material and on how important I think each reign was. That is how I ended up with twenty-one kings.</p>
+  <p>Unfortunately, what we know about many Armenian kings is very limited. Kosrov II is a good example: Roman and Persian sources often confuse him with his grandfather, Khosrov I. Almost nothing survives about his life before he became king, and not much more about his reign — mostly from two Armenian historians, Pavstos Buzand (Փավստոս Բուզանդ) and Movses Khorenatsi (Մովսես Խորենացի). I had to make a subjective choice based on who I think are the most well known and documented kings, as well as based on how important I think their reign was. That is how I ended up with twenty-one kings.</p>
 
   <h2 class="akt-faq-subhead">Why exactly Crusader Kings III attributes?</h2>
-  <p>In CK3 every ruler is defined by five attributes — the main directions a leader can be strong in. That makes it easier to compare kings when one was good in battle and another was better at building cities.</p>
+  <p>In CK3 every ruler is defined by five attributes — the main directions a leader can be strong in. That makes it easier to compare kings when one was good in battle and another was better at city planning.</p>
 
   <div class="akt-attrs">
-    <div class="akt-attr"><img src="/images/opinions/ck3/diplomacy.png" alt="Diplomacy" width="22" height="22"><span><strong>Diplomacy</strong> — alliances, negotiation, and keeping neighbours at bay.</span></div>
-    <div class="akt-attr"><img src="/images/opinions/ck3/martial.png" alt="Martial" width="22" height="22"><span><strong>Martial</strong> — battlefield command and personal military prowess.</span></div>
-    <div class="akt-attr"><img src="/images/opinions/ck3/stewardship.png" alt="Stewardship" width="22" height="22"><span><strong>Stewardship</strong> — building the realm, its economy, and its institutions.</span></div>
-    <div class="akt-attr"><img src="/images/opinions/ck3/intrigue.png" alt="Intrigue" width="22" height="22"><span><strong>Intrigue</strong> — plots, schemes, and reading the court.</span></div>
-    <div class="akt-attr"><img src="/images/opinions/ck3/learning.png" alt="Learning" width="22" height="22"><span><strong>Learning</strong> — scholarship, culture, and patronage of knowledge.</span></div>
+    <div class="akt-attr"><img src="/images/opinions/ck3/diplomacy.png" alt="Diplomacy" width="22" height="22"><span><strong>Diplomacy</strong> — alliances, negotiation, and peaceful vocalization on the international stage. Very high diplomacy may also mean the king had read <em>The Art of the Deal</em> by the 45th (and 47th) President of the United States.</span></div>
+    <div class="akt-attr"><img src="/images/opinions/ck3/martial.png" alt="Martial" width="22" height="22"><span><strong>Martial</strong> — how often the king won battles, especially when Armenia was outnumbered; how involved he was in choosing tactics; and, where the sources allow it, his personal fighting fitness.</span></div>
+    <div class="akt-attr"><img src="/images/opinions/ck3/stewardship.png" alt="Stewardship" width="22" height="22"><span><strong>Stewardship</strong> — prosperity during the reign, and the king's ability to push economic reforms and large construction projects.</span></div>
+    <div class="akt-attr"><img src="/images/opinions/ck3/intrigue.png" alt="Intrigue" width="22" height="22"><span><strong>Intrigue</strong> — skill at plots and at managing the dynamics between court and church.</span></div>
+    <div class="akt-attr"><img src="/images/opinions/ck3/learning.png" alt="Learning" width="22" height="22"><span><strong>Learning</strong> — scholarly, cultural, and religious progress under the king, and his own level of education.</span></div>
   </div>
 </div>
 
 </div>
 
 <div class="akt-tierlist-wrap">
-  <iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html?v=8" title="Armenian Kings Tier List" loading="lazy" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
+  <iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html?v=9" title="Armenian Kings Tier List" loading="lazy" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
 </div>
 
 <h2 class="akt-profiles-head">King profiles</h2>

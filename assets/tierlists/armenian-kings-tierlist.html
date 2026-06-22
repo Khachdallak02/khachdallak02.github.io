@@ -33,7 +33,7 @@
     box-shadow:var(--shadow);position:relative;overflow:hidden}
   header.codex::after{content:"";position:absolute;left:50%;bottom:0;transform:translateX(-50%);
     width:60%;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
-  .crest{width:60px;height:60px;margin:0 auto 6px;display:block;filter:drop-shadow(0 4px 6px rgba(0,0,0,.6))}
+  .crest{display:block;width:auto;max-width:min(300px,88%);height:auto;margin:0 auto 10px;border-radius:8px;border:1px solid var(--line);box-shadow:0 4px 14px rgba(0,0,0,.45)}
   h1{font-family:"Cinzel Decorative","Cinzel",serif;font-weight:900;
     font-size:clamp(24px,5vw,40px);letter-spacing:.04em;margin:.1em 0 .05em;
     color:var(--gold-bright);text-shadow:0 2px 0 #2a1d0c,0 0 24px rgba(201,162,75,.25)}
@@ -156,13 +156,7 @@
 <body>
 <div class="wrap">
   <header class="codex">
-    <svg class="crest" viewBox="0 0 64 64" aria-hidden="true">
-      <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0" stop-color="#e9c976"/><stop offset="1" stop-color="#a9802f"/></linearGradient></defs>
-      <path fill="url(#g)" d="M32 4c6 6 14 8 22 8-1 22-9 36-22 48C19 48 11 34 10 12c8 0 16-2 22-8z"/>
-      <path fill="#8c2b2b" d="M32 12c4 4 9 5 14 5-1 15-6 25-14 33-8-8-13-18-14-33 5 0 10-1 14-5z"/>
-      <path fill="#e9c976" d="M32 20l3 6 6 1-4 4 1 6-6-3-6 3 1-6-4-4 6-1z"/>
-    </svg>
+    <img class="crest" src="/images/opinions/Armenian Kingdom.jpg" alt="Armenian royal heraldry">
     <h1>Armenian Kings Tier List</h1>
   </header>
 
