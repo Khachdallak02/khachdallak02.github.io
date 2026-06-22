@@ -15,7 +15,9 @@
 <div class="{{ include.type | default: "list" }}__item" style="margin-bottom: 0;">
   <article class="archive__item opinion-card" itemscope itemtype="http://schema.org/CreativeWork">
     {% if teaser %}
-      <div class="opinion-image-container">
+      {% assign teaser_ratio = post.header.teaser_ratio | default: "3 / 2" %}
+      {% assign teaser_fit = post.header.teaser_fit | default: "cover" %}
+      <div class="opinion-image-container{% if teaser_fit == 'contain' %} opinion-image-container--contain{% endif %}" style="aspect-ratio: {{ teaser_ratio }};">
         <a href="{{ base_path }}{{ post.url }}" class="opinion-image-link">
           <img src=
             {% if teaser contains "://" %}
@@ -23,7 +25,7 @@
             {% else %}
               "{{ teaser | prepend: base_path }}"
             {% endif %}
-            alt="{{ title }}" class="opinion-image">
+            alt="{{ title }}" class="opinion-image" style="object-fit: {{ teaser_fit }};">
           <div class="opinion-overlay">
             <div class="opinion-text-overlay">
               <p class="opinion-title">{{ title }}</p>
@@ -54,6 +56,10 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.08);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   aspect-ratio: 3 / 2;
+}
+
+.opinion-image-container--contain {
+  background: #120d07;
 }
 
 .opinion-image-link {

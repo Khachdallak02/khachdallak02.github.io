@@ -5,6 +5,8 @@ slug: armenian-kings-tier-list
 date: 2026-06-06
 header:
   teaser: /images/opinions/Armenian Kingdom.jpg
+  teaser_ratio: "16 / 9"
+  teaser_fit: contain
 share: false
 pagination: false
 ---
