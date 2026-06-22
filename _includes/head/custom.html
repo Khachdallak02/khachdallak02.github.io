@@ -120,6 +120,49 @@
 <!-- Animate.css for Cardano proof highlight and other animations -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"/>
 
+<!-- Opinion article headers -->
+<style>
+.opinion-article-header {
+  margin: 0 0 1.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.opinion-article-kicker {
+  margin: 0 0 0.45rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+
+.opinion-article-kicker a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.opinion-article-kicker a:hover {
+  color: var(--global-link-color);
+}
+
+.page__title--opinion {
+  margin: 0;
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.015em;
+  max-width: none;
+}
+
+.opinion-article-header + .page__meta,
+.opinion-article-header ~ .page__date {
+  margin-top: 0.75rem;
+}
+</style>
+
 <!-- Support for MatJax -->
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

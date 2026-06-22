@@ -8,6 +8,16 @@ author_profile: true
 {% include base_path %}
 
 <style>
+/* Opinions index */
+.archive .page__title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.15rem;
+  line-height: 1.2;
+}
+
 #opinions-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

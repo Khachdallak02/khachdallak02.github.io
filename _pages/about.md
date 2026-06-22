@@ -25,6 +25,9 @@ Through my research experiences, I had opportunity to closely collaborate with [
   background: linear-gradient(90deg, transparent, var(--global-border-color), transparent);
   opacity: 0.9;
 }
+html:not([data-theme="dark"]) .about-divider {
+  background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.28), transparent);
+}
 </style>
 
 In 2026, I completed my Master's studies in **Health Informatics** through a joint programme, earning a *Master of Medical Science* from *Karolinska Institutet* and a *Master of Science* from *Stockholm University*. My final year project focused on *surgeon-level features for postoperative outcome prediction*.
