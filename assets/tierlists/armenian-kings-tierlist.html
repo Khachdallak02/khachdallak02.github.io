@@ -16,7 +16,7 @@
     --dip:#5aa0d0;--mar:#cf4438;--ste:#e0b13c;--int:#9b76c4;--lea:#46b48a;
   }
   *{box-sizing:border-box}
-  html,body{margin:0;padding:0}
+  html,body{margin:0;padding:0;overflow:hidden}
   body{
     background:
       radial-gradient(1200px 600px at 50% -10%, #241a0f 0%, transparent 60%),
@@ -452,7 +452,7 @@ function setupZones(){
 let _ht=0;
 function postHeight(){
   const wrap=document.querySelector(".wrap");
-  const h=wrap?Math.ceil(wrap.getBoundingClientRect().height):Math.ceil(document.body.scrollHeight);
+  const h=(wrap?Math.ceil(wrap.getBoundingClientRect().height):Math.ceil(document.body.scrollHeight))+8;
   if(!h||h===_ht)return; _ht=h;
   if(window.parent!==window)window.parent.postMessage({type:"akt-height",height:h},"*");
 }

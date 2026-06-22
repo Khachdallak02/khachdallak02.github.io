@@ -48,8 +48,8 @@ pagination: false
   }
   .akt-attr { display: flex; align-items: flex-start; gap: 0.75rem; }
   .akt-attr img { width: 22px; height: 22px; flex-shrink: 0; margin-top: 0.15rem; }
-  .akt-tierlist-wrap { max-width: 920px; margin: 0 auto 2.5rem; }
-  .akt-tierlist-wrap iframe { display: block; width: 100%; }
+  .akt-tierlist-wrap { max-width: 920px; margin: 0 auto 2.5rem; overflow: hidden; }
+  .akt-tierlist-wrap iframe { display: block; width: 100%; overflow: hidden; border: 0; }
   .akt-profiles-head { margin: 0 0 1.25rem; }
   .akt-profiles { display: flex; flex-direction: column; gap: 1.75rem; }
   .akt-king {
@@ -146,17 +146,23 @@ pagination: false
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.45rem;
     flex-shrink: 0;
-    min-width: 3.2rem;
-    padding-top: 0.08rem;
+    min-width: 4rem;
+    padding-top: 0.05rem;
   }
-  .akt-badge { display: inline-flex; align-items: center; gap: 0.25rem; }
-  .akt-badge img { width: 24px; height: 24px; object-fit: contain; display: block; }
+  .akt-badge { display: inline-flex; align-items: center; gap: 0.3rem; }
+  .akt-badge img {
+    width: 32px !important;
+    height: 32px !important;
+    max-width: none !important;
+    object-fit: contain;
+    display: block;
+  }
   .akt-val {
     font-family: "Cinzel", "EB Garamond", serif;
     font-weight: 700;
-    font-size: 0.95rem;
+    font-size: 1rem;
     font-variant-numeric: tabular-nums;
     line-height: 1;
   }
@@ -217,7 +223,7 @@ pagination: false
 </div>
 
 <div class="akt-tierlist-wrap">
-  <iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html?v=10" title="Armenian Kings Tier List" loading="lazy" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
+  <iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html?v=11" title="Armenian Kings Tier List" loading="lazy" scrolling="no" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
 </div>
 
 <h2 class="akt-profiles-head">King profiles</h2>
