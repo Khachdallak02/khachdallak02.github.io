@@ -27,34 +27,55 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header{% if page.collection == 'opinions' %} class="opinion-article-header"{% endif %}>
           {% if page.collection == 'opinions' %}
-            <p class="opinion-article-kicker"><a href="{{ base_path }}/opinions/">Opinion</a></p>
+            <div class="opinion-article-heading">
+              <div class="opinion-article-heading__main">
+                <p class="opinion-article-kicker"><a href="{{ base_path }}/opinions/">Opinion</a></p>
+                {% if page.title %}<h1 class="page__title page__title--opinion" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+                {% if page.read_time %}
+                  <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+                {% endif %}
+                {% if page.modified %}
+                  <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+                {% elsif page.date %}
+                  <p class="page__date page__date--opinion"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+                {% endif %}
+              </div>
+              {% if page.header.teaser %}
+                {% if page.header.teaser contains "://" %}
+                  {% assign opinion_teaser = page.header.teaser %}
+                {% else %}
+                  {% assign opinion_teaser = page.header.teaser | prepend: base_path %}
+                {% endif %}
+                <img class="opinion-article-crest" src="{{ opinion_teaser }}" alt="">
+              {% endif %}
+            </div>
+          {% else %}
+            {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+            {% if page.read_time %}
+              <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+            {% endif %}
+            {% if page.modified %}
+              <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+            {% endif %}
+            {% if page.collection == 'teaching' %}
+              <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+            {% elsif page.venue and page.date %}
+              <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+            {% elsif page.date %}
+              <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+            {% endif %}
           {% endif %}
-          {% if page.title %}<h1 class="page__title{% if page.collection == 'opinions' %} page__title--opinion{% endif %}" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.read_time %}
-            <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% if page.collection == 'opinions' and site.data.cardano_opinions %}
+            {% assign slug = page.slug | default: page.name | remove: ".md" %}
+            {% assign proof = site.data.cardano_opinions[slug] %}
+            {% if proof.tx_id %}
+            <p class="page__meta" style="margin-top: 0.5em;">
+              <a href="#cardano-proof" class="btn btn--small btn--cardano" title="Scroll to digital signature (Cardano)">
+                <i class="fas fa-signature" aria-hidden="true"></i> Digital signature
+              </a>
+            </p>
+            {% endif %}
           {% endif %}
-        {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        
-        {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.date %}
-          <p class="page__date{% if page.collection == 'opinions' %} page__date--opinion{% endif %}"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        {% if page.collection == 'opinions' and site.data.cardano_opinions %}
-          {% assign slug = page.slug | default: page.name | remove: ".md" %}
-          {% assign proof = site.data.cardano_opinions[slug] %}
-          {% if proof.tx_id %}
-          <p class="page__meta" style="margin-top: 0.5em;">
-            <a href="#cardano-proof" class="btn btn--small btn--cardano" title="Scroll to digital signature (Cardano)">
-              <i class="fas fa-signature" aria-hidden="true"></i> Digital signature
-            </a>
-          </p>
-          {% endif %}
-        {% endif %}    
         </header>
       {% endunless %}
 

@@ -146,17 +146,17 @@ pagination: false
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.35rem;
+    gap: 0.4rem;
     flex-shrink: 0;
-    min-width: 2.6rem;
-    padding-top: 0.12rem;
+    min-width: 3.2rem;
+    padding-top: 0.08rem;
   }
-  .akt-badge { display: inline-flex; align-items: center; gap: 0.2rem; }
-  .akt-badge img { width: 18px; height: 18px; object-fit: contain; display: block; }
+  .akt-badge { display: inline-flex; align-items: center; gap: 0.25rem; }
+  .akt-badge img { width: 24px; height: 24px; object-fit: contain; display: block; }
   .akt-val {
     font-family: "Cinzel", "EB Garamond", serif;
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     font-variant-numeric: tabular-nums;
     line-height: 1;
   }
@@ -167,13 +167,7 @@ pagination: false
   .akt-badge--lea .akt-val { color: #46b48a; }
   html[data-theme="dark"] .akt-badge--ste .akt-val { color: #e0b13c; }
   .akt-skill-desc { flex: 1; min-width: 0; }
-  .akt-skill--combo .akt-skill-badges { gap: 0.45rem; }
-  .akt-skill--combo .akt-skill-badges::after {
-    content: ":";
-    margin-left: 0.1rem;
-    opacity: 0.65;
-    font-weight: 600;
-  }
+  .akt-skill--combo .akt-skill-badges { gap: 0.5rem; }
   .akt-tier-note { margin: 0; font-size: 0.95rem; }
   .akt-tier {
     display: inline-block;
@@ -223,7 +217,7 @@ pagination: false
 </div>
 
 <div class="akt-tierlist-wrap">
-  <iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html?v=9" title="Armenian Kings Tier List" loading="lazy" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
+  <iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html?v=10" title="Armenian Kings Tier List" loading="lazy" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
 </div>
 
 <h2 class="akt-profiles-head">King profiles</h2>

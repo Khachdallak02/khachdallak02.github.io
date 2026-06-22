@@ -26,16 +26,19 @@
     -webkit-font-smoothing:antialiased;
   }
   .wrap{position:relative;z-index:1;max-width:920px;margin:0 auto;padding:18px 12px 28px}
-  header.codex{text-align:center;padding:22px 16px 18px;margin-bottom:16px;
+  header.codex{padding:22px 16px 18px;margin-bottom:16px;
     border:1px solid var(--line);border-radius:14px;
     background:radial-gradient(800px 200px at 50% 0%, rgba(201,162,75,.10), transparent 70%),
       linear-gradient(180deg,var(--panel2),var(--panel));
     box-shadow:var(--shadow);position:relative;overflow:hidden}
   header.codex::after{content:"";position:absolute;left:50%;bottom:0;transform:translateX(-50%);
     width:60%;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
-  .crest{display:block;width:auto;max-width:min(300px,88%);height:auto;margin:0 auto 10px;border-radius:8px;border:1px solid var(--line);box-shadow:0 4px 14px rgba(0,0,0,.45)}
+  .codex-head{display:flex;align-items:center;justify-content:space-between;gap:18px;text-align:left}
+  .codex-title{flex:1;min-width:0}
+  .crest{display:block;width:auto;max-width:min(280px,38%);height:auto;margin:0;flex-shrink:0;
+    border-radius:8px;border:1px solid var(--line);box-shadow:0 4px 14px rgba(0,0,0,.45)}
   h1{font-family:"Cinzel Decorative","Cinzel",serif;font-weight:900;
-    font-size:clamp(24px,5vw,40px);letter-spacing:.04em;margin:.1em 0 .05em;
+    font-size:clamp(24px,5vw,40px);letter-spacing:.04em;margin:0;
     color:var(--gold-bright);text-shadow:0 2px 0 #2a1d0c,0 0 24px rgba(201,162,75,.25)}
   .sub{font-family:"Cinzel",serif;letter-spacing:.30em;text-transform:uppercase;
     font-size:11.5px;color:var(--ink-dim);margin-top:4px}
@@ -46,17 +49,6 @@
   .lk{display:inline-flex;align-items:center;gap:8px}
   .lk img.ck3ico{width:22px;height:22px}
   .scale-note{text-align:center;color:var(--ink-dim);font-size:12.5px;margin:4px auto 0;font-style:italic}
-  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;
-    margin:16px 0 12px;padding:12px;border:1px solid var(--line);border-radius:12px;
-    background:linear-gradient(180deg,var(--panel),var(--bg2))}
-  .controls .grp{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-  label.lbl{font-family:"Cinzel",serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-dim)}
-  select,button.btn{font-family:"Cinzel",serif;font-size:12px;letter-spacing:.06em;
-    background:linear-gradient(180deg,#2c2010,#1c150d);color:var(--ink);
-    border:1px solid var(--gold);border-radius:8px;padding:8px 12px;cursor:pointer;transition:.15s}
-  button.btn:hover,select:hover{background:linear-gradient(180deg,#3a2a14,#241a0f);box-shadow:0 0 0 1px var(--gold-bright) inset}
-  button.btn.gold{border-color:var(--gold-bright);color:var(--gold-bright)}
-  button.btn.warn{border-color:var(--crimson);color:#e7b3a8}
   .tiers{display:flex;flex-direction:column;gap:10px;margin-top:8px}
   .tier{display:grid;grid-template-columns:78px 1fr;align-items:stretch;
     border:1px solid var(--line);border-radius:12px;overflow:visible;
@@ -135,16 +127,9 @@
   .tierpick button.S.on{background:#e0a93c}.tierpick button.A.on{background:#e07c2f}
   .tierpick button.B.on{background:#d8c24a}.tierpick button.C.on{background:#8fb84a}
   .tierpick button.D.on{background:#5f93b8}.tierpick button.F.on{background:#b86}
-  .modal{position:fixed;inset:0;background:rgba(0,0,0,.7);display:none;align-items:center;
-    justify-content:center;z-index:50;padding:20px}
-  .modal.show{display:flex}
-  .modal .box{max-width:600px;width:100%;background:var(--panel2);border:1px solid var(--gold);
-    border-radius:12px;padding:18px;box-shadow:var(--shadow)}
-  .modal h3{font-family:"Cinzel",serif;color:var(--gold-bright);margin:0 0 10px}
-  .modal textarea{width:100%;height:300px;background:#120d07;color:var(--ink);border:1px solid var(--line);
-    border-radius:8px;padding:10px;font-family:"EB Garamond",serif;font-size:13px;resize:vertical}
-  .modal .row{display:flex;gap:10px;justify-content:flex-end;margin-top:10px}
   @media (max-width:720px){
+    .codex-head{flex-direction:column-reverse;align-items:flex-start}
+    .crest{max-width:min(280px,100%)}
     .card{width:calc(50% - 4px);flex:0 0 calc(50% - 4px)}
   }
   @media (max-width:480px){
@@ -156,32 +141,16 @@
 <body>
 <div class="wrap">
   <header class="codex">
-    <img class="crest" src="/images/opinions/Armenian Kingdom.jpg" alt="Armenian royal heraldry">
-    <h1>Armenian Kings Tier List</h1>
+    <div class="codex-head">
+      <div class="codex-title">
+        <h1>Armenian Kings Tier List</h1>
+      </div>
+      <img class="crest" src="/images/opinions/Armenian Kingdom.jpg" alt="Armenian royal heraldry">
+    </div>
   </header>
 
   <div class="legend" id="legend"></div>
   <div class="scale-note">CK3 scale: ~8 average &middot; 12+ skilled &middot; 16+ great &middot; 18-20 legendary.</div>
-
-  <div class="controls">
-    <div class="grp">
-      <label class="lbl" for="sort">Sort pool</label>
-      <select id="sort">
-        <option value="total">By Total</option>
-        <option value="dip">By Diplomacy</option>
-        <option value="mar">By Martial</option>
-        <option value="ste">By Stewardship</option>
-        <option value="int">By Intrigue</option>
-        <option value="lea">By Learning</option>
-        <option value="chron">Chronological</option>
-      </select>
-    </div>
-    <div class="grp">
-      <button class="btn gold" id="auto">Auto-seed by Total</button>
-      <button class="btn" id="export">Export ranking</button>
-      <button class="btn warn" id="reset">Reset all</button>
-    </div>
-  </div>
 
   <div class="tiers" id="tiers"></div>
 
@@ -190,16 +159,6 @@
 
 </div>
 
-<div class="modal" id="modal">
-  <div class="box">
-    <h3>Your Tier List</h3>
-    <textarea id="exporttext" readonly></textarea>
-    <div class="row">
-      <button class="btn" id="copybtn">Copy to clipboard</button>
-      <button class="btn gold" id="closebtn">Close</button>
-    </div>
-  </div>
-</div>
 <script>
 // ---------- Real CK3 attribute icons (CK3 Wiki) + drawn fallbacks ----------
 const ICON_BASE="/images/opinions/ck3/";
@@ -488,29 +447,6 @@ function setupZones(){
     });
   });
 }
-
-document.getElementById("sort").addEventListener("change",e=>{
-  sortMode=e.target.value;
-  lists.pool=sortPoolIds(lists.pool);
-  render();
-});
-document.getElementById("reset").addEventListener("click",()=>{seedByTotal();render();});
-document.getElementById("auto").addEventListener("click",()=>{seedByTotal();render();});
-document.getElementById("export").addEventListener("click",()=>{
-  let out="ARMENIAN KING TIER LIST\n=======================\n";
-  TIERS.forEach(t=>{
-    if(!lists[t].length)return;
-    out+=`\n[${t}]  `+lists[t].map(id=>{
-      const k=kingById(id);
-      return k?k.name+` (${k.epi.split("\u00b7")[0].trim()})`:"";
-    }).filter(Boolean).join("  \u00b7  ")+"\n";
-  });
-  if(lists.pool.length)out+="\n[Unranked]  "+lists.pool.map(id=>kingById(id)?.name).filter(Boolean).join("  \u00b7  ")+"\n";
-  document.getElementById("exporttext").value=out;document.getElementById("modal").classList.add("show");});
-document.getElementById("closebtn").addEventListener("click",()=>document.getElementById("modal").classList.remove("show"));
-document.getElementById("modal").addEventListener("click",e=>{if(e.target.id==="modal")e.target.classList.remove("show");});
-document.getElementById("copybtn").addEventListener("click",()=>{const ta=document.getElementById("exporttext");ta.select();
-  try{document.execCommand("copy");const b=document.getElementById("copybtn");b.textContent="Copied!";setTimeout(()=>b.textContent="Copy to clipboard",1400);}catch(e){}});
 
 // ---------- auto-resize when embedded in an iframe ----------
 let _ht=0;
