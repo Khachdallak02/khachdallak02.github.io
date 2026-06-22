@@ -1,6 +1,6 @@
 {% include base_path %}
 
-{% unless page.pagination == false %}
+{% unless page.pagination == false or page.collection == 'opinions' %}
 {% if page.previous or page.next %}
   <nav class="pagination">
     {% if page.previous %}

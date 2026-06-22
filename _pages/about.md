@@ -22,7 +22,8 @@ Through my research experiences, I had opportunity to closely collaborate with [
   height: 1px;
   width: 100%;
   margin: 2.25rem 0;
-  background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.18), transparent);
+  background: linear-gradient(90deg, transparent, var(--global-border-color), transparent);
+  opacity: 0.9;
 }
 </style>
 

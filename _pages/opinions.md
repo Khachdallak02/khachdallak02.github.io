@@ -8,10 +8,6 @@ author_profile: true
 {% include base_path %}
 
 <style>
-.page__title {
-  text-align: center !important;
-}
-
 #opinions-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -28,7 +24,7 @@ author_profile: true
 </style>
 
 <div style="text-align: center; margin-bottom: 40px;">
-  <p style="font-size: 0.9em; color: #666; margin-top: -10px; margin-bottom: 0;">Thoughts on artificial neurons, battlefield tactics, and everything in between</p>
+  <p style="font-size: 0.9em; color: var(--global-text-color-light); margin-top: -10px; margin-bottom: 0;">Thoughts on artificial neurons, battlefield tactics, and everything in between</p>
 </div>
 
 {% if site.opinions %}

@@ -6,6 +6,7 @@ date: 2026-03-16
 header:
   teaser: /images/opinions/2.jpg
 share: false
+pagination: false
 ---
 
 *Здравствуйте товарищи!* Greetings, comrades. If you ever spent hours reading or watching videos about the Munich conference, the battles of Stalingrad and Kursk, or the D-Day landings, but then sat through history class forced to memorize numbers, names, and facts, this article might be for you. School history (at least in most education systems) gives no real sense of how warfare was organized, the diplomacy around it, how economies kept armies in the field, and instead only forces fact memorization. Fortunately, some strategy games sometimes go deeper into history. *Hearts of Iron IV* is a grand strategy game where you control an entire country through the Second World War: its armies, factories, research, diplomacy, everything. Using it, I want to show how games can present history in a format that is both educational and fun, and far more advanced than most current education systems.

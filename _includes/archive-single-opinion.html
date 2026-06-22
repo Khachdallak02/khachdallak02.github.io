@@ -17,26 +17,22 @@
     {% if teaser %}
       {% assign teaser_ratio = post.header.teaser_ratio | default: "16 / 9" %}
       {% assign teaser_fit = post.header.teaser_fit | default: "cover" %}
-      <div class="opinion-image-container{% if teaser_fit == 'contain' %} opinion-image-container--contain{% endif %}" style="aspect-ratio: {{ teaser_ratio }};">
-        <a href="{{ base_path }}{{ post.url }}" class="opinion-image-link">
+      <a href="{{ base_path }}{{ post.url }}" class="opinion-card__link">
+        <div class="opinion-image-container{% if teaser_fit == 'contain' %} opinion-image-container--contain{% endif %}" style="aspect-ratio: {{ teaser_ratio }};">
           <img src=
             {% if teaser contains "://" %}
               "{{ teaser }}"
             {% else %}
               "{{ teaser | prepend: base_path }}"
             {% endif %}
-            alt="{{ title }}" class="opinion-image" style="object-fit: {{ teaser_fit }};">
-          <div class="opinion-overlay">
-            <div class="opinion-text-overlay">
-              <p class="opinion-title">{{ title }}</p>
-            </div>
-          </div>
-        </a>
-      </div>
+            alt="" class="opinion-image" style="object-fit: {{ teaser_fit }};">
+        </div>
+        <h2 class="opinion-card__title" itemprop="headline">{{ title }}</h2>
+      </a>
     {% else %}
       <div class="opinion-content-no-image">
-        <h2 class="archive__item-title" itemprop="headline">
-          <a href="{{ base_path }}{{ post.url }}" class="opinion-title-link">{{ title }}</a>
+        <h2 class="opinion-card__title" itemprop="headline">
+          <a href="{{ base_path }}{{ post.url }}" class="opinion-card__title-link">{{ title }}</a>
         </h2>
         {% if post.excerpt %}
           <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
@@ -47,6 +43,12 @@
 </div>
 
 <style>
+.opinion-card__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .opinion-image-container {
   position: relative;
   width: 100%;
@@ -54,22 +56,12 @@
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.08);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   aspect-ratio: 16 / 9;
 }
 
 .opinion-image-container--contain {
   background: #120d07;
-}
-
-.opinion-image-link {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  border-radius: 12px;
-  overflow: hidden;
 }
 
 .opinion-image {
@@ -78,79 +70,31 @@
   object-fit: cover;
   display: block;
   border-radius: 12px;
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
-  z-index: 1;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.opinion-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1), background 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  border-radius: 12px;
-  z-index: 2;
-}
-
-.opinion-text-overlay {
+.opinion-card__title {
+  margin: 0.85rem 0 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
   text-align: center;
-  padding: 20px;
-  width: 100%;
+  color: var(--global-text-color);
+  transition: color 0.2s ease;
 }
 
-.opinion-title {
-  display: block;
-  font-size: 1.5em;
-  font-weight: 400;
-  color: white;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
-  margin: 0;
-  letter-spacing: 0.5px;
-  line-height: 1.4;
-  text-decoration: none !important;
-  border: none !important;
-  border-bottom: none !important;
+.opinion-card__link:hover .opinion-card__title {
+  color: var(--global-link-color);
 }
 
-.opinion-image-link,
-.opinion-image-link:hover,
-.opinion-image-link:focus,
-.opinion-image-link:active {
-  text-decoration: none !important;
+.opinion-card__link:hover .opinion-image-container {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.22), 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
-.opinion-image-link h2,
-.opinion-image-link h2:hover,
-.opinion-image-link h2:focus,
-.opinion-image-link h2:active,
-.opinion-image-link .opinion-title,
-.opinion-image-link .opinion-title:hover,
-.opinion-image-link .opinion-title:focus,
-.opinion-image-link .opinion-title:active {
-  text-decoration: none !important;
-  border-bottom: none !important;
-  border: none !important;
-}
-
-.opinion-image-container:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.1);
-}
-
-.opinion-image-container:hover .opinion-image {
-  transform: scale(1.05);
-}
-
-.opinion-image-container:hover .opinion-overlay {
-  opacity: 1;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.85) 100%);
+.opinion-card__link:hover .opinion-image {
+  transform: scale(1.03);
 }
 
 .opinion-content-no-image {
@@ -158,29 +102,39 @@
   padding: 20px;
 }
 
-.opinion-title-link {
-  color: #2e7d32;
+.opinion-card__title-link {
+  color: var(--global-text-color);
   text-decoration: none;
-  border-bottom: 2px solid transparent;
-  transition: border-color 0.2s ease;
+  transition: color 0.2s ease;
 }
 
-.opinion-title-link:hover {
-  border-bottom-color: #2e7d32;
+.opinion-card__title-link:hover {
+  color: var(--global-link-color);
+}
+
+.page__title--opinion {
+  text-align: center;
+  font-size: clamp(1.45rem, 3.5vw, 1.9rem);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+}
+
+.archive > .page__title {
+  text-align: center;
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.35rem;
 }
 
 @media (max-width: 768px) {
-  .opinion-image-container {
-    max-width: 100%;
-    border-width: 2px;
-  }
-  
-  .opinion-title {
-    font-size: 1.3em;
-  }
-  
-  .opinion-image-container {
-    max-width: 100%;
+  .opinion-card__title {
+    font-size: 1rem;
   }
 }
 </style>
