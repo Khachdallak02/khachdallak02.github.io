@@ -249,12 +249,17 @@ function getInsertIndex(dropEl,x,y){
   return cards.length;
 }
 
+const TIER_OVERRIDE={1:"A"};
+function tierFromStats(k){
+  if(TIER_OVERRIDE[k.id])return TIER_OVERRIDE[k.id];
+  const n=total(k);
+  return n>=78?"S":n>=70?"A":n>=62?"B":n>=54?"C":n>=46?"D":"F";
+}
 function seedByTotal(){
   TIERS.forEach(t=>{lists[t]=[];});
   lists.pool=[];
   KINGS.forEach(k=>{
-    const t=total(k)>=78?"S":total(k)>=70?"A":total(k)>=62?"B":total(k)>=54?"C":total(k)>=46?"D":"F";
-    lists[t].push(k.id);
+    lists[tierFromStats(k)].push(k.id);
   });
   TIERS.forEach(t=>{
     lists[t].sort((a,b)=>total(kingById(b))-total(kingById(a)));

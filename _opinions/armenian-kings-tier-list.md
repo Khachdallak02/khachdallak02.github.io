@@ -134,6 +134,12 @@ pagination: false
     font-variant-numeric: tabular-nums;
     letter-spacing: 0.02em;
   }
+  .akt-king-summary {
+    margin: 0 0 0.75rem;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    max-width: 42rem;
+  }
   .akt-king p { margin: 0 0 0.65rem; line-height: 1.6; }
   .akt-skills { list-style: none; margin: 0 0 0.65rem; padding: 0; line-height: 1.55; }
   .akt-skill {
@@ -172,7 +178,7 @@ pagination: false
   .akt-badge--int .akt-val { color: #9b76c4; }
   .akt-badge--lea .akt-val { color: #46b48a; }
   html[data-theme="dark"] .akt-badge--ste .akt-val { color: #e0b13c; }
-  .akt-skill-desc { flex: 1; min-width: 0; }
+  .akt-skill-desc { flex: 1; min-width: 0; line-height: 1.5; max-width: 42rem; }
   .akt-skill--combo .akt-skill-badges { gap: 0.5rem; }
   .akt-tier-note { margin: 0; font-size: 0.95rem; }
   .akt-tier {
@@ -223,7 +229,7 @@ pagination: false
 </div>
 
 <div class="akt-tierlist-wrap">
-  <iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html?v=13" title="Armenian Kings Tier List" loading="lazy" scrolling="no" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
+  <iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html?v=14" title="Armenian Kings Tier List" loading="lazy" scrolling="no" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
 </div>
 
 <h2 class="akt-profiles-head">King profiles</h2>
