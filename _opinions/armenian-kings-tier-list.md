@@ -197,6 +197,26 @@ pagination: false
   .akt-tier-b { background: #d8c24a; color: #1a120a; }
   .akt-tier-c { background: #8fb84a; color: #1a120a; }
   .akt-tier-f { background: #bb8866; color: #1a120a; }
+  .akt-tier-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    margin: 0.75rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  .akt-tier-legend li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.9rem;
+  }
+  .akt-tier-legend .akt-tier {
+    position: static;
+    margin: 0;
+    font-size: 0.72rem;
+    padding: 0.15rem 0.45rem;
+  }
   .akt-king--flash { animation: aktFlash 1.2s ease; }
   @keyframes aktFlash {
     0%, 100% { background: transparent; }
@@ -229,10 +249,23 @@ pagination: false
 </div>
 
 <div class="akt-tierlist-wrap">
-  <iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html?v=14" title="Armenian Kings Tier List" loading="lazy" scrolling="no" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
+  <iframe id="akt-frame" src="/assets/tierlists/armenian-kings-tierlist.html?v=15" title="Armenian Kings Tier List" loading="lazy" scrolling="no" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
 </div>
 
 <h2 class="akt-profiles-head">King profiles</h2>
+
+<div class="akt-faq-item" style="margin-bottom: 1.5rem;">
+  <p>Below, each king gets five Crusader Kings III scores (0–20 per attribute) and a coloured <strong>tier badge</strong>. The badge is my overall verdict — not a strict sum of the numbers. Totals still help: they show where a reign was strongest and weakest.</p>
+  <p><strong>How to read the tiers:</strong></p>
+  <ul class="akt-tier-legend">
+    <li><span class="akt-tier akt-tier-s">S</span> 78+ total — legendary on several axes</li>
+    <li><span class="akt-tier akt-tier-a">A</span> 70–77 — great king, clear strengths</li>
+    <li><span class="akt-tier akt-tier-b">B</span> 62–69 — solid; notable flaws or a short peak</li>
+    <li><span class="akt-tier akt-tier-c">C</span> 54–61 — mixed or thin evidence</li>
+    <li><span class="akt-tier akt-tier-f">F</span> below 54 — failed reign or weakest on the list</li>
+  </ul>
+  <p>A king can sit in a tier above what the raw total suggests if legacy, fame, or one civilisational act outweighs the spreadsheet — or below it if the empire collapsed fast. Armenian place names appear in brackets after the English. Each skill line explains <em>why</em> that number was chosen.</p>
+</div>
 
 {% include armenian-king-profiles.html %}
 
