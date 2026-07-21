@@ -151,10 +151,6 @@
   &--small {
     font-size: $type-size-7;
   }
-
-  &--cardano {
-    font-size: $type-size-6;
-  }
 }
 
 /* Light mode: clearer, more visible buttons on pages */
@@ -177,9 +173,5 @@ html:not([data-theme="dark"]) {
     &:hover {
       background-color: var(--global-link-color-hover);
     }
-  }
-  .cardano-proof .btn:hover {
-    background-color: var(--global-link-color-hover) !important;
-    color: #fff !important;
   }
 }
