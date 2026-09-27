@@ -176,6 +176,17 @@
     display: block;
   }
 
+  /* The wrapper is a table-cell with cursor:pointer, so a tap anywhere in it
+     paints one highlight across the whole strip -- which made the Follow button
+     and the Scholar icon light up together.  Suppress it here and give each
+     control its own highlight below, so they read as two separate targets. */
+  -webkit-tap-highlight-color: transparent;
+
+  button,
+  .author__mobile-icon {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.18);
+  }
+
   button {
     margin-bottom: 0;
 
@@ -188,12 +199,25 @@
      Hidden from $large up, where the Follow button itself disappears and the
      list below -- which keeps its own Google Scholar entry -- is always shown. */
   .author__mobile-icon {
+    position: relative;   /* own stacking + tap target, clear of the button */
+    z-index: 1;
     display: inline-block;
-    margin-left: 8px;
+    /* margin + padding together give the visual gap; the padding is invisible
+       (no background) but enlarges the touch target away from the button */
+    margin-left: 12px;
+    padding: 10px;
     vertical-align: middle;
     font-size: 1.35em;
     line-height: 1;
     text-decoration: none;
+    border-radius: $border-radius;
+
+    /* hug the icon instead of inheriting the link reset's 5px inset ring,
+       which bled towards the button */
+    &:focus {
+      outline: thin dotted $warning-color;
+      outline-offset: 2px;
+    }
 
     @include breakpoint($large) {
       display: none;
