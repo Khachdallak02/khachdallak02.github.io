@@ -183,6 +183,22 @@
       display: none;
     }
   }
+
+  /* Google Scholar shortcut sitting beside the Follow button on phones.
+     Hidden from $large up, where the Follow button itself disappears and the
+     list below -- which keeps its own Google Scholar entry -- is always shown. */
+  .author__mobile-icon {
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: middle;
+    font-size: 1.35em;
+    line-height: 1;
+    text-decoration: none;
+
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
 }
 
 .author__urls {

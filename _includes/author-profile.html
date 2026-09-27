@@ -22,6 +22,12 @@
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
+    {% if author.googlescholar %}
+      <a href="{{ author.googlescholar }}" class="author__mobile-icon"
+         title="Google Scholar" aria-label="Google Scholar">
+        <i class="ai ai-google-scholar" aria-hidden="true"></i>
+      </a>
+    {% endif %}
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
