@@ -202,9 +202,15 @@
     position: relative;   /* own stacking + tap target, clear of the button */
     z-index: 1;
     display: inline-block;
-    /* margin + padding together give the visual gap; the padding is invisible
-       (no background) but enlarges the touch target away from the button */
-    margin-left: 12px;
+    /* The gap tracks the viewport width.  Phones at 393px and wider (iPhone 16,
+       Pixel) keep the full 12px; narrower ones (iPhone SE at 375px) tighten
+       towards 0 so the cluster is not crowded against the right edge, where
+       there is far less slack.  Linear ramp between 360px and 393px:
+       slope 12px / 33px = 36.36vw, offset 0.3636 x 360 = 130.9px, so it
+       reads 0 at 360px and 12px at 393px.
+       The 10px padding is invisible (no background) but keeps the touch target
+       large and always leaves visible air between the two controls. */
+    margin-left: clamp(0px, calc(36.36vw - 130.9px), 12px);
     padding: 10px;
     vertical-align: middle;
     font-size: 1.35em;
