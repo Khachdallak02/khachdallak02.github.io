@@ -82,6 +82,20 @@ author_profile: true
   </div>
 </div>
 
+<div class="publication-container">
+  <div class="publication-text">
+    <h3><a href="https://www.pnas.org/doi/10.1073/pnas.2614077123" target="_blank">Resolving cell lineages and gene functions in the developing mouse gastrointestinal tract using in utero transduction</a></h3>
+    
+    <p><strong>Authors:</strong> Ziwei Liu<sup>†</sup>, Krishnanand Padmanabhan<sup>†</sup>, Jingyan He, Katrin Hector, Bettina Semsch, Jia Sun, Viktoria Knoflach, Sarantis Giatrellis, Johan Lorentz, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Christian Göritz, Emma Rachel Andersson, Ulrika Marklund</p>
+    
+    <p><strong>Journal:</strong> Proceedings of the National Academy of Sciences (PNAS)</p>
+  </div>
+  
+  <div class="publication-image">
+    <img src="/images/5paper.png" alt="In utero transduction in the developing enteric nervous system">
+  </div>
+</div>
+
 ## Preprints
 
 <div style="margin-bottom: 1em; font-size: 0.9em; color: #666;">
@@ -99,20 +113,6 @@ author_profile: true
   
   <div class="publication-image">
     <img src="/images/3paper.png" alt="Single-cell Search Engine Benchmarks">
-  </div>
-</div>
-
-<div class="publication-container">
-  <div class="publication-text">
-    <h3><a href="https://doi.org/10.64898/2026.04.09.716777" target="_blank">In utero transduction resolves gut cell lineages and enables conditional gene perturbation in the developing enteric nervous system</a></h3>
-    
-    <p><strong>Authors:</strong> Ziwei Liu<sup>†</sup>, Krishnanand Padmanabhan<sup>†</sup>, Jingyan He, Katrin Hector, Bettina Semsch, Jia Sun, Viktoria Knoflach, Sarantis Giatrellis, <span style="color: #E6B800;">Khachatur Dallakyan</span>, Christian Göritz, Emma Rachel Andersson, Ulrika Marklund</p>
-    
-    <p><strong>Journal:</strong> Gastroenterology</p>
-  </div>
-  
-  <div class="publication-image">
-    <img src="/images/5paper.png" alt="In utero transduction in the developing enteric nervous system">
   </div>
 </div>
 
