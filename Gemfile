@@ -13,4 +13,6 @@ gem 'github-pages'
 gem 'connection_pool', '2.5.0'
 
 # Windows-only: timezone data for local Jekyll builds (ignored on Linux/CI)
-gem 'tzinfo-data', platforms: [:windows, :jruby]
+# (Gem.win_platform? instead of `platforms: [:windows]`, which the older
+# Bundler used by the GitHub Actions Ruby 3.0 build does not recognise.)
+gem 'tzinfo-data' if Gem.win_platform?
