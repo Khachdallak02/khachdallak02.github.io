@@ -1,20 +1,76 @@
-# Ignore the contents of the _site directory and other cache directories
-_site/
-.sass-cache/
+# ---------------------------------------------------------------------------
+# Jekyll build output and caches
+# ---------------------------------------------------------------------------
+/_site/
+/.sass-cache/
+/.jekyll-cache/
+/.jekyll-metadata
+/.asset-cache/
 
-# Ignore the directory for local files during development
-local/
+# ---------------------------------------------------------------------------
+# Local Ruby / Node environment
+# ---------------------------------------------------------------------------
+/Gemfile.lock
+/vendor/
+/.bundle/
+/node_modules/
+/package-lock.json
 
-# Ignore the Gemfile that is generated
-Gemfile.lock
-
-# Ignore files created by npm
-node_modules
-package-lock.json
-
-# Ignore the vendor file and bundle for alternative installation
-vendor/
-.bundle/
-
+# ---------------------------------------------------------------------------
+# Secrets and environment files
+# ---------------------------------------------------------------------------
 .env
-scripts/*
+.env.*
+*.local
+
+# ---------------------------------------------------------------------------
+# Local development environments (Docker / devcontainer / Claude Code)
+# ---------------------------------------------------------------------------
+/Dockerfile
+/docker-compose.yaml
+/docker-compose.yml
+/.devcontainer/
+/.claude/
+/local/
+
+# ---------------------------------------------------------------------------
+# Editors and operating systems
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# ---------------------------------------------------------------------------
+# Python / notebooks
+# ---------------------------------------------------------------------------
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Template tooling not used by this site (talk map, publication generators)
+# ---------------------------------------------------------------------------
+/scripts/
+/markdown_generator/
+/talkmap/
+/talkmap.py
+/talkmap.ipynb
+/talkmap_out.ipynb
+.github/workflows/scrape_talks.yml
+
+# ---------------------------------------------------------------------------
+# Drafts, working notes and source documents (keep locally, don't publish)
+# ---------------------------------------------------------------------------
+/_extracted_*.txt
+/DEPLOYMENT_FIX.md
+files/*.docx
+images/opinions/kings/*.txt
+images/opinions/kings/armenian_kings_tierlist.html
+images/Screenshot*
