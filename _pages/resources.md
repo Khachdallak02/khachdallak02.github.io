@@ -182,37 +182,37 @@ author_profile: true
 <div class="resources-toolbar">
 <div id="category-filters" class="resources-toolbar__icons">
   <button class="category-filter-btn active" data-category="High seas" title="High seas" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
-    <img src="{{ base_path }}/images/icons/11.png" alt="High seas" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <img src="{{ base_path }}/images/icons/resources/high-seas.png" srcset="{{ base_path }}/images/icons/resources/high-seas.png 1x, {{ base_path }}/images/icons/resources/high-seas@2x.png 2x, {{ base_path }}/images/icons/resources/high-seas@3x.png 3x" width="50" height="50" alt="High seas" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="category-filter-btn active" data-category="AI" title="AI" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
     <img src="{{ base_path }}/images/icons/2.svg" alt="AI" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="category-filter-btn active" data-category="Windows" title="Windows" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
-    <img src="{{ base_path }}/images/icons/33.png" alt="Windows" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <img src="{{ base_path }}/images/icons/resources/windows.png" srcset="{{ base_path }}/images/icons/resources/windows.png 1x, {{ base_path }}/images/icons/resources/windows@2x.png 2x, {{ base_path }}/images/icons/resources/windows@3x.png 3x" width="50" height="50" alt="Windows" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="category-filter-btn active" data-category="Browser" title="Browser" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
-    <img src="{{ base_path }}/images/icons/browser.png" alt="Browser" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <img src="{{ base_path }}/images/icons/resources/browser.png" srcset="{{ base_path }}/images/icons/resources/browser.png 1x, {{ base_path }}/images/icons/resources/browser@2x.png 2x, {{ base_path }}/images/icons/resources/browser@3x.png 3x" width="50" height="50" alt="Browser" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="category-filter-btn active" data-category="Android" title="Android" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
-    <img src="{{ base_path }}/images/icons/4.png" alt="Android" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <img src="{{ base_path }}/images/icons/resources/android.png" srcset="{{ base_path }}/images/icons/resources/android.png 1x, {{ base_path }}/images/icons/resources/android@2x.png 2x, {{ base_path }}/images/icons/resources/android@3x.png 3x" width="50" height="50" alt="Android" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="category-filter-btn active" data-category="Gaming" title="Gaming" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
-    <img src="{{ base_path }}/images/icons/5.webp" alt="Gaming" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <img src="{{ base_path }}/images/icons/resources/gaming.png" srcset="{{ base_path }}/images/icons/resources/gaming.png 1x, {{ base_path }}/images/icons/resources/gaming@2x.png 2x, {{ base_path }}/images/icons/resources/gaming@3x.png 3x" width="50" height="50" alt="Gaming" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="category-filter-btn active" data-category="Cryptocurrency" title="Cryptocurrency" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
-    <img src="{{ base_path }}/images/icons/bitcoin.png" alt="Cryptocurrency" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <img src="{{ base_path }}/images/icons/resources/cryptocurrency.png" srcset="{{ base_path }}/images/icons/resources/cryptocurrency.png 1x, {{ base_path }}/images/icons/resources/cryptocurrency@2x.png 2x" width="50" height="50" alt="Cryptocurrency" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="category-filter-btn active" data-category="Bioinformatics" title="Bioinformatics" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
-    <img src="{{ base_path }}/images/icons/bioinformatics.png" alt="Bioinformatics" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <img src="{{ base_path }}/images/icons/resources/bioinformatics.png" srcset="{{ base_path }}/images/icons/resources/bioinformatics.png 1x, {{ base_path }}/images/icons/resources/bioinformatics@2x.png 2x, {{ base_path }}/images/icons/resources/bioinformatics@3x.png 3x" width="50" height="50" alt="Bioinformatics" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="category-filter-btn active" data-category="Military history" title="Military history" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
-    <img src="{{ base_path }}/images/icons/military-history.png" alt="Military history" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <img src="{{ base_path }}/images/icons/resources/military-history.png" srcset="{{ base_path }}/images/icons/resources/military-history.png 1x, {{ base_path }}/images/icons/resources/military-history@2x.png 2x, {{ base_path }}/images/icons/resources/military-history@3x.png 3x" width="50" height="50" alt="Military history" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="category-filter-btn active" data-category="Python package" title="Python package" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
-    <img src="{{ base_path }}/images/icons/python-package.png" alt="Python package" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <img src="{{ base_path }}/images/icons/resources/python-package.png" srcset="{{ base_path }}/images/icons/resources/python-package.png 1x, {{ base_path }}/images/icons/resources/python-package@2x.png 2x" width="50" height="50" alt="Python package" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button class="category-filter-btn active" data-category="YouTube channel" title="YouTube channel" style="width: 50px; height: 50px; border: none; border-radius: 8px; cursor: pointer; padding: 0; overflow: hidden; background: transparent; transition: all 0.3s ease; opacity: 1;">
-    <img src="{{ base_path }}/images/icons/youtube.png" alt="YouTube channel" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <img src="{{ base_path }}/images/icons/resources/youtube.png" srcset="{{ base_path }}/images/icons/resources/youtube.png 1x, {{ base_path }}/images/icons/resources/youtube@2x.png 2x" width="50" height="50" alt="YouTube channel" style="width: 100%; height: 100%; object-fit: cover; display: block;">
   </button>
   <button type="button" id="resources-toggle-all-btn" class="category-toggle-all-btn" title="Deselect all categories" aria-label="Deselect or select all categories"><i class="fas fa-check-square" aria-hidden="true"></i></button>
 </div>
