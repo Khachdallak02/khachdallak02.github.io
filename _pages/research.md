@@ -31,6 +31,21 @@ author_profile: true
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+.project-container h3 {
+  margin-top: 0;
+}
+
+.project-figure {
+  margin: 1.25em 0 0;
+}
+
+.project-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
 @media (max-width: 768px) {
   .publication-container {
     flex-direction: column;
@@ -118,14 +133,12 @@ author_profile: true
 
 ## Current Major Projects
 
-<div class="publication-container">
-  <div class="publication-text">
-    <h3>Exploring the Developing Enteric Nervous System through Single-Cell Transcriptomics</h3>
-    
-    <p>The aim is to investigate spatio-temporal differences in Enteric Nervous System (ENS) cell populations, specifically focusing on progenitors, neuroblasts, and schwann cell precursors (SCPs) across different regions and developmental timepoints. Through this project, I gained experience working with conventional fate prediction tools and fine-tuning foundation models with custom learning objectives. I also learned to use attention-based architectures to analyze gene relationships within different cell clusters, aiming to reveal ENS development mechanisms.</p>
-  </div>
-  
-  <div class="publication-image">
-    <img src="/images/4paper.png" alt="ENS Development Analysis">
-  </div>
+<div class="project-container">
+  <h3>Bringing New Modalities into Single-Cell Foundation Models</h3>
+
+  <p>My main project is bringing new modalities into single-cell foundation models. Today's models learn from the gene expression of dissociated cells, so they know what a cell expresses but not where it sits in the tissue or which parts of its genome are open. I am extending them, starting from the lab's scPRINT models, to read spatial transcriptomics and then chromatin accessibility, so that one model gives one embedding that keeps cell identity and adds tissue context: a step towards a multimodal virtual cell.</p>
+
+  <figure class="project-figure">
+    <img src="/images/multimodal-scfm.svg" alt="Gene expression, position in the tissue and chromatin accessibility are each turned into tokens, pass through one transformer, and come out as a single cell embedding in which cells group by type and by tissue region.">
+  </figure>
 </div>
