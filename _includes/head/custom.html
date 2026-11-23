@@ -5,7 +5,7 @@
 <!-- Space Grotesk and Space Mono fonts from Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Henny+Penny&display=swap" rel="stylesheet">
 
 <!-- Custom CSS for font optimization -->
 <style>
@@ -188,10 +188,12 @@ html[data-theme="dark"] .opinion-article-crest {
 .page__title--opinion {
   margin: 0;
   text-align: left;
-  font-size: 1.4rem;
-  font-weight: 600;
-  line-height: 1.35;
-  letter-spacing: -0.015em;
+  /* Storybook display font for English opinion titles (Armenian titles use Artsakh) */
+  font-family: "Henny Penny", "Space Grotesk", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0;
   max-width: none;
 }
 

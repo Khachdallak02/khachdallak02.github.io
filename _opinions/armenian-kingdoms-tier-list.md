@@ -28,6 +28,11 @@ redirect_from:
   .akt-king h3 > .akt-hy,
   .akt-profiles-head > .akt-hy,
   .akt-faq-item h2 > .akt-hy { font-family: "Artsakh", "Yerevanyan", serif; font-weight: 400; letter-spacing: 0.04em; }
+  /* English mode: storybook display font */
+  .akt-king h3 > .akt-en,
+  .akt-profiles-head > .akt-en,
+  .akt-faq-item h2 > .akt-en { font-family: "Henny Penny", "Space Grotesk", sans-serif; font-weight: 400; }
+  .akt-king h3 > .akt-en { font-size: 1.35rem; }
   .page__title--opinion.akt-title-hy { font-size: 2.6rem; line-height: 1.05; }
   .akt-king h3 > .akt-hy { font-size: 1.7rem; line-height: 1.05; }
   .akt-profiles-head > .akt-hy { font-size: 2rem; }
@@ -115,7 +120,7 @@ redirect_from:
 </div>
 
 <div class="akt-tierlist-wrap">
-  <iframe id="akt-frame" src="/assets/tierlists/armenian-kingdoms-tierlist.html?v=4" title="Armenian Kingdoms Tier List" loading="lazy" scrolling="no" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
+  <iframe id="akt-frame" src="/assets/tierlists/armenian-kingdoms-tierlist.html?v=5" title="Armenian Kingdoms Tier List" loading="lazy" scrolling="no" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
 </div>
 
 <h2 class="akt-profiles-head"><span class="akt-hy">{{ ui.profiles_hy }}</span><span class="akt-en">{{ ui.profiles_en }}</span></h2>
