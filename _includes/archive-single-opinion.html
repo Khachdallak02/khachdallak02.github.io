@@ -80,11 +80,13 @@
 
 .opinion-card__title {
   margin: 0.85rem 0 0;
-  font-family: "Henny Penny", "Space Grotesk", sans-serif;
-  font-size: 1.1rem;
-  font-weight: 400;
-  line-height: 1.35;
-  letter-spacing: 0;
+  font-family: "Stardos Stencil", "Space Grotesk", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--global-text-color);
   transition: color 0.2s ease;
@@ -92,6 +94,10 @@
 
 /* Armenian display font for cards that set listing_font: artsakh */
 @font-face { font-family: "Artsakh"; src: url("/assets/fonts/artsakh.ttf") format("truetype"); font-display: swap; }
+.archive .opinion-card__link,
+.archive .opinion-card__link:hover,
+.archive .opinion-card__link * { text-decoration: none !important; }
+
 .opinion-card__title--artsakh {
   font-family: "Artsakh", "Noto Sans Armenian", sans-serif;
   font-weight: 400;

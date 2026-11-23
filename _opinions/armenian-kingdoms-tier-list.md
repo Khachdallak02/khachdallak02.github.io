@@ -31,9 +31,9 @@ redirect_from:
   /* English mode: storybook display font */
   .akt-king h3 > .akt-en,
   .akt-profiles-head > .akt-en,
-  .akt-faq-item h2 > .akt-en { font-family: "Henny Penny", "Space Grotesk", sans-serif; font-weight: 400; }
-  .akt-king h3 > .akt-en { font-size: 1.35rem; }
-  .page__title--opinion.akt-title-hy { font-size: 2.6rem; line-height: 1.05; }
+  .akt-faq-item h2 > .akt-en { font-family: "Stardos Stencil", "Space Grotesk", sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+  .akt-king h3 > .akt-en { font-size: 1.25rem; line-height: 1.1; }
+  .page__title--opinion.akt-title-hy { font-size: clamp(1.3rem, 2.1vw, 1.75rem); line-height: 1.1; }
   .akt-king h3 > .akt-hy { font-size: 1.7rem; line-height: 1.05; }
   .akt-profiles-head > .akt-hy { font-size: 2rem; }
   .akt-faq-item h2 > .akt-hy { font-size: 1.5rem; }
@@ -88,7 +88,7 @@ redirect_from:
   .akt-badge--lea .akt-val { color: #46b48a; }
   html[data-theme="dark"] .akt-badge--ste .akt-val { color: #e0b13c; }
   .akt-total { font-size: 0.88rem; opacity: 0.75; align-self: center; }
-  .akt-tier { display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; padding: 0.12rem 0.45rem; border-radius: 4px; vertical-align: middle; margin-left: 0.35rem; color: #1a120a; }
+  .akt-tier { display: inline-block; font-family: "Space Grotesk", "Yerevanyan", sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; padding: 0.12rem 0.45rem; border-radius: 4px; vertical-align: middle; margin-left: 0.35rem; color: #1a120a; }
   .akt-tier-s { background: #e0a93c; } .akt-tier-a { background: #e07c2f; } .akt-tier-b { background: #d8c24a; }
   .akt-tier-c { background: #8fb84a; } .akt-tier-d { background: #5f93b8; } .akt-tier-f { background: #bb8866; }
   .akt-king--flash { animation: aktFlash 1.2s ease; }
@@ -120,7 +120,7 @@ redirect_from:
 </div>
 
 <div class="akt-tierlist-wrap">
-  <iframe id="akt-frame" src="/assets/tierlists/armenian-kingdoms-tierlist.html?v=5" title="Armenian Kingdoms Tier List" loading="lazy" scrolling="no" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
+  <iframe id="akt-frame" src="/assets/tierlists/armenian-kingdoms-tierlist.html?v=7" title="Armenian Kingdoms Tier List" loading="lazy" scrolling="no" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
 </div>
 
 <h2 class="akt-profiles-head"><span class="akt-hy">{{ ui.profiles_hy }}</span><span class="akt-en">{{ ui.profiles_en }}</span></h2>
