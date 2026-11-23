@@ -12,6 +12,11 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% comment %} Optional per-post overrides for the listing card: listing_title (e.g. an Armenian title) and listing_font (e.g. "artsakh") {% endcomment %}
+{% if post.listing_title %}{% assign title = post.listing_title %}{% endif %}
+{% assign title_class = "opinion-card__title" %}
+{% if post.listing_font %}{% assign title_class = title_class | append: " opinion-card__title--" | append: post.listing_font %}{% endif %}
+
 <div class="{{ include.type | default: "list" }}__item" style="margin-bottom: 0;">
   <article class="archive__item opinion-card" itemscope itemtype="http://schema.org/CreativeWork">
     {% if teaser %}
@@ -27,7 +32,7 @@
             {% endif %}
             alt="" class="opinion-image" style="object-fit: {{ teaser_fit }};">
         </div>
-        <h2 class="opinion-card__title" itemprop="headline">{{ title }}</h2>
+        <h2 class="{{ title_class }}" itemprop="headline">{{ title }}</h2>
       </a>
     {% else %}
       <div class="opinion-content-no-image">
@@ -82,6 +87,16 @@
   text-align: center;
   color: var(--global-text-color);
   transition: color 0.2s ease;
+}
+
+/* Armenian display font for cards that set listing_font: artsakh */
+@font-face { font-family: "Artsakh"; src: url("/assets/fonts/artsakh.ttf") format("truetype"); font-display: swap; }
+.opinion-card__title--artsakh {
+  font-family: "Artsakh", "Noto Sans Armenian", sans-serif;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 1.05;
+  letter-spacing: 0.04em;
 }
 
 .opinion-card__link:hover .opinion-card__title {

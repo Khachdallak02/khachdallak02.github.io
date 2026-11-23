@@ -7,6 +7,8 @@ header:
   teaser: /images/opinions/Armenian Kingdom.jpg
   teaser_ratio: "16 / 9"
   teaser_fit: contain
+listing_title: "Հայկական թագավորությունների վարկանիշ"
+listing_font: artsakh
 share: false
 pagination: false
 redirect_from:
