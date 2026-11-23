@@ -1,0 +1,287 @@
+# =============================================================================
+# Armenian Kingdoms Tier List — all content for /opinions/armenian-kingdoms-tier-list/
+#
+# HOW TO EDIT
+#   * Armenian is the original language: fill in every `..._hy` field.
+#   * `..._en` fields are the AI-assisted English translation of the Armenian.
+#   * Empty text ("") shows a "coming soon" placeholder on the page.
+#   * stats order: [Diplomacy, Martial, Stewardship, Intrigue, Learning], CK3 scale 0–20.
+#   * Tier is computed from the total of the five stats:
+#       S ≥ 78 · A ≥ 70 · B ≥ 62 · C ≥ 54 · D ≥ 46 · F below
+#     Set `tier:` (S/A/B/C/D/F) on a kingdom to override it.
+#   * flag: path to an image; leave "" to show a coloured medallion with `mono`.
+# =============================================================================
+
+ui:
+  title_hy: "Հայկական թագավորությունների վարկանիշ"
+  title_en: "Armenian Kingdoms Tier List"
+  switch_to_en: "English"
+  switch_to_hy: "Հայերեն"
+  ai_notice_en: "AI-assisted translation of the Armenian original."
+  profiles_hy: "Թագավորություններ"
+  profiles_en: "Kingdoms"
+  capital_hy: "Մայրաքաղաք"
+  capital_en: "Capital"
+  total_hy: "Ընդամենը"
+  total_en: "Total"
+  pool_hy: "Չդասակարգված"
+  pool_en: "Unranked"
+  tier_hy: "կարգ"
+  tier_en: "tier"
+  scale_hy: "CK3 սանդղակ՝ ~8 միջին · 12+ հմուտ · 16+ մեծ · 18–20 լեգենդար"
+  scale_en: "CK3 scale: ~8 average · 12+ skilled · 16+ great · 18–20 legendary."
+  credits_hy: "Դրոշների և զինանշանների պատկերները՝ Wikimedia Commons"
+  credits_en: "Flag and coat of arms images: Wikimedia Commons"
+  placeholder_hy: "Նկարագրությունը շուտով կավելացվի։"
+  placeholder_en: "Translation coming soon."
+
+# Intro blocks shown above the tier list (question + answer).
+intro:
+  - q_hy: ""
+    a_hy: ""
+    q_en: "Why kingdoms and not kings?"
+    a_en: ""
+  - q_hy: ""
+    a_hy: ""
+    q_en: "Why exactly Crusader Kings III attributes?"
+    a_en: "In CK3 every ruler is defined by five attributes — the main directions a leader can be strong in. The same five work for a whole kingdom, and make it easier to compare a kingdom that was strong in battle with one that was better at building and culture."
+
+# The five attributes. desc_* explains how the attribute is judged for a kingdom.
+skills:
+  - key: dip
+    name_hy: "Դիվանագիտություն"
+    name_en: "Diplomacy"
+    desc_hy: ""
+    desc_en: "Alliances, negotiation, and how well the kingdom balanced the great powers around it."
+  - key: mar
+    name_hy: "Ռազմարվեստ"
+    name_en: "Martial"
+    desc_hy: ""
+    desc_en: "How often the kingdom won its wars, especially when outnumbered, and how much territory it could take and hold."
+  - key: ste
+    name_hy: "Կառավարում"
+    name_en: "Stewardship"
+    desc_hy: ""
+    desc_en: "Prosperity, trade, economic reforms and large construction projects."
+  - key: int
+    name_hy: "Խարդավանք"
+    name_en: "Intrigue"
+    desc_hy: ""
+    desc_en: "Skill at plots, and at managing the dynamics between crown, nobility and church."
+  - key: lea
+    name_hy: "Ուսում"
+    name_en: "Learning"
+    desc_hy: ""
+    desc_en: "Scholarly, cultural and religious progress during the kingdom's lifetime."
+
+# DRAFT list and DRAFT scores — adjust freely.
+kingdoms:
+  - id: urartu
+    name_hy: "Վանի թագավորություն (Ուրարտու)"
+    name_en: "Kingdom of Van (Urartu)"
+    period_hy: "Ք.ա. 860–590"
+    period_en: "860–590 BC"
+    capital_hy: "Տուշպա"
+    capital_en: "Tushpa"
+    flag: ""
+    color: "#8a5a2b"
+    mono: "Վ"
+    stats: [10, 16, 18, 8, 11]
+    tier: ""
+    text_hy: ""
+    text_en: ""
+
+  - id: yervanduni
+    name_hy: "Երվանդունիների թագավորություն"
+    name_en: "Orontid (Yervanduni) Kingdom"
+    period_hy: "Ք.ա. մոտ 570–200"
+    period_en: "c. 570–200 BC"
+    capital_hy: "Արմավիր, Երվանդաշատ"
+    capital_en: "Armavir, Yervandashat"
+    flag: ""
+    color: "#6b7a2f"
+    mono: "Ե"
+    stats: [12, 10, 13, 10, 9]
+    tier: ""
+    text_hy: ""
+    text_en: ""
+
+  - id: sophene
+    name_hy: "Ծոփքի թագավորություն"
+    name_en: "Kingdom of Sophene"
+    period_hy: "Ք.ա. մոտ 260–95"
+    period_en: "c. 260–95 BC"
+    capital_hy: "Արշամաշատ"
+    capital_en: "Arsamosata"
+    flag: ""
+    color: "#4a7c8c"
+    mono: "Ծ"
+    stats: [11, 9, 12, 10, 9]
+    tier: ""
+    text_hy: ""
+    text_en: ""
+
+  - id: lesser-armenia
+    name_hy: "Փոքր Հայքի թագավորություն"
+    name_en: "Kingdom of Lesser Armenia"
+    period_hy: "Ք.ա. մոտ 322 – Ք.հ. 72"
+    period_en: "c. 322 BC – 72 AD"
+    capital_hy: "Նիկոպոլիս"
+    capital_en: "Nicopolis"
+    flag: ""
+    color: "#7a6848"
+    mono: "Փ"
+    stats: [10, 8, 10, 9, 8]
+    tier: ""
+    text_hy: ""
+    text_en: ""
+
+  - id: artaxiad
+    name_hy: "Մեծ Հայք (Արտաշեսյաններ)"
+    name_en: "Greater Armenia (Artaxiad)"
+    period_hy: "Ք.ա. 189 – Ք.հ. 1"
+    period_en: "189 BC – 1 AD"
+    capital_hy: "Արտաշատ, Տիգրանակերտ"
+    capital_en: "Artaxata, Tigranocerta"
+    flag: "/images/opinions/kings/Artashesyan.png"
+    color: "#7a45ad"
+    mono: "Ա"
+    stats: [12, 19, 17, 11, 14]
+    tier: ""
+    text_hy: ""
+    text_en: ""
+
+  - id: commagene
+    name_hy: "Կոմմագենեի թագավորություն"
+    name_en: "Kingdom of Commagene"
+    period_hy: "Ք.ա. 163 – Ք.հ. 72"
+    period_en: "163 BC – 72 AD"
+    capital_hy: "Սամոսատ"
+    capital_en: "Samosata"
+    flag: ""
+    color: "#b07a2a"
+    mono: "Կմ"
+    stats: [15, 8, 14, 13, 15]
+    tier: ""
+    text_hy: ""
+    text_en: ""
+
+  - id: arsacid
+    name_hy: "Մեծ Հայք (Արշակունիներ)"
+    name_en: "Greater Armenia (Arsacid)"
+    period_hy: "66–428"
+    period_en: "66–428 AD"
+    capital_hy: "Վաղարշապատ, Դվին"
+    capital_en: "Vagharshapat, Dvin"
+    flag: "/images/opinions/kings/Arshakuni2.png"
+    color: "#a83232"
+    mono: "Աշ"
+    stats: [13, 14, 12, 13, 19]
+    tier: ""
+    text_hy: ""
+    text_en: ""
+
+  - id: bagratid
+    name_hy: "Բագրատունիների թագավորություն"
+    name_en: "Bagratid Kingdom of Armenia"
+    period_hy: "885–1045"
+    period_en: "885–1045"
+    capital_hy: "Անի"
+    capital_en: "Ani"
+    flag: "/images/opinions/kings/Bagratuni_flag.svg.png"
+    color: "#2f5ea0"
+    mono: "Բ"
+    stats: [15, 13, 18, 10, 16]
+    tier: ""
+    text_hy: ""
+    text_en: ""
+
+  - id: vaspurakan
+    name_hy: "Վասպուրականի թագավորություն"
+    name_en: "Kingdom of Vaspurakan"
+    period_hy: "908–1021"
+    period_en: "908–1021"
+    capital_hy: "Վան, Աղթամար"
+    capital_en: "Van, Aghtamar"
+    flag: "/images/opinions/kingdoms/artsruni-arms.png"
+    color: "#1f9684"
+    mono: "Վս"
+    stats: [12, 11, 15, 11, 15]
+    tier: ""
+    text_hy: ""
+    text_en: ""
+
+  - id: kars
+    name_hy: "Կարսի (Վանանդի) թագավորություն"
+    name_en: "Kingdom of Kars (Vanand)"
+    period_hy: "963–1065"
+    period_en: "963–1065"
+    capital_hy: "Կարս"
+    capital_en: "Kars"
+    flag: ""
+    color: "#5a6a8a"
+    mono: "Կ"
+    stats: [10, 8, 11, 9, 12]
+    tier: ""
+    text_hy: ""
+    text_en: ""
+
+  - id: lori
+    name_hy: "Տաշիր-Ձորագետի (Լոռու) թագավորություն"
+    name_en: "Kingdom of Tashir-Dzoraget (Lori)"
+    period_hy: "979–1118"
+    period_en: "979–1118"
+    capital_hy: "Լոռի բերդ"
+    capital_en: "Lori Berd"
+    flag: ""
+    color: "#3f7a4a"
+    mono: "Լ"
+    stats: [11, 11, 11, 9, 14]
+    tier: ""
+    text_hy: ""
+    text_en: ""
+
+  - id: syunik
+    name_hy: "Սյունիքի թագավորություն"
+    name_en: "Kingdom of Syunik"
+    period_hy: "987–1170"
+    period_en: "987–1170"
+    capital_hy: "Կապան"
+    capital_en: "Kapan"
+    flag: ""
+    color: "#8f3d5a"
+    mono: "Ս"
+    stats: [12, 11, 12, 10, 15]
+    tier: ""
+    text_hy: ""
+    text_en: ""
+
+  - id: artsakh
+    name_hy: "Արցախի թագավորություն"
+    name_en: "Kingdom of Artsakh"
+    period_hy: "1000–1261"
+    period_en: "1000–1261"
+    capital_hy: "Խաչեն"
+    capital_en: "Khachen"
+    flag: "/images/opinions/kingdoms/khachen-standard.png"
+    color: "#b8642a"
+    mono: "Ար"
+    stats: [11, 12, 9, 10, 11]
+    tier: ""
+    text_hy: ""
+    text_en: ""
+
+  - id: cilicia
+    name_hy: "Կիլիկիայի հայկական թագավորություն"
+    name_en: "Armenian Kingdom of Cilicia"
+    period_hy: "1198–1375"
+    period_en: "1198–1375"
+    capital_hy: "Սիս"
+    capital_en: "Sis"
+    flag: "/images/opinions/kings/FlagKilikia.png"
+    color: "#c43c22"
+    mono: "Կլ"
+    stats: [18, 14, 16, 13, 16]
+    tier: ""
+    text_hy: ""
+    text_en: ""

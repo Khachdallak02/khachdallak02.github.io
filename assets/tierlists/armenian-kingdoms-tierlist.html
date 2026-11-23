@@ -1,10 +1,14 @@
-<!-- Codex of Armenian Kings (Top 21) - CK3 Tier-List Forge -->
+---
+layout: null
+permalink: /assets/tierlists/armenian-kingdoms-tierlist.html
+sitemap: false
+---
 <!doctype html>
-<html lang="en">
+<html lang="hy">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Armenian Kings Tier List</title>
+<title>Armenian Kingdoms Tier List</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;900&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Cinzel+Decorative:wght@700;900&family=Noto+Sans+Armenian:wght@400;600&display=swap" rel="stylesheet">
@@ -22,7 +26,7 @@
       radial-gradient(1200px 600px at 50% -10%, #241a0f 0%, transparent 60%),
       repeating-linear-gradient(0deg, rgba(0,0,0,.18) 0 2px, transparent 2px 4px),
       linear-gradient(180deg,var(--bg) 0%, var(--bg2) 100%);
-    color:var(--ink);font-family:"EB Garamond",Georgia,serif;
+    color:var(--ink);font-family:"EB Garamond","Noto Sans Armenian",Georgia,serif;
     -webkit-font-smoothing:antialiased;
   }
   .wrap{position:relative;z-index:1;max-width:920px;margin:0 auto;padding:18px 12px 28px}
@@ -37,7 +41,7 @@
   .codex-title{flex:1;min-width:0}
   .crest{display:block;width:auto;max-width:min(280px,38%);height:auto;margin:0;flex-shrink:0;
     border-radius:8px;border:1px solid var(--line);box-shadow:0 4px 14px rgba(0,0,0,.45)}
-  h1{font-family:"Cinzel Decorative","Cinzel",serif;font-weight:900;
+  h1{font-family:"Cinzel Decorative","Cinzel","Noto Sans Armenian",serif;font-weight:900;
     font-size:clamp(24px,5vw,40px);letter-spacing:.04em;margin:0;
     color:var(--gold-bright);text-shadow:0 2px 0 #2a1d0c,0 0 24px rgba(201,162,75,.25)}
   .sub{font-family:"Cinzel",serif;letter-spacing:.30em;text-transform:uppercase;
@@ -93,13 +97,13 @@
     border:1px solid var(--line);
     background:radial-gradient(80px 60px at 50% 35%, #2a1f12, #0e0a06)}
   .portrait .med{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:48px;height:48px}
-  .portrait img.photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
-    opacity:0;transition:opacity .55s ease;filter:sepia(.22) saturate(.9) contrast(1.04) brightness(.98)}
+  .portrait img.photo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:5px;
+    opacity:0;transition:opacity .55s ease;background:#0e0a06}
   .portrait img.photo.loaded{opacity:1}
   .portrait .vig{position:absolute;inset:0;pointer-events:none;
     box-shadow:inset 0 0 14px rgba(0,0,0,.55), inset 0 0 0 1px rgba(201,162,75,.25)}
   .ident{min-width:0;line-height:1.12}
-  .name{font-family:"Cinzel",serif;font-weight:700;font-size:10px;line-height:1.1;color:var(--ink);transition:color .12s}
+  .name{font-family:"Cinzel","Noto Sans Armenian",serif;font-weight:700;font-size:9.5px;line-height:1.1;color:var(--ink);transition:color .12s}
   .name-hy{font-family:"Noto Sans Armenian",sans-serif;font-size:9px;line-height:1.15;color:var(--gold);margin-top:1px}
   .dyn-line{font-size:7.5px;color:var(--ink-dim);margin-top:2px;line-height:1.2}
   .dyn{font-family:"Cinzel",serif;letter-spacing:.03em;text-transform:uppercase}
@@ -143,18 +147,18 @@
   <header class="codex">
     <div class="codex-head">
       <div class="codex-title">
-        <h1>Armenian Kings Tier List</h1>
+        <h1 id="ttl"></h1>
       </div>
       <img class="crest" src="/images/opinions/Armenian Kingdom.jpg" alt="Armenian royal heraldry">
     </div>
   </header>
 
   <div class="legend" id="legend"></div>
-  <div class="scale-note">CK3 scale: ~8 average &middot; 12+ skilled &middot; 16+ great &middot; 18-20 legendary.</div>
+  <div class="scale-note" id="scale"></div>
 
   <div class="tiers" id="tiers"></div>
 
-  <div class="pool-head"><h2>The Royal Pool</h2><span class="rule"></span></div>
+  <div class="pool-head"><h2 id="poolttl"></h2><span class="rule"></span></div>
   <div class="pool" id="pool" data-tier="pool"></div>
 
 </div>
@@ -179,52 +183,20 @@ const GLYPH = {
 };
 const fb = key => "data:image/svg+xml,"+encodeURIComponent(GLYPH[key](HEX[key]));
 
-const DYN = {
-  Artaxiad:{c:"#7a45ad",label:"Artaxiad",labelHy:"Արտաշեսյան"},
-  Arsacid:{c:"#a83232",label:"Arsacid",labelHy:"Արշակունի"},
-  Bagratid:{c:"#2f5ea0",label:"Bagratid",labelHy:"Բագրատունի"},
-  Vaspurakan:{c:"#1f9684",label:"Artsruni",labelHy:"Արծրունի"},
-  Rubenid:{c:"#c43c22",label:"Rubenid",labelHy:"Ռուբինյան"},
-  Hethumid:{c:"#368a52",label:"Hethumid",labelHy:"Հեթումյան"},
-  Lusignan:{c:"#4278b0",label:"Lusignan",labelHy:"\u053c\u0578\u0582\u057d\u056b\u0576\u0575\u0561\u0576"}
-};
+const DATA = {{ site.data.armenian_kingdoms | jsonify }};
+const UI = DATA.ui;
+let LANG = "hy";
+try{ const q=new URLSearchParams(location.search).get("lang"); const st=localStorage.getItem("aktLang"); if(q==="en"||q==="hy")LANG=q; else if(st==="en"||st==="hy")LANG=st; }catch(e){}
+const L = (o,k) => (o[k+"_"+LANG] || o[k+"_hy"] || o[k+"_en"] || "");
+// stats:[Diplomacy,Martial,Stewardship,Intrigue,Learning]
+const KINGS = DATA.kingdoms.map((k,i)=>({...k,num:i+1,anchor:"kingdom-"+k.id,img:k.flag||""}));
 
-const IMG = "/images/opinions/kings/";
-// stats:[Diplomacy,Martial,Stewardship,Intrigue,Learning]; img = local portrait
-const KINGS = [
- {id:1,anchor:"king-artaxias-i",name:"Artaxias I",nameHy:"\u0531\u0580\u057f\u0561\u0577\u0565\u057d \u0531",epi:"Artashes the Lawgiver",reign:"c. 190-160 BC",dyn:"Artaxiad",mono:"A\u00b7I",img:IMG+"Artashes_I.png",stats:[14,15,20,4,8],bio:"Founded Artaxata and the Artaxiad dynasty; recovered lost provinces, defeated the Alans, and reformed the land — a builder-king first and last."},
- {id:2,anchor:"king-tigranes-ii",name:"Tigranes II",nameHy:"\u054f\u056b\u0563\u0580\u0561\u0576 \u0532",epi:"The Great \u00b7 King of Kings",reign:"95-55 BC",dyn:"Artaxiad",mono:"T\u00b7II",img:IMG+"Tigran_II.jpg",stats:[10,19,18,10,12],bio:"Largest Armenian empire on the map, but short-lived between Parthia and Rome. Martial peak; diplomatic limits."},
- {id:3,anchor:"king-artavasdes-ii",name:"Artavasdes II",nameHy:"\u0531\u0580\u057f\u0561\u057e\u0561\u0566\u0564 \u0532",epi:"The Playwright-King",reign:"55-34 BC",dyn:"Artaxiad",mono:"A\u00b7II",img:IMG+"Artavazd_II.png",stats:[14,11,13,15,18],bio:"Wrote Greek tragedies and histories; balanced Rome and Parthia until Antony betrayed him. Paraded in golden chains and executed by Cleopatra."},
- {id:4,anchor:"king-tiridates-i",name:"Tiridates I",nameHy:"\u054d\u0580\u0564\u0561\u057f \u0531",epi:"Crowned by Nero",reign:"63-88 AD",dyn:"Arsacid",mono:"T\u00b7I",img:IMG+"Trdat_I.jpg",stats:[16,13,13,12,14],bio:"Founder of Arsacid Armenia and a Zoroastrian magus; travelled overland to Rome with 3,000 retainers for a spectacular coronation by Nero."},
- {id:5,anchor:"king-tiridates-iii",name:"Tiridates III",nameHy:"\u054d\u0580\u0564\u0561\u057f \u0533",epi:"The Great \u00b7 First Christian King",reign:"c. 298-330 AD",dyn:"Arsacid",mono:"T\u00b7III",img:IMG+"Trdat_III.jpg",stats:[14,16,14,11,13],bio:"Made Armenia the first Christian state (301), converted by Gregory the Illuminator. Famed in tradition for legendary strength."},
- {id:21,anchor:"king-khosrov-kotak",name:"Khosrov II Kotak",nameHy:"\u053d\u0578\u057d\u0580\u0578\u057e \u0532 \u053f\u0578\u057f\u0561\u056f",epi:"Kotak \u00b7 the Little",reign:"330-339 AD",dyn:"Arsacid",mono:"Kh\u00b7II",img:IMG+"Khosrov%20Kotak.jpg",stats:[12,10,11,12,10],bio:"Son of Tiridates III; a brief Arsacid reign under Persian pressure. Roman and Armenian sources are thin and often confuse him with other Khosrovs."},
- {id:6,anchor:"king-arshak-ii",name:"Arshak II",nameHy:"\u0531\u0580\u0577\u0561\u056f \u0532",epi:"The Defiant",reign:"c. 350-368 AD",dyn:"Arsacid",mono:"Ar\u00b7II",img:IMG+"Arshak_II.jpg",stats:[10,16,11,13,10],bio:"Waged a long war against Shapur II, founded the refuge-city Arshakavan, and died in the Castle of Oblivion. Pavstos Buzand devotes a whole book to him."},
- {id:7,anchor:"king-pap",name:"Pap",nameHy:"\u054a\u0561\u057a",epi:"The Restorer",reign:"370-374 AD",dyn:"Arsacid",mono:"Pap",img:IMG+"Pap.jpg",stats:[12,13,12,16,9],bio:"Clawed back Armenian autonomy and curbed Church power; cunning to the last - murdered by the Romans at a banquet, as narrated by Ammianus Marcellinus."},
- {id:8,anchor:"king-vramshapuh",name:"Vramshapuh",nameHy:"\u054e\u0580\u0561\u0574\u0577\u0561\u057a\u0578\u0582\u0570",epi:"Patron of the Alphabet",reign:"389-417 AD",dyn:"Arsacid",mono:"Vr",img:IMG+"Vramshapuh.jpg",stats:[13,9,13,8,18],bio:"During his reign Mesrop Mashtots created the Armenian alphabet (c. 405) - a civilisational landmark recorded by Koryun."},
- {id:9,anchor:"king-ashot-i",name:"Ashot I",nameHy:"\u0531\u0577\u0578\u057f \u0531",epi:"The Great \u00b7 Restorer of the Crown",reign:"884-890",dyn:"Bagratid",mono:"As\u00b7I",img:IMG+"Ashot_I.png",stats:[16,14,14,11,12],bio:"Revived the Armenian crown after centuries of vassalage, recognised as king by both the Abbasid Caliph and the Byzantine Emperor."},
- {id:10,anchor:"king-smbat-i",name:"Smbat I",nameHy:"\u054d\u0574\u0562\u0561\u057f \u0531",epi:"The Martyr",reign:"890-914",dyn:"Bagratid",mono:"Sm\u00b7I",img:IMG+"Smbat_I.jpg",stats:[13,12,12,9,11],bio:"Expanded the realm but was captured and tortured to death by the emir Yusuf, who hung his body from the walls of Dvin - the Martyr-king."},
- {id:11,anchor:"king-ashot-ii",name:"Ashot II",nameHy:"\u0531\u0577\u0578\u057f \u0532",epi:"The Iron",reign:"914-929",dyn:"Bagratid",mono:"As\u00b7II",img:IMG+"Ashot_II.jpeg",stats:[12,17,11,11,10],bio:"Drove out the Sajid armies in a brutal counter-offensive and was recognised as Shahanshah, King of Kings of Armenia."},
- {id:12,anchor:"king-gagik-artsruni",name:"Gagik Artsruni",nameHy:"\u0533\u0561\u0563\u056b\u056f \u0531\u0580\u0581\u0580\u0578\u0582\u0576\u056b",epi:"of Vaspurakan \u00b7 Builder of Aghtamar",reign:"908-943",dyn:"Vaspurakan",mono:"G\u00b7A",img:IMG+"Gagik_I_Artsrun%D5%AB.jpg",stats:[14,13,17,11,15],bio:"Founded the independent Kingdom of Vaspurakan and raised the Holy Cross church on Aghtamar island - a jewel of medieval Armenian art."},
- {id:13,anchor:"king-ashot-iii",name:"Ashot III",nameHy:"\u0531\u0577\u0578\u057f \u0533",epi:"The Merciful",reign:"953-977",dyn:"Bagratid",mono:"As\u00b7III",img:IMG+"Ashot_III.jpg",stats:[15,12,17,10,14],bio:"Moved the capital to Ani and earned his epithet through monasteries, hospitals and almshouses; Ani begins its rise to the city of a thousand churches."},
- {id:14,anchor:"king-gagik-i",name:"Gagik I",nameHy:"\u0533\u0561\u0563\u056b\u056f \u0531",epi:"The Golden Age",reign:"989-1020",dyn:"Bagratid",mono:"G\u00b7I",img:IMG+"Gagik_I.jpg",stats:[16,14,17,12,15],bio:"The long, stable, prosperous reign at the apex of Bagratid Ani; under him the cathedral was completed and the city swelled past 100,000."},
- {id:15,anchor:"king-gagik-ii",name:"Gagik II",nameHy:"\u0533\u0561\u0563\u056b\u056f \u0532",epi:"The Last of Ani",reign:"1042-1045",dyn:"Bagratid",mono:"G\u00b7II",img:IMG+"Gagik_II.jpg",stats:[8,10,8,7,11],bio:"The last Bagratid king of Ani; lured to Constantinople, pressured to abdicate, and murdered in exile. Ani fell to Byzantium soon after."},
- {id:16,anchor:"king-levon-i",name:"Levon I",nameHy:"\u053c\u0565\u057e\u0578\u0576 \u0531",epi:"The Magnificent \u00b7 First King of Cilicia",reign:"1198-1219",dyn:"Rubenid",mono:"L\u00b7I",img:IMG+"Levon_I.gif",stats:[18,15,16,14,13],bio:"First crowned King of Cilician Armenia in 1198, recognised by the Holy Roman Empire, the Papacy and Byzantium. A master diplomat."},
- {id:17,anchor:"king-hethum-i",name:"Hethum I",nameHy:"\u0540\u0565\u0569\u0578\u0582\u0574 \u0531",epi:"The Mongol Envoy",reign:"1226-1270",dyn:"Hethumid",mono:"H\u00b7I",img:IMG+"Hetum_I.jpg",stats:[17,13,14,15,13],bio:"Travelled across Asia to Karakorum and allied Cilicia with the Mongols - shrewd realpolitik that bought decades of survival against the Mamluks."},
- {id:18,anchor:"king-levon-ii",name:"Levon II",nameHy:"\u053c\u0565\u057e\u0578\u0576 \u0532",epi:"Cilicia's Zenith",reign:"1269-1289",dyn:"Hethumid",mono:"L\u00b7II",img:IMG+"Leon_II.jpg",stats:[15,14,16,12,13],bio:"Cilicia's cultural and economic golden age and patron of Toros Roslin's manuscript workshop, even as Mamluk pressure intensified."},
- {id:19,anchor:"king-hethum-ii",name:"Hethum II",nameHy:"\u0540\u0565\u0569\u0578\u0582\u0574 \u0532",epi:"The Friar-King",reign:"1289-1307",dyn:"Hethumid",mono:"H\u00b7II",img:IMG+"Hetoum_II.jpg",stats:[12,10,10,11,16],bio:"Abdicated and returned to the throne three times and took Franciscan vows; erudite but politically unstable. Assassinated near Anazarbus."},
- {id:20,anchor:"king-levon-v",name:"Levon V",nameHy:"\u053c\u0565\u057e\u0578\u0576 \u0535",epi:"The Last King \u00b7 Exile in Paris",reign:"1374-1375",dyn:"Lusignan",mono:"L\u00b7V",img:IMG+"Levon_V.jpg",stats:[13,11,9,11,12],bio:"The last king of Armenia; Sis fell to the Mamluks. He died an exile in Paris and was entombed among the kings of France at Saint-Denis."}
-];
-
-const SKILL=[
- {key:"dip",name:"Diplomacy",color:"var(--dip)"},
- {key:"mar",name:"Martial",color:"var(--mar)"},
- {key:"ste",name:"Stewardship",color:"var(--ste)"},
- {key:"int",name:"Intrigue",color:"var(--int)"},
- {key:"lea",name:"Learning",color:"var(--lea)"}
-];
+const SKILL=DATA.skills.map(x=>({...x,color:"var(--"+x.key+")"}));
+const sname=x=>L(x,"name");
 const TIERS=["S","A","B","C","D","F"];
 const total=k=>k.stats.reduce((a,b)=>a+b,0);
 const kingById=id=>KINGS.find(k=>k.id===id);
+const esc=t=>String(t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
 const lists={pool:[]};
 TIERS.forEach(t=>{lists[t]=[]});
 
@@ -249,9 +221,8 @@ function getInsertIndex(dropEl,x,y){
   return cards.length;
 }
 
-const TIER_OVERRIDE={1:"A",2:"A"};
 function tierFromStats(k){
-  if(TIER_OVERRIDE[k.id])return TIER_OVERRIDE[k.id];
+  if(k.tier&&TIERS.includes(k.tier))return k.tier;
   const n=total(k);
   return n>=78?"S":n>=70?"A":n>=62?"B":n>=54?"C":n>=46?"D":"F";
 }
@@ -267,25 +238,32 @@ function seedByTotal(){
 }
 seedByTotal();
 
-document.getElementById("legend").innerHTML = SKILL.map(s=>
-  `<span class="lk"><img class="ck3ico" data-skill="${s.key}" alt="${s.name}">${s.name}</span>`).join("");
+function renderChrome(){
+  document.documentElement.lang=LANG;
+  document.getElementById("ttl").textContent=L(UI,"title");
+  document.getElementById("scale").textContent=L(UI,"scale");
+  document.getElementById("poolttl").textContent=L(UI,"pool");
+  document.getElementById("legend").innerHTML = SKILL.map(s=>
+  `<span class="lk"><img class="ck3ico" data-skill="${s.key}" alt="${sname(s)}">${sname(s)}</span>`).join("");
+}
+renderChrome();
 
 function medallion(k){
-  const c=DYN[k.dyn].c;
+  const c=k.color||"#7a6848";
   return `<svg class="med" viewBox="0 0 60 60">
     <defs>
-      <radialGradient id="f${k.id}" cx="50%" cy="36%" r="72%"><stop offset="0" stop-color="${c}"/><stop offset="1" stop-color="#120d07"/></radialGradient>
-      <linearGradient id="r${k.id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9c976"/><stop offset="1" stop-color="#9a7327"/></linearGradient>
+      <radialGradient id="f${k.num}" cx="50%" cy="36%" r="72%"><stop offset="0" stop-color="${c}"/><stop offset="1" stop-color="#120d07"/></radialGradient>
+      <linearGradient id="r${k.num}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9c976"/><stop offset="1" stop-color="#9a7327"/></linearGradient>
     </defs>
-    <circle cx="30" cy="30" r="28" fill="url(#r${k.id})"/>
-    <circle cx="30" cy="30" r="24" fill="url(#f${k.id})" stroke="#120d07" stroke-width="1"/>
-    <text x="30" y="35" text-anchor="middle" font-family="Cinzel, serif" font-weight="700" font-size="${k.mono.length>3?12:15}" fill="#f3e6c2">${k.mono}</text>
+    <circle cx="30" cy="30" r="28" fill="url(#r${k.num})"/>
+    <circle cx="30" cy="30" r="24" fill="url(#f${k.num})" stroke="#120d07" stroke-width="1"/>
+    <text x="30" y="35" text-anchor="middle" font-family="Noto Sans Armenian, Cinzel, serif" font-weight="600" font-size="${k.mono.length>1?15:19}" fill="#f3e6c2">${k.mono}</text>
   </svg>`;
 }
 function statRow(k){
   return SKILL.map((s,i)=>{
     const v=k.stats[i],pct=Math.round(v/20*100);
-    return `<div class="stat"><span class="ico"><img class="stat-ico" width="32" height="32" data-skill="${s.key}" alt="${s.name}"></span>
+    return `<div class="stat"><span class="ico"><img class="stat-ico" width="32" height="32" data-skill="${s.key}" alt="${sname(s)}"></span>
       <span class="bar"><i style="width:${pct}%;background:${s.color}"></i></span>
       <span class="v">${v}</span></div>`;
   }).join("");
@@ -295,26 +273,24 @@ function tierButtons(k){
     `<button class="${t} ${tierOf(k.id)===t?'on':''}" data-id="${k.id}" data-t="${t}">${t}</button>`).join("")+`</div>`;
 }
 function cardHTML(k){
-  const d=DYN[k.dyn];
   return `<div class="card" draggable="true" data-id="${k.id}" data-anchor="${k.anchor}">
-    <div class="card-main" title="View king profile">
+    <div class="card-main" >
       <div class="card-left">
         <div class="portrait">
           ${medallion(k)}
-          <img class="photo" alt="${k.name}" data-id="${k.id}">
+          <img class="photo" alt="" data-id="${k.id}">
           <span class="vig"></span>
         </div>
         <div class="ident">
-          <div class="name">${k.name}</div>
-          <div class="name-hy">${k.nameHy}</div>
-          <div class="dyn-line"><span class="dyn">${d.label}</span> · <span class="dyn-hy">${d.labelHy}</span></div>
-          <div class="reign">${k.reign}</div>
+          <div class="name">${esc(L(k,"name"))}</div>
+          <div class="dyn-line">${esc(L(k,"capital"))}</div>
+          <div class="reign">${esc(L(k,"period"))}</div>
         </div>
       </div>
       <div class="card-right">
         <div class="attr-panel">
           <div class="stats">${statRow(k)}</div>
-          <div class="total"><span class="total-lbl">Total</span><span class="total-val">${total(k)}</span></div>
+          <div class="total"><span class="total-lbl">${L(UI,"total")}</span><span class="total-val">${total(k)}</span></div>
         </div>
       </div>
     </div>
@@ -350,7 +326,7 @@ const poolEl=document.getElementById("pool");
 let sortMode="total";
 function sortPoolIds(ids){
   const a=[...ids];
-  if(sortMode==="chron")a.sort((x,y)=>x-y);
+  if(sortMode==="chron")a.sort((x,y)=>kingById(x).num-kingById(y).num);
   else if(sortMode==="total")a.sort((x,y)=>total(kingById(y))-total(kingById(x)));
   else{const i=SKILL.findIndex(s=>s.key===sortMode);a.sort((x,y)=>kingById(y).stats[i]-kingById(x).stats[i]);}
   return a;
@@ -373,7 +349,7 @@ function applyIcons(scope){
 function applyPortraits(){
   document.querySelectorAll("img.photo").forEach(img=>{
     if(img.dataset.set)return; img.dataset.set="1";
-    const id=+img.dataset.id, k=KINGS.find(x=>x.id===id);
+    const id=img.dataset.id, k=KINGS.find(x=>x.id===id);
     if(!k||!k.img)return;
     img.onload=()=>{img.classList.add("loaded");postHeight();};
     img.onerror=()=>{img.classList.remove("loaded");};
@@ -403,7 +379,7 @@ function bindCards(){
     c.addEventListener("dragstart",e=>{
       if(e.target.closest(".tierpick")){e.preventDefault();return;}
       didDrag=false;
-      dragId=+c.dataset.id;
+      dragId=c.dataset.id;
       c.classList.add("dragging");
       e.dataTransfer.effectAllowed="move";
       e.dataTransfer.setData("text/plain",String(dragId));
@@ -423,7 +399,7 @@ function bindCards(){
   document.querySelectorAll(".tierpick button").forEach(b=>{
     b.addEventListener("click",e=>{
       e.stopPropagation();
-      const id=+b.dataset.id,t=b.dataset.t;
+      const id=b.dataset.id,t=b.dataset.t;
       removeFromLists(id);
       lists[t].push(id);
       render();
@@ -442,7 +418,7 @@ function setupZones(){
     z.addEventListener("drop",e=>{
       e.preventDefault();
       const t=z.dataset.tier;
-      const id=dragId!=null?dragId:+(e.dataTransfer.getData("text/plain")||0);
+      const id=dragId!=null?dragId:(e.dataTransfer.getData("text/plain")||"");
       if(!id)return;
       removeFromLists(id);
       const idx=getInsertIndex(z,e.clientX,e.clientY);
@@ -464,6 +440,10 @@ function postHeight(){
 }
 window.addEventListener("resize",postHeight);
 window.addEventListener("load",postHeight);
+
+function setLang(l){ if(l!=="en"&&l!=="hy")return; LANG=l; renderChrome(); document.querySelectorAll("img[data-skill]").forEach(i=>delete i.dataset.done); applyIcons(); render(); }
+window.addEventListener("message",e=>{ if(e.data&&e.data.type==="akt-lang")setLang(e.data.lang); });
+window.addEventListener("storage",e=>{ if(e.key==="aktLang")setLang(e.newValue); });
 
 setupZones();
 applyIcons();
