@@ -5,6 +5,6 @@ excerpt: "API to query and submit transactions on the Cardano blockchain. If you
 date: 2025-02-17
 categories: ["Cryptocurrency"]
 header:
-  teaser: /images/resources/117.webp
+  teaser: /images/resources/blockfrost.jpg
 link: https://blockfrost.io/
 ---
