@@ -5,6 +5,6 @@ excerpt: "You can look up portfolios of famous investors with one quarter delay,
 date: 2026-03-21
 categories: ["Cryptocurrency"]
 header:
-  teaser: /images/resources/503.jpg
+  teaser: /images/resources/stockcircle.jpg
 link: https://stockcircle.com/
 ---
