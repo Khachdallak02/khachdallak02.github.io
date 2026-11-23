@@ -14,8 +14,23 @@ redirect_from:
 ---
 {% assign d = site.data.armenian_kingdoms %}{% assign ui = d.ui %}
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@400;600;700&display=swap');
-  .akt { font-family: "Space Grotesk", "Noto Sans Armenian", sans-serif; }
+  /* Yerevanyan: Armenian text font by Renderforest, free for personal and commercial use */
+  @font-face { font-family: "Yerevanyan"; src: url("/assets/fonts/yerevanyan-regular.otf") format("opentype"); font-weight: 400; font-display: swap; }
+  @font-face { font-family: "Yerevanyan"; src: url("/assets/fonts/yerevanyan-bold.otf") format("opentype"); font-weight: 700; font-display: swap; }
+  /* Artsakh: Armenian display font (capitals only) by Sargis Qalajyan & Narek Tsarukyan, free for personal and commercial use */
+  @font-face { font-family: "Artsakh"; src: url("/assets/fonts/artsakh.ttf") format("truetype"); font-display: swap; }
+  .akt { font-family: "Space Grotesk", "Yerevanyan", sans-serif; }
+  .akt:not(.akt-lang-en) { font-family: "Yerevanyan", "Space Grotesk", serif; }
+  /* Armenian titles and kingdom names use the display font */
+  .page__title--opinion.akt-title-hy,
+  .akt-king h3 > .akt-hy,
+  .akt-profiles-head > .akt-hy,
+  .akt-faq-item h2 > .akt-hy { font-family: "Artsakh", "Yerevanyan", serif; font-weight: 400; letter-spacing: 0.04em; }
+  .page__title--opinion.akt-title-hy { font-size: 2.6rem; line-height: 1.05; }
+  .akt-king h3 > .akt-hy { font-size: 1.7rem; line-height: 1.05; }
+  .akt-profiles-head > .akt-hy { font-size: 2rem; }
+  .akt-faq-item h2 > .akt-hy { font-size: 1.5rem; }
+  .akt-faq-item h2 > .akt-hy .akt-placeholder { font-family: "Yerevanyan", serif; font-size: 1rem; letter-spacing: 0; }
   /* language switching: Armenian is the default */
   .akt .akt-en { display: none; }
   .akt.akt-lang-en .akt-en { display: revert; }
@@ -98,7 +113,7 @@ redirect_from:
 </div>
 
 <div class="akt-tierlist-wrap">
-  <iframe id="akt-frame" src="/assets/tierlists/armenian-kingdoms-tierlist.html?v=1" title="Armenian Kingdoms Tier List" loading="lazy" scrolling="no" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
+  <iframe id="akt-frame" src="/assets/tierlists/armenian-kingdoms-tierlist.html?v=4" title="Armenian Kingdoms Tier List" loading="lazy" scrolling="no" style="height: 900px; border: 0; border-radius: 14px; overflow: hidden; background: #0e0b07;"></iframe>
 </div>
 
 <h2 class="akt-profiles-head"><span class="akt-hy">{{ ui.profiles_hy }}</span><span class="akt-en">{{ ui.profiles_en }}</span></h2>
@@ -143,7 +158,7 @@ redirect_from:
     root.classList.toggle("akt-lang-en", l === "en");
     root.setAttribute("lang", l);
     var h1 = document.querySelector(".page__title--opinion");
-    if (h1) h1.textContent = TITLE[l];
+    if (h1) { h1.textContent = TITLE[l]; h1.classList.toggle("akt-title-hy", l === "hy"); }
     try { localStorage.setItem("aktLang", l); } catch (e) {}
     if (tellFrame && frame && frame.contentWindow) frame.contentWindow.postMessage({ type: "akt-lang", lang: l }, window.location.origin);
   }
